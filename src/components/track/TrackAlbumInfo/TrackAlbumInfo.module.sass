@@ -1,0 +1,62 @@
+@import 'src/common/styles/theme'
+
+.root
+  display: grid
+  grid-template-columns: 60% 40%
+  max-width: map-get($breakpoints, 'md')
+  margin: 0 auto
+  padding: spacing(12, 0)
+
+.title
+  margin-bottom: spacing(4)
+
+.album
+  padding-right: spacing(4)
+
+  .tracklist
+    columns: 1
+    counter-reset: tracks
+
+    .track
+      display: flex
+      padding: spacing(.5, 0)
+
+      .trackIdx
+        width: 3rem
+        flex: 0 0 auto
+        color: palette(text, secondary)
+
+      &.selected
+        font-weight: 700
+
+.artworks
+  width: 100%
+  margin-top: spacing
+
+  .img
+    width: 100%
+    
+  .otherAlbums
+    margin-top: spacing(4)
+
+  .otherAlbum
+    display: flex
+
+    & + .otherAlbum
+      margin-top: spacing(4)
+
+    img
+      width: 20%
+
+    .albumTrack
+      color: palette(text, secondary)
+      display: flex
+      align-items: center
+      gap: spacing(1)
+
+    .albumInfo
+      display: flex
+      justify-content: center
+      flex-direction: column
+      flex: 1
+      padding: spacing(0, 4)

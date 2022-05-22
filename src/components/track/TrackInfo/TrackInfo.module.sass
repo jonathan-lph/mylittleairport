@@ -1,0 +1,55 @@
+@import 'src/common/styles/theme'
+  
+.root 
+  margin: 0 auto
+  margin-top: 12rem
+  padding: spacing(12, 0)
+  display: grid
+  grid-template-columns: 4fr max-content 6fr
+  gap: spacing(12)
+  max-width: map-get($breakpoints, 'md')
+
+  .title
+    text-align: right
+  
+  .vr
+    position: relative
+
+    .base
+      position: absolute
+      border-left: 1px solid palette(text, secondary)
+      top: 0
+      height: 100%
+      padding: spacing(2)
+      transform: translateX(calc(-50% + spacing(2)))
+
+    .progress
+      position: absolute
+      border-left: 1.5px solid palette(text, primary)
+      top: 0
+      transform: translateX(-50%)
+
+    .pbIcon
+      position: absolute
+      top: -1rem
+      transform: translateX(-50%) translateY(-50%)
+
+    .duration
+      position: absolute
+      bottom: -2rem
+      transform: translateX(-50%) translateY(-50%)
+      font-size: .75rem
+
+  .info
+    justify-self: flex-end
+
+  .infosheet
+    display: grid
+    grid-template-columns: repeat(2, max-content)
+    column-gap: spacing(4)
+    justify-content: flex-end
+    padding: spacing(4, 0)
+    font-size: 0.8em
+    
+    dl
+      justify-self: flex-end

@@ -1,0 +1,18 @@
+{
+  "zh": {
+    "credits": {
+      "composer": "曲",
+      "lyricist": "詞",
+      "arranger": "編",
+      "lead_vocal": "唱",
+      "poem": "詩",
+      "recite": "唸",
+      "backup_vocal": "伴唱",
+      "bass": "低音吉他"
+    },
+    "misc": {
+      "disc": "碟：",
+      "track": "曲目："
+    }
+  }
+}
