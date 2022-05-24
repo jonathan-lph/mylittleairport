@@ -1,0 +1,49 @@
+@import 'src/common/styles/theme'
+
+.root
+  display: grid
+  grid-template-columns: 45% 55%
+  max-width: map-get($breakpoints, 'lg')
+  margin: 0 auto
+  margin-top: 12rem
+  row-gap: spacing(4)
+
+.title
+  font-size: 3.5rem
+  align-self: flex-end
+  padding: spacing(0, 8)
+  position: sticky
+  top: 2rem
+
+.img
+  width: 100%
+
+.meta
+  font-size: 3rem
+  font-weight: 400
+  align-self: flex-start
+  padding: spacing(0, 8)
+
+.list
+  display: grid
+  grid-template-columns: max-content 1fr 4rem
+  margin-bottom: 12rem
+  
+  .track
+    display: contents
+    font-size: 1.25rem
+
+    > *
+      border-bottom: 1px solid palette(text, primary)
+      padding: spacing(4, 2)
+
+    .icon
+      display: flex
+      align-self: stretch
+      align-items: center
+
+    .name
+      font-weight: 700
+    
+    .trackIdx
+      text-align: right

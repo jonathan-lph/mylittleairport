@@ -3,23 +3,19 @@ import Head from 'next/head'
 import albums from "@common/asset/albums.json"
 import { Album } from '@src/common/asset/mla'
 import { ParsedUrlQuery } from 'querystring'
+import { AlbumInfo } from '@src/components/album/AlbumInfo'
+import translationJSON from '@common/translation/album.json'
 
-type AlbumDetailsProps = {
-  album: Album
-  props: any
-}
-
-const AlbumDetails: NextPage<AlbumDetailsProps> = ({ album, ...props }) => {
+const AlbumDetails: NextPage<AlbumDetailsProps> = ({ album, translation, locale, ...props }) => {
   return (
-    <div>
-      {album.name} 
-    </div>
+    <main>
+      <AlbumInfo
+        album={album}
+        translation={translation}
+        locale={locale}
+      />
+    </main>
   )
-}
-
-interface IParams extends ParsedUrlQuery {
-  album: string,
-  locale: string
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -37,9 +33,26 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (context) => {
   const { album: _albumSlug, locale } = context.params as IParams
   const album: Album = albums.find(_album => _album.slug === _albumSlug) ?? albums[0]
+  const translation = translationJSON[locale]
   return {
-    props: { album }
+    props: { 
+      album, 
+      locale, 
+      translation 
+    }
   }
 }
 
 export default AlbumDetails
+
+type AlbumDetailsProps = {
+  album: Album
+  locale: string
+  translation: any
+  props: any
+}
+
+interface IParams extends ParsedUrlQuery {
+  album: string
+  locale: string
+}

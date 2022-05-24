@@ -20,14 +20,19 @@
     .track
       display: flex
       padding: spacing(.5, 0)
+      color: palette(text, secondary)
+      transition: color 0.2s ease-in-out
 
       .trackIdx
         width: 3rem
         flex: 0 0 auto
-        color: palette(text, secondary)
 
       &.selected
         font-weight: 700
+        color: palette(text, primary)
+
+      &:hover
+        color: palette(text, primary)
 
 .artworks
   width: 100%
