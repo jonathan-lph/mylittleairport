@@ -1,0 +1,20 @@
+{
+  "zh": {
+    "page_title": "專輯",
+    "title": {
+      "album": "專輯",
+      "single": "單曲",
+      "compilation": "合輯",
+      "online": "線上",
+      "retail": "發行",
+      "limited": "限定",
+      "collaboration": "合作",
+      "published": "發行",
+      "public": "線上",
+      "unlisted": "非官方",
+      "hk": "香港",
+      "tw": "台灣",
+      "international": "國際"
+    }
+  }
+}

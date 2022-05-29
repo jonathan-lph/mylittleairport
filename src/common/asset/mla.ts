@@ -40,10 +40,14 @@ export type AlbumType =
 export type AlbumEdition = 
   "retail"
   | "limited"
+  | "online"
   | "collaboration"
   | "published"  // Single - published
   | "public"     // Youtube
   | "unlisted"   // Youtube - unofficial
+  | "hk"
+  | "tw"
+  | "international"
 
 export type AlbumTrackRef = {
   name: string

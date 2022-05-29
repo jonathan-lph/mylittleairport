@@ -4,17 +4,18 @@ import albums from "@common/asset/albums.json"
 import { Album } from '@src/common/asset/mla'
 import { ParsedUrlQuery } from 'querystring'
 import { AlbumInfo } from '@src/components/album/AlbumInfo'
-import translationJSON from '@common/translation/album.json'
+import translationJSON from '@common/translation/albums.json'
+import { AlbumList } from '@src/components/albums/Albums'
 
-const AlbumDetails: NextPage<AlbumDetailsProps> = ({ album, translation, locale, ...props }) => {
+const Albums: NextPage<AlbumsProps> = ({ albums, translation, locale, ...props }) => {
   return (<>
     <Head>
-      <title>{album.name} - my little airport</title>
+      <title>{translation.page_title} - my little airport</title>
     </Head>
 
     <main>
-      <AlbumInfo
-        album={album}
+      <AlbumList
+        albums={albums}
         translation={translation}
         locale={locale}
       />
@@ -26,7 +27,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return {
     paths: albums.map((album: Album) => ({ 
       params: { 
-        album: album.slug,
         locale: 'zh'
       }
     })),
@@ -35,28 +35,26 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const { album: _albumSlug, locale } = context.params as IParams
-  const album: Album = albums.find(_album => _album.slug === _albumSlug) ?? albums[0]
+  const { locale } = context.params as IParams
   const translation = translationJSON[locale]
   return {
     props: { 
-      album, 
+      albums, 
       locale, 
       translation 
     }
   }
 }
 
-export default AlbumDetails
+export default Albums
 
-type AlbumDetailsProps = {
-  album: Album
+type AlbumsProps = {
+  albums: Array<Album>
   locale: string
   translation: any
   props: any
 }
 
 interface IParams extends ParsedUrlQuery {
-  album: string
   locale: string
 }

@@ -6,6 +6,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 10,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "coka, i'm fine",
@@ -70,7 +71,8 @@
     ],
     "translation": {
       "en": {
-        "name": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo"
+        "name": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo",
+        "label": "Habour Records"
       }
     }
   },
@@ -81,6 +83,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 10,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "gi gi leung is dead",
@@ -145,7 +148,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Becoz I Was Too Nervous at That Time"
+        "name": "Becoz I Was Too Nervous at That Time",
+        "label": "Habour Records"
       }
     }
   },
@@ -156,6 +160,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 17,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "j'ai peur",
@@ -262,7 +267,8 @@
     ],
     "translation": {
       "en": {
-        "name": "We Can't Stop Smoking in the Vicious and Blue Summer"
+        "name": "We Can't Stop Smoking in the Vicious and Blue Summer",
+        "label": "Habour Records"
       }
     }
   },
@@ -273,6 +279,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 16,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "介乎法國與旺角的詩意",
@@ -373,7 +380,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Poetics - Something Between Montparnasse and Mongkok"
+        "name": "Poetics - Something Between Montparnasse and Mongkok",
+        "label": "Habour Records"
       }
     }
   },
@@ -384,6 +392,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 15,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "九龍公園游泳池",
@@ -478,7 +487,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Hong Kong Is One Big Shopping Mall"
+        "name": "Hong Kong Is One Big Shopping Mall",
+        "label": "Habour Records"
       }
     }
   },
@@ -489,6 +499,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 17,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "我們一起離開吧",
@@ -595,7 +606,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Lonely Friday"
+        "name": "Lonely Friday",
+        "label": "Habour Records"
       }
     }
   },
@@ -606,6 +618,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 15,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "土瓜灣情歌",
@@ -700,7 +713,8 @@
     ],
     "translation": {
       "en": {
-        "name": "The Right Age for Marriage"
+        "name": "The Right Age for Marriage",
+        "label": "Habour Records"
       }
     }
   },
@@ -711,6 +725,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 17,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "明天不要賴床 baby",
@@ -817,7 +832,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Fo Tan Lai Ki"
+        "name": "Fo Tan Lai Ki",
+        "label": "Habour Records"
       }
     }
   },
@@ -828,6 +844,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 12,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "阿姆斯特丹夜機",
@@ -904,7 +921,8 @@
     ],
     "translation": {
       "en": {
-        "name": "You Said We'd Be Back"
+        "name": "You Said We'd Be Back",
+        "label": "Habour Records"
       }
     }
   },
@@ -915,6 +933,7 @@
     "type": "album",
     "edition": "retail",
     "track_no": 16,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "詩歌舞街",
@@ -1015,7 +1034,378 @@
     ],
     "translation": {
       "en": {
-        "name": "Sabina's Tears"
+        "name": "Sabina's Tears",
+        "label": "Habour Records"
+      }
+    }
+  },
+  {
+    "name": "催淚的滋味 (Live)",
+    "slug": "催淚的滋味-live",
+    "date": 2020,
+    "type": "album",
+    "edition": "online",
+    "track_no": 23,
+    "label": "my little airport",
+    "tracks": [
+      {
+        "name": "讓我搭一班會爆炸的飛機 - Live",
+        "slug": "讓我搭一班會爆炸的飛機-live",
+        "disc": 1,
+        "track": 1
+      },
+      {
+        "name": "美麗新香港 - Live",
+        "slug": "美麗新香港-live",
+        "disc": 1,
+        "track": 2
+      },
+      {
+        "name": "奇人的離職 - Live",
+        "slug": "奇人的離職-live",
+        "disc": 1,
+        "track": 3
+      },
+      {
+        "name": "每次你走的時分 - Live",
+        "slug": "每次你走的時分-live",
+        "disc": 1,
+        "track": 4
+      },
+      {
+        "name": "你說之後會找我 - Live",
+        "slug": "你說之後會找我-live",
+        "disc": 1,
+        "track": 5
+      },
+      {
+        "name": "喫煙席 - Live",
+        "slug": "喫煙席-live",
+        "disc": 1,
+        "track": 6
+      },
+      {
+        "name": "QUEEN - Live",
+        "slug": "queen-live",
+        "disc": 1,
+        "track": 7
+      },
+      {
+        "name": "宋代 SAD BOY - Live",
+        "slug": "宋代-sad-boy-live",
+        "disc": 1,
+        "track": 8
+      },
+      {
+        "name": "20GB - Live",
+        "slug": "20gb-live",
+        "disc": 1,
+        "track": 9
+      },
+      {
+        "name": "SABINA 之淚 - Live",
+        "slug": "sabina-之淚-live",
+        "disc": 1,
+        "track": 10
+      },
+      {
+        "name": "悲傷的採購 - Live",
+        "slug": "悲傷的採購-live",
+        "disc": 1,
+        "track": 11
+      },
+      {
+        "name": "只因當時太緊張 - Live",
+        "slug": "只因當時太緊張-live",
+        "disc": 1,
+        "track": 12
+      },
+      {
+        "name": "介乎法國與旺角的詩意 - Live",
+        "slug": "介乎法國與旺角的詩意-live",
+        "disc": 1,
+        "track": 13
+      },
+      {
+        "name": "只收一半 - Live",
+        "slug": "只收一半-live",
+        "disc": 1,
+        "track": 14
+      },
+      {
+        "name": "因講了出來 - Live",
+        "slug": "因講了出來-live",
+        "disc": 1,
+        "track": 15
+      },
+      {
+        "name": "彌敦道的一晚 goodtrip - Live",
+        "slug": "彌敦道的一晚-goodtrip-live",
+        "disc": 1,
+        "track": 16
+      },
+      {
+        "name": "下亞厘畢道 - Live",
+        "slug": "下亞厘畢道-live",
+        "disc": 1,
+        "track": 17
+      },
+      {
+        "name": "麥記最後一夜 - Live",
+        "slug": "麥記最後一夜-live",
+        "disc": 1,
+        "track": 18
+      },
+      {
+        "name": "Ｋ同學 - Live",
+        "slug": "k同學-live",
+        "disc": 1,
+        "track": 19
+      },
+      {
+        "name": "煙 - Live",
+        "slug": "煙-live",
+        "disc": 1,
+        "track": 20
+      },
+      {
+        "name": "今宵多珍重 - Live",
+        "slug": "今宵多珍重-live",
+        "disc": 1,
+        "track": 21
+      },
+      {
+        "name": "時代的孩子 節錄 - Live",
+        "slug": "時代的孩子-節錄-live",
+        "disc": 1,
+        "track": 22
+      },
+      {
+        "name": "心 - Live",
+        "slug": "心-live",
+        "disc": 1,
+        "track": 23
+      },
+      {
+        "name": "散步之年 - Live",
+        "slug": "散步之年-live",
+        "disc": 1,
+        "track": 24
+      },
+      {
+        "name": "那陣時不知道 - Live",
+        "slug": "那陣時不知道-live",
+        "disc": 1,
+        "track": 25
+      },
+      {
+        "name": "詩歌舞街 - Live",
+        "slug": "詩歌舞街-live",
+        "disc": 1,
+        "track": 26
+      },
+      {
+        "name": "土瓜灣情歌 - Live",
+        "slug": "土瓜灣情歌-live",
+        "disc": 1,
+        "track": 27
+      },
+      {
+        "name": "年輕的茶餐廳老闆娘 - Live",
+        "slug": "年輕的茶餐廳老闆娘-live",
+        "disc": 1,
+        "track": 28
+      },
+      {
+        "name": "以為和你熟 - Live",
+        "slug": "以為和你熟-live",
+        "disc": 1,
+        "track": 29
+      },
+      {
+        "name": "和陳五 msn - Live",
+        "slug": "和陳五-msn-live",
+        "disc": 1,
+        "track": 30
+      },
+      {
+        "name": "rm1210 - Live",
+        "slug": "rm1210-live",
+        "disc": 1,
+        "track": 31
+      },
+      {
+        "name": "terence 的心事 - Live",
+        "slug": "terence-的心事-live",
+        "disc": 1,
+        "track": 32
+      },
+      {
+        "name": "失落沮喪歌 - Live",
+        "slug": "失落沮喪歌-live",
+        "disc": 1,
+        "track": 33
+      }
+    ],
+    "translation": {
+      "en": {
+        "name": "TASTE OF TEARS (Live)",
+        "label": "my little airport"
+      }
+    }
+  },
+  {
+    "name": "我都唔知道 (Live)",
+    "slug": "我都唔知道-live",
+    "date": 2022,
+    "type": "album",
+    "edition": "online",
+    "track_no": 33,
+    "label": "my little airport",
+    "tracks": [
+      {
+        "name": "你叫我譯一首德國歌詞 - Live",
+        "slug": "你叫我譯一首德國歌詞-live",
+        "disc": 1,
+        "track": 1
+      },
+      {
+        "name": "我們一起離開吧 - Live",
+        "slug": "我們一起離開吧-live",
+        "disc": 1,
+        "track": 2
+      },
+      {
+        "name": "愛情 disabled - Live",
+        "slug": "愛情-disabled-live",
+        "disc": 1,
+        "track": 3
+      },
+      {
+        "name": "露體狂小丁 - Live",
+        "slug": "露體狂小丁-live",
+        "disc": 1,
+        "track": 4
+      },
+      {
+        "name": "美麗新香港 - Live",
+        "slug": "美麗新香港-live-2022",
+        "disc": 1,
+        "track": 5
+      },
+      {
+        "name": "再殺一個人 - Live",
+        "slug": "再殺一個人-live",
+        "disc": 1,
+        "track": 6
+      },
+      {
+        "name": "今天沒大麻在身 - Live",
+        "slug": "今天沒大麻在身-live",
+        "disc": 1,
+        "track": 7
+      },
+      {
+        "name": "西西弗斯之歌 - Live",
+        "slug": "西西弗斯之歌-live",
+        "disc": 1,
+        "track": 8
+      },
+      {
+        "name": "今夜雪糕 - Live",
+        "slug": "今夜雪糕-live",
+        "disc": 1,
+        "track": 9
+      },
+      {
+        "name": "宅女，上街吧 - Live",
+        "slug": "宅女-上街吧-live",
+        "disc": 1,
+        "track": 10
+      },
+      {
+        "name": "失業抗爭歌 - Live",
+        "slug": "失業抗爭歌-live",
+        "disc": 1,
+        "track": 11
+      },
+      {
+        "name": "牛頭角青年 - Live",
+        "slug": "牛頭角青年-live",
+        "disc": 1,
+        "track": 12
+      },
+      {
+        "name": "今宵多珍重 - Live",
+        "slug": "今宵多珍重-live-2022",
+        "disc": 1,
+        "track": 13
+      },
+      {
+        "name": "吳小姐 - Live",
+        "slug": "吳小姐-live",
+        "disc": 1,
+        "track": 14
+      },
+      {
+        "name": "Ｋ同學 - Live",
+        "slug": "k同學-live-2022",
+        "disc": 1,
+        "track": 15
+      },
+      {
+        "name": "香港香港 - Live",
+        "slug": "香港香港-live",
+        "disc": 1,
+        "track": 16
+      },
+      {
+        "name": "廣州足浴一夜 - Live",
+        "slug": "廣州足浴一夜-live",
+        "disc": 1,
+        "track": 17
+      },
+      {
+        "name": "驗孕的下晝 - Live",
+        "slug": "驗孕的下晝-live",
+        "disc": 1,
+        "track": 18
+      },
+      {
+        "name": "九龍公園游泳池 - Live",
+        "slug": "九龍公園游泳池-live",
+        "disc": 1,
+        "track": 19
+      },
+      {
+        "name": "詩歌舞街 - Live",
+        "slug": "詩歌舞街-live-2022",
+        "disc": 1,
+        "track": 20
+      },
+      {
+        "name": "下了兩天雨 - Live",
+        "slug": "下了兩天雨-live",
+        "disc": 1,
+        "track": 21
+      },
+      {
+        "name": "五點鐘去天光墟 - Live",
+        "slug": "五點鐘去天光墟-live",
+        "disc": 1,
+        "track": 22
+      },
+      {
+        "name": "失落沮喪歌 - Live",
+        "slug": "失落沮喪歌-live-2022",
+        "disc": 1,
+        "track": 23
+      }
+    ],
+    "translation": {
+      "en": {
+        "name": "I ALSO DON'T KNOW (Live)",
+        "label": "my little airport"
       }
     }
   },
@@ -1026,6 +1416,7 @@
     "type": "album",
     "edition": "limited",
     "track_no": 6,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "debbie, don't sing this song alone",
@@ -1066,7 +1457,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Singing in the Telephone"
+        "name": "Singing in the Telephone",
+        "label": "my little airport"
       }
     }
   },
@@ -1077,6 +1469,7 @@
     "type": "album",
     "edition": "limited",
     "track_no": 2,
+    "label": "維港唱片",
     "tracks": [
       {
         "name": "When I Listen To The Field Mice",
@@ -1093,7 +1486,8 @@
     ],
     "translation": {
       "en": {
-        "name": "When I Listen to the Field Mice"
+        "name": "When I Listen to the Field Mice",
+        "label": "Habour Records"
       }
     }
   },
@@ -1104,6 +1498,7 @@
     "type": "album",
     "edition": "limited",
     "track_no": 4,
+    "label": "默契音樂",
     "tracks": [
       {
         "name": "gi gi leung is dead",
@@ -1132,7 +1527,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Gi Gi Leung Is Dead"
+        "name": "Gi Gi Leung Is Dead",
+        "label": "Silent Agreement"
       }
     }
   },
@@ -1143,6 +1539,7 @@
     "type": "album",
     "edition": "limited",
     "track_no": 14,
+    "label": "Elefant Records",
     "tracks": [
       {
         "name": "edward, had you ever thought that the end of the world would come on 20.9.01?",
@@ -1231,7 +1628,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Zoo Is Sad, People Are Cruel"
+        "name": "Zoo Is Sad, People Are Cruel",
+        "label": "Elefant Records"
       }
     }
   },
@@ -1242,6 +1640,7 @@
     "type": "album",
     "edition": "limited",
     "track_no": 17,
+    "label": "트라이앵글 뮤직은",
     "tracks": [
       {
         "name": "debbie, don't send this song to others",
@@ -1348,7 +1747,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Stay As Sweet As You Are"
+        "name": "Stay As Sweet As You Are",
+        "label": "Triangle Music"
       }
     }
   },
@@ -1359,6 +1759,7 @@
     "type": "album",
     "edition": "collaboration",
     "track_no": 10,
+    "label": "LYFE Music",
     "tracks": [
       {
         "name": "浪漫九龍塘",
@@ -1423,7 +1824,31 @@
     ],
     "translation": {
       "en": {
-        "name": "Hum Ching for You"
+        "name": "Hum Ching for You",
+        "label": "LYFE Music"
+      }
+    }
+  },
+  {
+    "name": "嘔吐",
+    "slug": "嘔吐",
+    "date": 2022,
+    "type": "single",
+    "edition": "published",
+    "track_no": 1,
+    "label": "my little airport",
+    "tracks": [
+      {
+        "name": "嘔吐",
+        "slug": "嘔吐",
+        "disc": 1,
+        "track": 1
+      }
+    ],
+    "translation": {
+      "en": {
+        "name": "嘔吐",
+        "label": "my little airport"
       }
     }
   },
@@ -1434,6 +1859,7 @@
     "type": "single",
     "edition": "published",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "LUNCH",
@@ -1444,7 +1870,8 @@
     ],
     "translation": {
       "en": {
-        "name": "LUNCH"
+        "name": "LUNCH",
+        "label": "my little airport"
       }
     }
   },
@@ -1455,6 +1882,7 @@
     "type": "single",
     "edition": "published",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "那陣時不知道",
@@ -1476,6 +1904,7 @@
     "type": "single",
     "edition": "published",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "因講了出來",
@@ -1497,6 +1926,7 @@
     "type": "single",
     "edition": "published",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "因講了出來 (OTAKU MOBB Remix)",
@@ -1507,7 +1937,8 @@
     ],
     "translation": {
       "en": {
-        "name": "When I Let It Out (OTAKU MOBB Remix)"
+        "name": "When I Let It Out (OTAKU MOBB Remix)",
+        "label": "my little airport"
       }
     }
   },
@@ -1518,6 +1949,7 @@
     "type": "single",
     "edition": "published",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "散步之年",
@@ -1539,6 +1971,7 @@
     "type": "single",
     "edition": "published",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "每次你走的時分",
@@ -1560,6 +1993,7 @@
     "type": "single",
     "edition": "public",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "今夜雪糕",
@@ -1570,7 +2004,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Ice Cream Tonight"
+        "name": "Ice Cream Tonight",
+        "label": "my little airport"
       }
     }
   },
@@ -1581,6 +2016,7 @@
     "type": "single",
     "edition": "public",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "吳小姐",
@@ -1591,7 +2027,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Miss Ng"
+        "name": "Miss Ng",
+        "label": "my little airport"
       }
     }
   },
@@ -1602,6 +2039,7 @@
     "type": "single",
     "edition": "public",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "宅女，上街吧",
@@ -1612,7 +2050,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Geeky Girls, Hit the Streets"
+        "name": "Geeky Girls, Hit the Streets",
+        "label": "my little airport"
       }
     }
   },
@@ -1623,6 +2062,7 @@
     "type": "single",
     "edition": "public",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "加多利大廈滲水事件",
@@ -1633,7 +2073,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Water Seepage Incident at Kadoorie Mansion"
+        "name": "Water Seepage Incident at Kadoorie Mansion",
+        "label": "my little airport"
       }
     }
   },
@@ -1644,6 +2085,7 @@
     "type": "single",
     "edition": "unlisted",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "關於前度和男孩食飯的事",
@@ -1654,7 +2096,8 @@
     ],
     "translation": {
       "en": {
-        "name": "About My Ex Dating A Youngster"
+        "name": "About My Ex Dating A Youngster",
+        "label": "my little airport"
       }
     }
   },
@@ -1665,6 +2108,7 @@
     "type": "single",
     "edition": "unlisted",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "告別吧，香港",
@@ -1675,7 +2119,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Farewell, Hong Kong"
+        "name": "Farewell, Hong Kong",
+        "label": "my little airport"
       }
     }
   },
@@ -1686,6 +2131,7 @@
     "type": "single",
     "edition": "public",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "我愛郊野，但不愛派對",
@@ -1696,7 +2142,8 @@
     ],
     "translation": {
       "en": {
-        "name": "I Love the Country But Not the Party"
+        "name": "I Love the Country But Not the Party",
+        "label": "my little airport"
       }
     }
   },
@@ -1707,6 +2154,7 @@
     "type": "single",
     "edition": "public",
     "track_no": 1,
+    "label": "my little airport",
     "tracks": [
       {
         "name": "前度，去你的",
@@ -1717,7 +2165,8 @@
     ],
     "translation": {
       "en": {
-        "name": "Ex, To Hell With You"
+        "name": "Ex, To Hell With You",
+        "label": "my little airport"
       }
     }
   },
@@ -1726,7 +2175,7 @@
     "slug": "lmfxxyearfest",
     "date": 2019,
     "type": "compilation",
-    "edition": null,
+    "edition": "hk",
     "track_no": 1,
     "tracks": [
       {
@@ -1736,9 +2185,11 @@
         "track": 7
       }
     ],
+    "label": "Cactus Creation",
     "translation": {
       "en": {
-        "name": "LMFXXYEARFEST"
+        "name": "LMFXXYEARFEST",
+        "label": "Cactus Creation"
       }
     }
   },
@@ -1747,7 +2198,7 @@
     "slug": "達明一代",
     "date": 2017,
     "type": "compilation",
-    "edition": null,
+    "edition": "hk",
     "track_no": 1,
     "tracks": [
       {
@@ -1757,9 +2208,11 @@
         "track": 8
       }
     ],
+    "label": "環球唱片",
     "translation": {
       "en": {
-        "name": "Tat Ming Pair Tribute Album"
+        "name": "Tat Ming Pair Tribute Album",
+        "label": "Universal Music"
       }
     }
   },
@@ -1768,7 +2221,7 @@
     "slug": "everyone-remembers-the-orange",
     "date": 2014,
     "type": "compilation",
-    "edition": null,
+    "edition": "hk",
     "track_no": 6,
     "tracks": [
       {
@@ -1808,9 +2261,11 @@
         "track": 19
       }
     ],
+    "label": "維港唱片",
     "translation": {
       "en": {
-        "name": "everyone remembers the orange"
+        "name": "everyone remembers the orange",
+        "label": "Habour Records"
       }
     }
   },
@@ -1819,7 +2274,7 @@
     "slug": "space-escapade-aventura-espacial-unit-1-destination-pluto-sector-68",
     "date": 2010,
     "type": "compilation",
-    "edition": null,
+    "edition": "international",
     "track_no": 1,
     "tracks": [
       {
@@ -1829,9 +2284,11 @@
         "track": 2
       }
     ],
+    "label": "Elefant Records",
     "translation": {
       "en": {
-        "name": "Space Escapade (Aventura Espacial) Unit 1 - Destination: Pluto Sector 68"
+        "name": "Space Escapade (Aventura Espacial) Unit 1 - Destination: Pluto Sector 68",
+        "label": "Elefant Records"
       }
     }
   },
@@ -1840,7 +2297,7 @@
     "slug": "happy-new-year-2008",
     "date": 2008,
     "type": "compilation",
-    "edition": null,
+    "edition": "international",
     "track_no": 1,
     "tracks": [
       {
@@ -1850,9 +2307,11 @@
         "track": 4
       }
     ],
+    "label": "Elefant Records",
     "translation": {
       "en": {
-        "name": "Happy New Year 2008"
+        "name": "Happy New Year 2008",
+        "label": "Elefant Records"
       }
     }
   },
@@ -1861,7 +2320,7 @@
     "slug": "poptastic-conversation-china-奇妙對話中國",
     "date": 2008,
     "type": "compilation",
-    "edition": null,
+    "edition": "international",
     "track_no": 1,
     "tracks": [
       {
@@ -1871,9 +2330,11 @@
         "track": 8
       }
     ],
+    "label": "Fly Fast Records",
     "translation": {
       "en": {
-        "name": "Poptastic Conversation China"
+        "name": "Poptastic Conversation China",
+        "label": "Fly Fast Records"
       }
     }
   },
@@ -1882,7 +2343,7 @@
     "slug": "花吃了那女孩電影原聲帶",
     "date": 2008,
     "type": "compilation",
-    "edition": null,
+    "edition": "tw",
     "track_no": 2,
     "tracks": [
       {
@@ -1898,9 +2359,11 @@
         "track": 8
       }
     ],
+    "label": "亞神音樂娛樂",
     "translation": {
       "en": {
-        "name": "Candy Rain OST"
+        "name": "Candy Rain OST",
+        "label": "Asia Muse Entertainment"
       }
     }
   },
@@ -1909,7 +2372,7 @@
     "slug": "little-darla-has-a-treat-for-you-volume-25-endless-summer-2007-08",
     "date": 2007,
     "type": "compilation",
-    "edition": null,
+    "edition": "international",
     "track_no": 1,
     "tracks": [
       {
@@ -1919,9 +2382,11 @@
         "track": 8
       }
     ],
+    "label": "Darla Records",
     "translation": {
       "en": {
-        "name": "Little Darla Has a Treat for You, Volume 25: Endless Summer 2007-08"
+        "name": "Little Darla Has a Treat for You, Volume 25: Endless Summer 2007-08",
+        "label": "Darla Records"
       }
     }
   },
@@ -1930,7 +2395,7 @@
     "slug": "we-wish-you-an-indie-xmas",
     "date": 2007,
     "type": "compilation",
-    "edition": null,
+    "edition": "hk",
     "track_no": 1,
     "tracks": [
       {
@@ -1940,9 +2405,11 @@
         "track": 6
       }
     ],
+    "label": "維港唱片",
     "translation": {
       "en": {
-        "name": "We Wish You An Indie X'mas"
+        "name": "We Wish You An Indie X'mas",
+        "label": "Habour Records"
       }
     }
   },
@@ -1951,7 +2418,7 @@
     "slug": "2007-小草地2年級同學會",
     "date": 2007,
     "type": "compilation",
-    "edition": null,
+    "edition": "tw",
     "track_no": 1,
     "tracks": [
       {
@@ -1961,9 +2428,11 @@
         "track": 5
       }
     ],
+    "label": "默契音樂",
     "translation": {
       "en": {
-        "name": "2007 Grassland Second Grade Reunion"
+        "name": "2007 Grassland Second Grade Reunion",
+        "label": "Silent Agreement"
       }
     }
   },
@@ -1972,7 +2441,7 @@
     "slug": "草地音樂合輯",
     "date": 2005,
     "type": "compilation",
-    "edition": null,
+    "edition": "tw",
     "track_no": 2,
     "tracks": [
       {
@@ -1988,9 +2457,11 @@
         "track": 8
       }
     ],
+    "label": "默契音樂",
     "translation": {
       "en": {
-        "name": "Grass Fest Music Compilation"
+        "name": "Grass Fest Music Compilation",
+        "label": "Silent Agreement"
       }
     }
   },
@@ -1999,7 +2470,7 @@
     "slug": "is-3",
     "date": 2005,
     "type": "compilation",
-    "edition": null,
+    "edition": "tw",
     "track_no": 1,
     "tracks": [
       {
@@ -2009,9 +2480,11 @@
         "track": 4
       }
     ],
+    "label": "荒島網路科技",
     "translation": {
       "en": {
-        "name": "IS #3"
+        "name": "IS #3",
+        "label": "Isle Networks"
       }
     }
   },
@@ -2020,7 +2493,7 @@
     "slug": "fc5-118-hitoradiocom-開站紀念盤",
     "date": 2005,
     "type": "compilation",
-    "edition": null,
+    "edition": "tw",
     "track_no": 1,
     "tracks": [
       {
@@ -2030,9 +2503,11 @@
         "track": 4
       }
     ],
+    "label": "台北之音",
     "translation": {
       "en": {
-        "name": "FC5-118 Hitoradio.com Launch Commemorative Disc"
+        "name": "FC5-118 Hitoradio.com Launch Commemorative Disc",
+        "label": "Hitoradio"
       }
     }
   },
@@ -2041,7 +2516,7 @@
     "slug": "add-to-friends",
     "date": 2006,
     "type": "compilation",
-    "edition": null,
+    "edition": "international",
     "track_no": 1,
     "tracks": [
       {
@@ -2051,9 +2526,11 @@
         "track": 17
       }
     ],
+    "label": "Someone Good",
     "translation": {
       "en": {
-        "name": "Add To Friends"
+        "name": "Add To Friends",
+        "label": "Someone Good"
       }
     }
   },
@@ -2062,7 +2539,7 @@
     "slug": "come-out-and-play",
     "date": 2004,
     "type": "compilation",
-    "edition": null,
+    "edition": "hk",
     "track_no": 1,
     "tracks": [
       {
@@ -2072,9 +2549,11 @@
         "track": 12
       }
     ],
+    "label": "89628 / the PANIC",
     "translation": {
       "en": {
-        "name": "Come Out and Play"
+        "name": "Come Out and Play",
+        "label": "89628 / the PANIC"
       }
     }
   },
@@ -2083,7 +2562,7 @@
     "slug": "in-the-name-of-amk",
     "date": 2004,
     "type": "compilation",
-    "edition": null,
+    "edition": "hk",
     "track_no": 1,
     "tracks": [
       {
@@ -2093,9 +2572,11 @@
         "track": 6
       }
     ],
+    "label": "維港唱片",
     "translation": {
       "en": {
-        "name": "In the Name of AMK"
+        "name": "In the Name of AMK",
+        "label": "Habour Records"
       }
     }
   }

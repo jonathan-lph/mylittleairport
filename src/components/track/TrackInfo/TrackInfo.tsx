@@ -24,12 +24,10 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
   const progressBar = useRef<HTMLDivElement | null>(null)
 
   const playAudio = () => {
-    if (audio !== null) {
+    if (audio) {
       setPlaying(!playing)
-      if (!playing)
-        audio.play()
-      else
-        audio.pause()
+      if (!playing) audio.play()
+      else audio.pause()
     }
   }
 
@@ -44,29 +42,49 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
     }
   }
 
-  useEffect(() => {
-    // if (track.audio)
-      const _audioFile = new Audio(`/track_file/${album.slug}/${track.slug}.mp3`)
-      _audioFile.onerror = e => {
-        setAudio(null)
-      }
-      _audioFile.onloadedmetadata = e => {
-        setAudio(_audioFile)
-        if (!timestamp.current) return
-        timestamp.current.innerText = getTimestamp(_audioFile.duration)
-      }
-  }, [])
+  const handleLoadedMetadata = (_audio: HTMLAudioElement | null) => (e: Event) => {
+    if (!_audio) return
+    setAudio(_audio)
+    if (!timestamp.current) return
+    timestamp.current.innerText = getTimestamp(_audio.duration)
+  }
+
+  const handleError = (e: Event) => {
+    setAudio(null)
+  }
+
+  const handleTimeUpdate = (e: Event) => {
+    if (!timestamp.current || !progressBar.current || !audio) return
+    timestamp.current.innerText = getTimestamp(audio.currentTime)
+    progressBar.current.style.height = (audio.currentTime / audio.duration) * 100 + '%'
+  }
+
+  const handleEnded = (e: Event) => {
+    setPlaying(false)
+  }
 
   useEffect(() => {
-    if (audio && !playing) {
-      audio.ontimeupdate = e => {
-        if (!timestamp.current || !progressBar.current) return
-        timestamp.current.innerText = getTimestamp(audio.currentTime)
-        progressBar.current.style.height = (audio.currentTime / audio.duration) * 100 + '%'
-      }
-      audio.onended = e => {
-        setPlaying(false)
-      }
+    const _audioFile = new Audio(`/track_file/${track.slug}.mp3`)
+    _audioFile.addEventListener('error', handleError)
+    _audioFile.addEventListener('loadedmetadata', handleLoadedMetadata(_audioFile))
+    return () => {
+      _audioFile.pause()
+      _audioFile.removeEventListener('error', handleError)
+      _audioFile.removeEventListener('loadedmetadata', handleLoadedMetadata(_audioFile))
+      setAudio(null)
+      setPlaying(false)
+      if (progressBar.current)
+        progressBar.current.style.height = '0%'
+    }
+  }, [track])
+
+  useEffect(() => {
+    if (!audio) return;
+    audio.addEventListener('timeupdate', handleTimeUpdate)
+    audio.addEventListener('ended', handleEnded)
+    return () => {
+      audio.removeEventListener('timeupdate', handleTimeUpdate)
+      audio.removeEventListener('ended', handleEnded)
     }
   }, [audio])
 
@@ -77,14 +95,14 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
         <h1 className={styles.title}>
           {name}
         </h1>
-        <dt className={styles.infosheet}>
+        <dl className={styles.infosheet}>
           {Object
           .entries(credits)
           .map(([_type, _names]) => 
             <>
-              <dl>
+              <dt>
                 {translation.credits[_type]}
-              </dl>
+              </dt>
               <dd>
                 {_names?.map((_name) => 
                   <>
@@ -94,7 +112,7 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
               </dd>
             </>
           )}
-        </dt>
+        </dl>
       </div>
 
       <div className={styles.vr}>
@@ -102,7 +120,7 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
           className={styles.base}
           onClick={handleJump}
         />
-        {audio && !audio.error && <>
+        {audio && <>
           <Icon
             icon={playing ? "pause" : "play"}
             onClick={playAudio}

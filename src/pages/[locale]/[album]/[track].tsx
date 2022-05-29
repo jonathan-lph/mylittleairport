@@ -15,7 +15,11 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
   translation, 
   ...props 
 }) => {
-  return (
+  return (<>
+    <Head>
+      <title>{track.name} - {album.name} - my little airport</title>
+    </Head>
+
     <main>
       <TrackInfo
         album={album}
@@ -30,7 +34,7 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
         locale={locale}
       />
     </main>
-  )
+  </>)
 }
 
 

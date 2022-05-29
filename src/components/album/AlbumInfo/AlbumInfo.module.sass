@@ -8,21 +8,30 @@
   margin-top: 12rem
   row-gap: spacing(4)
 
-.title
-  font-size: 3.5rem
+.meta
+  display: flex
+  flex-direction: column
   align-self: flex-end
+  // justify-content: flex-end
   padding: spacing(0, 8)
+  height: max-content 
   position: sticky
   top: 2rem
+
+  .title
+    font-size: 3.5rem
+    justify-self: flex-start
+    position: sticky
+    top: 2rem
+
+  .year
+    font-size: 1.5rem
+    font-weight: 700
 
 .img
   width: 100%
 
-.meta
-  font-size: 3rem
-  font-weight: 400
-  align-self: flex-start
-  padding: spacing(0, 8)
+
 
 .list
   display: grid
@@ -31,7 +40,7 @@
   
   .track
     display: contents
-    font-size: 1.25rem
+    font-size: 1.2rem
 
     > *
       border-bottom: 1px solid palette(text, primary)

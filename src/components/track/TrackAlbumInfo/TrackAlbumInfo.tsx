@@ -25,7 +25,9 @@ export const TrackAlbumInfo: FC<TrackAlbumInfoProps> = ({
 
       <div className={styles.album}>
         <h2 className={styles.title}>
-          {album.name}
+          <Link href={`/${locale}/${album.slug}`}>
+            {album.name}
+          </Link>
         </h2>
         <div className={styles.tracklist}>
           {album.tracks.map((_track, idx) => 

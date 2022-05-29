@@ -5,91 +5,109 @@ const albumList = [[
   'The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo',
   2004, 10,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
   '只因當時太緊張',
   'Becoz I Was Too Nervous at That Time',
   2005, 10,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
   '我們在炎熱與抑鬱的夏天，無法停止抽煙',
   'We Can\'t Stop Smoking in the Vicious and Blue Summer',
   2007, 17,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
   '介乎法國與旺角的詩意',
   'Poetics - Something Between Montparnasse and Mongkok',
   2009, 16,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
   '香港是個大商場',
   'Hong Kong Is One Big Shopping Mall',
   2011, 15,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
   '寂寞的星期五',
   'Lonely Friday',
   2012, 17,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
   '適婚的年齡',
   'The Right Age for Marriage',
   2014, 15,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
   '火炭麗琪',
   'Fo Tan Lai Ki',
   2016, 17,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
   '你說之後會找我',
   'You Said We\'d Be Back',
   2018, 12,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
   'SABINA 之淚',
   "Sabina's Tears",
   2021, 16,
   "retail",
+  "維港唱片", "Habour Records"
 ], [
-//   "催淚的滋味 (Live)",
-//   "TASTE OF TEARS (Live)",
-//   2020, 23,
-//   "online",
-// ], [
-//   "我都唔知道 (Live)",
-//   "I ALSO DON'T KNOW (Live)",
-//   2022, 33,
-//   "online",
-// ], [
+  "催淚的滋味 (Live)",
+  "TASTE OF TEARS (Live)",
+  2020, 23,
+  "online",
+  "my little airport", "my little airport",
+], [
+  "我都唔知道 (Live)",
+  "I ALSO DON'T KNOW (Live)",
+  2022, 33,
+  "online",
+  "my little airport", "my little airport",
+], [
   'Singing in the Telephone',
   'Singing in the Telephone',
   2003, 6,
   "limited",
+  "my little airport", "my little airport", 
 ], [
   "When I Listen to the Field Mice",
   "When I Listen to the Field Mice",
   2005, 2,
   "limited",
+  "維港唱片", "Habour Records"
 ], [
   "Gi Gi Leung Is Dead",
   "Gi Gi Leung Is Dead",
   2005, 4,
   "limited",
+  "默契音樂", "Silent Agreement"
 ], [
   "Zoo Is Sad, People Are Cruel",
   "Zoo Is Sad, People Are Cruel",
   2007, 14,
   "limited",
+  "Elefant Records", "Elefant Records", 
 ], [
   "Stay As Sweet As You Are",
   "Stay As Sweet As You Are",
   2008, 17,
   "limited",
+  "트라이앵글 뮤직은", "Triangle Music"
 ], [
   "為你含情",
   "Hum Ching for You",
   2008, 10,
   "collaboration",
+  "LYFE Music", "LYFE Music"
 ]]
 
 const a1list = {
@@ -634,10 +652,10 @@ const a2lyrics = [
     "Y-a-t-il trop d'amour?",
     "Tu ne sais plus",
     "Tu ne sais rien",
-    "Jusqu'à quelqu'un t'a dit:",
+    "Jusqu'à quelqu'un t'a dit",
     "« Il y a toujours le premier fois. »",
     "« Ne triste pas »",
-    "(Jusqu'à quelqu'un t'a dit:)",
+    "(Jusqu'à quelqu'un t'a dit)",
     "(« Il y a toujours le premier fois. »)",
     "(« Ne triste pas. »)"
   ],
@@ -3052,7 +3070,7 @@ const a7meta = [
   ],
   [
     1,57,
-    'P', 'P', 'P,N,阿賢,阿科,陳銘澤 @ 在草地上', 'P,N', {
+    'P', 'P', 'P,N,阿賢,阿科,陳銘澤 @ 在草地上', 'N', {
       backup_vocal: 'Karena'
     }
   ],
@@ -5301,102 +5319,167 @@ const a11list = {
 const a11meta = [
   [
     2,49,
-  ], 
-  [
+    'P', 'P', 'P,N,阿賢,阿科', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,24,
-  ], 
-  [
+    'P', 'P', 'P,N,阿賢,阿科,陳銘澤 @ 在草地上', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,0,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,51,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     3,5,
-  ], 
-  [
+    'P', 'P', 'P,阿賢,阿科,夏日浪漫', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,13,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     3,22,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     3,15,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     3,0,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,37,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,58,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,24,
-  ], 
-  [
+    "P", "P", null, "N", {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,21,
-  ], 
-  [
+    'P', 'P', 'P,阿賢,阿科', 'N,P,Jackie,Sot Kanin', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,51,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,41,
-  ], 
-  [
+    'P', 'P', 'P,蕭暢悅', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     3,4,
-  ], 
-  [
+    'P', 'P', 'P,四方果', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,32,
-  ], 
-  [
+    'P', 'P', 'P,夏日浪漫', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     3,40,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,56,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,55,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,53,
-  ], 
-  [
+    "LMF", "LMF", "P", "N", {
+      backup_vocal: "Karena"
+    }
+  ], [
     1,35,
-  ], 
-  [
+    'P', 'Wislawa Szymborska', 'P', 'Karena', null
+  ], [
     2,27,
-  ], 
-  [
+    'N', 'N', 'P,N,阿賢,阿科,夏日浪漫,銘銘', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     3,12,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: "Karena"
+    }
+  ], [
     3,1,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     3,15,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,32,
-  ], 
-  [
+    'P', 'P', 'P,N,阿賢,阿科', 'N', {
+      backup_vocal: 'Karena',
+    }
+  ], [
     3,5,
-  ], 
-  [
+    'P', 'P', 'P,N,阿賢,阿科', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,9,
-  ], 
-  [
+    'P', 'P', 'P,阿賢,阿科,夏日浪漫', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,38,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,11,
-  ], 
-  [
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     2,55,
-  ], 
-  [
+    'P', 'P', 'P', 'Porpor Channel,Kit @ 22cats,Ling ling ling,N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
     3,0,
+    "P", "P", null, "N", {
+      backup_vocal: 'Karena'
+    }
   ]
 ]
 
@@ -6484,50 +6567,176 @@ const a11lyrics = [
 
 const a12list = {
   og: [
-    "你叫我譯一首德國歌詞 - LIVE",
-    "我們一起離開吧 - LIVE",
-    "愛情 disabled - LIVE",
-    "露體狂小丁 - LIVE",
-    "美麗新香港 - LIVE",
-    "今天沒大麻在身 - LIVE",
-    "西西弗斯之歌 - LIVE",
-    "今夜雪糕 - LIVE",
-    "宅女，上街吧 - LIVE",
-    "失業抗爭歌 - LIVE",
-    "牛頭角青年 - LIVE",
-    "今宵多珍重 - LIVE",
-    "吳小姐 - LIVE",
-    "Ｋ同學 - LIVE",
-    "香港香港 - LIVE",
-    "廣州足浴一夜 - LIVE",
-    "驗孕的下晝 - LIVE",
-    "九龍公園游泳池 - LIVE",
-    "詩歌舞街 - LIVE",
-    "下了兩天雨 - LIVE",
+    "你叫我譯一首德國歌詞 - Live",
+    "我們一起離開吧 - Live",
+    "愛情 disabled - Live",
+    "露體狂小丁 - Live",
+    "美麗新香港 - Live",
+    "再殺一個人 - Live",
+    "今天沒大麻在身 - Live",
+    "西西弗斯之歌 - Live",
+    "今夜雪糕 - Live",
+    "宅女，上街吧 - Live",
+    "失業抗爭歌 - Live",
+    "牛頭角青年 - Live",
+    "今宵多珍重 - Live",
+    "吳小姐 - Live",
+    "Ｋ同學 - Live",
+    "香港香港 - Live",
+    "廣州足浴一夜 - Live",
+    "驗孕的下晝 - Live",
+    "九龍公園游泳池 - Live",
+    "詩歌舞街 - Live",
+    "下了兩天雨 - Live",
+    "五點鐘去天光墟 - Live",
+    "失落沮喪歌 - Live",
   ],
   en: [
-    "You Asked Me to Translate a German Song - LIVE",
-    "Let's Leave Together - LIVE",
-    "Love Disabled - LIVE",
-    "Siu Ding The Exhibitionist - LIVE",
-    "Brand New Hong Kong - LIVE",
-    "No Weed on Me Today - LIVE",
-    "The Hymn of Sisyphus - LIVE",
-    "Ice Cream Tonight - LIVE",
-    "Geeky Girls, Hit the Streets - LIVE",
-    "Anthem of the Unemployment Resistance - LIVE",
-    "Youths of Ngau Tau Kok - LIVE",
-    "Farewell - LIVE",
-    "Miss Ng - LIVE",
-    "Classmate K - LIVE",
-    "Hong Kong Hong Kong - LIVE",
-    "A Night of GuangZhou Foot Massage - LIVE",
-    "Afternoon of Pregnancy Testing - LIVE",
-    "Kowloon Park Swimming Pool - LIVE",
-    "Sycamore Street - LIVE",
-    "Rained for Two Days - LIVE",
+    "You Asked Me to Translate a German Song - Live",
+    "Let's Leave Together - Live",
+    "Love Disabled - Live",
+    "Siu Ding The Exhibitionist - Live",
+    "Brand New Hong Kong - Live",
+    "Killed Off One More - Live",
+    "No Weed on Me Today - Live",
+    "The Hymn of Sisyphus - Live",
+    "Ice Cream Tonight - Live",
+    "Geeky Girls, Hit the Streets - Live",
+    "Anthem of the Unemployment Resistance - Live",
+    "Youths of Ngau Tau Kok - Live",
+    "Farewell - Live",
+    "Miss Ng - Live",
+    "Classmate K - Live",
+    "Hong Kong Hong Kong - Live",
+    "A Night of GuangZhou Foot Massage - Live",
+    "Afternoon of Pregnancy Testing - Live",
+    "Kowloon Park Swimming Pool - Live",
+    "Sycamore Street - Live",
+    "Rained for Two Days - Live",
+    "To Dawn Market at 5AM - Live",
+    "The Lost and Frustration Song - Live",
   ]
 }
+
+const a12meta = [
+  [
+    3,8,
+    'P', 'P', 'P,阿賢,阿科,夏日浪漫,銘銘', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,11,
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    3,18,
+    'P,陳寧', 'P', 'P,N,阿賢,阿科', 'N', {
+      backup_vocal: 'Karena',
+      recite: 'N'
+    }
+  ], [
+    2,55,
+    '何山', 'P', '何山', 'P,N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,16,
+    'P', 'P', 'P,N,阿賢,阿科,陳銘澤 @ 在草地上', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    3,37,
+    'P', 'P', 'P,阿賢,阿科,夏日浪漫,Kit @ 22cats', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,11,
+    'P', 'P', 'P,阿賢,阿科', 'N', {
+      backup_vocal: 'Karena',
+    }
+  ], [
+    2,1,
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,23,
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,19,
+    "P", "P", "P", "N", {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,28,
+    'P', 'P', 'P', 'P,阿賢,Thomas,Sot Kanin', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,31,
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena',
+    }
+  ], [
+    3,7,
+    "LMF", "LMF", "P", "N", {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    3,20,
+    "P", "P", "P", "N", {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    3,15,
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,25,
+    '許日元,劉岳靈', '許日元,劉岳靈', '許日元,劉岳靈', 'N', {
+      backup_vocal: 'Karena',
+    }
+  ], [
+    2,20,
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena',
+    }
+  ], [
+    2,35,
+    'P', 'P', 'P,阿賢,阿科,銘銘', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,59,
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,58,
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    2,52,
+    'P', 'P', 'P', 'N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    4,3,
+    'P', 'P', 'P,N,阿賢,阿科', 'P,N', {
+      backup_vocal: 'Karena'
+    }
+  ], [
+    1,59,
+    "P", "P", null, "N", {
+      backup_vocal: 'Karena'
+    }
+  ]
+]
 
 const a12lyrics = [
   [
@@ -8089,6 +8298,52 @@ const colablyrics = [
 
 const singles = [
   [
+    "嘔吐",
+    "嘔吐",
+    2022,
+    [
+      3, 20,
+      "P", "P", "P,阿賢,阿科,夏日浪漫,eloobe", "N", null
+    ],
+    [
+      "你說最近看沙特的《嘔吐》",
+      "但那主旨卻掌握不到",
+      "「夜蒙住了燈光」「 撲克牌亂糟」",
+      "",
+      "我也看這書每當苦惱",
+      "我也不懂得它的全部",
+      "每次看卻會對他除帽",
+      "",
+      "這種感覺不去表達也好",
+      "想表達也找不到辭措",
+      "",
+      "每次派對我都會很早到",
+      "預備了時間給盪失路",
+      "遲到不應該感到自豪",
+      "",
+      "某次看到不好看的 show",
+      "想起那時光跟你虛度",
+      "聖誕睡著看的芭蕾舞",
+      "",
+      "彷彿新世紀正要來到",
+      "彷彿因此使你要嘔吐",
+      "",
+      "看見退休的歌手逛港島",
+      "他眷戀的風格已變味道",
+      "下午是漫無目的潛逃",
+      "",
+      "給我一個肉身可擁抱",
+      "給我一句詩走這段路",
+      "「醉鄉路穩宜頻到」",
+      "",
+      "這種感覺不去表達也好",
+      "想表達也找不到辭措",
+      "彷彿新世紀正要來到",
+      "彷彿因此使你要嘔吐"
+    ],
+    "published"
+  ],
+  [
     "LUNCH",
     "LUNCH",
     2022,
@@ -8570,101 +8825,117 @@ const featureAlbumList = [
   [
     "LMFXXYEARFEST",
     "LMFXXYEARFEST",
-    "Cactus Creation",
+    "Cactus Creation", "Cactus Creation",
     2019,
-    [7]
+    [7], null,
+    "hk"
   ], [
     "達明一代",
     "Tat Ming Pair Tribute Album",
-    "環球唱片",
+    "環球唱片", "Universal Music",
     2017,
-    [8], [1]
+    [8], [1],
+    "hk"
   ], [
     "everyone remembers the orange",
     "everyone remembers the orange",
-    "維港唱片",
+    "維港唱片", "Habour Records",
     2014,
-    [2, 7, 10, 14, 16, 19]
+    [2, 7, 10, 14, 16, 19], null,
+    "hk"
   ], [
     "Space Escapade (Aventura Espacial) Unit 1 - Destination: Pluto Sector 68",
     "Space Escapade (Aventura Espacial) Unit 1 - Destination: Pluto Sector 68",
-    "Elefant Records",
+    "Elefant Records", "Elefant Records",
     2010,
-    [2], [2]
+    [2], [2],
+    "international",
   ], [
     "Happy New Year 2008",
     "Happy New Year 2008",
-    "Elefant Records",
+    "Elefant Records", "Elefant Records",
     2008,
-    [4]
+    [4], null,
+    "international",
   ], [
     "Poptastic Conversation China - 奇妙對話中國",
     "Poptastic Conversation China",
-    "Fly Fast Records",
+    "Fly Fast Records", "Fly Fast Records", 
     2008,
-    [8], [1]
+    [8], [1],
+    "international",
   ], [
     "花吃了那女孩電影原聲帶",
     "Candy Rain OST",
-    "亞神音樂娛樂",
+    "亞神音樂娛樂", "Asia Muse Entertainment",
     2008,
-    [1, 8], [2, 2]
+    [1, 8], [2, 2],
+    "tw"
   ], [
     "Little Darla Has a Treat for You, Volume 25: Endless Summer 2007-08",
     "Little Darla Has a Treat for You, Volume 25: Endless Summer 2007-08",
-    "Darla Records",
+    "Darla Records", "Darla Records",
     2007,
-    [8], [1]
+    [8], [1],
+    "international",
   ], [
     "We Wish You An Indie X'mas",
     "We Wish You An Indie X'mas",
-    "維港唱片",
+    "維港唱片", "Habour Records",
     2007,
-    [6]
+    [6], null,
+    "hk",
   ], [
     "2007 小草地２年級同學會",
     "2007 Grassland Second Grade Reunion",
-    "默契音樂",
+    "默契音樂", "Silent Agreement",
     2007,
-    [5]
+    [5], null,
+    "tw",
   ], [
     "草地音樂合輯",
     "Grass Fest Music Compilation",
-    "默契音樂",
+    "默契音樂", "Silent Agreement",
     2005,
-    [2, 8]
+    [2, 8], null,
+    "tw",
   ], [
     // http://sandeechan.com/HomePage/music/is_Cht.php
     "IS #3",
     "IS #3",
-    "荒島網路科技",
+    "荒島網路科技", "Isle Networks",
     2005,
-    [4]
+    [4], null,
+    "tw",
   ], [
     "FC5-118 Hitoradio.com 開站紀念盤",
     "FC5-118 Hitoradio.com Launch Commemorative Disc",
-    "台北之音",
+    "台北之音", "Hitoradio",
     2005,
-    [4], [1]
+    [4], [1],
+    "tw",
   ], [
     // https://room40.bandcamp.com/album/add-to-friends
     "Add To Friends",
     "Add To Friends",
-    "Someone Good",
+    "Someone Good", "Someone Good",
     2006,
-    [17] 
+    [17], null,
+    "international",
   ], [
     "Come Out and Play", 
     "Come Out and Play",
-    "89628 / the PANIC",
+    "89628 / the PANIC", "89628 / the PANIC",
     2004,
-    [12], [2]
+    [12], [2],
+    "hk"
   ], [
     "In the Name of AMK",
     "In the Name of AMK",
-    "維港唱片",
+    "維港唱片", "Habour Records",
     2004,
-    [6]
+    [6], null,
+    "hk"
   ]
 ]
 
@@ -9115,7 +9386,9 @@ const albumSongs = [
   a7list, a7meta, a7lyrics,
   a8list, a8meta, a8lyrics,
   a9list, a9meta, a9lyrics,
-  a10list, a10meta, a10lyrics
+  a10list, a10meta, a10lyrics,
+  a11list, a11meta, a11lyrics,
+  a12list, a12meta, a12lyrics
 ].concat([
   lka1list, lka1meta, lka1lyrics,
   lka2list, lka2meta, lka2lyrics,
@@ -9183,7 +9456,7 @@ for (let i = 0; i < albumList.length; i++) {
   const trackNames  = albumSongs[3*i]
   const trackMetas  = albumSongs[3*i + 1]
   const trackLyrics = albumSongs[3*i + 2]
-  const [aName, aNameEN, aYear, aTrackNo, aType] = albumList[i]
+  const [aName, aNameEN, aYear, aTrackNo, aType, aLabel, aLabelEN] = albumList[i]
 
   let trackId = 0;
   let currAlbum = {
@@ -9193,10 +9466,12 @@ for (let i = 0; i < albumList.length; i++) {
     type: 'album',
     edition: aType,
     track_no: aTrackNo,
+    label: aLabel,
     tracks: [],
     translation: {
       en: {
-        name: aNameEN
+        name: aNameEN,
+        label: aLabelEN,
       }
     }
   }
@@ -9280,6 +9555,7 @@ singles.forEach((song, idx) => {
     type: 'single',
     edition,
     track_no: 1,
+    label: 'my little airport',
   }
 
   const trackInfo = {
@@ -9345,7 +9621,8 @@ singles.forEach((song, idx) => {
     }],
     translation: {
       en: {
-        name: aNameEN
+        name: aNameEN,
+        label: 'my little airport'
       }
     }
   })
@@ -9354,16 +9631,17 @@ singles.forEach((song, idx) => {
 let currTrack = 0;
 featureAlbumList.forEach((_album, idx) => {
 
-  const [aName, aNameEN, aPub, aYear, aTracks, aDisc] = _album
+  const [aName, aNameEN, aLabel, aLabelEN, aYear, aTracks, aDisc, aEdition] = _album
 
   const currAlbum = {
     name: aName,
     slug: slugify(aName),
     date: aYear,
     type: 'compilation',
-    edition: null,
+    edition: aEdition,
     track_no: aTracks.length, // TODO
     tracks: [],
+    label: aLabel
   }
 
   aTracks.forEach((_trackNo, tidx) => {
@@ -9429,7 +9707,8 @@ featureAlbumList.forEach((_album, idx) => {
     ...currAlbum,
     translation: {
       en: {
-        name: aNameEN
+        name: aNameEN,
+        label: aLabelEN
       }
     }
   })
