@@ -39,7 +39,7 @@ export const AlbumList = ({
 
   const handleSelect = 
     (cat: AlbumType, edition: AlbumEdition | null) => 
-    (e: MouseEvent<HTMLLIElement>) => {
+    (e: MouseEvent<HTMLButtonElement>) => {
       setOption({
         ...option,
         [cat]: edition
@@ -49,7 +49,7 @@ export const AlbumList = ({
   return (
     <div className={styles.root}>
       {CATEGORIES.map(({title, options}) => 
-      <>
+      <div className={styles.category}>
         <h1 className={styles.title}>
           {translation.title[title]}
         </h1>
@@ -57,17 +57,19 @@ export const AlbumList = ({
         {options 
           ? <ul className={styles.options}>
               {options.map(_edition =>
-                <li
-                  onClick={handleSelect(title, _edition)}
-                  className={clsx(styles.option, _edition === option[title] && styles.selected)}
-                >
-                  {_edition && translation.title[_edition]}
+                <li className={clsx({
+                  [styles.option]: true,
+                  [styles.selected]: _edition === option[title]
+                })}>
+                  <button onClick={handleSelect(title, _edition)}>
+                    {_edition && translation.title[_edition]}
+                  </button>
                 </li>
               )}
             </ul>
           : <div/>}
 
-        <div/>
+        {/* <div className={styles.gridSpacer}/> */}
 
         <div className={styles.list}>
           {options && options.map(_edition => 
@@ -90,12 +92,14 @@ export const AlbumList = ({
                   src={`/album_artwork/${album.slug}.jpg`}
                   className={styles.img}
                 />
-                <div className={styles.year}>
-                  {album.date}<br/>
-                </div>
-                <div className={styles.track}>
-                  <Icon icon="music_note" className={styles.song}/>
-                  {album.track_no}
+                <div className={styles.meta}>
+                  <div className={styles.year}>
+                    {album.date}
+                  </div>
+                  <div className={styles.track}>
+                    <Icon icon="music_note" className={styles.song}/>
+                    {album.track_no}
+                  </div>
                 </div>
               </a>
             )}
@@ -103,9 +107,7 @@ export const AlbumList = ({
           )}
         </div>
 
-        <div className={styles.spacer}/>
-
-      </>)}
+      </div>)}
     </div>
   )
 }

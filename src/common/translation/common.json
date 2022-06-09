@@ -1,0 +1,22 @@
+{
+  "zh": {
+    "navigation": {
+      "albums": "專輯",
+      "tracks": "歌曲",
+      "footer": {
+        "copywrite_head": "由",
+        "copywrite_tail": "設計及製作網頁。"
+      }
+    }
+  },
+  "en": {
+    "navigation": {
+      "albums": "albums",
+      "tracks": "tracks",
+      "footer": {
+        "copywrite_head": "Designed and produced by",
+        "copywrite_tail": "."
+      }
+    }
+  }
+}

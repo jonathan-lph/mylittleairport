@@ -6,6 +6,7 @@ import { ParsedUrlQuery } from 'querystring'
 import { AlbumInfo } from '@src/components/album/AlbumInfo'
 import translationJSON from '@common/translation/albums.json'
 import { AlbumList } from '@src/components/albums/Albums'
+import { locales } from '@src/common/definitions'
 
 const Albums: NextPage<AlbumsProps> = ({ albums, translation, locale, ...props }) => {
   return (<>
@@ -25,9 +26,9 @@ const Albums: NextPage<AlbumsProps> = ({ albums, translation, locale, ...props }
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: albums.map((album: Album) => ({ 
+    paths: locales.map(({locale}) => ({ 
       params: { 
-        locale: 'zh'
+        locale: locale
       }
     })),
     fallback: false

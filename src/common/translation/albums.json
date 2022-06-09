@@ -16,5 +16,23 @@
       "tw": "台灣",
       "international": "國際"
     }
+  },
+  "en": {
+    "page_title": "Albums",
+    "title": {
+      "album": "Album",
+      "single": "Single",
+      "compilation": "Compilation",
+      "online": "Online",
+      "retail": "Retail",
+      "limited": "Limited",
+      "collaboration": "Collab",
+      "published": "Published",
+      "public": "Public",
+      "unlisted": "Unlisted",
+      "hk": "Hong Kong",
+      "tw": "Taiwan",
+      "international": "Intl."
+    }
   }
 }
