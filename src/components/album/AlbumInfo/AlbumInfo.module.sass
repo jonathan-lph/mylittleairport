@@ -16,13 +16,13 @@
   padding: spacing(0, 8)
   height: max-content 
   position: sticky
-  top: 2rem
+  top: $navbar-height
 
   .title
     font-size: 3.5rem
     justify-self: flex-start
     position: sticky
-    top: 2rem
+    top: $navbar-height
 
   .year
     font-size: 1.5rem
@@ -30,8 +30,6 @@
 
 .img
   width: 100%
-
-
 
 .list
   display: grid
@@ -56,3 +54,26 @@
     
     .trackIdx
       text-align: right
+
+@include bp-down('sm')
+  .root
+    grid-template-columns: unset
+    margin-top: 0
+    row-gap: 0
+
+  .meta
+    position: static
+    margin-bottom: spacing(20)
+    padding: spacing(4)
+
+    .title
+      font-size: 3rem
+      position: static
+      margin: 0
+
+    .year
+      display: none
+
+  .list
+    padding: spacing(6, 4)
+    margin: 0

@@ -1,6 +1,6 @@
 import styles from './Navigation.module.sass'
 import translationJSON from '@common/translation/common.json'
-import { Icon } from '@common/components/Icon'
+import { Icon, Logo } from '@common/components/Icon'
 import { MouseEvent, useEffect, useState, useRef } from 'react'
 import clsx from 'clsx'
 import Link from 'next/link'
@@ -80,9 +80,7 @@ export const Navigation = ({
         <button className={styles.close} onClick={closeMenu}>
           <Icon icon="close"/>
         </button>
-        <header className={styles.title}>
-          my little airport
-        </header>
+        <Logo className={styles.logo}/>
         <ul className={styles.links}>
           {links.map(link => 
             <li>
@@ -99,11 +97,8 @@ export const Navigation = ({
       </nav>
     </div>
     <div className={styles.mobileBar}>
-      <div className={styles.title}>
-        my little airport
-      </div>
+      <Logo className={styles.logo}/>
       <Icon icon="menu" onClick={openMenu}/>
-      {/* <Icon icon="empty"/> */}
     </div>
   </>)
 }
