@@ -7,8 +7,8 @@ $default-fonts: (-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Robot
 
 $typography: (
   fontSize: 16px,
-  titleFont: 'Noto Serif SC',
-  contentFont: 'Noto Serif SC',
+  titleFont: ('Lora', 'Noto Serif SC'),
+  contentFont: ('Lora', 'Noto Serif SC'),
   fontWeight: (
     light:   300,
     regular: 400,
@@ -79,7 +79,7 @@ $light-colors: (
 
 $breakpoints: (
   xs: 0px,
-  sm: 600px,
+  sm: 500px,
   md: 900px,
   lg: 1200px,
   xl: 1536px
