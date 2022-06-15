@@ -2,12 +2,14 @@
   
 .root 
   margin: 0 auto
-  margin-top: 12rem
-  padding: spacing(12, 0)
+  padding: spacing(28, 4)
   display: grid
   grid-template-columns: 4fr max-content 6fr
   gap: spacing(12)
   max-width: map-get($breakpoints, 'md')
+
+  @include bp-down('md')
+    // margin-top: 0rem
 
   .title
     text-align: right
@@ -53,3 +55,31 @@
     
     dl
       justify-self: flex-end
+
+@include bp-down('sm')
+  .root
+    display: grid
+    padding: spacing(4)
+    margin: 0
+    grid-template-columns: max-content 1fr
+    gap: spacing(25) spacing(2)
+
+    .info
+      grid-column: span 2
+      justify-self: stretch
+      display: flex
+
+      .title
+        text-align: left
+        flex: 1 0 0
+
+      .infosheet
+        justify-content: flex-start
+        padding: spacing(2, 2)
+        align-self: flex-start
+
+    .vr
+      margin: spacing(0, 2, 0, 0)
+
+
+    
