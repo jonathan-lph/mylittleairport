@@ -28,7 +28,7 @@ export type Track = {
   album: Array<TrackAlbumRef>,
   duration: number,
   credits: TrackCredits,
-  lyrics: Array<string> | null,
+  lyrics?: Array<string> | null,
   translation: any
 }
 
