@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <table>
-        {tracks.map((track: Track, idx: number) => {
+        {tracks.map((track: Track) => {
           const {name, slug, album, duration} = track
           return (
             <tr>
@@ -23,10 +23,11 @@ const Home: NextPage = () => {
               </td>
               <td style={{whiteSpace: 'pre-wrap'}}>
                 {album.map((aList: TrackAlbumRef, _i: number) => 
-                  `${aList.album} - ${aList.track}\n`
+                  `${aList.name} - ${aList.track}\n`
                 )}
               </td>
               <td>{duration}</td>
+              <td>{track.lyrics === undefined ? 'TTTTTTTT' : ''}</td>
             </tr>
           )
         })}
