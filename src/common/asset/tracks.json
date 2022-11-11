@@ -1047,10 +1047,10 @@
       "Y-a-t-il trop d'amour?",
       "Tu ne sais plus",
       "Tu ne sais rien",
-      "Jusqu'à quelqu'un t'a dit:",
+      "Jusqu'à quelqu'un t'a dit",
       "« Il y a toujours le premier fois. »",
       "« Ne triste pas »",
-      "(Jusqu'à quelqu'un t'a dit:)",
+      "(Jusqu'à quelqu'un t'a dit)",
       "(« Il y a toujours le premier fois. »)",
       "(« Ne triste pas. »)"
     ],
@@ -6171,7 +6171,7 @@
       "我有一隻公仔",
       "兩年嚟朝夕相對",
       "我有段日子唔想出街",
-      "主要都因為佢",
+      "主要都係因為佢",
       "",
       "但我最近發現",
       "佢唔再講嘢食嘢同飲水",
@@ -11840,6 +11840,72 @@
       ]
     },
     "lyrics": [
+      "有人話世間所有感情最終都會走向末路",
+      "最好可以死喺三十七歲之前或者更早",
+      "有理想嘅文青到某個階段開始變得深奧",
+      "簡單嘅字句要有學術字眼先表達到",
+      "每個作家都覺得自己嘅作品最純粹最樸素",
+      "市面賣得好嘅一般都有危害社會嘅元素",
+      "無人會諗自己嘅才能係咪需要進步",
+      "但總會覺得自己嘅地位有待提高",
+      "",
+      "尤其是你為什麼可以這樣做",
+      "你都知道我曾對你很好",
+      "但我從不會表現憤怒",
+      "某天先知道碰到你眼也不想一掃",
+      "",
+      "我想生活喺一千年前嗰陣時未有電腦",
+      "唯一唔捨得嘅係冬天嘅時候無熱水爐",
+      "近年我嘅生活開始無咁刺激無咁虛無",
+      "以前深夜我會打俾人講我殺咗人一時糊塗",
+      "但第日完全唔記得做乜我會咁做",
+      "我懷念嗰陣時每日每夜都好 emo",
+      "你係我嘅青春期永遠唔會再接觸到",
+      "兩個人就咁永遠疏離都無話好定唔好",
+      "",
+      "尤其是你為什麼可以這樣做",
+      "你都知道我曾對你很好",
+      "但我從不會表現憤怒",
+      "某天先知道碰到你眼也不想一掃"
+    ],
+    "translation": {
+      "en": {
+        "name": "Killed Off One More - Live"
+      }
+    }
+  },
+  {
+    "name": "今天沒大麻在身 - Live",
+    "slug": "今天沒大麻在身-live",
+    "album": [
+      {
+        "slug": "我都唔知道-live",
+        "name": "我都唔知道 (Live)",
+        "disc": 1,
+        "track": 7
+      }
+    ],
+    "duration": 131,
+    "credits": {
+      "composer": [
+        "林阿Ｐ"
+      ],
+      "lyricist": [
+        "林阿Ｐ"
+      ],
+      "arranger": [
+        "林阿Ｐ",
+        "阿賢",
+        "阿科"
+      ],
+      "lead_vocal": [
+        "Nicole"
+      ],
+      "backup_vocal": [
+        "Karena"
+      ]
+    },
+    "lyrics": [
       "我的煩惱不是愛人對我不夠真",
       "亦不是她對我流露蔑視的眼神",
       "No, non, いいえ",
@@ -11875,22 +11941,22 @@
     ],
     "translation": {
       "en": {
-        "name": "Killed Off One More - Live"
+        "name": "No Weed on Me Today - Live"
       }
     }
   },
   {
-    "name": "今天沒大麻在身 - Live",
-    "slug": "今天沒大麻在身-live",
+    "name": "西西弗斯之歌 - Live",
+    "slug": "西西弗斯之歌-live",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 7
+        "track": 8
       }
     ],
-    "duration": 131,
+    "duration": 121,
     "credits": {
       "composer": [
         "林阿Ｐ"
@@ -11899,9 +11965,7 @@
         "林阿Ｐ"
       ],
       "arranger": [
-        "林阿Ｐ",
-        "阿賢",
-        "阿科"
+        "林阿Ｐ"
       ],
       "lead_vocal": [
         "Nicole"
@@ -11949,22 +12013,22 @@
     ],
     "translation": {
       "en": {
-        "name": "No Weed on Me Today - Live"
+        "name": "The Hymn of Sisyphus - Live"
       }
     }
   },
   {
-    "name": "西西弗斯之歌 - Live",
-    "slug": "西西弗斯之歌-live",
+    "name": "今夜雪糕 - Live",
+    "slug": "今夜雪糕-live",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 8
+        "track": 9
       }
     ],
-    "duration": 121,
+    "duration": 143,
     "credits": {
       "composer": [
         "林阿Ｐ"
@@ -12012,22 +12076,22 @@
     ],
     "translation": {
       "en": {
-        "name": "The Hymn of Sisyphus - Live"
+        "name": "Ice Cream Tonight - Live"
       }
     }
   },
   {
-    "name": "今夜雪糕 - Live",
-    "slug": "今夜雪糕-live",
+    "name": "宅女，上街吧 - Live",
+    "slug": "宅女-上街吧-live",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 9
+        "track": 10
       }
     ],
-    "duration": 143,
+    "duration": 139,
     "credits": {
       "composer": [
         "林阿Ｐ"
@@ -12084,57 +12148,6 @@
     ],
     "translation": {
       "en": {
-        "name": "Ice Cream Tonight - Live"
-      }
-    }
-  },
-  {
-    "name": "宅女，上街吧 - Live",
-    "slug": "宅女-上街吧-live",
-    "album": [
-      {
-        "slug": "我都唔知道-live",
-        "name": "我都唔知道 (Live)",
-        "disc": 1,
-        "track": 10
-      }
-    ],
-    "duration": 139,
-    "credits": {
-      "composer": [
-        "林阿Ｐ"
-      ],
-      "lyricist": [
-        "林阿Ｐ"
-      ],
-      "arranger": [
-        "林阿Ｐ"
-      ],
-      "lead_vocal": [
-        "Nicole"
-      ],
-      "backup_vocal": [
-        "Karena"
-      ]
-    },
-    "lyrics": [
-      "來到世上的意義是為了抗衡",
-      "為了正義必要時犯法抗爭",
-      "這是場戰爭但勝利是不可能",
-      "犯法為彰顯法制不公允",
-      "",
-      "全世界也在欺壓著社會低下層",
-      "年過五十低技能無法翻身",
-      "大財團最終亦會炒哂你啲人",
-      "小政府唔會理你幾窮困",
-      "",
-      "來到最後只有最後的搖滾精神",
-      "我們有四五六七八九十個人",
-      "這是場戰爭但勝利是不可能",
-      "犯法為彰顯法制不公允"
-    ],
-    "translation": {
-      "en": {
         "name": "Geeky Girls, Hit the Streets - Live"
       }
     }
@@ -12172,6 +12185,57 @@
       ]
     },
     "lyrics": [
+      "來到世上的意義是為了抗衡",
+      "為了正義必要時犯法抗爭",
+      "這是場戰爭但勝利是不可能",
+      "犯法為彰顯法制不公允",
+      "",
+      "全世界也在欺壓著社會低下層",
+      "年過五十低技能無法翻身",
+      "大財團最終亦會炒哂你啲人",
+      "小政府唔會理你幾窮困",
+      "",
+      "來到最後只有最後的搖滾精神",
+      "我們有四五六七八九十個人",
+      "這是場戰爭但勝利是不可能",
+      "犯法為彰顯法制不公允"
+    ],
+    "translation": {
+      "en": {
+        "name": "Anthem of the Unemployment Resistance - Live"
+      }
+    }
+  },
+  {
+    "name": "牛頭角青年 - Live",
+    "slug": "牛頭角青年-live",
+    "album": [
+      {
+        "slug": "我都唔知道-live",
+        "name": "我都唔知道 (Live)",
+        "disc": 1,
+        "track": 12
+      }
+    ],
+    "duration": 151,
+    "credits": {
+      "composer": [
+        "林阿Ｐ"
+      ],
+      "lyricist": [
+        "林阿Ｐ"
+      ],
+      "arranger": [
+        "林阿Ｐ"
+      ],
+      "lead_vocal": [
+        "Nicole"
+      ],
+      "backup_vocal": [
+        "Karena"
+      ]
+    },
+    "lyrics": [
       "牛頭角都玩厭了",
       "我們還可以去邊？",
       "全世界都有暴動的青年",
@@ -12203,28 +12267,28 @@
     ],
     "translation": {
       "en": {
-        "name": "Anthem of the Unemployment Resistance - Live"
+        "name": "Youths of Ngau Tau Kok - Live"
       }
     }
   },
   {
-    "name": "牛頭角青年 - Live",
-    "slug": "牛頭角青年-live",
+    "name": "今宵多珍重 - Live",
+    "slug": "今宵多珍重-live-2022",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 12
+        "track": 13
       }
     ],
-    "duration": 151,
+    "duration": 187,
     "credits": {
       "composer": [
-        "林阿Ｐ"
+        "LMF"
       ],
       "lyricist": [
-        "林阿Ｐ"
+        "LMF"
       ],
       "arranger": [
         "林阿Ｐ"
@@ -12288,28 +12352,28 @@
     ],
     "translation": {
       "en": {
-        "name": "Youths of Ngau Tau Kok - Live"
+        "name": "Farewell - Live"
       }
     }
   },
   {
-    "name": "今宵多珍重 - Live",
-    "slug": "今宵多珍重-live-2022",
+    "name": "吳小姐 - Live",
+    "slug": "吳小姐-live",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 13
+        "track": 14
       }
     ],
-    "duration": 187,
+    "duration": 200,
     "credits": {
       "composer": [
-        "LMF"
+        "林阿Ｐ"
       ],
       "lyricist": [
-        "LMF"
+        "林阿Ｐ"
       ],
       "arranger": [
         "林阿Ｐ"
@@ -12384,22 +12448,22 @@
     ],
     "translation": {
       "en": {
-        "name": "Farewell - Live"
+        "name": "Miss Ng - Live"
       }
     }
   },
   {
-    "name": "吳小姐 - Live",
-    "slug": "吳小姐-live",
+    "name": "Ｋ同學 - Live",
+    "slug": "k同學-live-2022",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 14
+        "track": 15
       }
     ],
-    "duration": 200,
+    "duration": 195,
     "credits": {
       "composer": [
         "林阿Ｐ"
@@ -12448,31 +12512,34 @@
     ],
     "translation": {
       "en": {
-        "name": "Miss Ng - Live"
+        "name": "Classmate K - Live"
       }
     }
   },
   {
-    "name": "Ｋ同學 - Live",
-    "slug": "k同學-live-2022",
+    "name": "香港香港 - Live",
+    "slug": "香港香港-live",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 15
+        "track": 16
       }
     ],
-    "duration": 195,
+    "duration": 145,
     "credits": {
       "composer": [
-        "林阿Ｐ"
+        "許日元",
+        "劉岳靈"
       ],
       "lyricist": [
-        "林阿Ｐ"
+        "許日元",
+        "劉岳靈"
       ],
       "arranger": [
-        "林阿Ｐ"
+        "許日元",
+        "劉岳靈"
       ],
       "lead_vocal": [
         "Nicole"
@@ -12520,34 +12587,31 @@
     ],
     "translation": {
       "en": {
-        "name": "Classmate K - Live"
+        "name": "Hong Kong Hong Kong - Live"
       }
     }
   },
   {
-    "name": "香港香港 - Live",
-    "slug": "香港香港-live",
+    "name": "廣州足浴一夜 - Live",
+    "slug": "廣州足浴一夜-live",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 16
+        "track": 17
       }
     ],
-    "duration": 145,
+    "duration": 140,
     "credits": {
       "composer": [
-        "許日元",
-        "劉岳靈"
+        "林阿Ｐ"
       ],
       "lyricist": [
-        "許日元",
-        "劉岳靈"
+        "林阿Ｐ"
       ],
       "arranger": [
-        "許日元",
-        "劉岳靈"
+        "林阿Ｐ"
       ],
       "lead_vocal": [
         "Nicole"
@@ -12589,62 +12653,6 @@
     ],
     "translation": {
       "en": {
-        "name": "Hong Kong Hong Kong - Live"
-      }
-    }
-  },
-  {
-    "name": "廣州足浴一夜 - Live",
-    "slug": "廣州足浴一夜-live",
-    "album": [
-      {
-        "slug": "我都唔知道-live",
-        "name": "我都唔知道 (Live)",
-        "disc": 1,
-        "track": 17
-      }
-    ],
-    "duration": 140,
-    "credits": {
-      "composer": [
-        "林阿Ｐ"
-      ],
-      "lyricist": [
-        "林阿Ｐ"
-      ],
-      "arranger": [
-        "林阿Ｐ"
-      ],
-      "lead_vocal": [
-        "Nicole"
-      ],
-      "backup_vocal": [
-        "Karena"
-      ]
-    },
-    "lyrics": [
-      "當我知這一次或會改變我前程",
-      "應要繼續我路拒絕命運的邀請",
-      "或已到某個階段應該順應天命",
-      "為你的到來而高興",
-      "",
-      "想你應將得到眾多姨姨的垂青",
-      "想你會使我努力　為這關係打拼",
-      "縱是我未認清你母親的個性",
-      "但婚姻無關愛情反正",
-      "",
-      "不會責備你若你什麼都跟我傾",
-      "包括青春期會遇到的各種類型",
-      "世界要你努力去考取功名",
-      "但是真誠才是最大本領",
-      "",
-      "總會有很多事令你失去熱情",
-      "總在青春過後留不住舊髮型",
-      "只願驗孕結果能在此刻呈陰性",
-      "不負如來不負卿"
-    ],
-    "translation": {
-      "en": {
         "name": "A Night of GuangZhou Foot Massage - Live"
       }
     }
@@ -12682,6 +12690,62 @@
       ]
     },
     "lyrics": [
+      "當我知這一次或會改變我前程",
+      "應要繼續我路拒絕命運的邀請",
+      "或已到某個階段應該順應天命",
+      "為你的到來而高興",
+      "",
+      "想你應將得到眾多姨姨的垂青",
+      "想你會使我努力　為這關係打拼",
+      "縱是我未認清你母親的個性",
+      "但婚姻無關愛情反正",
+      "",
+      "不會責備你若你什麼都跟我傾",
+      "包括青春期會遇到的各種類型",
+      "世界要你努力去考取功名",
+      "但是真誠才是最大本領",
+      "",
+      "總會有很多事令你失去熱情",
+      "總在青春過後留不住舊髮型",
+      "只願驗孕結果能在此刻呈陰性",
+      "不負如來不負卿"
+    ],
+    "translation": {
+      "en": {
+        "name": "Afternoon of Pregnancy Testing - Live"
+      }
+    }
+  },
+  {
+    "name": "九龍公園游泳池 - Live",
+    "slug": "九龍公園游泳池-live",
+    "album": [
+      {
+        "slug": "我都唔知道-live",
+        "name": "我都唔知道 (Live)",
+        "disc": 1,
+        "track": 19
+      }
+    ],
+    "duration": 179,
+    "credits": {
+      "composer": [
+        "林阿Ｐ"
+      ],
+      "lyricist": [
+        "林阿Ｐ"
+      ],
+      "arranger": [
+        "林阿Ｐ"
+      ],
+      "lead_vocal": [
+        "Nicole"
+      ],
+      "backup_vocal": [
+        "Karena"
+      ]
+    },
+    "lyrics": [
       "我喜歡九龍公園游泳池",
       "那個戲水池有個瀑布位置",
       "瀑布下站著能忘記煩惱事",
@@ -12704,22 +12768,22 @@
     ],
     "translation": {
       "en": {
-        "name": "Afternoon of Pregnancy Testing - Live"
+        "name": "Kowloon Park Swimming Pool - Live"
       }
     }
   },
   {
-    "name": "九龍公園游泳池 - Live",
-    "slug": "九龍公園游泳池-live",
+    "name": "詩歌舞街 - Live",
+    "slug": "詩歌舞街-live-2022",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 19
+        "track": 20
       }
     ],
-    "duration": 179,
+    "duration": 178,
     "credits": {
       "composer": [
         "林阿Ｐ"
@@ -12768,22 +12832,22 @@
     ],
     "translation": {
       "en": {
-        "name": "Kowloon Park Swimming Pool - Live"
+        "name": "Sycamore Street - Live"
       }
     }
   },
   {
-    "name": "詩歌舞街 - Live",
-    "slug": "詩歌舞街-live-2022",
+    "name": "下了兩天雨 - Live",
+    "slug": "下了兩天雨-live",
     "album": [
       {
         "slug": "我都唔知道-live",
         "name": "我都唔知道 (Live)",
         "disc": 1,
-        "track": 20
+        "track": 21
       }
     ],
-    "duration": 178,
+    "duration": 172,
     "credits": {
       "composer": [
         "林阿Ｐ"
@@ -12833,41 +12897,6 @@
     ],
     "translation": {
       "en": {
-        "name": "Sycamore Street - Live"
-      }
-    }
-  },
-  {
-    "name": "下了兩天雨 - Live",
-    "slug": "下了兩天雨-live",
-    "album": [
-      {
-        "slug": "我都唔知道-live",
-        "name": "我都唔知道 (Live)",
-        "disc": 1,
-        "track": 21
-      }
-    ],
-    "duration": 172,
-    "credits": {
-      "composer": [
-        "林阿Ｐ"
-      ],
-      "lyricist": [
-        "林阿Ｐ"
-      ],
-      "arranger": [
-        "林阿Ｐ"
-      ],
-      "lead_vocal": [
-        "Nicole"
-      ],
-      "backup_vocal": [
-        "Karena"
-      ]
-    },
-    "translation": {
-      "en": {
         "name": "Rained for Two Days - Live"
       }
     }
@@ -12905,6 +12934,60 @@
         "Karena"
       ]
     },
+    "lyrics": [
+      "do do do...",
+      "",
+      "我最近有一個夢想",
+      "係同朋友五點鐘去天光墟",
+      "我經已好耐無同朋友出去",
+      "而且去一個未去過嘅地區",
+      "",
+      "但我點可能五點鐘就起身出去？",
+      "除非我十點鐘開始入睡",
+      "但香港有無人可以十點鐘入睡？",
+      "除非喺屋企無端端飲醉",
+      "",
+      "Terence、阿雪、Peter 同阿 Cza",
+      "你哋會陪我去嗎？",
+      "之後我哋再去飲早茶",
+      "你哋都應該會陪我啩",
+      "",
+      "do do do...",
+      "",
+      "但我最大嘅一個夢想",
+      "其實已一早失去",
+      "香港都正在死去",
+      "我都經已不再唏噓",
+      "",
+      "世界叫人類堅持落去",
+      "世界叫窮人奮鬥落去",
+      "但我淨係可以繼續喺度",
+      "無聊落去",
+      "",
+      "我有一隻公仔",
+      "兩年嚟同我朝夕相對",
+      "我有段日子唔想出街",
+      "主要都係因為佢",
+      "",
+      "但我最近發現",
+      "佢唔再講嘢食嘢同埋飲水",
+      "而我亦都開始瞓唔著",
+      "就算飲到好醉",
+      "",
+      "do do do...",
+      "",
+      "我諗緊好唔好等到五點鐘",
+      "然後就去天光墟",
+      "我諗緊瞓唔著係咪因為",
+      "以前做過一啲事太衰",
+      "",
+      "我起返身聽鄧麗君",
+      "聽佢唱到呢幾句：",
+      "「不知天上宮闕 今夕是何年",
+      "我欲乘風歸去……」",
+      "",
+      "do do do..."
+    ],
     "translation": {
       "en": {
         "name": "To Dawn Market at 5AM - Live"
@@ -12938,6 +13021,37 @@
         "Karena"
       ]
     },
+    "lyrics": [
+      "(I love you too)",
+      "",
+      "我又有心事",
+      "自從看了太宰治",
+      "我問誰",
+      "誰都不會在意死亡的意義",
+      "",
+      "世界像似崩裂",
+      "我倆都無可救治",
+      "我但求",
+      "乘風飛到別處再重新開始",
+      "",
+      "願你可以給我寫首詩",
+      "紀念我們約會過六次",
+      "",
+      "我沒法想像",
+      "看過的童話故事",
+      "有陣時",
+      "成長不過是個悲劇的開始",
+      "",
+      "我做過的事",
+      "沒太多是有意義",
+      "接近誰",
+      "誰都不會快樂這些我都知",
+      "",
+      "願我可變歡笑的天使",
+      "這樣你便願看數十次",
+      "",
+      "(I love you, take care)"
+    ],
     "translation": {
       "en": {
         "name": "The Lost and Frustration Song - Live"
@@ -14002,6 +14116,61 @@
     }
   },
   {
+    "name": "你把我的",
+    "slug": "你把我的",
+    "album": [
+      {
+        "slug": "你把我的",
+        "name": "你把我的",
+        "disc": 1,
+        "track": 1
+      }
+    ],
+    "duration": 145,
+    "credits": {
+      "composer": [
+        "林阿Ｐ"
+      ],
+      "lyricist": [
+        "林阿Ｐ"
+      ],
+      "arranger": [
+        "林阿Ｐ",
+        "阿賢",
+        "阿科"
+      ],
+      "lead_vocal": [
+        "Nicole"
+      ]
+    },
+    "lyrics": [
+      "你把　我的　各種　訊息",
+      "都也　給予　別個　看的",
+      "覺得　你跟　各位　更親",
+      "跟我　一向　不算　很近",
+      "",
+      "我也只想回到我的山洞裡",
+      "再也不想隨便相信人類",
+      "我也只好放你進思念收集區",
+      "這樣不會傷害誰",
+      "",
+      "最初　沒想　什麼　目的",
+      "結果　也都　逐步　沉溺",
+      "若果　我不　就此　絕跡",
+      "最終　淪為　更糟　角色",
+      "",
+      "我也只想回到我的山洞裡",
+      "再也不想隨便相信人類",
+      "我也只好放你進思念收集區",
+      "這樣不會傷害誰"
+    ],
+    "translation": {
+      "en": {
+        "name": "You take my"
+      }
+    }
+  },
+  {
     "name": "嘔吐",
     "slug": "嘔吐",
     "album": [
@@ -14069,7 +14238,7 @@
     ],
     "translation": {
       "en": {
-        "name": "嘔吐"
+        "name": "Nausea"
       }
     }
   },

@@ -1830,6 +1830,29 @@
     }
   },
   {
+    "name": "你把我的",
+    "slug": "你把我的",
+    "date": 2022,
+    "type": "single",
+    "edition": "published",
+    "track_no": 1,
+    "label": "my little airport",
+    "tracks": [
+      {
+        "name": "你把我的",
+        "slug": "你把我的",
+        "disc": 1,
+        "track": 1
+      }
+    ],
+    "translation": {
+      "en": {
+        "name": "You take my",
+        "label": "my little airport"
+      }
+    }
+  },
+  {
     "name": "嘔吐",
     "slug": "嘔吐",
     "date": 2022,
@@ -1847,7 +1870,7 @@
     ],
     "translation": {
       "en": {
-        "name": "嘔吐",
+        "name": "Nausea",
         "label": "my little airport"
       }
     }
