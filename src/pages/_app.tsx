@@ -3,6 +3,7 @@ import '@styles/globals.sass'
 import styles from '@styles/layout.module.sass'
 import type { AppProps } from 'next/app'
 import { useEffect } from 'react'
+import firebaseApp from '@firebaseApp'
 
 function MyApp({ Component, pageProps }: AppProps) {
 
