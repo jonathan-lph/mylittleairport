@@ -1,0 +1,61 @@
+@import 'src/common/styles/theme'
+
+.root
+  position: absolute
+  top: calc(100% + spacing(6))
+  right: 0
+  width: 400px
+  max-height: 60vh
+  z-index: 50
+  overflow-x: auto
+  list-style-type: none
+  background: palette(misc, background)
+  border: 1px solid palette(misc, divider)
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px
+  padding: spacing(2, 0)
+
+.entry
+  display: grid
+  grid-template-columns: spacing(16) 1fr
+  gap: spacing(1) spacing(4)
+  padding: spacing(2, 4)
+  cursor: pointer
+  transition: background .2s ease-in-out
+
+  &:hover
+    background: palette(misc, background-dark)
+
+.lyrics
+  color: palette(text, secondary)
+  font-size: .9em
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  -webkit-line-clamp: 2
+  overflow: hidden
+
+.highlight
+  color: palette(text, primary)
+  @include bold
+
+.img
+  width: 100%
+  grid-row: 2 span
+  align-self: center
+
+.noResult
+  padding: spacing(2, 4)
+  text-align: center
+  color: palette(text, secondary)
+
+
+@include bp-down('sm')
+    
+  .root
+    top: calc(100% + spacing(4))
+    left: 50%
+    transform: translateX(-50%)
+    width: calc(100vw - 2 * spacing($header-lr-padding-sm))
+    font-size: .8rem
+
+  .entry
+    grid-template-columns: spacing(12) 1fr

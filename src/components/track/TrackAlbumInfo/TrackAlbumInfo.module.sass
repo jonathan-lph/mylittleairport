@@ -1,91 +1,121 @@
 @import 'src/common/styles/theme'
 
+$tile-width: 200px
+$tile-sm-width: 150px
+
 .root
   display: grid
-  grid-template-columns: 60% 40%
-  max-width: map-get($breakpoints, 'md')
-  margin: 0 auto
-  padding: spacing(12, 4)
-
-.title
-  margin-bottom: spacing(4)
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+  max-width: map-get($breakpoints, 'xl')
+  margin: spacing(12) auto
+  padding: spacing(0, 14)
+  gap: spacing(20)
 
 .album
-  padding-right: spacing(4)
+
+  .title
+    @include bold
+    font-size: 1.5rem
+    margin-bottom: spacing(8)
+
+  .img
+    width: 20%
 
   .tracklist
-    counter-reset: tracks
+    font-size: 1.5rem
+
+    .track, .divider
+      display: inline
+      color: palette(text, secondary)
 
     .track
-      display: flex
-      padding: spacing(.5, 0)
-      color: palette(text, secondary)
       transition: color 0.2s ease-in-out
-
-      .trackIdx
-        width: 3rem
-        flex: 0 0 auto
-
-      &.selected
-        font-weight: 700
-        color: palette(text, primary)
 
       &:hover
         color: palette(text, primary)
 
-.artworks
-  width: 100%
-  margin-top: spacing
+      &.selected
+        @include bold
+        font-weight: 700
+        color: palette(text, primary)
 
-  .img
-    width: 100%
+.artworks
+
+  .title
+    @include bold
+    margin-bottom: spacing(8)
+    font-size: 1.5rem
     
   .otherAlbums
     margin-top: spacing(4)
-
-  .otherAlbum
     display: flex
-    cursor: pointer
+    flex-wrap: no-wrap
+    gap: spacing(4)
+    overflow: auto
 
-    & + .otherAlbum
-      margin-top: spacing(2)
-
-    img
-      width: 60px
-      height: 60px
-
-    .albumTrack
-      color: palette(text, secondary)
+    .otherAlbum
       display: flex
-      align-items: center
+      flex-direction: column
       gap: spacing(1)
+      cursor: pointer
 
-    .albumInfo
+    .imgBorder
+      width: $tile-width
+      aspect-ratio: 1
+      background: palette(misc, background-dark)
       display: flex
       justify-content: center
-      flex-direction: column
-      flex: 1
-      padding: spacing(0, 4)
+      align-items: center
+
+      .img
+        width: 70%
+
+    .albumName
+      max-width: $tile-width
+      display: -webkit-box
+      -webkit-box-orient: vertical
+      -webkit-line-clamp: 2
+      overflow: hidden
+
+      &.current
+        @include bold
+
+@include bp-down('md')
+  .root
+    display: block
+
+    .album
+      margin: spacing(12 ,0)
+    
+      .tracklist
+        font-size: 1.25rem
+
+    .artworks
+      margin: spacing(12, 0)
+
+
 
 @include bp-down('sm')
   .root
-    row-gap: spacing(8)
+    display: block
+    margin: spacing(12, 4)
+    padding: 0
 
   .album
-    display: contents
+    margin: spacing(12, 0)
 
+    .title
+      margin-bottom: spacing(4)
+      
     .tracklist
-      grid-column: span 2
+      font-size: 1.25rem
 
   .artworks
-    display: contents
 
-    .img
-      grid-row: 1
-      grid-column: 2
+    .title
+      margin-bottom: spacing(4)
 
-    .otherAlbums
-      margin: 0
-      grid-column: span 2
+    .albumName
+      font-size: 0.8rem
       
     

@@ -1,0 +1,70 @@
+@import 'src/common/styles/theme'
+
+.root
+  padding: spacing(0, $header-lr-padding)
+  background: palette(misc, background)
+  z-index: 100
+  position: sticky
+  top: 0
+  
+  &.searchMode
+    display: grid
+    align-items: center
+    grid-template-columns: 1fr max-content
+    column-gap: spacing(4)
+    justify-content: stretch
+
+.nav
+  display: flex
+  justify-content: space-between
+  gap: spacing(1)
+  align-items: center
+  width: 100%
+  min-height: $header-height
+
+  // background: linear-gradient(180deg, palette(misc, background-dark) 0%, palette(misc, background-dark) 70%, rgba(palette(misc, background-dark, true), 0) 100%)
+
+.logo
+  font-size: 2.5rem
+
+.actionButtons
+  display: flex
+  gap: spacing(4)
+  width: max-content
+
+  .actionButton
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: spacing(1)
+
+  .icon
+    font-size: 1.75rem
+
+@include bp-down('sm')
+  .root
+    padding: spacing(0, $header-lr-padding-sm)
+
+    &.searchMode
+      grid-template-columns: unset
+
+  .nav
+    min-height: $header-height-sm
+    grid-template-columns: 1fr max-content
+
+  .logo
+    font-size: 2rem
+
+  .actionButtons
+    display: grid
+    grid-auto-flow: column
+    grid-auto-columns: 1fr
+    
+    .actionButton
+      flex-direction: column
+      font-size: 0.6rem
+
+    .icon
+      font-size: 1.5rem
+
+

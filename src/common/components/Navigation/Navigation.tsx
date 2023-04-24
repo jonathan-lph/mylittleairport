@@ -15,8 +15,9 @@ interface NavigationProps {
 const links = ['albums', 'tracks']
 
 const NavigationFooter = ({
-  locale,
   translation
+} : {
+  translation: any
 }) : JSX.Element => {
 
   const router = useRouter()
@@ -28,7 +29,10 @@ const NavigationFooter = ({
         {locales.map(({locale, label}, idx) => <>
           <Link href={{
             pathname: router.pathname,
-            query: { locale: locale }
+            query: { 
+              ...router.query,
+              locale: locale 
+            }
           }}>
             {label}
           </Link>
@@ -55,19 +59,20 @@ export const Navigation = ({
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLElement | null>(null)
   
+  // @ts-ignore
   const translation = translationJSON[locale ?? 'zh']?.navigation
   
-  const openMenu  = (e: MouseEvent) => setOpen(true)
-  const closeMenu = (e: MouseEvent) => setOpen(false)
+  // const openMenu  = (e: MouseEvent) => setOpen(true)
+  // const closeMenu = (e: MouseEvent) => setOpen(false)
 
-  useEffect(() => {
-    const check = (e: MouseEvent<HTMLElement>) => {
-      if (open && ref.current && !ref.current.contains(e.target))
-        setOpen(false)
-    }
-    document.addEventListener('mousedown', check)
-    return () => document.removeEventListener('mousedown', check)
-  }, [open])
+  // useEffect(() => {
+  //   const check = (e: MouseEvent<HTMLDivElement>) => {
+  //     if (open && ref.current && !ref.current.contains(e.target))
+  //       setOpen(false)
+  //   }
+  //   document.addEventListener('mousedown', check)
+  //   return () => document.removeEventListener('mousedown', check)
+  // }, [open])
 
   return (<>
     <div 
@@ -77,7 +82,7 @@ export const Navigation = ({
       })} 
     >
       <nav className={styles.nav} ref={ref}>
-        <button className={styles.close} onClick={closeMenu}>
+        <button className={styles.close}>
           <Icon icon="close"/>
         </button>
         <Logo className={styles.logo}/>
@@ -91,14 +96,13 @@ export const Navigation = ({
           )}
         </ul>
         <NavigationFooter
-          locale={locale}
           translation={translation.footer}
         />
       </nav>
     </div>
     <div className={styles.mobileBar}>
       <Logo className={styles.logo}/>
-      <Icon icon="menu" onClick={openMenu}/>
+      <Icon icon="menu"/>
     </div>
   </>)
 }

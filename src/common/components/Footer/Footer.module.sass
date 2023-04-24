@@ -1,0 +1,59 @@
+@import 'src/common/styles/theme'
+
+.root
+  display: grid
+  grid-template-columns: 1fr max-content 1fr
+  align-items: center
+  width: 100%
+  padding: spacing(0, 14)
+  font-size: .8rem
+  height: $footer-height
+  z-index: 100
+  border-top: 1px solid palette(misc, background-dark)
+  // background: palette(misc, background-dark)
+  // background: linear-gradient(180deg, palette(misc, background-dark) 0%, palette(misc, background-dark) 70%, rgba(palette(misc, background-dark, true), 0) 100%)
+
+  // position: relative
+  // &::before
+  //   content: ''
+  //   border-top: 1px solid palette(misc, divider)
+  //   position: absolute
+  //   top: 0
+  //   left: 0
+  //   width: 100%
+  //   transform: scaleX(95%)
+
+  > *
+    display: flex
+    gap: spacing(1)
+    align-items: center
+
+  .language
+    gap: spacing(2)
+
+    .globe
+      font-size: 1.25rem
+    
+    .locales
+      display: flex
+      gap: spacing(2)
+
+      .locale
+        opacity: .5
+
+        &:hover
+          opacity: 1
+
+        &.selected
+          opacity: 1
+
+  .credits
+    justify-self: flex-end
+
+@include bp-down('sm')
+  .root
+    padding: spacing(0, 4)
+    height: $footer-height-sm
+
+    .globe
+      display: none

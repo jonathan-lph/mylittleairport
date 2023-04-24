@@ -99,14 +99,9 @@ export const AlbumInfo = ({
 
       <div className={styles.list}>
         {album.tracks.map((track) =>
-          <div className={styles.track}>
-            <div className={styles.icon} onClick={playAudio(track.slug)}>
-              <Icon icon={
-                play.track !== track.slug ? "play"
-                : !play.ref ? "broken"
-                : play.playing ? "pause" 
-                : "play"}
-              />
+          <div className={styles.track} key={track.slug}>
+            <div className={styles.icon}>
+              <Icon icon="arrow_forward"/>
             </div>
             <Link href={`/${locale}/${album.slug}/${track.slug}`}>
               <a className={styles.name}>

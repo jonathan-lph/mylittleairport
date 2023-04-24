@@ -1,0 +1,105 @@
+@use "sass:color"
+@import 'src/common/styles/theme'
+
+$tile-width: 250px
+$tile-sm-width: 150px
+
+.root
+  max-width: map-get($breakpoints, 'xl')
+  margin: 0 auto
+  // overflow: auto
+  padding: spacing(12, 12)
+  display: grid
+  grid-template-columns: min(30%, 400px) 1fr
+  row-gap: spacing(30)
+
+.category
+  display: contents
+
+.titleWrapper
+  height: calc(var(--app-height, 100vh) - spacing(24) - $header-height)
+  justify-self: flex-end
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  position: sticky
+  top: calc(spacing(12) + $header-height)
+
+  .line
+    flex: 1
+    margin: spacing(8, 0)
+    border-left: 1px palette(misc, divider) solid
+
+  .title
+    @include bold
+    font-size: 4rem
+    word-break: break-word
+
+  .editionLink
+    display: block
+    opacity: .5
+    transition: opacity .25s ease-in-out
+
+    &:hover
+      opacity: 1
+
+    &.active
+      opacity: 1
+
+.editions
+  margin-top: spacing(60)
+
+  .edition
+    scroll-margin-top: calc($header-height + spacing(8))
+  
+  .editionName
+    width: 100%
+    font-size: 1.5rem
+    @include bold
+    border-bottom: 1px palette(misc, divider) solid
+    margin-bottom: spacing(6)
+    padding-bottom: spacing(2)
+
+
+  .edition + .edition
+    margin-top: spacing(10)
+
+.albumList
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax($tile-width, 1fr))
+  gap: spacing(4) spacing(2)
+
+
+@include bp-down('sm')
+  .root
+    display: block
+    padding: 0
+
+  .category
+    display: block
+    margin: spacing(12, 0)
+      
+  .titleWrapper
+    height: unset
+
+    .line
+      display: none
+
+    .editionLinks
+      display: none
+
+  .title
+    font-size: 3rem
+    padding: spacing(0, 4)
+    margin-bottom: spacing(8)
+
+  .editions
+    margin-top: spacing(0)
+
+    .editionName
+      font-size: 1.25rem
+      padding-left: spacing(4)
+
+  .albumList
+    grid-template-columns: repeat(2, 1fr)
+    gap: spacing(2) spacing(1)

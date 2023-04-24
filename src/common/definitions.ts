@@ -1,7 +1,12 @@
 export const locales = [{
   locale: 'zh',
-  label: '中文',
+  label: '中',
 }, {
   locale: 'en',
-  label: 'Eng',
+  label: 'EN',
 }]
+
+export const credits = {
+  name: "jon.l",
+  link: "https://jonathanl.dev"
+}

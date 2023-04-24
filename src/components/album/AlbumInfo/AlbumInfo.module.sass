@@ -3,7 +3,7 @@
 .root
   display: grid
   grid-template-columns: 45% 55%
-  max-width: map-get($breakpoints, 'lg')
+  max-width: map-get($breakpoints, 'xl')
   margin: 0 auto
   margin-top: 12rem
   padding: spacing(0, 4)
@@ -17,15 +17,17 @@
   padding: spacing(0, 8)
   height: max-content 
   position: sticky
-  top: $navbar-height
+  top: $header-height
 
   .title
+    @include bold
     font-size: 3.5rem
     justify-self: flex-start
     position: sticky
-    top: $navbar-height
+    top: $header-height
 
   .year
+    @include bold
     font-size: 1.5rem
     font-weight: 700
 
@@ -50,22 +52,23 @@
       align-self: stretch
       align-items: center
 
-    .name
-      font-weight: 700
-    
     .trackIdx
       text-align: right
+
+@include bp-up('lg')
+  .root
+    grid-template-columns: 55% 45%
 
 @include bp-down('sm')
   .root
     grid-template-columns: unset
-    margin-top: 0
+    margin-top: spacing(8)
     row-gap: 0
     padding: 0
 
   .meta
     position: static
-    margin-bottom: spacing(20)
+    margin-bottom: spacing(12)
     padding: spacing(4)
 
     .title

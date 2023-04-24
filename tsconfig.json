@@ -24,7 +24,8 @@
       "@util/*": ["src/common/util/*"],
       "@styles/*": ["src/common/styles/*"],
       "@public/*": ["public/*"],
-      "@firebaseApp": ["firebase"]
+      "@firebaseApp": ["lib/firebase"],
+      "@lib/*": ["lib/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

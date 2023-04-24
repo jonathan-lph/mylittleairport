@@ -1,85 +1,127 @@
 @import 'src/common/styles/theme'
   
-.root 
-  margin: 0 auto
-  padding: spacing(28, 4)
+.root
+  margin: spacing(16) auto
+  max-width: map-get($breakpoints, 'xl')
   display: grid
-  grid-template-columns: 4fr max-content 6fr
-  gap: spacing(12)
-  max-width: map-get($breakpoints, 'md')
+  grid-template-columns: .25fr .75fr 1fr
+  grid-template-areas: 'title title title' 'info info info' 'hr img lyrics'
+  position: relative
+  row-gap: spacing(8)
 
-  @include bp-down('md')
-    // margin-top: 0rem
+  .imgBorder
+    grid-area: img
+    align-self: flex-start
+    width: 100%
+    aspect-ratio: 1
+    display: flex
+    justify-content: center
+    align-items: center
+    background: palette(misc, background-dark)
+
+    .img
+      width: 60%
+
+    .albumName, .trackNo
+      width: 100%
+      position: absolute
+      padding: spacing(3)
+      opacity: 0.5
+      font-size: 0.8rem
+    
+    .albumName
+      bottom: 0
+      left: 0
+
+    .trackNo
+      bottom: 0
+      right: 0
+      text-align: right
+
+  .hr
+    grid-area: hr
+    border-left: 1px solid palette(misc, divider)
+    margin-left: spacing(14)
+    display: flex
+
+    .name
+      writing-mode: vertical-rl
+      @include bold
+      font-size: 1rem
+      border-left: 1px solid palette(misc, background)
+      margin-left: -1px
+      padding: spacing(2, 0)
+      align-self: flex-end
+
+  .imgBorder
+    position: sticky
+    top: calc(spacing(8) + $header-height)
 
   .title
-    text-align: right
-  
-  .vr
-    position: relative
+    grid-area: title
+    @include bold
+    font-size: 3rem
+    margin-left: spacing(14)
+    margin-right: 20vw
 
-    .base
-      position: absolute
-      border-left: 1px solid palette(text, secondary)
-      top: 0
-      height: 100%
-      padding: spacing(2)
-      transform: translateX(calc(-50% + spacing(2)))
+  .lyrics
+    grid-area: lyrics
+    padding: 0 10%
+    line-height: 1.5rem
 
-    .progress
-      position: absolute
-      border-left: 1.5px solid palette(text, primary)
-      top: 0
-      transform: translateX(-50%)
-
-    .pbIcon
-      position: absolute
-      top: -1rem
-      transform: translateX(-50%) translateY(-50%)
-
-    .duration
-      position: absolute
-      bottom: -2rem
-      transform: translateX(-50%) translateY(-50%)
-      font-size: .75rem
-
-  .info
-    justify-self: flex-end
+    p
+      text-indent: - spacing(4)
 
   .infosheet
-    display: grid
-    grid-template-columns: repeat(2, max-content)
-    column-gap: spacing(4)
-    justify-content: flex-end
-    padding: spacing(4, 0)
+    grid-area: info
+    display: flex
+    flex-wrap: wrap
+    gap: spacing(4)
+    margin: spacing(0, 14, 4)
     font-size: 0.8em
     
-    dl
-      justify-self: flex-end
+    dt
+      @include bold
+
+    dd
+      display: flex
+      gap: spacing(2)
+
+    
+@include bp-down('md')
+  .root
+    grid-template-columns: .2fr .5fr 1fr
 
 @include bp-down('sm')
   .root
-    display: grid
-    padding: spacing(4)
-    margin: 0
-    grid-template-columns: max-content 1fr
-    gap: spacing(25) spacing(2)
+    margin: 0 0 spacing(12)
+    grid-template-columns: spacing(16) 1fr
+    grid-template-areas: 'img img' 'title title' 'info info' 'lyrics lyrics'
+    row-gap: spacing(6)
 
-    .info
-      grid-column: span 2
-      justify-self: stretch
-      display: flex
+    .imgBorder
+      top: 0
+      position: relative
+      aspect-ratio: 3/4
 
-      .title
-        text-align: left
-        flex: 1 0 0
+    .hr 
+      margin: spacing(0, 4)
+      display: none
 
-      .infosheet
-        justify-content: flex-start
-        padding: spacing(2, 2)
-        align-self: flex-start
+      .name
+        display: none
+      
+    .title
+      margin: spacing(0, 4)
+      padding: 0
+      font-size: 2rem
 
-    .vr
-      margin: spacing(0, 2, 0, 0)
+    .infosheet
+      margin: spacing(0, 4, 2)
+      padding: 0
+      row-gap: spacing(2)
 
-
-    
+    .lyrics
+      padding: 0 
+      padding-right: spacing(4)
+      padding-left: spacing(8)

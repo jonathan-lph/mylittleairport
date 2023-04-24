@@ -90,62 +90,59 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
 
   return (
     <div className={styles.root}>
-
-      <div className={styles.info}>
-        <h1 className={styles.title}>
-          {name}
-        </h1>
-        <dl className={styles.infosheet}>
-          {Object
-          .entries(credits)
-          .map(([_type, _names]) => 
-            <>
-              <dt>
-                {translation.credits[_type]}
-              </dt>
-              <dd>
-                {_names?.map((_name) => 
-                  <>
-                    {_name}<br/>
-                  </>
-                )}
-              </dd>
-            </>
-          )}
-        </dl>
-      </div>
-
-      <div className={styles.vr}>
-        <div 
-          className={styles.base}
-          onClick={handleJump}
+        
+      <div className={styles.imgBorder}>
+        <img
+          src={`/album_artwork/${album.slug}.jpg`}
+          className={styles.img}
         />
-        {audio && <>
-          <Icon
-            icon={playing ? "pause" : "play"}
-            onClick={playAudio}
-            className={styles.pbIcon}
-          />
-          <div 
-            className={styles.progress}
-            ref={progressBar}
-          />
-          <span 
-            className={styles.duration} 
-            ref={timestamp}
-          />
-        </>}
+        <div className={styles.albumName}>
+          {album.name}
+        </div>
+        <div className={styles.trackNo}>
+          {track.album.find(a => a.slug === album.slug)?.track}
+        </div>
       </div>
 
+      <h1 className={styles.title}>
+        {name}
+      </h1>
 
-      <p className={styles.lyrics}>
-        {lyrics?.map((line) => 
-          <>
-            {line}<br/>
-          </>
+      <dl className={styles.infosheet}>
+        {Object
+        .entries(credits)
+        .map(([_type, _names], idx) => _names &&
+          <div className={styles.category} key={_type}>
+            <dt>
+              {translation.credits[_type]}
+            </dt>
+            <dd>
+              {_names.map((_name) => 
+                <div key={_name}>
+                  {_name}
+                </div>
+              )}
+            </dd>
+          </div>
         )}
-      </p>
+      </dl>
 
+      <div className={styles.hr}>
+        <div className={styles.name}>
+          {track.name}
+        </div>
+      </div>
+
+      <div className={styles.lyrics}>
+        {lyrics
+          ? lyrics.map((line, index) => 
+              line !== ''
+                ? <p key={index}>{line}</p>
+                : <br key={index}/>
+            )
+          : <p>{translation.no_lyrics}</p>
+        }
+      </div>
     </div>
   )
 }

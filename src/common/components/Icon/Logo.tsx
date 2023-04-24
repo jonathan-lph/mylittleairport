@@ -1,4 +1,3 @@
-import { FC } from "react"
 import styles from './Icon.module.sass'
 import clsx from 'clsx'
 

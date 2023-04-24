@@ -1,5 +1,13 @@
 // CSS Variables
 
+$header-height: 75px;
+$header-height-sm: 65px;
+$header-lr-padding: 14;
+$header-lr-padding-sm: 4;
+
+$footer-height: 60px;
+$footer-height-sm: 50px;
+
 $navbar-height: 50px;
 $navbar-width: 200px;
 
@@ -7,8 +15,10 @@ $default-fonts: (-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Robot
 
 $typography: (
   fontSize: 16px,
-  titleFont: ('Lora', 'Noto Serif SC'),
-  contentFont: ('Lora', 'Noto Serif SC'),
+  titleFont: ('Noto Serif SC'),
+  contentFont: ('Noto Sans HK'),
+  // titleFont: ('Lora', 'Noto Serif SC'),
+  // contentFont: ('Lora', 'Noto Serif SC'),
   fontWeight: (
     light:   300,
     regular: 400,
@@ -22,11 +32,11 @@ $typography: (
 
 $dark-colors: (
   text: (
-    primary:   #ffffff,
+    primary:   #dda890,
     secondary: #82868c,
   ),
   misc: (
-    background: #121213,
+    background: #010000,
     divider: rgba(255, 255, 255, .8),
   ),
   action: (
@@ -40,11 +50,17 @@ $dark-colors: (
 
 $light-colors: (
   text: (
-    primary:   #181818,
+    // primary:   #181818,
+    primary:   #060101,
+    // primary:   #030305,
     secondary: #82868c,
   ),
   misc: (
-    background: #eeeae2,
+    background: #f6f6f6,
+    background-dark: #eeece9,
+    // background: #f7e7da,
+    // background: #e9e6e5,
+
     divider: rgba(0, 0, 0, .8),
   ),
   action: (
@@ -79,10 +95,10 @@ $light-colors: (
 
 $breakpoints: (
   xs: 0px,
-  sm: 500px,
+  sm: 600px,
   md: 900px,
   lg: 1200px,
-  xl: 1536px
+  xl: 1800px
 );
 
 @mixin bp-down($bp) {
@@ -113,3 +129,10 @@ $breakpoints: (
   @if $right  == null { $right:  $top   };
   @return $top * $step $right * $step $bottom * $step $left * $step;
 };
+
+//
+
+@mixin bold {
+  font-family: map-get($typography, titleFont);
+  font-weight: map-get($typography, fontWeight, bold)
+}

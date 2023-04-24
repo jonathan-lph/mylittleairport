@@ -22,7 +22,7 @@
     "title": {
       "album": "Album",
       "single": "Single",
-      "compilation": "Compilation",
+      "compilation": "Compi--lation",
       "online": "Online",
       "retail": "Retail",
       "limited": "Limited",
@@ -32,7 +32,7 @@
       "unlisted": "Unlisted",
       "hk": "Hong Kong",
       "tw": "Taiwan",
-      "international": "Intl."
+      "international": "International"
     }
   }
 }

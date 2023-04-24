@@ -1,0 +1,67 @@
+@import 'src/common/styles/theme'
+
+.root
+  max-width: map-get($breakpoints, 'xl')
+  margin: 0 auto
+  // overflow: auto
+  padding: spacing(12, 12)
+  display: grid
+  // grid-template-columns: min(30%, 400px) 1fr
+
+// .list
+//   list-style-type: none
+//   display: grid
+//   grid-template-columns: 1.5fr 1fr
+//   // grid-template-columns: repeat(3, 1fr)
+
+//   .track
+//     display: contents
+
+//     > *
+//       padding: spacing(2, 2)
+//       border-top: 1px solid palette(misc, divider)
+
+//     .name
+//       @include bold
+
+//     &.variation
+//       .album
+
+.list
+  list-style-type: none
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(325px, 1fr) )
+  column-gap: spacing(8)
+
+  .track
+    display: grid
+    padding: spacing(4, 2)
+    grid-template-columns: max-content 1fr spacing(14)
+    grid-template-areas: 'index album img' 'index name img'
+    column-gap: spacing(4)
+    grid-template-rows: max-content 1fr
+
+    .index
+      grid-area: index
+      @include bold
+      font-size: .8rem
+
+    .img
+      grid-area: img
+      width: 100%
+
+    .album
+      font-size: .8rem
+      color: palette(text, secondary)
+
+@include bp-down('sm')
+  .root
+    display: block
+    padding: spacing(4)
+
+  .list
+
+    .track
+
+      .album
+        

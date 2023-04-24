@@ -1,0 +1,46 @@
+@import 'src/common/styles/theme'
+  
+.album
+  display: grid
+  grid-template-rows: repeat(2, max-content) 
+  opacity: 0
+  transform: translateY(10%)
+
+  &.enter
+    opacity: 1
+    transform: translateY(0px)
+    transition: all .5s ease-in-out 
+
+.imgBorder
+  width: 100%
+  aspect-ratio: 1
+  display: flex
+  justify-content: center
+  align-items: center
+  background: palette(misc, background-dark)
+
+  .img
+    width: 70%
+
+.name
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  -webkit-line-clamp: 2
+  overflow: hidden
+  padding-left: spacing(1)
+  margin-top: spacing(2)
+
+.year
+  color: palette(text, secondary)
+  font-size: .8em
+  display: flex
+  justify-content: space-between
+  padding-left: spacing(1)
+
+@include bp-down('sm')
+  .name
+    margin-top: spacing(1)
+    font-size: .8rem 
+
+  .year
+    font-size: .6rem

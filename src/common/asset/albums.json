@@ -1410,6 +1410,83 @@
     }
   },
   {
+    "name": "跟你開玩笑",
+    "slug": "跟你開玩笑",
+    "date": 2022,
+    "type": "album",
+    "edition": "retail",
+    "track_no": 10,
+    "label": "維港唱片",
+    "tracks": [
+      {
+        "name": "細胞",
+        "slug": "細胞",
+        "disc": 1,
+        "track": 1
+      },
+      {
+        "name": "某夜後台",
+        "slug": "某夜後台",
+        "disc": 1,
+        "track": 2
+      },
+      {
+        "name": "循環的夜",
+        "slug": "循環的夜",
+        "disc": 1,
+        "track": 3
+      },
+      {
+        "name": "LUNCH",
+        "slug": "lunch",
+        "disc": 1,
+        "track": 4
+      },
+      {
+        "name": "德州之戀",
+        "slug": "德州之戀",
+        "disc": 1,
+        "track": 5
+      },
+      {
+        "name": "你把我的",
+        "slug": "你把我的",
+        "disc": 1,
+        "track": 6
+      },
+      {
+        "name": "嘔吐",
+        "slug": "嘔吐",
+        "disc": 1,
+        "track": 7
+      },
+      {
+        "name": "八點零五分",
+        "slug": "八點零五分",
+        "disc": 1,
+        "track": 8
+      },
+      {
+        "name": "我不適合聚會",
+        "slug": "我不適合聚會",
+        "disc": 1,
+        "track": 9
+      },
+      {
+        "name": "不要把冬天衫放回衣櫃",
+        "slug": "不要把冬天衫放回衣櫃",
+        "disc": 1,
+        "track": 10
+      }
+    ],
+    "translation": {
+      "en": {
+        "name": "Just Kidding",
+        "label": "Habour Records"
+      }
+    }
+  },
+  {
     "name": "Singing in the Telephone",
     "slug": "singing-in-the-telephone",
     "date": 2003,
@@ -1847,8 +1924,7 @@
     ],
     "translation": {
       "en": {
-        "name": "You take my",
-        "label": "my little airport"
+        "name": "You Take My"
       }
     }
   },
@@ -1870,8 +1946,7 @@
     ],
     "translation": {
       "en": {
-        "name": "Nausea",
-        "label": "my little airport"
+        "name": "Nausea"
       }
     }
   },
@@ -1893,8 +1968,7 @@
     ],
     "translation": {
       "en": {
-        "name": "LUNCH",
-        "label": "my little airport"
+        "name": "LUNCH"
       }
     }
   },

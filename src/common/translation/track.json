@@ -10,9 +10,25 @@
       "backup_vocal": "伴唱",
       "bass": "低音吉他"
     },
-    "misc": {
-      "disc": "碟：",
-      "track": "曲目："
-    }
+    "title": {
+      "appears_on": "收錄於"
+    },
+    "no_lyrics": "（無歌詞）"
+  },
+  "en": {
+    "credits": {
+      "composer": "Composer",
+      "lyricist": "Lyricist",
+      "arranger": "Arranged By",
+      "lead_vocal": "Lead Vocal",
+      "poem": "Poem By",
+      "recite": "Recite By",
+      "backup_vocal": "Backup Vocal",
+      "bass": "Bass"
+    },
+    "title": {
+      "appears_on": "Appears On"
+    },
+    "no_lyrics": "(No lyrics)"
   }
 }
