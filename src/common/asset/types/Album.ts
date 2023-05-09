@@ -1,5 +1,5 @@
-import { SimplifiedArtistObject } from "./Artist"
-import { SimplifiedTrackObject } from "./Track"
+import { ArtistObject, SimplifiedArtistObject } from "./Artist"
+import { TrackObject, SimplifiedTrackObject } from "./Track"
 import {
   ImageObject,
   ResourceType,
@@ -21,12 +21,20 @@ export interface AlbumObject {
   label_en: string | null
   release_date: string
   release_date_precision: DatePrecision
+  is_live: boolean
 
   artists: string[] // ref[]
   tracks: string[] // ref[]
   images: ImageObject[]
   genres: string[]
   external_urls: Record<ExternalUrlOrigin, string>
+}
+
+export interface TocAlbumObject extends Pick<AlbumObject,
+  | 'slug'
+  | 'name'
+  | 'name_en'
+> {
 }
 
 export interface SimplifiedAlbumObject extends Omit<AlbumObject,
@@ -43,6 +51,14 @@ export interface ExpandedAlbumObject extends Omit<AlbumObject,
 > {
   artists: SimplifiedArtistObject[]
   tracks: SimplifiedTrackObject[]
+}
+
+export interface ExportedAlbumObject extends Omit<AlbumObject,
+  | 'artists'
+  | 'tracks' 
+> {
+  artists: Pick<ArtistObject, 'slug' | 'name' | 'name_en'>[]
+  tracks: Pick<TrackObject, 'slug' | 'name' | 'name_en'>[]
 }
 
 export enum AlbumType {
@@ -72,11 +88,11 @@ export enum CompilationEditionType {
   INTL = "international"
 }
 
-export const AlbumEdition = {
+export const EditionType = {
   ...AlbumEditionType,
   ...SingleEditionType,
   ...CompilationEditionType
-}
+} 
 
-export type EditionType = typeof AlbumEdition
+export type EditionType = AlbumEditionType | SingleEditionType | CompilationEditionType
 

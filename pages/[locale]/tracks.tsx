@@ -1,11 +1,12 @@
 import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
-import tracks from "@common/asset/tracks.json"
+import tracks from "_data/toc/tracks.json"
 import { Track } from '@src/common/asset/mla'
 import { ParsedUrlQuery } from 'querystring'
 import translationJSON from '@common/translation/tracks.json'
 import { TrackList } from '@src/components/tracks/TrackList'
-import { locales } from '@src/common/definitions'
+import { Locales, locales } from '@src/common/definitions'
+import { TocTrackObject } from '@src/common/asset/types/Track'
 
 const Tracks: NextPage<TracksProps> = ({ tracks, translation, locale, ...props }) => {
   return (<>
@@ -25,10 +26,8 @@ const Tracks: NextPage<TracksProps> = ({ tracks, translation, locale, ...props }
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: locales.map(({locale}) => ({ 
-      params: { 
-        locale: locale
-      }
+    paths: locales.map(({ locale }) => ({ 
+      params: { locale }
     })),
     fallback: false
   }
@@ -36,7 +35,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const { locale } = context.params as IParams
-  // @ts-ignore
   const translation = translationJSON[locale]
   return {
     props: { 
@@ -50,12 +48,12 @@ export const getStaticProps: GetStaticProps = async (context) => {
 export default Tracks
 
 type TracksProps = {
-  tracks: Array<Track>
-  locale: string
-  translation: any
+  tracks: TocTrackObject[]
+  locale: Locales
+  translation: typeof translationJSON[Locales.EN]
   props: any
 }
 
 interface IParams extends ParsedUrlQuery {
-  locale: string
+  locale: Locales
 }

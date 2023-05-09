@@ -1,36 +1,52 @@
-import type { Album, AlbumEdition, AlbumType } from "@src/common/asset/mla"
+import type { Album, AlbumType } from "@src/common/asset/mla"
 import type { Dispatch, SetStateAction } from "react"
 import { Fragment, useEffect, useRef, useState } from "react"
 import styles from "./AlbumList.module.sass"
 import clsx from "clsx"
 import { AlbumDiv } from "."
+import { AlbumEditionType, AlbumObject, SingleEditionType, EditionType, CompilationEditionType, ExpandedAlbumObject } from "@src/common/asset/types/Album"
+import { Locales } from "@src/common/definitions"
+import type * as translationJSON from '@common/translation/albums.json'
 
 interface AlbumListProps {
-  albums: Array<Album>
-  locale: string
-  translation: any
+  albums: AlbumObject[]
+  locale: Locales
+  translation: typeof translationJSON[Locales.EN]
 }
 
 interface EditionDivProps {
-  albums: Array<Album>
-  edition: string
+  albums: AlbumObject[]
+  edition: EditionType
   title: string
-  locale: string
+  locale: Locales
   setCurrSection: Dispatch<SetStateAction<string>>
 }
 
 const CATEGORIES : Array<{
   type: AlbumType,
-  editions: Array<AlbumEdition>
+  editions: EditionType[]
 }> = [{
   type: 'album',
-  editions: ['retail', 'online', 'limited', 'collaboration']
+  editions: [
+    EditionType.RETAIL, 
+    AlbumEditionType.ONLINE, 
+    AlbumEditionType.LIMITED,
+    AlbumEditionType.COLLABORATION
+  ]
 }, {
   type: 'single',
-  editions: ['published', 'public', 'unlisted']
+  editions: [
+    SingleEditionType.PUBLISHED,
+    SingleEditionType.PUBLIC,
+    SingleEditionType.UNLISTED
+  ]
 }, {
   type: 'compilation',
-  editions: ['hk', 'tw', 'international']
+  editions: [
+    CompilationEditionType.HK,
+    CompilationEditionType.TW,
+    CompilationEditionType.INTL
+  ]
 }]
 
 const EditionDiv = ({
@@ -125,11 +141,11 @@ export const AlbumList = ({
         <div className={styles.editions}>
           {editions?.map(_edition => 
             <EditionDiv 
-              key={_edition}
+              key={_edition as unknown as string}
               edition={_edition}
               albums={albums
-                .filter(_album => _album.type === type && _album.edition === _edition)
-                .sort((a, b) => b.date - a.date)
+                .filter(_album => _album.album_type === type && _album.album_edition === _edition)
+                .sort((a, b) => Number(b.release_date) - Number(a.release_date))
               }
               title={translation.title[_edition]}
               locale={locale}

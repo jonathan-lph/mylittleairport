@@ -1,8 +1,18 @@
 {
   "zh": {
-    "page_title": "曲目"
+    "page_title": "曲目",
+    "filters": {
+      "lyrics": "歌詞",
+      "thumbnail": "專輯封面",
+      "list_view": "列表模式"
+    }
   },
   "en": {
-    "page_title": "Tracks"
+    "page_title": "Tracks",
+    "filters": {
+      "lyrics": "Lyrics",
+      "thumbnail": "Album Art",
+      "list_view": "List View"
+    }
   }
 }

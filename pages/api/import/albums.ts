@@ -4,7 +4,7 @@ import TrackModel from 'models/Track.model'
 import type { NextApiRequest, NextApiResponse } from 'next'
 import albums from '@common/asset/albums.json'
 import AlbumModel from 'models/Album.model'
-import { AlbumEdition, AlbumType, AlbumObject } from '@src/common/asset/types/Album'
+import { AlbumEditionType, CompilationEditionType, SingleEditionType, AlbumType, AlbumObject } from '@src/common/asset/types/Album'
 import { DatePrecision } from '@src/common/asset/types/common'
 import is from 'image-size'
 import { HydratedDocument } from 'mongoose'
@@ -14,17 +14,17 @@ mongoosePromise
 
 const getEdition = (old : string) => {
   switch (old) {
-    case "retail": return AlbumEdition.RETAIL
-    case "limited": return AlbumEdition.LIMITED
-    case "online": return AlbumEdition.ONLINE
-    case "collaboration": return AlbumEdition.COLLABORATION
-    case "published": return AlbumEdition.PUBLISHED
-    case "public": return AlbumEdition.PUBLIC
-    case "unlisted": return AlbumEdition.UNLISTED
-    case "hk": return AlbumEdition.HK
-    case "tw": return AlbumEdition.TW
-    case "international": return AlbumEdition.INTL
-    default: return AlbumEdition.HK
+    case "retail": return AlbumEditionType.RETAIL
+    case "limited": return AlbumEditionType.LIMITED
+    case "online": return AlbumEditionType.ONLINE
+    case "collaboration": return AlbumEditionType.COLLABORATION
+    case "published": return SingleEditionType.PUBLISHED
+    case "public": return SingleEditionType.PUBLIC
+    case "unlisted": return SingleEditionType.UNLISTED
+    case "hk": return CompilationEditionType.HK
+    case "tw": return CompilationEditionType.TW
+    case "international": return CompilationEditionType.INTL
+    default: return CompilationEditionType.HK
   }
 }
 
@@ -42,13 +42,15 @@ export default async function importAllAlbums(
 ) {
   const promises = albums.map(album => {
     const randomBytes = getRandomBytes()
+    const isLive = album.name.endsWith(' (Live)')
+    const _slug = !isLive ? album.slug : album.slug.slice(0, -5)
     const img = is(`public/album-artwork/${_slug}.jpg`)
     const newAlbum: HydratedDocument<AlbumObject> = new AlbumModel({
       type: ResourceType.ALBUM,
-      slug: `${album.slug}-${randomBytes}`,
-      name: album.name,
-      name_en: album.translation.en.name,
-      href: `/album/${album.slug}-${randomBytes}`,
+      slug: `${_slug}-${randomBytes}`,
+      name: !isLive ? album.name : album.name.slice(0, -7),
+      name_en: !isLive ? album.translation.en.name : album.name.slice(0, -7),
+      href: `/album/${_slug}-${randomBytes}`,
       total_tracks: album.track_no,
       // @ts-ignore
       album_type: album.type as AlbumType,
@@ -58,10 +60,11 @@ export default async function importAllAlbums(
       label_en: album.translation.en.label ?? null,
       release_date: album.date.toString(),
       release_date_precision: DatePrecision.YEAR,
+      is_live: isLive,
       artists: [],
       tracks: [],
       images: [{
-        url: `/album-artwork/${album.slug}.jpg`,
+        url: `/album-artwork/${_slug}.jpg`,
         height: img.height ?? null,
         width: img.width ?? null,
       }],

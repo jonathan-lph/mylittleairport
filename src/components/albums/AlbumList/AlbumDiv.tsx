@@ -1,10 +1,12 @@
 import { useRef, useEffect } from "react"
 import styles from "./AlbumDiv.module.sass"
 import type { Album, AlbumEdition, AlbumType } from "@src/common/asset/mla"
+import { AlbumObject, ExpandedAlbumObject } from "@src/common/asset/types/Album"
+import { Locales } from "@src/common/definitions"
 
 interface AlbumDivProps {
-  album: Album
-  locale: string
+  album: AlbumObject
+  locale: Locales
 }
 
 export const AlbumDiv = ({
@@ -35,7 +37,7 @@ export const AlbumDiv = ({
     >
       <div className={styles.imgBorder}>
         <img 
-          src={`/album_artwork/${album.slug}.jpg`}
+          src={album.images[0].url}
           className={styles.img}
         />
       </div>
@@ -43,7 +45,7 @@ export const AlbumDiv = ({
         {album.name}
       </div>
       <div className={styles.year}>
-        {album.date}
+        {album.release_date}
       </div>
     </a>
   )

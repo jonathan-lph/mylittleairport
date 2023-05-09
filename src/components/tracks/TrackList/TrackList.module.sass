@@ -8,24 +8,28 @@
   display: grid
   // grid-template-columns: min(30%, 400px) 1fr
 
-// .list
-//   list-style-type: none
-//   display: grid
-//   grid-template-columns: 1.5fr 1fr
-//   // grid-template-columns: repeat(3, 1fr)
+.title
+  @include bold
+  font-size: 4rem
+  margin-bottom: spacing(12)
 
-//   .track
-//     display: contents
+.filters
+  display: flex
+  gap: spacing(2)
+  margin: spacing(8, 0)
 
-//     > *
-//       padding: spacing(2, 2)
-//       border-top: 1px solid palette(misc, divider)
+  .toggleButton
+    display: flex
+    align-items: center
+    border: .5px solid palette(misc, divider)
+    padding: spacing(1, 2)
 
-//     .name
-//       @include bold
+  .icon
+    font-size: 1.75rem
+    color: palette(text, secondary)
 
-//     &.variation
-//       .album
+    &.active
+      color: palette(text, primary)
 
 .list
   list-style-type: none
@@ -35,9 +39,10 @@
 
   .track
     display: grid
+    position: relative
     padding: spacing(4, 2)
-    grid-template-columns: max-content 1fr spacing(14)
-    grid-template-areas: 'index album img' 'index name img'
+    grid-template-columns: max-content 1fr max-content
+    grid-template-areas: 'index name img' 'index album img' 'index lyrics img'
     column-gap: spacing(4)
     grid-template-rows: max-content 1fr
 
@@ -45,23 +50,104 @@
       grid-area: index
       @include bold
       font-size: .8rem
+      padding-top: .2rem
+      position: relative
+      
+      .number
+        opacity: 1
+        transition: opacity .2s ease-in-out
 
     .img
       grid-area: img
-      width: 100%
+      width: spacing(20)
 
     .album
+      grid-area: album
       font-size: .8rem
       color: palette(text, secondary)
+
+    .name
+      grid-area: name
+      @include bold
+
+    .lyrics
+      grid-area: lyrics
+      color: palette(text, secondary)
+      word-wrap: break-word
+      font-size: .8rem
+      display: -webkit-box
+      -webkit-box-orient: vertical
+      -webkit-line-clamp: 3
+      overflow: hidden
+      padding-top: spacing(2)
+
+    *.hidden
+      display: none
+
+    .arrow
+      display: block
+      position: absolute
+      top: .2rem
+      left: 0
+      transform: translateX(-100%)
+      opacity: 0
+      transition: all .25s ease-in-out
+
+    &:hover
+      cursor: pointer
+
+      .arrow
+        opacity: 1
+        transform: translateX(-.2rem)
+
+      .number
+        opacity: 0
+        
+
+.list.compact
+  display: block
+
+  .track
+    padding: spacing(.5, 0)
+    grid-template-columns: max-content 1fr
+    grid-template-areas: 'index name album'
+
+  .content 
+    display: block
+
+  .name, .album
+    display: inline
+
+  .album
+    padding-left: spacing(1)
+
+  .img, .lyrics
+    display: none
 
 @include bp-down('sm')
   .root
     display: block
-    padding: spacing(4)
+    padding: spacing(8, 0)
+
+  .title
+    padding: spacing(0, 4)
+
+  .filters
+    padding: spacing(0, 4)
+    font-size: .8rem
 
   .list
+    padding: spacing(0, 4)
 
     .track
+      grid-template-columns: max-content 1fr max-content
+      padding: spacing(2, 2)
 
-      .album
+      .img
+        align-self: flex-end
+        width: spacing(14)
+
+      .lyrics
+        -webkit-line-clamp: 2
+
         

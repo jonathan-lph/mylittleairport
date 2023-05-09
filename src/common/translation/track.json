@@ -5,8 +5,8 @@
       "lyricist": "填詞",
       "arranger": "編曲",
       "lead_vocal": "主唱",
-      "poem": "詩",
-      "recite": "唸",
+      "poet": "詩",
+      "reciter": "唸",
       "backup_vocal": "伴唱",
       "bass": "低音吉他"
     },
@@ -21,8 +21,8 @@
       "lyricist": "Lyricist",
       "arranger": "Arranged By",
       "lead_vocal": "Lead Vocal",
-      "poem": "Poem By",
-      "recite": "Recite By",
+      "poet": "Poem By",
+      "reciter": "Recite By",
       "backup_vocal": "Backup Vocal",
       "bass": "Bass"
     },

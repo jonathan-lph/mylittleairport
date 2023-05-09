@@ -7,6 +7,7 @@ import {
 
 export interface ArtistObject {
   type: ResourceType.ARTIST
+  slug: string
   href: string
   name: string
   name_en: string | null
@@ -20,3 +21,5 @@ export interface SimplifiedArtistObject extends Omit<ArtistObject,
   | 'external_social_urls'
   | 'images'
 > { }
+
+export interface ExportedArtistObject extends ArtistObject {}

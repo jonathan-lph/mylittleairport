@@ -21,7 +21,7 @@ export default async function getAlbums(
     .populate({
       path: 'artists',
       populate: {
-        path: 'artist',
+        path: 'members',
         select: '-external_social_urls -images -__v'
       }
     })

@@ -12,8 +12,8 @@
       "published": "發行",
       "public": "線上",
       "unlisted": "非官方",
-      "hk": "香港",
-      "tw": "台灣",
+      "hong_kong": "香港",
+      "taiwan": "台灣",
       "international": "國際"
     }
   },
@@ -30,8 +30,8 @@
       "published": "Published",
       "public": "Public",
       "unlisted": "Unlisted",
-      "hk": "Hong Kong",
-      "tw": "Taiwan",
+      "hong_kong": "Hong Kong", 
+      "taiwan": "Taiwan",
       "international": "International"
     }
   }

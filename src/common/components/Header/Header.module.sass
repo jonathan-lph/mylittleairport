@@ -21,11 +21,53 @@
   align-items: center
   width: 100%
   min-height: $header-height
+  position: relative
+  z-index: 100
 
   // background: linear-gradient(180deg, palette(misc, background-dark) 0%, palette(misc, background-dark) 70%, rgba(palette(misc, background-dark, true), 0) 100%)
 
 .logo
   font-size: 2.5rem
+
+.menuButton
+  display: none
+  font-size: 2rem
+  margin-right: spacing(2)
+
+.menu
+  height: var(--app-height, 100vh)
+  width: 100%
+  position: absolute
+  top: 0
+  left: 0
+  background: palette(misc, background)
+  z-index: 50
+  margin-top: $header-height-sm
+  padding: spacing(6)
+  font-size: 1.5rem
+  @include bold
+  
+  .mobileLinks, .deadLinks
+    display: flex
+    justify-content: space-between
+    border-top: 1px solid palette(misc, divider)
+    padding: spacing(1, 0, 4)
+
+  .deadLinks
+    color: palette(text, secondary)
+
+  .comingSoon
+    font-size: 1rem
+    @include normal
+
+  
+
+.links
+  display: flex
+  flex: 1
+  padding: spacing(0, 8)
+  align-items: center
+  gap: spacing(4)
 
 .actionButtons
   display: flex
@@ -51,6 +93,15 @@
   .nav
     min-height: $header-height-sm
     grid-template-columns: 1fr max-content
+
+  .menuButton
+    display: block
+
+  .links
+    display: none
+
+  .logoWrapper
+    flex: 1
 
   .logo
     font-size: 2rem

@@ -5,11 +5,13 @@ import clsx from 'clsx'
 import Link from 'next/link'
 import { Icon } from "@src/common/components/Icon"
 import { AlbumDiv } from "@src/components/albums/AlbumList"
+import { AlbumObject, SimplifiedAlbumObject } from "@src/common/asset/types/Album"
+import { ExpandedTrackObject, TrackObject } from "@src/common/asset/types/Track"
 
 interface TrackAlbumInfoProps {
-  album: Album
-  track: Track
-  trackAlbums: Array<TrackAlbumRef>
+  album: SimplifiedAlbumObject
+  track: ExpandedTrackObject
+  tracksWithSameName: ExpandedTrackObject[]
   locale: string
   translation: any
 }
@@ -17,7 +19,7 @@ interface TrackAlbumInfoProps {
 export const TrackAlbumInfo: FC<TrackAlbumInfoProps> = ({ 
   album, 
   track, 
-  trackAlbums, 
+  tracksWithSameName, 
   locale,
   translation
 }) => {
@@ -54,26 +56,26 @@ export const TrackAlbumInfo: FC<TrackAlbumInfoProps> = ({
           {translation.title.appears_on}
         </h3>
         <div className={styles.otherAlbums}>
-          {trackAlbums.map(trackAlbum => {
+          {tracksWithSameName.map(_track => {
             // if (trackAlbum.slug === album.slug) return null
             return (
               <Link 
-                href={`/${locale}/${trackAlbum.slug}/${track.slug}`} 
+                href={`/${locale}/${_track.album.slug}/${_track.slug}`} 
                 scroll={false}
-                key={trackAlbum.slug}
+                key={_track.slug}
               >
                 <div className={styles.otherAlbum}>
                   <div className={styles.imgBorder}>
                     <img
-                      src={`/album_artwork/${trackAlbum.slug}.jpg`}
+                      src={_track.album.images[0].url}
                       className={styles.img}
                     />
                   </div>
                   <div className={clsx({
                     [styles.albumName]: true,
-                    [styles.current]: trackAlbum.slug === album.slug
+                    [styles.current]: _track.album.slug === album.slug
                   })}>
-                    {trackAlbum.name}
+                    {_track.album.name}
                   </div>
                 </div>
               </Link>

@@ -7,6 +7,7 @@ import { Track } from '@src/common/asset/mla'
 import { useRef, useState, useEffect, } from 'react'
 import type { Dispatch, SetStateAction, FormEvent } from 'react'
 import { SearchBarResult } from './SearchBarResult'
+import { TocTrackObject } from '@src/common/asset/types/Track'
 
 interface SearchBarProps {
   open: boolean
@@ -14,12 +15,7 @@ interface SearchBarProps {
   locale: string
 }
 
-interface SearchResult extends Pick<Track, 
-  'name' | 
-  'slug' | 
-  'lyrics' | 
-  'album'
-> {
+interface SearchResult extends TocTrackObject {
   line: number | null
 }
 
@@ -31,8 +27,8 @@ export const SearchBar = ({
 
   const ref = useRef<HTMLDivElement>(null)
   const [searchInput, setSearchInput] = useState('')
-  const [searchResult, setSearchResult] = useState<Array<SearchResult> | null>(null)
-  const loadedTracks = useRef<Track[] | null>(null)
+  const [searchResult, setSearchResult] = useState<SearchResult[] | null>(null)
+  const loadedTracks = useRef<TocTrackObject[] | null>(null)
 
   const handleInputChange = (e: FormEvent<HTMLInputElement>) => {
     setSearchInput(e.currentTarget.value)
@@ -62,22 +58,21 @@ export const SearchBar = ({
     const debouncer = setTimeout(() => {
       // Load Tracks
       if (!loadedTracks.current) {
-        loadedTracks.current = require('@src/common/asset/tracks.json')
+        loadedTracks.current = require('_data/toc/tracks.json')
       }
       // Find matching name or lyrics tracks
-      const _result : Array<SearchResult> = loadedTracks.current!
-        .reduce((acc : Array<SearchResult>, _track: Track) => {
-          const { name, slug, lyrics, album } = _track
-          if (name.includes(searchInput)) 
+      const _result : SearchResult[] = loadedTracks.current!
+        .reduce((acc : SearchResult[], _track: TocTrackObject) => {
+          if (_track.name.includes(searchInput)) 
             return [...acc, {
               line: null,
-              name, slug, lyrics, album
+              ..._track
             }]
-          const lineIndex = lyrics?.findIndex(_line => _line.includes(searchInput))
+          const lineIndex = _track.lyrics?.split('\n').findIndex(_line => _line.includes(searchInput))
           if (lineIndex !== undefined && lineIndex !== -1)
             return [...acc, {
               line: lineIndex,
-              name, slug, lyrics, album
+              ..._track
             }]
           return acc
         }, [])

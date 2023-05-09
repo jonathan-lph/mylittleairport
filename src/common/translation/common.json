@@ -3,7 +3,12 @@
     "header": {
       "shuffle": "隨機曲目",
       "search" : "搜尋",
-      "no_result": "查無結果。"
+      "no_result": "查無結果。",
+      "albums": "專輯",
+      "tracks": "曲目",
+      "artists": "歌手",
+      "contribute": "發展",
+      "coming_soon": "即將推出"
     },
     "footer": {
       "copyright_name": "my little airport",
@@ -19,7 +24,12 @@
     "header": {
       "shuffle": "Random Track",
       "search": "Search",
-      "no_result": "No result."
+      "no_result": "No result.",
+      "albums": "Albums",
+      "tracks": "Tracks",
+      "artists": "Artists",
+      "contribute": "Contribute",
+      "coming_soon": "Coming Soon"
     },
     "footer": {
       "copyright_name": "my little airport",

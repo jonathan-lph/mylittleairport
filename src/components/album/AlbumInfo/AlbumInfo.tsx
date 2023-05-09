@@ -4,9 +4,10 @@ import styles from './AlbumInfo.module.sass'
 import clsx from 'clsx'
 import Link from 'next/link'
 import { Icon } from "@src/common/components/Icon"
+import { AlbumObject, ExpandedAlbumObject } from "@src/common/asset/types/Album"
 
 interface AlbumInfoProps {
-  album: Album
+  album: ExpandedAlbumObject
   locale: string
   translation: any
 }
@@ -85,14 +86,14 @@ export const AlbumInfo = ({
 
       <div className={styles.meta}>
         <span className={styles.year}>
-          {album.date}
+          {album.release_date}
         </span>
         <h1 className={styles.title}>
           {album.name}
         </h1>
       </div>
       <img
-        src={`/album_artwork/${album.slug}.jpg`}
+        src={album.images[0].url}
         className={styles.img}
       />
       <div/>
@@ -109,8 +110,8 @@ export const AlbumInfo = ({
               </a>
             </Link>
             <span className={styles.trackIdx}>
-              {track.disc !== 1 ? `${track.disc}-` : ''}
-              {track.track}
+              {track.disc_number !== 1 ? `${track.disc_number}-` : ''}
+              {track.track_number}
             </span>
           </div>
         )}

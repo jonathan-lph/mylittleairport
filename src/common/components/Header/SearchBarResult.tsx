@@ -6,13 +6,9 @@ import { useRouter } from 'next/router'
 import { Track } from '@src/common/asset/mla'
 import { useRef, useState, useEffect, } from 'react'
 import type { Dispatch, SetStateAction, FormEvent } from 'react'
+import { TocTrackObject } from '@src/common/asset/types/Track'
 
-interface SearchResult extends Pick<Track, 
-  'name' | 
-  'slug' | 
-  'lyrics' | 
-  'album'
-> {
+interface SearchResult extends TocTrackObject {
   line: number | null
 }
 
@@ -80,13 +76,13 @@ export const SearchBarResult = ({
               pathname: `/[locale]/[album]/[track]`,
               query: { 
                 locale: locale,
-                album: _track.album[0].slug,
+                album: _track.album.slug,
                 track: _track.slug
               }
             }}>
               <li className={styles.entry} onClick={() => setOpen(false)}>
                 <img
-                  src={`/album_artwork/${_track.album[0].slug}.jpg`}
+                  src={_track.album.images[0]?.url}
                   className={styles.img}
                 />
                 <div className={styles.name}>
@@ -95,8 +91,8 @@ export const SearchBarResult = ({
                 <div className={styles.lyrics}>
                   {highlightTerms(
                     _track.line 
-                      ? getRecLyrics(_track.lyrics!, _track.line!, 0, []).join('／')
-                      : _track.lyrics?.slice(0, 3).join('／') ?? null,
+                      ? getRecLyrics(_track.lyrics!.split('\n'), _track.line!, 0, []).join('／')
+                      : _track.lyrics?.split('\n').slice(0, 3).join('／') ?? null,
                     input
                   )}
                 </div>

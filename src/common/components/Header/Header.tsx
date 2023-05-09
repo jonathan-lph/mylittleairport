@@ -7,10 +7,14 @@ import { Track } from '@src/common/asset/mla'
 import { useRef, useState, useEffect, FormEvent } from 'react'
 import { SearchBar } from './SearchBar'
 import clsx from 'clsx'
+import { TocTrackObject } from '@src/common/asset/types/Track'
 
 interface HeaderProps {
   locale: string
 }
+
+const LINKS = ["albums", "tracks"]
+const DEAD_LINKS = ["artists", "contribute"]
 
 export const Header = ({ 
   locale,
@@ -18,19 +22,20 @@ export const Header = ({
   
   const router = useRouter()
   const [searchMode, setSearchMode] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   // @ts-ignore
   const translation = translationJSON[locale ?? 'zh'].header
 
   const handleRandomRedirect = () => {
     const getRandom = <T,>(arr : Array<T>) => arr[Math.floor(Math.random() * arr.length)]
-    const tracks : Array<Track> = require('@common/asset/tracks.json')
+    const tracks : Array<TocTrackObject> = require('_data/toc/tracks.json')
     const track = getRandom(tracks)
     router.push({
       pathname: '/[locale]/[album]/[track]',
       query: {
         locale: locale,
-        album: getRandom(track.album).slug,
+        album: track.album.slug,
         track: track.slug
       }
     })
@@ -39,6 +44,10 @@ export const Header = ({
   const handleSwitchMode = () => {
     if (!searchMode) setSearchMode(true)
   }
+
+  const toggleMenu = () => {
+    setMenuOpen(_menu => !_menu)
+  }
   
   return (
     <header className={clsx({
@@ -46,11 +55,26 @@ export const Header = ({
       [styles.searchMode]: searchMode
     })}>
       <nav className={styles.nav}>
+        <Icon 
+          icon={!menuOpen ? "menu" : "close"}
+          className={styles.menuButton}
+          onClick={toggleMenu}
+        />
         <Link href={`/`}>
-          <a>
+          <a className={styles.logoWrapper}>
             <Logo className={styles.logo}/>
           </a>
         </Link>
+        <div className={styles.links}>
+          {LINKS.map(dir => 
+            <Link key={dir} href={{
+              pathname: `/[locale]/${dir}`,
+              query: { locale }
+            }}>
+              {translation[dir]}
+            </Link> 
+          )}
+        </div>
         <div className={styles.actionButtons}>
           <button className={styles.actionButton} onClick={handleRandomRedirect}>
             <Icon
@@ -77,6 +101,29 @@ export const Header = ({
           locale={locale}
         />
       }
+      {menuOpen &&
+        <div className={styles.menu}>
+          {LINKS.map(dir => 
+            <Link key={dir} href={{
+              pathname: `/[locale]/${dir}`,
+              query: { locale }
+            }}>
+              <a onClick={toggleMenu} className={styles.mobileLinks}>
+                {translation[dir]}
+              </a>
+            </Link> 
+          )}
+          {DEAD_LINKS.map(dir =>
+            <div key={dir} className={styles.deadLinks}>
+              {translation[dir]}
+              <div className={styles.comingSoon}>
+                {translation.coming_soon}
+              </div>
+            </div>
+          )}
+        </div>
+      }
+
     </header>
   )
 }

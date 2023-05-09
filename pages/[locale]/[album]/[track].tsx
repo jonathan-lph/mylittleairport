@@ -7,10 +7,17 @@ import { ParsedUrlQuery } from 'querystring'
 import { TrackInfo } from '@src/components/track/TrackInfo'
 import translationJSON from '@common/translation/track.json'
 import { TrackAlbumInfo } from '@src/components/track/TrackAlbumInfo'
-import { locales } from '@src/common/definitions'
+import { Locales, locales } from '@src/common/definitions'
+import mongoosePromise from '@lib/mongoose'
+import { TrackModel } from 'models'
+import { ExpandedTrackArtist, ExpandedTrackObject, ExportedTrackObject, TrackObject } from '@src/common/asset/types/Track'
+import { ExportedAlbumObject, SimplifiedAlbumObject } from '@src/common/asset/types/Album'
+import { ExportedArtistObject } from '@src/common/asset/types/Artist'
+import { fetchExpandedTrackFromFiles } from 'services/database/track'
 
 const TrackDetails: NextPage<TrackDetailsProps> = ({ 
-  track, 
+  track,
+  tracksWithSameName,
   album,
   locale,
   translation, 
@@ -30,7 +37,7 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
       <TrackAlbumInfo 
         album={album}
         track={track}
-        trackAlbums={track.album} 
+        tracksWithSameName={tracksWithSameName}
         translation={translation}
         locale={locale}
       />
@@ -40,37 +47,55 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
 
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  mongoosePromise
+  const tracks = JSON.parse(JSON.stringify(
+    await TrackModel
+      .find()
+      .select('-_id slug')
+      .populate('album', '-_id slug')
+      .exec()
+  ))
 
   return {
-    paths: tracks.flatMap((track: Track) => 
-      track.album.flatMap((album: TrackAlbumRef) => 
-        locales.map(({ locale }) => ({
-          params: {
-            album: album.slug,
-            track: track.slug,
-            locale: locale,
-          }
-        }))
-      )
+    paths: tracks.flatMap((track: ExpandedTrackObject) => 
+      locales.map(({ locale }) => ({
+        params: {
+          album: track.album.slug,
+          track: track.slug,
+          locale: locale,
+        }
+      }))
     ),
     fallback: false
   }
 }
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const { 
-    track: _trackSlug,
-    album: _albumSlug,
-    locale 
-  } = context.params as IParams
-  const track: Track = tracks.find(_track => _track.slug === _trackSlug) ?? tracks[0]
-  const album: Album = albums.find(_album => _album.slug === _albumSlug) ?? albums[0]
+
+  const { track: _trackSlug, album, locale } = context.params as IParams
+
+  const track = await fetchExpandedTrackFromFiles(_trackSlug, album)
+
+  const tracksWithSameName: TrackObject[] = JSON.parse(JSON.stringify(
+    await TrackModel
+      .find({name: track.name})
+      .populate({
+        path: 'album',
+        select: '-artists -genres -__v'
+      })
+      .populate({
+        path: 'artists.members',
+        select: '-external_social_urls -images -__v'
+      })
+      .exec()
+  ))
   // @ts-ignore
   const translation = translationJSON[locale]
   return {
     props: { 
-      track, 
-      album,
+      track: track, 
+      album: track.album,
+      tracksWithSameName,
       locale,
       translation
     }
@@ -80,14 +105,16 @@ export const getStaticProps: GetStaticProps = async (context) => {
 export default TrackDetails
 
 type TrackDetailsProps = {
-  track: Track
-  album: Album
+  track: ExpandedTrackObject
+  album: SimplifiedAlbumObject
+  tracksWithSameName: ExpandedTrackObject[]
   locale: string
   translation: any
   props: any
 }
 
 interface IParams extends ParsedUrlQuery {
-  track: string,
-  locale: string
+  track: string
+  album: string
+  locale: Locales
 }

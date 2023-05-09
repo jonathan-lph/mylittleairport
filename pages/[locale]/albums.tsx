@@ -1,12 +1,16 @@
 import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
-import albums from "@common/asset/albums.json"
+// import albums from "@common/asset/albums.json"
 import { Album } from '@src/common/asset/mla'
 import { ParsedUrlQuery } from 'querystring'
 import { AlbumInfo } from '@src/components/album/AlbumInfo'
-import translationJSON from '@common/translation/albums.json'
+import * as translationJSON from '@common/translation/albums.json'
 import { AlbumList } from '@src/components/albums/AlbumList'
-import { locales } from '@src/common/definitions'
+import { locales, Locales } from '@src/common/definitions'
+import { AlbumModel } from 'models'
+import fs from "fs"
+import { AlbumObject, ExpandedAlbumObject } from '@src/common/asset/types/Album'
+import mongoosePromise from '@lib/mongoose'
 
 const Albums: NextPage<AlbumsProps> = ({ albums, translation, locale, ...props }) => {
   return (<>
@@ -26,10 +30,8 @@ const Albums: NextPage<AlbumsProps> = ({ albums, translation, locale, ...props }
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: locales.map(({locale}) => ({ 
-      params: { 
-        locale: locale
-      }
+    paths: locales.map(({ locale }) => ({ 
+      params: { locale }
     })),
     fallback: false
   }
@@ -37,13 +39,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const { locale } = context.params as IParams
-  // @ts-ignore
   const translation = translationJSON[locale]
   return {
     props: { 
-      albums, 
-      locale, 
-      translation 
+      albums: fs.readdirSync('_data/albums')
+        .map(file => require('_data/albums/'+file)),
+      locale,
+      translation
     }
   }
 }
@@ -51,12 +53,12 @@ export const getStaticProps: GetStaticProps = async (context) => {
 export default Albums
 
 type AlbumsProps = {
-  albums: Array<Album>
-  locale: string
-  translation: any
+  albums: AlbumObject[]
+  locale: Locales
+  translation: typeof translationJSON[Locales.EN]
   props: any
 }
 
 interface IParams extends ParsedUrlQuery {
-  locale: string
+  locale: Locales
 }

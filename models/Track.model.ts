@@ -60,7 +60,7 @@ const TrackSchema : Schema = new Schema({
         type: String,
         enum: TrackArtistRole
       },
-      artist: {
+      members: {
         type: [Schema.Types.ObjectId],
         ref: 'Artist',
       }
@@ -70,6 +70,11 @@ const TrackSchema : Schema = new Schema({
   genres: {
     type: [String],
     required: true
+  },
+  is_live: {
+    type: Boolean,
+    required: true,
+    default: false
   },
   is_playable: {
     type: Boolean,

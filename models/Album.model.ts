@@ -1,5 +1,5 @@
 import { AlbumType } from "@src/common/asset/test";
-import { AlbumEdition, AlbumObject } from "@src/common/asset/types/Album";
+import { AlbumEditionType, AlbumObject, CompilationEditionType, SingleEditionType } from "@src/common/asset/types/Album";
 import { DatePrecision, ResourceType } from "@src/common/asset/types/common";
 import { Schema, model, models } from "mongoose";
 
@@ -38,7 +38,11 @@ const AlbumSchema : Schema = new Schema({
   album_edition: {
     type: String,
     required: true,
-    enum: AlbumEdition
+    enum: {
+      ...AlbumEditionType,
+      ...SingleEditionType,
+      ...CompilationEditionType
+    }
   },
   label: {
     type: String,
@@ -56,6 +60,11 @@ const AlbumSchema : Schema = new Schema({
     type: String,
     required: true,
     enum: DatePrecision
+  },
+  is_live: {
+    type: Boolean,
+    required: true,
+    default: false
   },
   artists: {
     type: [Schema.Types.ObjectId],

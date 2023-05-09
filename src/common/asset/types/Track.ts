@@ -1,5 +1,5 @@
-import { SimplifiedAlbumObject } from "./Album"
-import { SimplifiedArtistObject } from "./Artist"
+import { AlbumObject, SimplifiedAlbumObject } from "./Album"
+import { ArtistObject, SimplifiedArtistObject } from "./Artist"
 import {
   ExternalUrlOrigin,
   ResourceType
@@ -9,7 +9,7 @@ export interface TrackObject {
   type: ResourceType.TRACK
   slug: string
   name: string
-  nane_en: string | null
+  name_en: string | null
 
   href: string
   disc_number: number
@@ -22,9 +22,24 @@ export interface TrackObject {
   artists: TrackArtist[]
   genres: string[]
 
+  is_live: boolean
   is_playable: boolean
   preview_url: string | null
   external_urls: Record<ExternalUrlOrigin, string>
+}
+
+export interface TocTrackObject extends Pick<TrackObject,
+  | 'slug'
+  | 'name'
+  | 'name_en'
+  | 'lyrics'
+> {
+  album: Pick<AlbumObject, 
+    | 'slug'
+    | 'name'
+    | 'name_en'
+    | 'images'
+  >
 }
 
 export interface SimplifiedTrackObject extends Omit<TrackObject,
@@ -39,18 +54,32 @@ export interface ExpandedTrackObject extends Omit<TrackObject,
   | 'artists'
 > {
   album: SimplifiedAlbumObject
-  artists: ExpandedTrackArtist
+  artists: ExpandedTrackArtist[]
+}
+
+export interface ExportedTrackObject extends Omit<TrackObject,
+  | 'album'
+  | 'artists'
+> {
+  album: Pick<AlbumObject, 'slug' | 'name' | 'name_en'>[]
+  artists: ExportedTrackArtist[]
 }
 
 export type TrackArtist = {
   role: TrackArtistRole
-  artist: string[] // ref
+  members: string[] // ref
 }
 
 export type ExpandedTrackArtist = Omit<TrackArtist,
-  | 'artist'
+  | 'members'
 > & {
-  artist: SimplifiedArtistObject
+  members: SimplifiedArtistObject[]
+}
+
+export type ExportedTrackArtist = Omit<TrackArtist,
+  | 'members'
+> & {
+  members: Pick<ArtistObject, 'slug' | 'name' | 'name_en'>[]
 }
 
 export enum TrackArtistRole {

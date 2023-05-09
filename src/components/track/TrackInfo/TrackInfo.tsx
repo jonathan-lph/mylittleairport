@@ -2,10 +2,12 @@ import { Track, Album } from "@src/common/asset/mla"
 import { Icon } from "@src/common/components/Icon"
 import { FC, useEffect, useMemo, useRef, useState, MouseEvent } from "react"
 import styles from './TrackInfo.module.sass'
+import { ExpandedTrackArtist, ExpandedTrackObject } from "@src/common/asset/types/Track"
+import { SimplifiedAlbumObject } from "@src/common/asset/types/Album"
 
 interface TrackInfoProps {
-  album: Album
-  track: Track
+  album: SimplifiedAlbumObject
+  track: ExpandedTrackObject
   translation: any
 }
 
@@ -16,7 +18,7 @@ const getTimestamp = (time: number): string => {
 }
 
 export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.Element => {
-  const { name, credits, lyrics } = track
+  const { name, lyrics } = track
   const [playing, setPlaying] = useState(false)
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
 
@@ -93,14 +95,14 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
         
       <div className={styles.imgBorder}>
         <img
-          src={`/album_artwork/${album.slug}.jpg`}
+          src={album.images[0].url}
           className={styles.img}
         />
         <div className={styles.albumName}>
           {album.name}
         </div>
         <div className={styles.trackNo}>
-          {track.album.find(a => a.slug === album.slug)?.track}
+          {track.track_number}
         </div>
       </div>
 
@@ -109,17 +111,15 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
       </h1>
 
       <dl className={styles.infosheet}>
-        {Object
-        .entries(credits)
-        .map(([_type, _names], idx) => _names &&
-          <div className={styles.category} key={_type}>
+        {track.artists.map(artist =>
+          <div className={styles.category} key={artist.role}>
             <dt>
-              {translation.credits[_type]}
+              {translation.credits[artist.role]}
             </dt>
             <dd>
-              {_names.map((_name) => 
-                <div key={_name}>
-                  {_name}
+              {artist.members.map(member => 
+                <div key={member.name}>
+                  {member.name}
                 </div>
               )}
             </dd>
@@ -134,8 +134,8 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
       </div>
 
       <div className={styles.lyrics}>
-        {lyrics
-          ? lyrics.map((line, index) => 
+        {track.lyrics
+          ? track.lyrics.split('\n').map((line, index) => 
               line !== ''
                 ? <p key={index}>{line}</p>
                 : <br key={index}/>

@@ -1,8 +1,16 @@
-export const locales = [{
-  locale: 'zh',
+export enum Locales {
+  ZH = "zh",
+  EN = "en"
+}
+
+export const locales : {
+  locale: Locales,
+  label: string
+}[] = [{
+  locale: Locales.ZH,
   label: '中',
 }, {
-  locale: 'en',
+  locale: Locales.EN,
   label: 'EN',
 }]
 

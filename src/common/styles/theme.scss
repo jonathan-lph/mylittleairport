@@ -136,3 +136,8 @@ $breakpoints: (
   font-family: map-get($typography, titleFont);
   font-weight: map-get($typography, fontWeight, bold)
 }
+
+@mixin normal {
+  font-family: map-get($typography, contentFont);
+  font-weight: map-get($typography, fontWeight, regular)
+}
