@@ -1,0 +1,59 @@
+{
+  "type": "track",
+  "slug": "dee-it-may-all-end-tomorrow-IV9rDk",
+  "name": "dee, it may all end tomorrow",
+  "name_en": "Dee, It May All End Tomorrow",
+  "href": "/track/dee-it-may-all-end-tomorrow-IV9rDk",
+  "disc_number": 1,
+  "track_number": 14,
+  "duration_s": 106,
+  "has_lyrics": true,
+  "lyrics": "But how can I forget?\nBut how can I forget your tender smile?\nBut how can you forgive?\nBut how can you forgive my unstable mind?\nOne day we may meet again\nOne day we may kiss again very splendid\nOne day you may get married\nOne day you may have baby, oh my dear Dee",
+  "album": {
+    "slug": "zoo-is-sad-people-are-cruel-hYCuuF",
+    "name": "Zoo Is Sad, People Are Cruel",
+    "name_en": "Zoo Is Sad, People Are Cruel"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

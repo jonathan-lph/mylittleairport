@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "讓我搭一班會爆炸的飛機-2Fd1HL",
+  "name": "讓我搭一班會爆炸的飛機",
+  "name_en": "Let Me Get On an Exploding Plane",
+  "href": "/track/讓我搭一班會爆炸的飛機-2Fd1HL",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 169,
+  "has_lyrics": true,
+  "lyrics": "讓我搭一班會爆炸的飛機\n去到台灣之前被炸死\n讓我喝一杯會吐血的香檳\n在喝醉之前可斷氣\n\n我以後也不會再打電話給你\n再沒法對電話唱Ｋ\n你要是孤單便去找好友睇戲\n他們一定會氹返你\n\n讓我搭一班會爆炸的飛機\n回到香港之前被炸死\n讓我喝一杯會吐血的香檳\n在喝醉之前擁抱你\n\n我以後也不會再打電話給你\n再沒法對電話唱Ｋ\n你要是孤單便去找好友睇戲\n他們一定會氹返你\n\n讓我搭一班會爆炸的飛機\n回到香港之前被炸死\n讓我喝一杯會吐血的香檳\n在喝醉之前擁抱你",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

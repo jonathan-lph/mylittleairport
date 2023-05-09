@@ -1,0 +1,112 @@
+{
+  "type": "album",
+  "slug": "寂寞的星期五-94cU9Q",
+  "name": "寂寞的星期五",
+  "name_en": "Lonely Friday",
+  "href": "/album/寂寞的星期五-94cU9Q",
+  "total_tracks": 17,
+  "album_type": "album",
+  "album_edition": "retail",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2012",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "我們一起離開吧-oPjX8K",
+      "name": "我們一起離開吧",
+      "name_en": "Let's Leave Together"
+    },
+    {
+      "slug": "回到中學的暑假-FhNAOE",
+      "name": "回到中學的暑假",
+      "name_en": "Back to the Summer in Secondary School"
+    },
+    {
+      "slug": "牛頭角青年-k977An",
+      "name": "牛頭角青年",
+      "name_en": "Youths of Ngau Tau Kok"
+    },
+    {
+      "slug": "how-can-you-fall-in-love-with-a-guy-who-doesnt-know-gainsbourg-xNgEq1",
+      "name": "how can you fall in love with a guy who doesn't know Gainsbourg?",
+      "name_en": "How Can You Fall in Love With a Guy Who Doesn't Know Gainsbourg?"
+    },
+    {
+      "slug": "印度-nSkWE0",
+      "name": "印度",
+      "name_en": "India"
+    },
+    {
+      "slug": "my-little-angel-dNM6qL",
+      "name": "my little angel",
+      "name_en": "My Little Angel"
+    },
+    {
+      "slug": "憂傷的嫖客-tcDSb2",
+      "name": "憂傷的嫖客",
+      "name_en": "Sorrowful Whoremonger"
+    },
+    {
+      "slug": "爺就是一名辭職撚-nt17zq",
+      "name": "爺就是一名辭職撚",
+      "name_en": "I am a Fucking Quitter"
+    },
+    {
+      "slug": "廣州足浴一夜-6H0Hrk",
+      "name": "廣州足浴一夜",
+      "name_en": "A Night of GuangZhou Foot Massage"
+    },
+    {
+      "slug": "大象-wiCZAl",
+      "name": "大象",
+      "name_en": "Elephant"
+    },
+    {
+      "slug": "寂寞的星期五-Du6cEf",
+      "name": "寂寞的星期五",
+      "name_en": "Lonely Friday"
+    },
+    {
+      "slug": "菊花的味道-fpvJx5",
+      "name": "菊花的味道",
+      "name_en": "The Taste of Chocolate Starfish"
+    },
+    {
+      "slug": "去信和賣碟-W3k32q",
+      "name": "去信和賣碟",
+      "name_en": "Selling CDs in Sino Centre"
+    },
+    {
+      "slug": "羅曼蒂克-esdZw2",
+      "name": "羅曼蒂克",
+      "name_en": "Romantic"
+    },
+    {
+      "slug": "re迷惘的人生-ZQBx59",
+      "name": "RE：迷惘的人生",
+      "name_en": "RE: A Perplexed Life"
+    },
+    {
+      "slug": "love-is-not-a-romantic-song-iT0eoV",
+      "name": "love is not a romantic song",
+      "name_en": "Love Is Not a Romantic Song"
+    },
+    {
+      "slug": "悼二零一二年的夏-lSbIql",
+      "name": "悼二零一二年的夏",
+      "name_en": "Mourning the Summer of 2012"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/寂寞的星期五.jpg",
+      "height": 1342,
+      "width": 1342
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "你望我望-MmIVn1",
+  "name": "你望我望",
+  "name_en": "You Look I Look",
+  "href": "/track/你望我望-MmIVn1",
+  "disc_number": 1,
+  "track_number": 8,
+  "duration_s": 186,
+  "has_lyrics": true,
+  "lyrics": "寂寞在舞中消逝　漫漫樂韻交替\n人們仍為舞會著迷　琴弦嘹亮徹底\n站在伴侶的背后　靜靜疊上雙手\n無從明白你的念頭　為何凝視我喝酒\n我望你望我面　只隔一線\n你望我望你面　心里束縛再加添\n\n站在待應的背后　默默換了杯酒\n情人仍在你心逗留　為何仍愿意去偷\n我望你望我面　只隔一線\n你望我望你面　心里束縛再加添\n\n別賣弄你的漂亮　別望著我欣賞\n為何呆著似一道墻　為何情欲正擴張\n我望某夜某地　可碰到你\n放任某夜某地　一切束縛也不理",
+  "album": {
+    "slug": "達明一代-wURlsC",
+    "name": "達明一代",
+    "name_en": "Tat Ming Pair Tribute Album"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "劉以達-A5NKhx",
+          "name": "劉以達",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "陳少琪-N2QNpN",
+          "name": "陳少琪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

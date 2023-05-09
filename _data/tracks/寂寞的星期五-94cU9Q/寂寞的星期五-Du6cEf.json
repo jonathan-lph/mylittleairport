@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "寂寞的星期五-Du6cEf",
+  "name": "寂寞的星期五",
+  "name_en": "Lonely Friday",
+  "href": "/track/寂寞的星期五-Du6cEf",
+  "disc_number": 1,
+  "track_number": 11,
+  "duration_s": 136,
+  "has_lyrics": true,
+  "lyrics": "這一個星期五\n你說不會再上來坐\n我知日後的星期五\n我將要一個人過\n\n這些年我犯過的錯\n如果可以再來過\n我都會揀這樣過\n我就是這麼卑劣的我\n\n吃了一個「如果」\n再吃一個還肚餓\n如你現在覺得罪過\n只因你開始對厭我\n\n這天你說你和我\n如像兩個小孩闖了禍\n現在你覺得他真不錯\n只因你看清楚了我",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

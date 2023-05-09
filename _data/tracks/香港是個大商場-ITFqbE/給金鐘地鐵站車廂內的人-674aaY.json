@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "給金鐘地鐵站車廂內的人-674aaY",
+  "name": "給金鐘地鐵站車廂內的人",
+  "name_en": "To Those On Board at Admiralty Station",
+  "href": "/track/給金鐘地鐵站車廂內的人-674aaY",
+  "disc_number": 1,
+  "track_number": 14,
+  "duration_s": 133,
+  "has_lyrics": true,
+  "lyrics": "曾經你都是夾在月台上的人\n當時你覺得入了車廂內的人\n有責任盡量前行\n\n如今你經已是進入了車廂內的人\n但你忘記了四班車之前\n你的月台人身份\n\n機會來了你變更\n你不再為後面的人諗\n曾經你是月台上有理想的人\n對月台人充滿憐憫\n\n金鐘地鐵站車廂內的人\n為什麼你們不行入啲呢？\n你們曾經都是夾在月台上的人\n曾經都希望前面的人行入啲\n但光陰似箭日月如梭時移勢易\n等咗四班車之後你們的機會來了\n入了車廂你們就不再行入啲\n歷史不會原諒你們　渣滓\n你們曾經是夾在月台上有理想的人\n理想是什麼？\n人們說理想是在彼岸\n但你知道理想就是逼前面啲人行入啲\n入啲　再行入啲\n\n改變在入車門時發生\n你發覺搭兩個站無謂入咁深\n所以站近門邊諗住容易啲走人\n不再前行為他人犧牲\n這事每日也發生",
+  "album": {
+    "slug": "香港是個大商場-ITFqbE",
+    "name": "香港是個大商場",
+    "name_en": "Hong Kong Is One Big Shopping Mall"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

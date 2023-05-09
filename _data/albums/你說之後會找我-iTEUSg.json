@@ -1,0 +1,87 @@
+{
+  "type": "album",
+  "slug": "你說之後會找我-iTEUSg",
+  "name": "你說之後會找我",
+  "name_en": "You Said We'd Be Back",
+  "href": "/album/你說之後會找我-iTEUSg",
+  "total_tracks": 12,
+  "album_type": "album",
+  "album_edition": "retail",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2018",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "阿姆斯特丹夜機-V22E2H",
+      "name": "阿姆斯特丹夜機",
+      "name_en": "Night Flight to Amsterdam"
+    },
+    {
+      "slug": "你說之後會找我-2rj1X3",
+      "name": "你說之後會找我",
+      "name_en": "You Said We'd Be Back"
+    },
+    {
+      "slug": "一六八-ZvZmP9",
+      "name": "一六八",
+      "name_en": "168"
+    },
+    {
+      "slug": "再殺一個人-8vmptD",
+      "name": "再殺一個人",
+      "name_en": "Killed Off One More"
+    },
+    {
+      "slug": "沖繩流浪貓-hHP7Rw",
+      "name": "沖繩流浪貓",
+      "name_en": "Okinawa Stray Cat"
+    },
+    {
+      "slug": "百份之一機會-r8Bs5I",
+      "name": "百份之一機會",
+      "name_en": "One in a Hundred"
+    },
+    {
+      "slug": "彌敦道的一晚-good-trip-4JNfeO",
+      "name": "彌敦道的一晚 good trip",
+      "name_en": "A Night of Good Trip Along Nathan Road"
+    },
+    {
+      "slug": "hey-hey-baby-meonGc",
+      "name": "HEY HEY BABY",
+      "name_en": "HEY HEY BABY"
+    },
+    {
+      "slug": "你叫我譯一首德國歌詞-IBol5N",
+      "name": "你叫我譯一首德國歌詞",
+      "name_en": "You Asked Me to Translate a German Song"
+    },
+    {
+      "slug": "心-IsY1BL",
+      "name": "心",
+      "name_en": "Heart"
+    },
+    {
+      "slug": "西湖沒有中秋-P8OxQA",
+      "name": "西湖沒有中秋",
+      "name_en": "No Mid-Autumn On West Lake"
+    },
+    {
+      "slug": "以為和你熟-A78gm5",
+      "name": "以為和你熟",
+      "name_en": "Thought We Were Close"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/你說之後會找我.jpg",
+      "height": 1342,
+      "width": 1342
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

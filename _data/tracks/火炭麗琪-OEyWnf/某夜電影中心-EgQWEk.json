@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "某夜電影中心-EgQWEk",
+  "name": "某夜電影中心",
+  "name_en": "A Night at Cinema Centre",
+  "href": "/track/某夜電影中心-EgQWEk",
+  "disc_number": 1,
+  "track_number": 14,
+  "duration_s": 138,
+  "has_lyrics": true,
+  "lyrics": "這晚的一切是夢還是真\n像上天給我一晚的回贈\n想過一千遍重遇在電影中心\n終於等到這晚來臨\n\n你怕過了今晚我會更不開心\n但我說反正已夠不幸\n看你 IG 看到包括你所有親朋\n你說看我朋友看到像識了本人\n\n回家的一路上你笑笑的問\n猜你手機密碼去年的更新\n我並沒有猜中　然後過了一陣\n你按下是我的生辰\n\n偶爾也會想那些年的光陰\n為什麼他會從不過問\n或是他已知道有我這一個人\n就像那套《Age of Innocence》\n\n今天見你打火機遺留在我身\n像告訴我昨晚的都是真",
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "my-little-fish-D6G4JY",
+  "name": "my little fish",
+  "name_en": "My Little Fish",
+  "href": "/track/my-little-fish-D6G4JY",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 137,
+  "has_lyrics": true,
+  "lyrics": "Dear skinny fish\nListen to me for a while\nWe have no more tears\nNo more struggle, no more wine\n\nYou're my little fish\nSwim to me and take some cheese\nDo you still believe\nHe would come back? He's a freak\n\nAnd then my fish she says\n\"I thought he belongs to me\nI know I should not mind\nI cannot tell lies\nHe puts me aside\"\n\nFish starts to cry\nOther fishes cry and cry.\nFish keeps on crying\n\"wu wu wu…\"\n\nLittle baby fish\nListen to me for a while\nWe have no more tears\nNo more struggle, no more wine\n\nFrom now on\nFrom now on\nFrom now on",
+  "album": {
+    "slug": "只因當時太緊張-Cv0nOx",
+    "name": "只因當時太緊張",
+    "name_en": "Becoz I Was Too Nervous at That Time"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

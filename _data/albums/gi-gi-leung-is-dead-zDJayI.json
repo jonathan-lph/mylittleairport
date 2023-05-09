@@ -1,0 +1,47 @@
+{
+  "type": "album",
+  "slug": "gi-gi-leung-is-dead-zDJayI",
+  "name": "Gi Gi Leung Is Dead",
+  "name_en": "Gi Gi Leung Is Dead",
+  "href": "/album/gi-gi-leung-is-dead-zDJayI",
+  "total_tracks": 4,
+  "album_type": "album",
+  "album_edition": "limited",
+  "label": "默契音樂",
+  "label_en": "Silent Agreement",
+  "release_date": "2005",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "gi-gi-leung-is-dead-MtHsKD",
+      "name": "gi gi leung is dead",
+      "name_en": "Gi Gi Leung Is Dead"
+    },
+    {
+      "slug": "washide-pfQh6h",
+      "name": "washide",
+      "name_en": "Washide"
+    },
+    {
+      "slug": "你的微笑像朵花-guitar-version-x66ZCK",
+      "name": "你的微笑像朵花 (guitar version)",
+      "name_en": "You Smile Like A Blossom (Guitar Version)"
+    },
+    {
+      "slug": "dee-it-may-all-end-tomorrow-guitar-version-1H1p9v",
+      "name": "dee, it may all end tomorrow (guitar version)",
+      "name_en": "Dee, It May All End Tomorrow (Guitar Version)"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/gi-gi-leung-is-dead.jpg",
+      "height": 432,
+      "width": 432
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

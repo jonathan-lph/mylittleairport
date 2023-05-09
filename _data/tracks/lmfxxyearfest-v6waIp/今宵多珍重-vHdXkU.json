@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "今宵多珍重-vHdXkU",
+  "name": "今宵多珍重",
+  "name_en": "Farewell",
+  "href": "/track/今宵多珍重-vHdXkU",
+  "disc_number": 1,
+  "track_number": 7,
+  "duration_s": 160,
+  "has_lyrics": true,
+  "lyrics": "今宵多珍重　聽日又未必會係噉\n今宵多珍重　聽日又另外一個樣\n今宵多珍重　聽日又未必會係噉\n今宵多珍重　聽日又另外一個樣\n\n你有冇埋怨自己生出嚟嗰陣時\n唔係含住條金鎖匙　係一條生銹鎖匙\n你老豆冇本事　冇錢養妻活兒\n你呀嫲就啋　你個衰仔\n生你出嚟都係多餘　唔該\n你要記住人生嘅大門係要靠你雙手去打開\n掂嗰陣時就唔駛見風駛盡𢃇\n耷嗰陣時唔好怨天怨地\n\nUnprecedented though this moment in history may be\nWe have the utmost confidence in the abilities\nAnd resilience of the Hong Kong people\nBritain learnt long ago\nThat Hong Kong people know best\nWhat is good for Hong Kong\n\n可以試下去諗條路唔係一定要噉走\n要壞嘅話唔一定要食煙飲酒\n唔係一定要耷低頭做人隻狗\n可以抬起頭自己行每一步路\n唔駛畀人睇死你係一個冇用嘅細路\n自己去做做到自己就當然最好\n做唔到都千祈唔好放棄自己\n鎅手跳樓飲滴露蕩失路\n\nIt has been the greatest honour and privilege of my life\nTo share your home for five years\nAnd to have some responsibility for your future\nNow Hong Kong people are to run Hong Kong\nThat is the promise and that is the unshakable destiny\n\n今宵多珍重　聽日又未必會係噉\n今宵多珍重　聽日又另外一個樣\n今宵多珍重　聽日又未必會係噉\n今宵多珍重　聽日又另外一個樣\n今宵多珍重",
+  "album": {
+    "slug": "lmfxxyearfest-v6waIp",
+    "name": "LMFXXYEARFEST",
+    "name_en": "LMFXXYEARFEST"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "lmf-T7S6c8",
+          "name": "LMF",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "lmf-T7S6c8",
+          "name": "LMF",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

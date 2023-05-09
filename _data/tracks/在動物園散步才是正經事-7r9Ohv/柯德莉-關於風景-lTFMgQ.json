@@ -1,0 +1,59 @@
+{
+  "type": "track",
+  "slug": "柯德莉-關於風景-lTFMgQ",
+  "name": "柯德莉，關於風景",
+  "name_en": "Audrey, About the Landscape",
+  "href": "/track/柯德莉-關於風景-lTFMgQ",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 98,
+  "has_lyrics": true,
+  "lyrics": "沒什麼秘密\n可以及現在更秘密\n月亮將下沉\n可是末日未會如常降臨\n\n看著天和海\n仿似連成一物\n但是不曾接近\n你像片大海\n柯德莉藍的海\n願望看著天\n包括樹木　唱片\n皮鞋　情侶　公路\n石頭　河流　商舖",
+  "album": {
+    "slug": "在動物園散步才是正經事-7r9Ohv",
+    "name": "在動物園散步才是正經事",
+    "name_en": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

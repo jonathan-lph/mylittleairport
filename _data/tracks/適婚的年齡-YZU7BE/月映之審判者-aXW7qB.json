@@ -1,0 +1,94 @@
+{
+  "type": "track",
+  "slug": "月映之審判者-aXW7qB",
+  "name": "月映之審判者",
+  "name_en": "Reflector's Judgement",
+  "href": "/track/月映之審判者-aXW7qB",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 201,
+  "has_lyrics": true,
+  "lyrics": "反映者林鵬\n世界就在你內在呈現\n我驚訝著\n甚至為之落淚\n為你寫的歌\n不為它的失落沮喪\n為的是萬物恆常變幻之精密之美\n由「你」這個有機複合體\n體現出來\n是萬有的折射\n是宇宙的投射\n然而\n這是不著痕跡的\n而你剛開始時也不知道\n自身的設計功能和作用\n\n親愛的反映者\n你就是宇宙的縮影\n你的任務就是反映周遭\n這樣就可以了\n在你尋找愛的真諦的道路上\n你所反映的\n正正是\n在學習「什麼是愛」的\n萬有狀態",
+  "album": {
+    "slug": "適婚的年齡-YZU7BE",
+    "name": "適婚的年齡",
+    "name_en": "The Right Age for Marriage"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

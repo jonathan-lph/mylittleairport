@@ -1,0 +1,57 @@
+{
+  "type": "album",
+  "slug": "everyone-remembers-the-orange-OvkCUS",
+  "name": "everyone remembers the orange",
+  "name_en": "everyone remembers the orange",
+  "href": "/album/everyone-remembers-the-orange-OvkCUS",
+  "total_tracks": 6,
+  "album_type": "compilation",
+  "album_edition": "hong_kong",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2014",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "my-little-banana-Q9cgDR",
+      "name": "my little banana",
+      "name_en": "My Little Banana"
+    },
+    {
+      "slug": "春天在車廂裡-bVgmWk",
+      "name": "春天在車廂裡",
+      "name_en": "Spring in the Bus"
+    },
+    {
+      "slug": "debbie-dont-send-this-song-to-others-5pBJNI",
+      "name": "debbie, don't send this song to others",
+      "name_en": "Debbie, Don't Send This Song to Others"
+    },
+    {
+      "slug": "藍白紅風格練習-PwUxAy",
+      "name": "藍白紅風格練習",
+      "name_en": "Exercicse de Style"
+    },
+    {
+      "slug": "milan-GnDrJc",
+      "name": "milan",
+      "name_en": "Milan"
+    },
+    {
+      "slug": "印度-bmKAc3",
+      "name": "印度",
+      "name_en": "India"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/everyone-remembers-the-orange.jpg",
+      "height": 709,
+      "width": 709
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

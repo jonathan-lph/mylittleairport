@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "西湖沒有中秋-P8OxQA",
+  "name": "西湖沒有中秋",
+  "name_en": "No Mid-Autumn On West Lake",
+  "href": "/track/西湖沒有中秋-P8OxQA",
+  "disc_number": 1,
+  "track_number": 11,
+  "duration_s": 127,
+  "has_lyrics": true,
+  "lyrics": "在這中秋的夜景\n湖面平靜\n與你去看滿月的倒影\n不為天上的星星\n不為手中的燈影\n聽你腳步的聲最動聽\n\n但這中秋的夜景\n為何這麼冷清\n並沒看見別的燈影\n只剩天上的星星\n不被看見的遠景\n照不清暗處的路徑",
+  "album": {
+    "slug": "你說之後會找我-iTEUSg",
+    "name": "你說之後會找我",
+    "name_en": "You Said We'd Be Back"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "夏日浪漫-5RtaZt",
+          "name": "夏日浪漫",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

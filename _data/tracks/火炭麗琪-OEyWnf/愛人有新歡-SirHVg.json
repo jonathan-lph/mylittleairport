@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "愛人有新歡-SirHVg",
+  "name": "愛人有新歡",
+  "name_en": "Lover Has a New Lover",
+  "href": "/track/愛人有新歡-SirHVg",
+  "disc_number": 1,
+  "track_number": 2,
+  "duration_s": 125,
+  "has_lyrics": true,
+  "lyrics": "沒所謂的　沒所謂\n坦白告訴我　就沒問題\n沒所謂的　沒所謂\n他是哪一位？是何時一齊？\n\n是沒所謂\n都知這件事　最不可控制\n沒有所謂\n在這裡我有很多朋友仔\n\n沒所謂的　沒所謂\n這個大時勢　兒女私情不要計\n只是給你寫的第一首歌仔\n便以分手為題\n\n是沒所謂\n你做了我　從前的一切\n沒有所謂\n高高拎起　輕輕放低\n\n坦白告訴我 就沒問題",
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

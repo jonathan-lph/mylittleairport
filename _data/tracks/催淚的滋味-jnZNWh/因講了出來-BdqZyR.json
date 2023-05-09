@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "因講了出來-BdqZyR",
+  "name": "因講了出來",
+  "name_en": "When I Let It Out",
+  "href": "/track/因講了出來-BdqZyR",
+  "disc_number": 1,
+  "track_number": 15,
+  "duration_s": 161,
+  "has_lyrics": true,
+  "lyrics": "（跳舞吧）\n\n因講了出來\n便會失去吸引力\n失去機會被愛\n因講了出來\n便會失去所有\n想像中的可愛\n\n寧願永遠\n永遠停留在\n沒太多往來\n不在時間上慷慨\n寧願永遠\n永遠停留在\n想像之內\n免去細節的傷害\n\n就這樣　在午夜　在馬路\n在網上　在購物　在腦內　就這樣愛\n就這樣　在被內　在散步\n在午睡　在吃飯　在發夢　就這樣愛\n和你去發展愛\n\n保持三兩日嘅 message\n報告睇過嘅電影\n交換一兩句影評\n間中一張食物照\n好睇嘅副刊 link\n你有冇去過淺水灣呢間露台餐廳？\n我喺日本嘅和歌展覽\n見到啲好短好脆弱嘅古詩\n例如有首係：\n「只因你說了一句『馬上就來』／\n　我在九月漫長的夜晚苦苦等待／\n　等到清晨月影浮出天外」\n又例如：\n（就這樣　在午夜　在馬路\n在網上　在購物　在腦內　就這樣愛）\n「本來只有千年之齡的松樹／\n　今天被你的手一掂／\n　想必長活萬年」\n（就這樣　在被內　在散步\n在午睡　在吃飯　在發夢　就這樣愛）\n離開展覽前\n我都喺留言簿寫咗首：\n「不敢看到美好的詩句／\n　怕用手機影低時／\n　被保安捉去」",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "蕭暢悅-uT8J7W",
+          "name": "蕭暢悅",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

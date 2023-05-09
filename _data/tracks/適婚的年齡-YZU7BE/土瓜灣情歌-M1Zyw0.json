@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "土瓜灣情歌-M1Zyw0",
+  "name": "土瓜灣情歌",
+  "name_en": "To Kwa Wan Ballad",
+  "href": "/track/土瓜灣情歌-M1Zyw0",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 143,
+  "has_lyrics": true,
+  "lyrics": "這一個下雨的夜晚\n你是否正在空閒\n我此刻仍留在土瓜灣\n想著未來怎麼辦\n只希望沙中線的那個站\n可以起得更慢\n再貴的租我已不能負擔\n\n這一個下雨的夜晚\n我是否仍在你心間\n已有多少年沒有上班\n煩惱為何卻未減\n只想歲月過得平淡\n知這是最困難\n願你我能留在黑暗中多一陣間\n\n這一個下雨的夜晚\n我躺在沙發矇矓間\n收音機說北韓已射出導彈\n地球另一邊被炸爛\n所有的事都不夠虛幻\n因現實未到最爛\n要到絕望才望見希望在人間\n\n到了某天你我不再浪漫\n有不喜歡的工要返\n你會否便記起曾笑得這麼燦爛",
+  "album": {
+    "slug": "適婚的年齡-YZU7BE",
+    "name": "適婚的年齡",
+    "name_en": "The Right Age for Marriage"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "在動物園散步才是正經事-9ak5BR",
+  "name": "在動物園散步才是正經事",
+  "name_en": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo",
+  "href": "/track/在動物園散步才是正經事-9ak5BR",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 181,
+  "has_lyrics": true,
+  "lyrics": "我間中仍會想我們會見面\n在那間紅磡近黃埔的商店\n你若然還記得那諾言\n曾說今天我們流浪到海邊\n\n你照片留在一封情信裡面\n每一天仍是照舊看它一遍\n我仍然還記得那笑臉\n曾在當天我們流浪到夏天\n\n我都曾寫你在每天的日記\n但放棄你卻像再沒可能夢想\n像一個沉悶的獨唱\n\n你照片留在一封情信裡面\n每一天仍是照舊看它一遍\n兩年前遊過的動物園\n來到今天我們流浪到哪邊？\n\n我都曾寫你在每天的日記\n但放棄你卻像再沒可能夢想\n像一個沉悶的獨唱\n\n但放棄你卻像再沒可能夢想\n像失去甜蜜的合唱",
+  "album": {
+    "slug": "為你含情-oK5049",
+    "name": "為你含情",
+    "name_en": "Hum Ching for You"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

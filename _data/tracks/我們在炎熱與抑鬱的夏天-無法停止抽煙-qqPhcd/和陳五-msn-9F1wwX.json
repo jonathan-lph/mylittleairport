@@ -1,0 +1,69 @@
+{
+  "type": "track",
+  "slug": "和陳五-msn-9F1wwX",
+  "name": "和陳五 msn",
+  "name_en": "MSN with Ng Chan",
+  "href": "/track/和陳五-msn-9F1wwX",
+  "disc_number": 1,
+  "track_number": 14,
+  "duration_s": 155,
+  "has_lyrics": true,
+  "lyrics": "我愛你　我要帶你返屋企\n我不要等你\n我不要在 MSN 等你\n我要你　我要撟住你的手臂\n像那晚撟住你的手臂\n閉著眼行了一條街\n你說這是測驗對對方信心的遊戲\n\n這個世界已沒有將來\n我在這裏被悶到炸開\n我要與你流亡到海外\n我說我們不如一同去到越南食魚蛋\n我說我們不如一同去到月球釣泥猛\n我說我們不如一同去到去到去到去到……\n\n其實我知道你不開心\n其實我知道你不想一個人\n其實我都不想一個人\n我說我們不如我們不如結婚\n但結婚之後要分開住分開訓\n然後你問「咁點解要結婚？」\n我說和不太熟的人結婚應該會很開心\n\n這個世界已沒有將來\n這裏永遠也沒法變改\n我要與你流亡到海外\n或者我們都不需要真的戀愛\n或者我們只不過需要間唔中去一次諾士佛臺\n或者我們只不過需要一種新的戀愛",
+  "album": {
+    "slug": "我們在炎熱與抑鬱的夏天-無法停止抽煙-qqPhcd",
+    "name": "我們在炎熱與抑鬱的夏天，無法停止抽煙",
+    "name_en": "We Can't Stop Smoking in the Vicious and Blue Summer"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

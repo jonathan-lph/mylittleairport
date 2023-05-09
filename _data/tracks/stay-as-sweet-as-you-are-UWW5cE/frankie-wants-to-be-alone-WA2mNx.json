@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "frankie-wants-to-be-alone-WA2mNx",
+  "name": "frankie wants to be alone",
+  "name_en": "Frankie Wants to Be Alone",
+  "href": "/track/frankie-wants-to-be-alone-WA2mNx",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 136,
+  "has_lyrics": true,
+  "lyrics": "His name is Frankie\nlikes to drink green tea\nAnd I noticed him, when I was 16\nWe discussed about Christy\nShe was the goddess to me\n\nHe knows who is Tim\nbut not closed to him\nThough they both like film\nthey have different dreams\nFrankie wants to be lonely\nhe needs no one to agree\n\nHe walks alone in school\nno one think he is cool\nHe never studies hard\nbut he always gets high mark\nPeople think he's so strange\nbut he doesn't wanna change\nAll he need is daydreaming\nNo one really knows his thinking\n\nHe walks alone in school\nno one think he is cool\nHe never studies hard\nbut he always gets high mark\nPeople think he's so strange\nbut he doesn't wanna change\nAll he need is daydreaming\nNo one really knows his thinking",
+  "album": {
+    "slug": "stay-as-sweet-as-you-are-UWW5cE",
+    "name": "Stay As Sweet As You Are",
+    "name_en": "Stay As Sweet As You Are"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

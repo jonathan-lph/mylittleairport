@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "回到中學的暑假-FhNAOE",
+  "name": "回到中學的暑假",
+  "name_en": "Back to the Summer in Secondary School",
+  "href": "/track/回到中學的暑假-FhNAOE",
+  "disc_number": 1,
+  "track_number": 2,
+  "duration_s": 124,
+  "has_lyrics": true,
+  "lyrics": "或者就這樣吧\n不要再去找她\n你經已失去她\n便由她去吧\n\n就這樣算了吧\n或者你不夠喜歡她\n如果你夠喜歡她\n不會暗地喜歡這牽掛\n\n是很久沒這感覺吧\n似回到中學的暑假\n那年第一次失去她\n還未學會瀟灑\n\n是結束得不夠浪漫吧\n你才這麼不捨得她\n如果永遠也離不開她\n你便會更害怕\n\n現在不是更好嗎\n她永遠變了一幅畫\n你只需要間中掛起她\n\n原諒一下自己吧\n你對自己一向這麼差\n帶來了這麼多惡果\n要你慢慢消化",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "jackie-uZzjPG",
+          "name": "Jackie",
+          "name_en": null
+        },
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

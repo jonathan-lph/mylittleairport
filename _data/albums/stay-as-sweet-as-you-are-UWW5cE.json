@@ -1,0 +1,112 @@
+{
+  "type": "album",
+  "slug": "stay-as-sweet-as-you-are-UWW5cE",
+  "name": "Stay As Sweet As You Are",
+  "name_en": "Stay As Sweet As You Are",
+  "href": "/album/stay-as-sweet-as-you-are-UWW5cE",
+  "total_tracks": 17,
+  "album_type": "album",
+  "album_edition": "limited",
+  "label": "트라이앵글 뮤직은",
+  "label_en": "Triangle Music",
+  "release_date": "2008",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "debbie-dont-send-this-song-to-others-6qECDT",
+      "name": "debbie, don't send this song to others",
+      "name_en": "Debbie, Don't Send This Song to Others"
+    },
+    {
+      "slug": "dee-it-may-all-end-tomorrow-2qwFfI",
+      "name": "dee, it may all end tomorrow",
+      "name_en": "Dee, It May All End Tomorrow"
+    },
+    {
+      "slug": "dolly-and-bb-will-not-wake-up-anymore-XFMIRn",
+      "name": "dolly and bb will not wake up anymore",
+      "name_en": "Dolly and BB Will Not Wake Up Anymore"
+    },
+    {
+      "slug": "edward-had-you-ever-thought-that-the-end-of-the-world-would-come-on-20901-tElUE4",
+      "name": "edward, had you ever thought that the end of the world would come on 20.9.01?",
+      "name_en": "Edward, Had You Ever Thought That the End of the World Would Come On 20.9.01?"
+    },
+    {
+      "slug": "frankie-wants-to-be-alone-WA2mNx",
+      "name": "frankie wants to be alone",
+      "name_en": "Frankie Wants to Be Alone"
+    },
+    {
+      "slug": "gi-gi-leung-is-dead-zgw4EX",
+      "name": "gi gi leung is dead",
+      "name_en": "Gi Gi Leung Is Dead"
+    },
+    {
+      "slug": "i-dont-know-how-to-download-good-av-like-iris-does-dctUcq",
+      "name": "i don't know how to download good av like iris does",
+      "name_en": "I Don't Know How to Download Good AV Like Iris Does"
+    },
+    {
+      "slug": "白田購物中心-qgCRtx",
+      "name": "白田購物中心",
+      "name_en": "Park Tin Commercial Centre"
+    },
+    {
+      "slug": "japan-實瓜-MKL3LF",
+      "name": "japan 實瓜",
+      "name_en": "Japan Sat-Gwaa"
+    },
+    {
+      "slug": "je-pense-a-toi-eIVV6O",
+      "name": "je pense à toi",
+      "name_en": "Je Pense à Toi"
+    },
+    {
+      "slug": "josephines-shop-SzzOE6",
+      "name": "josephine's shop",
+      "name_en": "Josephine's Shop"
+    },
+    {
+      "slug": "leo-are-you-still-jumping-out-of-windows-in-expensive-clothes-4ULk7m",
+      "name": "leo, are you still jumping out of windows in expensive clothes?",
+      "name_en": "Leo, Are You Still Jumping Out of Windows in Expensive Clothes?"
+    },
+    {
+      "slug": "my-little-banana-SRCtNB",
+      "name": "my little banana",
+      "name_en": "My Little Banana"
+    },
+    {
+      "slug": "my-little-k-and-j-hKOTj3",
+      "name": "my little k and j",
+      "name_en": "My Little K and J"
+    },
+    {
+      "slug": "victor-fly-me-to-stafford-GIGFrl",
+      "name": "victor, fly me to stafford",
+      "name_en": "Victor, Fly Me To Stafford"
+    },
+    {
+      "slug": "when-i-listen-to-the-field-mice-oOAEWk",
+      "name": "When I Listen To The Field Mice",
+      "name_en": "When I Listen To The Field Mice"
+    },
+    {
+      "slug": "you-dont-wanna-be-my-girlfriend-phoebe-FpFwGk",
+      "name": "you don't wanna be my girlfriend, phoebe",
+      "name_en": "You Don't Wanna Be My Girlfriend, Phoebe"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/stay-as-sweet-as-you-are.jpg",
+      "height": 526,
+      "width": 600
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

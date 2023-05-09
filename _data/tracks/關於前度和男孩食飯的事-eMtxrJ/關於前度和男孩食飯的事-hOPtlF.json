@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "關於前度和男孩食飯的事-hOPtlF",
+  "name": "關於前度和男孩食飯的事",
+  "name_en": "About My Ex Dating A Youngster",
+  "href": "/track/關於前度和男孩食飯的事-hOPtlF",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 153,
+  "has_lyrics": true,
+  "lyrics": "我聽講我的一個前度女朋友約會\n與一個比佢年幼的男孩\n而那餐晚飯裡\n男孩講了許多許多往事\n但大多數只關於考試和放榜的事\n\nOh no 我的前度\n佢聽到一半　心裡已不滿　覺得悶\n過了一小時　像過了一天\n晚飯後二人從此不再見\n\n男孩　世界發生了這麼多事\n你為何只講考試\n你可以講沙特和波娃的愛情故事\n又或者講李秋霞的咸濕歌詞\n又或者講 The Smiths 與 Morrissey\n文藝少女一般都會鍾意\n而遇上這種素食的文藝女士\n食飯時　你大可以\n慨嘆既然人類知道食魚翅是殘忍時\n為何食豬牛羊又可以？\n提出類似的質疑\n佢哋會覺得你有意思\n男孩　你下次可以試\n\n男孩　其實我剛才只是講笑\n當一個中女約會你時\n已經是退而求其次\n你講什麼佢都不會介意\n最後覺得悶 純粹係你不夠靚仔所致\n世界就是這樣諷刺\n其實所謂的文藝女士\n我見過　最終都一樣是\n想找個靚仔而已",
+  "album": {
+    "slug": "關於前度和男孩食飯的事-eMtxrJ",
+    "name": "關於前度和男孩食飯的事",
+    "name_en": "About My Ex Dating A Youngster"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

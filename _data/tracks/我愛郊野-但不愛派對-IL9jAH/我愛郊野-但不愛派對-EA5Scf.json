@@ -1,0 +1,59 @@
+{
+  "type": "track",
+  "slug": "我愛郊野-但不愛派對-EA5Scf",
+  "name": "我愛郊野，但不愛派對",
+  "name_en": "I Love the Country But Not the Party",
+  "href": "/track/我愛郊野-但不愛派對-EA5Scf",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 89,
+  "has_lyrics": true,
+  "lyrics": "I love the country\nBut not the party\nIf you wanna celebrate\nDon't even think of calling me\nYou know it's not easy\nPretending to be happy\nThere're still many good guys doing time\nCan't you see?\n\nRich guys get richer\nPoor guys get poorer\nIn a party, there are many wankers and losers\nI'd celebrate Christmas Day\nI'd celebrate Easter Sunday\nBut not this party of your sixtieth birthday\nNo, not this party of your sixtieth birthday",
+  "album": {
+    "slug": "我愛郊野-但不愛派對-IL9jAH",
+    "name": "我愛郊野，但不愛派對",
+    "name_en": "I Love the Country But Not the Party"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "vicky-leong-tQnDFL",
+          "name": "Vicky Leong",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

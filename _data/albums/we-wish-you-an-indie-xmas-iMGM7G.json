@@ -1,0 +1,32 @@
+{
+  "type": "album",
+  "slug": "we-wish-you-an-indie-xmas-iMGM7G",
+  "name": "We Wish You An Indie X'mas",
+  "name_en": "We Wish You An Indie X'mas",
+  "href": "/album/we-wish-you-an-indie-xmas-iMGM7G",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "hong_kong",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2007",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "悲傷的採購-digilick-remix-EVrtHe",
+      "name": "悲傷的採購 (Digilick Remix)",
+      "name_en": "Sad Purchase (Digilick Remix)"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/we-wish-you-an-indie-xmas.jpg",
+      "height": 480,
+      "width": 480
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

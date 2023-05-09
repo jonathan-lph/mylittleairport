@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "20gb-MfKiw6",
+  "name": "20GB",
+  "name_en": "20GB",
+  "href": "/track/20gb-MfKiw6",
+  "disc_number": 1,
+  "track_number": 9,
+  "duration_s": 180,
+  "has_lyrics": true,
+  "lyrics": "如不是 Flickr 再一加價\n我也不會把八千張照片拿下\n迫使我重溫四年這段關係變化\n第一張相喺黃大仙開始\n你的眼耳口鼻\n是我生平遇過的最美\n想把一切都給你\n不設限期\n\n時光\n把各人的青春玩弄\n20GB 的重\n都不過是愛情的灰燼\n證實如何燒掉每張笑容\n\n這四年像是四十年\n要忘掉也是不容易\n\n黃大仙之後我話寄嘢俾你\n問你地址\n過兩日我貼咗張郵票\n喺戴住嘅冷帽上面\n去到你屋企門口\n我話我係嗰份郵件\n\n還有一些冬天郊區的照片\n第一次吃你煮的撈麵\n深夜投放電影在牆上過年\n\n時光\n把我們的青春玩弄\n20GB 的重\n都不過是愛情的灰燼\n證實如何燒掉每張笑容\n\n再來一次也不是那回事\n再來一次也不是那回事",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

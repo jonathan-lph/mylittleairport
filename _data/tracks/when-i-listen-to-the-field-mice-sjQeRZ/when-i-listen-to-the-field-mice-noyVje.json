@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "when-i-listen-to-the-field-mice-noyVje",
+  "name": "When I Listen To The Field Mice",
+  "name_en": "When I Listen To The Field Mice",
+  "href": "/track/when-i-listen-to-the-field-mice-noyVje",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 160,
+  "has_lyrics": true,
+  "lyrics": "Still remember the songs of the field mice\nYou used to sing to me at night\nSometimes I think we can be together\nYou make me feel love's like flowers\nI have a catalogue of everything we did\nI still remember everything you need\nI wanna write this love song for you\nI wanna tell you how I love you\n\n'Cause you\nYou deserve a major 7 chord\nAnd I\nI just can't stop feeling so lost\n\nRemember once me and you're in a bus\nI kissed your lips and no one saw us\nI didn't know where the bus's going\nI didn't know where we are going\nYou told me you like major 7\nSo I start writing songs with these chords\nBut don't you know these chords're about love\nWhich will never happen between us\n\n'Cause you\nYou deserve a major 7 chord\nAnd I\nI just can't stop feeling so lost\n\nSo I use an E minor chord\nAfter a D major 7\nSo I use an E minor chord\nTo stop myself feeling lost",
+  "album": {
+    "slug": "when-i-listen-to-the-field-mice-sjQeRZ",
+    "name": "When I Listen to the Field Mice",
+    "name_en": "When I Listen to the Field Mice"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

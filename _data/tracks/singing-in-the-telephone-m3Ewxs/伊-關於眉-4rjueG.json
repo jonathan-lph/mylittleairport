@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "伊-關於眉-4rjueG",
+  "name": "伊，關於眉",
+  "name_en": "Thou, About Eyebrows",
+  "href": "/track/伊-關於眉-4rjueG",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 0,
+  "has_lyrics": true,
+  "lyrics": "如果你過份缺乏集體精神\n我會陪你離棄日日遠飛\n如果你每夜缺乏合適睡眠\n我會讓你抱著　抱着我的唱機\n好風光明媚\n播着陳綺貞的悠悠長假期\n\n除非你渴望是一雙粗的眉\n我永遠也沒花讓你驚喜\n難保某日發揮出犧牲精神\n我懶理不理　會決心劫機\n法官不留餘地　大會堂處死\n那天風光明媚\n\n我會在死前串通護衞種植著一雙粗的眉\n一雙粗的眉\n再去被分成碎片滴著血肉地\n給刀槍分裂　給玻璃分割\n法西斯的美麗遇著希治閣",
+  "album": {
+    "slug": "singing-in-the-telephone-m3Ewxs",
+    "name": "Singing in the Telephone",
+    "name_en": "Singing in the Telephone"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

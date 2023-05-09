@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "公司裡的愛琴海-epEadJ",
+  "name": "公司裡的愛琴海",
+  "name_en": "Love Sea in The Office",
+  "href": "/track/公司裡的愛琴海-epEadJ",
+  "disc_number": 1,
+  "track_number": 3,
+  "duration_s": 105,
+  "has_lyrics": true,
+  "lyrics": "lu lu-lu-lu lu-lu lu\nlu lu-lu-lu lu-lu-lu\nlu lu-lu-lu lu-lu lu\nlu-lu-lu-lu-lu-lu-lu lu-lu lu\nlu-lu-lu-lu lu-lu lu\nlu-lu-lu-lu-lu-lu-lu lu-lu lu\n\nlu-lu-lu lu-lu-lu\nlu-lu-lu lu-lu-lu\nlu-lu-lu-lu-lu-lu-lu lu-lu-lu\n\nlu lu-lu-lu lu-lu lu\nlu lu-lu-lu lu-lu-lu\nlu lu-lu-lu lu-lu lu\nlu-lu-lu-lu-lu-lu-lu lu-lu-lu\nlu-lu-lu-lu lu-lu lu\nlu-lu-lu-lu-lu-lu-lu lu-lu-lu\n\nlu-lu-lu lu-lu-lu\nlu-lu-lu lu-lu-lu\nlu-lu-lu-lu-lu-lu-lu lu-lu-lu\n\nlu-lu-lu lu-lu-lu\nlu-lu-lu lu-lu-lu\nlu-lu-lu-lu-lu-lu-lu lu-lu-lu",
+  "album": {
+    "slug": "為你含情-oK5049",
+    "name": "為你含情",
+    "name_en": "Hum Ching for You"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "sot-kanin-GVBdkc",
+          "name": "Sot Kanin",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

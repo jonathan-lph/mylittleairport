@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "下了兩天雨-uWF2da",
+  "name": "下了兩天雨",
+  "name_en": "Rained for Two Days",
+  "href": "/track/下了兩天雨-uWF2da",
+  "disc_number": 1,
+  "track_number": 2,
+  "duration_s": 172,
+  "has_lyrics": true,
+  "lyrics": "像是太久不見\n久得不太自然\n像是某種訓練\n又過了數十天\n呀……\n久得不太自然\n呀……\n\n或是這種陰天\n令這愁緒浮面\n發現太深的掛念\n那是無可避免\n呀……\n那是無可避免\n呀……\n\n若我知你不想見\n像我那樣多\n那又有何不可？\n若你不知不覺生厭\n也未嘗不過 (不過）\n是最好的結果\n痛苦只我一個（一個）\n呀……\n痛苦只我一個（一個）\n呀……\n那又有何不可？\n那又有何不可？",
+  "album": {
+    "slug": "sabina-之淚-WtEi1t",
+    "name": "SABINA 之淚",
+    "name_en": "Sabina's Tears"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

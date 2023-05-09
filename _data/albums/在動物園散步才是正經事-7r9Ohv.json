@@ -1,0 +1,77 @@
+{
+  "type": "album",
+  "slug": "在動物園散步才是正經事-7r9Ohv",
+  "name": "在動物園散步才是正經事",
+  "name_en": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo",
+  "href": "/album/在動物園散步才是正經事-7r9Ohv",
+  "total_tracks": 10,
+  "album_type": "album",
+  "album_edition": "retail",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2004",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "coka-im-fine-DKHjgk",
+      "name": "coka, i'm fine",
+      "name_en": "Coka, I'm Fine"
+    },
+    {
+      "slug": "在動物園散步才是正經事-iMq9ZA",
+      "name": "在動物園散步才是正經事",
+      "name_en": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo"
+    },
+    {
+      "slug": "victor-fly-me-to-stafford-hs3eFi",
+      "name": "victor, fly me to stafford",
+      "name_en": "Victor, Fly Me To Stafford"
+    },
+    {
+      "slug": "edward-had-you-ever-thought-that-the-end-of-the-world-would-come-on-20901-CAtLlQ",
+      "name": "edward, had you ever thought that the end of the world would come on 20.9.01?",
+      "name_en": "Edward, Had You Ever Thought That the End of the World Would Come On 20.9.01?"
+    },
+    {
+      "slug": "柯德莉-關於風景-lTFMgQ",
+      "name": "柯德莉，關於風景",
+      "name_en": "Audrey, About the Landscape"
+    },
+    {
+      "slug": "my-little-banana-86JvG7",
+      "name": "my little banana",
+      "name_en": "My Little Banana"
+    },
+    {
+      "slug": "josephines-shop-SpmLzX",
+      "name": "josephine's shop",
+      "name_en": "Josephine's Shop"
+    },
+    {
+      "slug": "王菲-關於你的眉-OL8Qr8",
+      "name": "王菲，關於你的眉",
+      "name_en": "Faye Wong, About Your Eyebrows"
+    },
+    {
+      "slug": "you-dont-wanna-be-my-girlfriend-phoebe-63BYN1",
+      "name": "you don't wanna be my girlfriend, phoebe",
+      "name_en": "You Don't Wanna Be My Girlfriend, Phoebe"
+    },
+    {
+      "slug": "dee-it-may-all-end-tomorrow-esn8Za",
+      "name": "dee, it may all end tomorrow",
+      "name_en": "Dee, It May All End Tomorrow"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/在動物園散步才是正經事.jpg",
+      "height": 1576,
+      "width": 1576
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

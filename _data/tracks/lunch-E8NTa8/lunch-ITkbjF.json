@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "lunch-ITkbjF",
+  "name": "LUNCH",
+  "name_en": "LUNCH",
+  "href": "/track/lunch-ITkbjF",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 175,
+  "has_lyrics": true,
+  "lyrics": "太多廢話亂我心神\n寧願這裡繼續有病菌\n不想見人\n但你新工作在我家附近\n為了和你食 lunch 才打一針\n講笑　也有一分真\n\n我被困在某種雲層（某種雲層）\n四周也是霧\n看不到路中心\n算是人類共同命運\n\n四月份是最殘忍\n你怎不知道我點諗\n當然這是不可能\n不要望我雙眼　會暈\n\nI only look at people when I'm drunk\n\n通山都是路人\n先知道是禮拜\n這座山已淪陷\n可否叫蛋糕甜品\n我想要食氣氛\n\n啦啦啦啦\n啦啦啦\n啦啦啦啦\n\n文藝是一種毒品\n幸福是絕對不幸\n我只不過想跟你呻\n不要嘗試解答我疑問\n\n我會對你好到不能\n方便日後沒有遺憾\n昨夜睡得很深層\n錯過了深夜安全的地震\n\nI only look at people when I'm drunk",
+  "album": {
+    "slug": "lunch-E8NTa8",
+    "name": "LUNCH",
+    "name_en": "LUNCH"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "eloobe-xvrcwO",
+          "name": "eloobe",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

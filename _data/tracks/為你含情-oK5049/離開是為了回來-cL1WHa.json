@@ -1,0 +1,69 @@
+{
+  "type": "track",
+  "slug": "離開是為了回來-cL1WHa",
+  "name": "離開是為了回來",
+  "name_en": "Leaving Is for Coming Back",
+  "href": "/track/離開是為了回來-cL1WHa",
+  "disc_number": 1,
+  "track_number": 7,
+  "duration_s": 197,
+  "has_lyrics": true,
+  "lyrics": "明天就要飛走\n朋友都輕鬆奉上祝福　旅途愉快\n留低是個選擇\n離開亦未算放開一切壓抑\n如愛上一個人　一起上路\n才驟覺尚有一些心野\n行程未想好\n起點經已太遠\n\n人進進出出在我生命\n季節更改幻變天地　歲月流過\n遺憾若是放不下\n仍可學習去感激得到過的\n如放棄一個人　孤身上路\n才驟覺尚有一些心軟\n忙著讓傷口盡快風乾\n沿路風光沒心機細看\n明明是太軟弱\n偏裝作硬朗\n\n倘若結束為了重新開始\n乾掉了酒為了重新斟滿\n旅途落泊能讓記憶穩固\n偶然下雨懷念陽光可愛\n歡樂太短為了回憶千次\n失掉瑰寶為了尋找安慰\n我離別你全為太專心愛\n怕忘掉了世間的色彩\n離開　是為了回來\n\n從機艙機望向跑道\n迅速身處萬尺高空　我留下你\n城市跟天空大概一樣\n容納著敵友從不知道偏心\n曾遇上幾個人　一心靠近\n才驟覺尚有一些心癮\n離別再上路\n不管遠或近\n\n倘若結束為了重新開始\n乾掉了酒為了重新斟滿\n旅途落泊能讓記憶穩固\n偶然下雨懷念陽光可愛\n歡樂太短為了回憶千次\n失掉瑰寶為了尋找安慰\n我離別你全為太專心愛\n怕忘掉了世間的色彩\n離開　是為了回來",
+  "album": {
+    "slug": "為你含情-oK5049",
+    "name": "為你含情",
+    "name_en": "Hum Ching for You"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

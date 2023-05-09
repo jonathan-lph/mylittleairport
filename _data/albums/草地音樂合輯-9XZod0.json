@@ -1,0 +1,37 @@
+{
+  "type": "album",
+  "slug": "草地音樂合輯-9XZod0",
+  "name": "草地音樂合輯",
+  "name_en": "Grass Fest Music Compilation",
+  "href": "/album/草地音樂合輯-9XZod0",
+  "total_tracks": 2,
+  "album_type": "compilation",
+  "album_edition": "taiwan",
+  "label": "默契音樂",
+  "label_en": "Silent Agreement",
+  "release_date": "2005",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "在動物園散步才是正經事-GXZnTi",
+      "name": "在動物園散步才是正經事",
+      "name_en": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo"
+    },
+    {
+      "slug": "victor-fly-me-to-stafford-nH73e7",
+      "name": "victor, fly me to stafford",
+      "name_en": "Victor, Fly Me To Stafford"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/草地音樂合輯.jpg",
+      "height": 761,
+      "width": 818
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

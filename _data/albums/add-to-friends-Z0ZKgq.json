@@ -1,0 +1,32 @@
+{
+  "type": "album",
+  "slug": "add-to-friends-Z0ZKgq",
+  "name": "Add To Friends",
+  "name_en": "Add To Friends",
+  "href": "/album/add-to-friends-Z0ZKgq",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "international",
+  "label": "Someone Good",
+  "label_en": "Someone Good",
+  "release_date": "2006",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "leo-are-you-still-jumping-out-of-the-windows-in-expensive-clothes-c0dQaz",
+      "name": "Leo, Are You Still Jumping Out Of The Windows In Expensive Clothes?",
+      "name_en": "Leo, Are You Still Jumping Out Of The Windows In Expensive Clothes?"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/add-to-friends.jpg",
+      "height": 700,
+      "width": 700
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

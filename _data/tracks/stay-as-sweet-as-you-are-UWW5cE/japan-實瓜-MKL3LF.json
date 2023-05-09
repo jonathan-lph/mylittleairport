@@ -1,0 +1,69 @@
+{
+  "type": "track",
+  "slug": "japan-實瓜-MKL3LF",
+  "name": "japan 實瓜",
+  "name_en": "Japan Sat-Gwaa",
+  "href": "/track/japan-實瓜-MKL3LF",
+  "disc_number": 1,
+  "track_number": 9,
+  "duration_s": 91,
+  "has_lyrics": true,
+  "lyrics": "You teach me French\nBut I cannot speak well\nYou teach me French\nBut I cannot speak well\nYou said \"Je pense à toi\"\nBut I said \"Japan 實瓜\"\nYou said \"Je pense à toi\"\nBut I said \"Japan 實瓜\"\n\nI teach you French\nBut you cannot speak well\nI teach you French\nBut you cannot speak well\nI said \"Je pense à toi\"\nBut you said \"Japan 實瓜\"\nI said \"Je pense à toi\"\nBut you said \"Japan 實瓜\"",
+  "album": {
+    "slug": "stay-as-sweet-as-you-are-UWW5cE",
+    "name": "Stay As Sweet As You Are",
+    "name_en": "Stay As Sweet As You Are"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

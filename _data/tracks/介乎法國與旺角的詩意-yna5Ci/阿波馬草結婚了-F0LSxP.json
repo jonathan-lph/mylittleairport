@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "阿波馬草結婚了-F0LSxP",
+  "name": "阿波馬草結婚了",
+  "name_en": "Por and Macho Got Married",
+  "href": "/track/阿波馬草結婚了-F0LSxP",
+  "disc_number": 1,
+  "track_number": 14,
+  "duration_s": 98,
+  "has_lyrics": true,
+  "lyrics": "阿波終於跟馬草\n進了教堂結婚\n馬草都相信阿波\n會照顧佢一生\n\n那一整天多美好\n個個到來慶祝\n競飲比賽最開心\n玩到大家唔想瞓\n\n恭喜阿波找到心上人\n佢又會肯跟你結婚\n恭喜馬草找到個好男人\n佢為人搞笑但認真\n\n婚宴結束再去飲\n飲到男女唔識分\n卒之阿雪飲醉酒\n未入廁所已經嘔",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

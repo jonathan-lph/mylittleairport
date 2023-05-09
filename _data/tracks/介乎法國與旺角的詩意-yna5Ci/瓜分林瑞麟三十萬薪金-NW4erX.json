@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "瓜分林瑞麟三十萬薪金-NW4erX",
+  "name": "瓜分林瑞麟三十萬薪金",
+  "name_en": "Splitting Stephen Lam's $300,000 Payroll",
+  "href": "/track/瓜分林瑞麟三十萬薪金-NW4erX",
+  "disc_number": 1,
+  "track_number": 7,
+  "duration_s": 133,
+  "has_lyrics": true,
+  "lyrics": "瓜分　讓我們瓜分\n林瑞麟每個月三十萬元的薪金\n讓我們的新碟會有更好的錄音\n攤分　讓我們攤分\n除開三十份　每人都仲有萬幾蚊\n讓我們每個月都會有覺好瞓\n這件事雖不能發生　但諗下亦開心\n林瑞麟本身都應被瓜分\n\n然後再瓜分　讓我們瓜分\n警察對我們社運人士的兇狠\n告上法庭　不會被當襲警再監禁\n攤分　終極地攤分\n攤分香港政治權力的核心\n權力歸於人民　領袖應該由人民普選產生\n\n這件事不知幾時發生\n或者到時已經過身\n或者我已經不能返大陸探親",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "thomas-xxF272",
+          "name": "Thomas",
+          "name_en": null
+        },
+        {
+          "slug": "sot-kanin-GVBdkc",
+          "name": "Sot Kanin",
+          "name_en": null
+        },
+        {
+          "slug": "阿花-Gg2ZR9",
+          "name": "阿花",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

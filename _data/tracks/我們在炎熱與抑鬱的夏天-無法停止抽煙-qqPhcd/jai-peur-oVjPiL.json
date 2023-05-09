@@ -1,0 +1,44 @@
+{
+  "type": "track",
+  "slug": "jai-peur-oVjPiL",
+  "name": "j'ai peur",
+  "name_en": "J'ai Peur",
+  "href": "/track/jai-peur-oVjPiL",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 21,
+  "has_lyrics": true,
+  "lyrics": "J'ai peur que tu ne m'aime plus\nJ'ai peur que tu ne me parle plus\nJ'ai peur que tu as une autre belle fille\nJ'ai peur que tu veux me quitter\nJ'ai si peur que je ne peux pas dormir\nCe sera finir bientôt\nJe sais, oui je sais",
+  "album": {
+    "slug": "我們在炎熱與抑鬱的夏天-無法停止抽煙-qqPhcd",
+    "name": "我們在炎熱與抑鬱的夏天，無法停止抽煙",
+    "name_en": "We Can't Stop Smoking in the Vicious and Blue Summer"
+  },
+  "artists": [
+    {
+      "role": "poet",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

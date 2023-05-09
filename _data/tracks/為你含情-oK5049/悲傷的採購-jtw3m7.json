@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "悲傷的採購-jtw3m7",
+  "name": "悲傷的採購",
+  "name_en": "Sad Purchase",
+  "href": "/track/悲傷的採購-jtw3m7",
+  "disc_number": 1,
+  "track_number": 8,
+  "duration_s": 182,
+  "has_lyrics": true,
+  "lyrics": "訂了一季　又到下季\n為何人大了就要成為工作的奴隸\n最愛作的不可發揮\n我的感覺　逐漸流逝\n從前曾話過要如何欣賞世界的美麗\n現在只懂得放假去消費\n\n如果繼續這樣\n我還是我嗎？\n我還喜歡我嗎？\n或者我應該死去吧\n總好過變得更差\n如果繼續這樣\n你還願意嗎？\n和我奏著結他？\n日子不應該這樣吧\n而現實就是這樣可怕\n\n如果繼續這樣\n我還是我嗎？\n我還喜歡我嗎？\n或者我應該死去吧\n總好過變得更差\n如果繼續這樣\n你還願意嗎？\n和我奏著結他？\n日子不應該這樣吧\n而現實就是這樣可怕\n\n日子不應該這樣吧\n而現實就是這樣　可怕",
+  "album": {
+    "slug": "為你含情-oK5049",
+    "name": "為你含情",
+    "name_en": "Hum Ching for You"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

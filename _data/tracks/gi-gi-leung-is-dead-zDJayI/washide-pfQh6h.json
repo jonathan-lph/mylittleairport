@@ -1,0 +1,63 @@
+{
+  "type": "track",
+  "slug": "washide-pfQh6h",
+  "name": "washide",
+  "name_en": "Washide",
+  "href": "/track/washide-pfQh6h",
+  "disc_number": 1,
+  "track_number": 2,
+  "duration_s": 89,
+  "has_lyrics": false,
+  "album": {
+    "slug": "gi-gi-leung-is-dead-zDJayI",
+    "name": "Gi Gi Leung Is Dead",
+    "name_en": "Gi Gi Leung Is Dead"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

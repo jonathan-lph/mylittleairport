@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "西西弗斯之歌-vrBwcn",
+  "name": "西西弗斯之歌",
+  "name_en": "The Hymn of Sisyphus",
+  "href": "/track/西西弗斯之歌-vrBwcn",
+  "disc_number": 1,
+  "track_number": 13,
+  "duration_s": 135,
+  "has_lyrics": true,
+  "lyrics": "呢年嚟我有幾份兼職　其中嘅一份\n係幫啲馬迷落注　喺電話投注中心\n喺裡面我識唔到朋友　返工食飯都係一個人\n我已經悶到抽筋　但要維生\n我諗到一個方法抗衡\n\n開閘前半分鐘　總有好急嘅客人\n落注嘅時侯夾雜粗口　聽到我一嚿雲\n但佢哋愈係忟　我就愈係斯文\n我話：「麻煩你重複一次」\n搞到夠鐘開閘　佢哋就問候我屋企人\n\n佢鬧我正一懵撚　話要叫個經理出嚟問\n我都好有禮貌咁回應：「先生，麻煩你等等」\n我既緊張又興奮　同時又扮晒殷勤\n喺呢個心情咁複雜嘅搏鬥裡面\n我開始搵到工作嘅快感\n\n希臘神話有一個故事\n講述西西弗斯受到諸神嘅懲罰\n要喺地獄不斷推一塊巨石上山\n上到山頂　塊巨石又會自己碌返落山腳\n佢每日都要重複呢種徒勞無功嘅工作\n直到永恆\n\n後人有一個講法\n話諸神並唔係用「推石頭」嚟懲罰西西弗斯\n而係用觀念\n用「我永世都要推石頭實在太慘」嘅呢個觀念\n西西弗斯知道自己改變唔到命運\n佢唯一可以做嘅　就係繼續推石頭\n直到有一日\n佢發現佢可以蔑視自己嘅命運\n甚至用享受呢個過程嚟去否定諸神對佢嘅懲罰\n於是　佢感覺到自己係快樂嘅",
+  "album": {
+    "slug": "香港是個大商場-ITFqbE",
+    "name": "香港是個大商場",
+    "name_en": "Hong Kong Is One Big Shopping Mall"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "美孚根斯堡與白田珍寶金-jt3K67",
+  "name": "美孚根斯堡與白田珍寶金",
+  "name_en": "Mei Foo Gainsbourg and Pak Tin Pirkin",
+  "href": "/track/美孚根斯堡與白田珍寶金-jt3K67",
+  "disc_number": 1,
+  "track_number": 13,
+  "duration_s": 133,
+  "has_lyrics": true,
+  "lyrics": "(Look at me and love again)\n我們在炎熱與抑鬱的夏天　無法停止抽煙\n(Look at me and love again)\n我們在炎熱與抑鬱的辦公室　無法停止寫詩\n(Fiction said that let me down)\n我們是美孚根斯堡與白田珍寶金\n(What you said that what's in my hand)\n金錢對於我們來說　輕如鴻毛\n\n(da da da, da da da)\n\n(I can see that love again)\n我們是香港最後一群缺乏社交技巧的詩人\n(You can see the love in my hand)\n我們是演奏家　思想家\n(I can say that love is blind)\n我們是迷失在森林裏的旅人\n(I don't care if love is blind)\n在同樣不仁慈的善良與邪惡之間　與潮人抗衡\n\n(da da da, da da da)\n\n(I can't be that lonely again)\n我們在嶺南之風　美孚之巔\n(I can't change the world)\n在公園　電影院　商場\n送別所有成長的記憶\n(I don't care about --)\n我們喝著涼茶聽著音樂\n(Love me is right)\n大口大口地把煙噴到天上\n(I don't see a thing)\n日出日落　我們如在巴黎法國\n\n(I can see the love is gone)\n我們在炎熱與抑鬱的夏天　無法停止抽煙\n(I don't care the love you are)\n我們在炎熱與抑鬱的辦公室　無法停止寫詩\n(You can say that love is true)\n(I think she let it down)\n\n(da da da, da da da)\n\n(I can't be that lonely again)\n(We can't change the world)\n(I can't see that love in my hand)\n(I can't change the world)",
+  "album": {
+    "slug": "我們在炎熱與抑鬱的夏天-無法停止抽煙-qqPhcd",
+    "name": "我們在炎熱與抑鬱的夏天，無法停止抽煙",
+    "name_en": "We Can't Stop Smoking in the Vicious and Blue Summer"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "the-lees-CeWMLy",
+          "name": "The Lee's",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "the-lees-CeWMLy",
+          "name": "The Lee's",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "the-lees-CeWMLy",
+          "name": "The Lee's",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

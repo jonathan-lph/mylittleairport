@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "吳小姐-ECDLMp",
+  "name": "吳小姐",
+  "name_en": "Miss Ng",
+  "href": "/track/吳小姐-ECDLMp",
+  "disc_number": 1,
+  "track_number": 14,
+  "duration_s": 200,
+  "has_lyrics": true,
+  "lyrics": "吳小姐畢業之後\n做咗銀行十幾年\n最近佢單身\n罷工嗰日自己一個去彌敦道\n黃昏嘅時候\n成條馬路都係黑衫嘅年輕人行嚟行去\n尖沙咀同其他區已經放咗催淚彈\n佢一路行\n一路睇吓 live\n聽吓條街啲人講點部署\n\n無幾耐天開始黑\n行到豉油街\n經過兩間日本嘢\n佢都好想入去食住涼冷氣\n不過咁好似幫襯咗無罷市嘅食店\n最後佢猶豫咗一陣\n都係喺小販檔買咗兩個桔返示威區\n坐喺十字街口嘅馬路邊\n一路食一路有啲涼風\n\n就在她坐下的那個瞬間\n她竟有前所未有的嘆\n\n食食吓有人問佢要唔要水\n有人問佢去唔去深水埗警署聲援\n有個女仔指住太子方向\n話一直行就會到\n吳小姐走咗幾步覺得太遠\n都係搭地鐵\n\n去到現場\n有人叫佢唔好行咁前\n然後 佢第一次\n親眼見到催淚彈\n佢跟住大家\n向後褪　開遮　踎低　行返前\n來來回回\n幾粒催淚彈之後\n佢有種從未試過嘅感覺\n\n時間突然好慢\n周圍好靜\n佢覺得呢個瞬間\n最前線嘅人係自己\n後面用士巴拿拆緊鐵欄嘅人又係自己\n旁邊鬧緊街坊唔好影相嘅人又係自己\n遠處坐緊監嘅人又係自己\n\n無幾耐大家話轉場去另一個警署\n吳小姐坐喺紅綠燈下面食咗支煙\n\n就在她坐下的那個瞬間\n她竟有說不出的感嘆\n\n最後防暴衝出嚟\n吳小姐狂跑嘅時候\n竟然跑得快過晒所有嘅人\n佢決定　以後都出嚟",
+  "album": {
+    "slug": "我都唔知道-xV0JmI",
+    "name": "我都唔知道",
+    "name_en": "我都唔知道"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

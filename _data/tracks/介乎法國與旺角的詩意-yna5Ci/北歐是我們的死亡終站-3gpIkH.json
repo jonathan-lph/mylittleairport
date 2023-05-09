@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "北歐是我們的死亡終站-3gpIkH",
+  "name": "北歐是我們的死亡終站",
+  "name_en": "Scandinavia Is Our Final Destination",
+  "href": "/track/北歐是我們的死亡終站-3gpIkH",
+  "disc_number": 1,
+  "track_number": 3,
+  "duration_s": 129,
+  "has_lyrics": true,
+  "lyrics": "這個抑鬱的星期天\n我們在討論自殺的方法\n你說嗑藥不錯\n我說萬一死不去還要洗胃很辛苦\n割脈也太痛　不能接受\n燒炭　你我都認同最舒適的方法\n但未免太消極可悲\n你說不如凍死\n穿汗衣在北極凍死\n我滿心歡喜\n提議先到芬蘭旅遊\n然後穿汗衣凍死\n你說其實可以先環遊世界\n然後到芬蘭凍死\n好主意　我說北歐是我們的死亡終站\n很浪漫的想法\n\n你問打算何時進行\n不如就二十九歲\n活在永遠的二十九歲\n我說時間無多　要開始儲錢\n為了我們的計劃\n你說你有積蓄可以資助我\n我感動地　幻想\n二十九歲\n我們一起到北歐去",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,94 @@
+{
+  "type": "track",
+  "slug": "因講了出來-otaku-mobb-remix-LfTmhr",
+  "name": "因講了出來 (OTAKU MOBB Remix)",
+  "name_en": "When I Let It Out (OTAKU MOBB Remix)",
+  "href": "/track/因講了出來-otaku-mobb-remix-LfTmhr",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 162,
+  "has_lyrics": true,
+  "lyrics": "因講了出來\n便會失去吸引力\n失去機會被愛\n因講了出來\n便會失去所有\n想像中的可愛\n\n寧願永遠\n永遠停留在\n沒太多往來\n不在時間上慷慨\n寧願永遠\n永遠停留在\n想像之內\n免去細節的傷害\n\nI got six xannies 喺我枱面\nPop it, yet I can't sleep\nBought myself some Yat Pit, Margielas\nBut I still feel lonely\nI'm lonely\nGirl 你只係個概念　係個畫面\n未曾見過面 but ask your friends they all heard about me\nO-T-K I'm reppin'\nYour DMs, I'm waitin'\n八個鐘　一個星期\n限時動態　\"Yo where's it at?\"\n\"Which 餐廳？\"　\"Nice movie!\"\nBoy he wack, he issa goofy\nBut all good, he can have you\n我閉上眼　和你過生活\nThis is my life, yeh, this is my song\n即使結局一樣　一樣 sorrow\n給我幾分鐘擁抱你和疼痛\n我醒來　你死去　我不能說出來 I'm waiting tomorrow\nI'm waiting tomorrow\nOTAKU MOBBIN'\nlil airport\n和你去發展愛\nTonight I need no 羽田愛\nno no no no no\n\n（就這樣　在午夜　在馬路）\n（在網上　在購物　在腦內　就這樣愛）\n（寧願永遠）\n（永遠停留在）\n（就這樣　在被內　在散步）\n（在午睡　在吃飯　在發夢　就這樣愛）\n（沒太多往來）\n（不被對方掩蓋）",
+  "album": {
+    "slug": "因講了出來-otaku-mobb-remix-2EIm7h",
+    "name": "因講了出來 (OTAKU MOBB Remix)",
+    "name_en": "When I Let It Out (OTAKU MOBB Remix)"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "otaku-mobb-XbUFyQ",
+          "name": "OTAKU MOBB",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "otaku-mobb-XbUFyQ",
+          "name": "OTAKU MOBB",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "蕭暢悅-uT8J7W",
+          "name": "蕭暢悅",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "otaku-mobb-XbUFyQ",
+          "name": "OTAKU MOBB",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

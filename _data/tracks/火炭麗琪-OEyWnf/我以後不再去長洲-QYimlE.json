@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "我以後不再去長洲-QYimlE",
+  "name": "我以後不再去長洲",
+  "name_en": "I Won't Go to Cheung Chau Again",
+  "href": "/track/我以後不再去長洲-QYimlE",
+  "disc_number": 1,
+  "track_number": 15,
+  "duration_s": 106,
+  "has_lyrics": true,
+  "lyrics": "多麼不想都已是個成人啊\n怎會帶女伴兩日一夜長洲消磨\n只有學生時期才這樣傻\n再去就像留班的中學課\n\n這個小島再不會發生什麼\n三輪單車與沙灘已把下午消磨\n晚飯後只不過是七點多\n還有一大個晚上怎麼過\n\n當初和誰到這球場看踢波\n現在眼前一班新青年燒烤唱歌\n他們到某年或有同樣痛楚\n今晚海風怎令人不難過\n\n三輪單車可帶我倆離開麼\n時間留在過去但又變了很多\n對上一次都問過到這裡是為何\n罰抄一千次還會再錯\n\n我以後不會到長洲過\n我以後不會到長洲過\n我以後不會到長洲過\n我以後不會到長洲過",
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "夏日浪漫-5RtaZt",
+          "name": "夏日浪漫",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "jackie-uZzjPG",
+          "name": "Jackie",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

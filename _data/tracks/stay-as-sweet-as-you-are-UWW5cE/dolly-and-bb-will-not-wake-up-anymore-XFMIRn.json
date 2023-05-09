@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "dolly-and-bb-will-not-wake-up-anymore-XFMIRn",
+  "name": "dolly and bb will not wake up anymore",
+  "name_en": "Dolly and BB Will Not Wake Up Anymore",
+  "href": "/track/dolly-and-bb-will-not-wake-up-anymore-XFMIRn",
+  "disc_number": 1,
+  "track_number": 3,
+  "duration_s": 134,
+  "has_lyrics": true,
+  "lyrics": "Dolly my little dog\nFur in black and brown\nShe met her boyfriend Rocky\nThey played in the ground\nOne winter night\nA baby dog was born\nUnfortunately\nDolly died next morning\nI cried in the morning\n\nBB the baby dog\nLost her mother Dolly\nThus we fed her\nPretend to be her mother\nBB grew up\nAnd had babies\nMaybe that's fate\nOne day the wolf dog bit her\nThe wolf dog bit her\n\nThe wolf dog bit her neck\nAnd BB couldn't breathe\nShe's puling on the floor\nHer blood sketched on her chin\nHer son's watching and barking\nHe was too small to do fighting\nI didn't save my darling\nI was sleeping\n\nDolly my little dog\nFur in black and brown\nShe met her boyfriend Rocky\nThey played in the ground\nOne winter night\nA baby dog was born\nHer name is BB\nHer name is BB\nHer name is BB",
+  "album": {
+    "slug": "stay-as-sweet-as-you-are-UWW5cE",
+    "name": "Stay As Sweet As You Are",
+    "name_en": "Stay As Sweet As You Are"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

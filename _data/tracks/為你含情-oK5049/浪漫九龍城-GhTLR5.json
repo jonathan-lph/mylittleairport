@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "浪漫九龍城-GhTLR5",
+  "name": "浪漫九龍城",
+  "name_en": "Romantic Kowloon City",
+  "href": "/track/浪漫九龍城-GhTLR5",
+  "disc_number": 1,
+  "track_number": 2,
+  "duration_s": 148,
+  "has_lyrics": true,
+  "lyrics": "空姐的化妝很勁\n同行機師制服也很型\n黑與白與印巴籍\n降落起飛滿了沖勁\n\n通過寨城講經驗\n每段路感覺刺激新鮮\n巴士多到有些亂\n宋王臺古跡位置不遠\n\n吃飯宵夜　又有出口店\n富豪酒店有好光景\n放學打機學會些本領\n就算悶　嗌飛機也很高興\n就算壞　始終也算生性\n\n我坐巴士路過九龍城\n昨日啟德已變冷清\n寨城消失　記憶給鏟平\n各路牙醫不再顯本領\n對著公園嘆息",
+  "album": {
+    "slug": "為你含情-oK5049",
+    "name": "為你含情",
+    "name_en": "Hum Ching for You"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

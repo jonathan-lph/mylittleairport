@@ -1,0 +1,32 @@
+{
+  "type": "album",
+  "slug": "達明一代-wURlsC",
+  "name": "達明一代",
+  "name_en": "Tat Ming Pair Tribute Album",
+  "href": "/album/達明一代-wURlsC",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "hong_kong",
+  "label": "環球唱片",
+  "label_en": "Universal Music",
+  "release_date": "2017",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "你望我望-MmIVn1",
+      "name": "你望我望",
+      "name_en": "You Look I Look"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/達明一代.jpg",
+      "height": 640,
+      "width": 640
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

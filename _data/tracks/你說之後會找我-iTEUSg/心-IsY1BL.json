@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "心-IsY1BL",
+  "name": "心",
+  "name_en": "Heart",
+  "href": "/track/心-IsY1BL",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 152,
+  "has_lyrics": true,
+  "lyrics": "分手說再見也不易\n瀟灑的人也有流淚時\n明明知道　時候到了要變異\n突然消失了　擁抱都不要\n\n分手到底為什麼事\n是誰做錯令你我遲疑\n明明知道　無常總會有\n來的時候　說放手誰又可以？\n\n我把心打開　照星星月亮\n讓痛處眼淚盡流\n還望過去　你我沒有負累\n學會適當時要爭取\n\n我把心打開　照星星月亮\n讓痛處眼淚盡流\n祈願每個此刻　我更懂我\n重拾熱情像最初\n\n祈願每個此刻　我更懂我\n就算變幻很多\n\n願我心可放鬆過\n從今天當摯真的我",
+  "album": {
+    "slug": "你說之後會找我-iTEUSg",
+    "name": "你說之後會找我",
+    "name_en": "You Said We'd Be Back"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "夏日浪漫-5RtaZt",
+          "name": "夏日浪漫",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

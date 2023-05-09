@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "搭的士上班去-3cWNEz",
+  "name": "搭的士上班去",
+  "name_en": "I Go to Work by Taxi",
+  "href": "/track/搭的士上班去-3cWNEz",
+  "disc_number": 1,
+  "track_number": 12,
+  "duration_s": 125,
+  "has_lyrics": true,
+  "lyrics": "你說你總在一星期　有一天真的不想返工\n我說這並不稀奇　亦符合人性的一種\n反而我有一種想法　常被朋友指摘\n我說要每個星期　找一天搭的士返工\n\n搭的士返工　讓你減輕傷痛\n即使已很窮　但這個世界已經失控\n既然你的錢最後亦被剝削在每月的人工\n為何不改善在一天的交通？\n\n你改變不了現在\n你改變不了將來\n你改變不了這時代\n大學時你的銳氣現在已不再\n你怎能每日每夜也繼續在打工\n直到死咗都未搭過的士返工",
+  "album": {
+    "slug": "香港是個大商場-ITFqbE",
+    "name": "香港是個大商場",
+    "name_en": "Hong Kong Is One Big Shopping Mall"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

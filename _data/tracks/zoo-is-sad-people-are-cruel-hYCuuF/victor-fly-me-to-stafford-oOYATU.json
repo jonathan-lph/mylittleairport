@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "victor-fly-me-to-stafford-oOYATU",
+  "name": "victor, fly me to stafford",
+  "name_en": "Victor, Fly Me To Stafford",
+  "href": "/track/victor-fly-me-to-stafford-oOYATU",
+  "disc_number": 1,
+  "track_number": 4,
+  "duration_s": 134,
+  "has_lyrics": true,
+  "lyrics": "This is the last song I write for you\nThis is the last night I think of you\nYour name is Victor Ching, how do you do?\n\nI phoned you this morning you couldn't hear me\nI sent you letter you couldn't receive\nIt's my favorite game, but I have changed\n\nIt's too late to say I miss you Victor Ching\nAnd you are on your way to Stafford in UK\nI know it's too late to say I'm fond of you\nYou've got a girl from Singapore who you didn't like before\n\nI love you when you no longer love me\nI need you when you no longer need me\nYou wanted me, but you have changed already\n\nIt's too late to say I miss you Victor Ching\nAnd you are on your way to Stafford in UK\nI know it's too late to say I'm fond of you\nYou've got a girl from Singapore who you didn't like before",
+  "album": {
+    "slug": "zoo-is-sad-people-are-cruel-hYCuuF",
+    "name": "Zoo Is Sad, People Are Cruel",
+    "name_en": "Zoo Is Sad, People Are Cruel"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

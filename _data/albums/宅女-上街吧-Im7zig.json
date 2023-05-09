@@ -1,0 +1,32 @@
+{
+  "type": "album",
+  "slug": "宅女-上街吧-Im7zig",
+  "name": "宅女，上街吧",
+  "name_en": "Geeky Girls, Hit the Streets",
+  "href": "/album/宅女-上街吧-Im7zig",
+  "total_tracks": 1,
+  "album_type": "single",
+  "album_edition": "public",
+  "label": "my little airport",
+  "label_en": "my little airport",
+  "release_date": "2010",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "宅女-上街吧-zhVYU9",
+      "name": "宅女，上街吧",
+      "name_en": "Geeky Girls, Hit the Streets"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/宅女-上街吧.jpg",
+      "height": 480,
+      "width": 480
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "某夜後台-VkyWZY",
+  "name": "某夜後台",
+  "name_en": "Backstage Some Night",
+  "href": "/track/某夜後台-VkyWZY",
+  "disc_number": 1,
+  "track_number": 2,
+  "duration_s": 174,
+  "has_lyrics": true,
+  "lyrics": "這是硬仗一場\n生無可戀卻意志堅強\n我擁有了一切\n同時遇上了魔鬼\n讓我的免疫力\n施展一場魔法\n我為所有細胞負責\n\n我感到他們\n像小貓呼喚我\n我要給他們\n溫柔的撫摸\n\n這裡是借來我知道\n還不知歸還日數\n絕對的舒服是最令人難受\n才令人接受憂愁和苦酒\n\n世間降了四度\n你在我神聖國度\n\n我愛我所有細胞\n對不起我沒告訴你\n會好的會好的會好的",
+  "album": {
+    "slug": "跟你開玩笑-sz3zR4",
+    "name": "跟你開玩笑",
+    "name_en": "Just Kidding"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "eloobe-xvrcwO",
+          "name": "eloobe",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,104 @@
+{
+  "type": "track",
+  "slug": "愛情-disabled-xL34Sm",
+  "name": "愛情 disabled",
+  "name_en": "Love Disabled",
+  "href": "/track/愛情-disabled-xL34Sm",
+  "disc_number": 1,
+  "track_number": 3,
+  "duration_s": 198,
+  "has_lyrics": true,
+  "lyrics": "當我向政府申請津貼時職員看著我然後\n問我申請津貼到底是基於一個什麼的理由\n(love disabled)\n當我搭巴士向司機展示我張優惠證時候\n司機看著我彷彿想問我究竟是什麼因由\nlove disabled  love disabled\nlove disabled  love disabled\n\n當我想找一個好友得到心靈上的解救\n總是沒有一個可以找得到我心靈的入口\n(love disabled)\n當我見到戲院的觀眾開始投入到淚流\n我都想知道故事有什麼值得大家憂愁\nlove disabled  love disabled\nlove disabled  love disabled\n\n這個世界是否真的有這種 love disabled？\n心裡的這個問號 誰又能解答得到？\n\nlove disabled  love disabled\nlove disabled  love disabled\n\n耶穌說的愛是無條件的、獻身的，\n奧修說的愛是能量的互動、是自由的、無束縛的，\n昆德拉說的愛是機遇的、偶然的、命定的，\n高達說的愛是刺激的、好玩的、有今生沒來世的、哲學的，\n(love disabled  love disabled)\n小津安二郎說的愛是溫柔的、隱藏的、非愛的，\n(love disabled  love disabled)\n畢卡索說的愛是經驗的、性慾的、美好的，\n夏卡爾說的愛是聖潔的、救贖的、唯一的。\nL'amour, mes amants, mon amour, aimer.\n愛情，愛人們，我的愛，去愛。\n而我將要說的是,\nL'impossibilité d'aimer dans notre temps.\n我們時代的愛無能。",
+  "album": {
+    "slug": "我都唔知道-xV0JmI",
+    "name": "我都唔知道",
+    "name_en": "我都唔知道"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "陳寧-oZix7Y",
+          "name": "陳寧",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

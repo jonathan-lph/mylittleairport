@@ -1,0 +1,32 @@
+{
+  "type": "album",
+  "slug": "poptastic-conversation-china-奇妙對話中國-f80vjE",
+  "name": "Poptastic Conversation China - 奇妙對話中國",
+  "name_en": "Poptastic Conversation China",
+  "href": "/album/poptastic-conversation-china-奇妙對話中國-f80vjE",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "international",
+  "label": "Fly Fast Records",
+  "label_en": "Fly Fast Records",
+  "release_date": "2008",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "d釘硬d-aLbkso",
+      "name": "Ｄ釘硬Ｄ'",
+      "name_en": "D Deng Ang D"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/poptastic-conversation-china-奇妙對話中國.jpg",
+      "height": 497,
+      "width": 497
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

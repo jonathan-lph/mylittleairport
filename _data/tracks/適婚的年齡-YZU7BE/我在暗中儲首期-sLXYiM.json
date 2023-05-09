@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "我在暗中儲首期-sLXYiM",
+  "name": "我在暗中儲首期",
+  "name_en": "I'm Saving the Down Payment in Secret",
+  "href": "/track/我在暗中儲首期-sLXYiM",
+  "disc_number": 1,
+  "track_number": 7,
+  "duration_s": 142,
+  "has_lyrics": true,
+  "lyrics": "可否可否等我\n先把計劃說好\n再決定穿婚紗跟他擁抱\n還是跟我到老\n我沒有他的生意頭腦\n但會努力讓你減去苦惱\n與你走過那一段路途\n不願這樣就算數\n\n我已快將首期儲好\n小小單位勉強可供到\n又或者繼續在工廈交平租\n再不斷旅遊更多回憶可以儲\n\n可否可否跟我\n一起私奔到寶島\n你不是卡列尼娜\n我沒佛倫斯基那麼糟\n不用怕會像想像得到\n文藝悲劇的老套\n去到台南風景會做到\n治療我們的虛無\n\n到這天先知道什麼是最美好\n婚姻有多好現在才知道\n可否不要到某年後悔沒揀好\n懇請你接受這份愛的 proposal\n\n不要重演西西的〈感冒〉",
+  "album": {
+    "slug": "適婚的年齡-YZU7BE",
+    "name": "適婚的年齡",
+    "name_en": "The Right Age for Marriage"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

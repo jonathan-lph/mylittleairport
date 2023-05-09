@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "宋代-sad-boy-NL5bts",
+  "name": "宋代 SAD BOY",
+  "name_en": "Song Dynasty's SAD BOY",
+  "href": "/track/宋代-sad-boy-NL5bts",
+  "disc_number": 1,
+  "track_number": 8,
+  "duration_s": 195,
+  "has_lyrics": true,
+  "lyrics": "大千世界裡　我撇低你\n我撇低你　但又常想起\n大千世界裡　碰巧跟你\n就算只有　那一晚驚喜\n\n何時苦痛　何時便抽離\n平靜風雨裡　曾遇你\n\n大千世界裡　肉體紛飛\n情慾仿似　駕駛穿梭機\n大千世界裡　是他也是你\n曾被刺痛　隨時被勾起\n\n從前心跳　從未願抽離\n沿路風雨裡　誰是你\n\n平靜風雨裡　曾遇你\n\n千山同一月\n萬戶盡皆春\n千江有水千江月\n萬里無雲萬里天",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

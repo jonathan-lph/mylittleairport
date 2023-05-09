@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "詩歌舞街-7b9NSY",
+  "name": "詩歌舞街",
+  "name_en": "Sycamore Street",
+  "href": "/track/詩歌舞街-7b9NSY",
+  "disc_number": 1,
+  "track_number": 26,
+  "duration_s": 195,
+  "has_lyrics": true,
+  "lyrics": "那晚看 Russian Red 大角咀表演\n你與我竟會再遇見\n剛好我也到 bar 枱買酒才碰面\n完場與你去深水埗那邊\n剛過身的作家你介紹那年\n寫過只有散步我們才真正聊天\n\n再次聽你說故事\n聽你說剛生的嬰兒\n詩歌舞街地上有著光點閃閃\n聽你說外地歷險\n我卻像當天的少年\n但已是能接受你所有改變\n\n你說你最近愛聽古典\n你說你父母開始婚變\n邊聽邊講我忘了怎去 99 咖啡店\n說到我倆澳門過生日那年\n你為我訂了山上的酒店\n餐廳老闆對你彈唱結他一整天\n\n再次聽你說故事\n聽你說剛生的嬰兒\n走進萬發坐在暗光卡位窗邊\n聽你說外地歷險\n我卻像當天的少年\n但已是能控制我所有淚腺",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

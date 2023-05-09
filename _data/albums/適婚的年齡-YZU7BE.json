@@ -1,0 +1,102 @@
+{
+  "type": "album",
+  "slug": "適婚的年齡-YZU7BE",
+  "name": "適婚的年齡",
+  "name_en": "The Right Age for Marriage",
+  "href": "/album/適婚的年齡-YZU7BE",
+  "total_tracks": 15,
+  "album_type": "album",
+  "album_edition": "retail",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2014",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "土瓜灣情歌-M1Zyw0",
+      "name": "土瓜灣情歌",
+      "name_en": "To Kwa Wan Ballad"
+    },
+    {
+      "slug": "給親戚看見我一個人食吉野家-MG6Zpc",
+      "name": "給親戚看見我一個人食吉野家",
+      "name_en": "My Relatives Saw Me Eating in Yoshinoya"
+    },
+    {
+      "slug": "愛情-disabled-K1gqxC",
+      "name": "愛情 disabled",
+      "name_en": "Love Disabled"
+    },
+    {
+      "slug": "今晚講嘢夜唔夜-PoNws3",
+      "name": "今晚講嘢夜唔夜",
+      "name_en": "Is It Too Late to Chat Tonight"
+    },
+    {
+      "slug": "男神與寇比力克-dNvjfK",
+      "name": "男神與寇比力克",
+      "name_en": "Boygod and Kubrick"
+    },
+    {
+      "slug": "年輕的茶餐廳老闆娘-yRTMuH",
+      "name": "年輕的茶餐廳老闆娘",
+      "name_en": "Cha Chaan Teng's Young Boss Lady"
+    },
+    {
+      "slug": "我在暗中儲首期-sLXYiM",
+      "name": "我在暗中儲首期",
+      "name_en": "I'm Saving the Down Payment in Secret"
+    },
+    {
+      "slug": "海心公園-N0rNj3",
+      "name": "海心公園",
+      "name_en": "Hoi Sham Park"
+    },
+    {
+      "slug": "美麗新香港-ev1vzE",
+      "name": "美麗新香港",
+      "name_en": "Brand New Hong Kong"
+    },
+    {
+      "slug": "月映之審判者-aXW7qB",
+      "name": "月映之審判者",
+      "name_en": "Reflector's Judgement"
+    },
+    {
+      "slug": "京都民宿夜-0CISI8",
+      "name": "京都民宿夜",
+      "name_en": "A Night in Kyoto Guesthouse"
+    },
+    {
+      "slug": "已婚男人-M5P5RW",
+      "name": "已婚男人",
+      "name_en": "Married Men"
+    },
+    {
+      "slug": "阿叔今年四十歲-mni5XA",
+      "name": "阿叔今年四十歲",
+      "name_en": "Uncle is 40 This Year"
+    },
+    {
+      "slug": "五點鐘去天光墟-kqGY95",
+      "name": "五點鐘去天光墟",
+      "name_en": "To Dawn Market at 5AM"
+    },
+    {
+      "slug": "四句-c28xcw",
+      "name": "四句",
+      "name_en": "Four Lines"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/適婚的年齡.jpg",
+      "height": 1342,
+      "width": 1342
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

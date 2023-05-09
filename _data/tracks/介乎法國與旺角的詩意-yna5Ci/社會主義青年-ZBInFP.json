@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "社會主義青年-ZBInFP",
+  "name": "社會主義青年",
+  "name_en": "Socialist Youths",
+  "href": "/track/社會主義青年-ZBInFP",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 142,
+  "has_lyrics": true,
+  "lyrics": "基本上我只是一個隱蔽的青年\n如果你決定要和我發展\n我們也許不會經常見　如果見\n我也只會帶你流浪到海邊\n然之後告訴你我的一個重點\n我的重點是我沒有錢\n所以先至帶你到海邊\n\n基本上我經已不算是一個青年\n而且我都不適合表演\n這一點也應該很明顯\n表演時不知望向邊\n表演時不知應該望向邊\n\n基本上我是一個傾向社會主義的青年\n雖然馬克思的共產黨宣言只看過一遍\n但世界需要改變\n不要讓我失業超過半年",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

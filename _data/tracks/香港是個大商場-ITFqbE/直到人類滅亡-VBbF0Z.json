@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "直到人類滅亡-VBbF0Z",
+  "name": "直到人類滅亡",
+  "name_en": "Until We Go Extinct",
+  "href": "/track/直到人類滅亡-VBbF0Z",
+  "disc_number": 1,
+  "track_number": 15,
+  "duration_s": 79,
+  "has_lyrics": true,
+  "lyrics": "親愛的　末日來了\n你說怎麼辦？\n我們開始儲糧吧\n你喜歡吃的　都為你備好\n趁假日一起到野外去\n預早尋找神秘的洞穴\n好等末日前藏起你與我\n\n你說你還未去過歐洲\n還未看透我的臉\n還未與我好好瘋狂過\n我說九月一起去巴黎吧\n在末日前嚐一口香榭麗榭的熱朱古力\n或到王爾德墓前畫一幅畫\n一起模仿波德來爾的遊蕩生活\n\n親愛的　末日來了\n你說怎麼辦？\n我說讓我們緊貼著\n在高山盡頭　看城市殞落\n你說你害怕從高處墮下\n我說我會牽著你手\n保護你到最後\n直到人類滅亡",
+  "album": {
+    "slug": "香港是個大商場-ITFqbE",
+    "name": "香港是個大商場",
+    "name_en": "Hong Kong Is One Big Shopping Mall"
+  },
+  "artists": [
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "poet",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

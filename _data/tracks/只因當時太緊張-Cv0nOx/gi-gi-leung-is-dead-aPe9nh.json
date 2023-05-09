@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "gi-gi-leung-is-dead-aPe9nh",
+  "name": "gi gi leung is dead",
+  "name_en": "Gi Gi Leung Is Dead",
+  "href": "/track/gi-gi-leung-is-dead-aPe9nh",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 76,
+  "has_lyrics": true,
+  "lyrics": "On Monday\nI don't wanna go to school\nI just wanna stay with you\nAll I want is you\n\nOn Tuesday\nI don't wanna go to school\nI just wanna sing with you\nSing your songs with you\n\nWhen I listen to your songs\nI feel extremely happy\nYou will be loving me\nI know you just can't leave me\nYou just can't leave me\n\nOn Sunday\nYou're no longer in my heart\nMaybe I got old enough\nYeah yeah yeah yeah yeah\n\nGi Gi Leung is dead\nGi Gi Leung is dead\nGi Gi Leung is dead\nGi Gi Leung is dead",
+  "album": {
+    "slug": "只因當時太緊張-Cv0nOx",
+    "name": "只因當時太緊張",
+    "name_en": "Becoz I Was Too Nervous at That Time"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

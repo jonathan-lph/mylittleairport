@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "indie-悲歌-l528wO",
+  "name": "indie 悲歌",
+  "name_en": "Indie Elegy",
+  "href": "/track/indie-悲歌-l528wO",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 117,
+  "has_lyrics": true,
+  "lyrics": "專業音樂人\n不想音樂有 indie 之分\n彷似些有錢人\n從不理會貧窮的心\n但我沒有怨恨\n即使滿心傷痕\n不管主流傳媒多黑暗\n\n討厭你的人\n只會繼續火滾\n喜愛你的人\n不會個個現身\n但你要繼續前行\n多遠請不要問\n總有些人陪在你左近\n\n我要這首歌\n在大氣電波飛行\n讓 DJ 可播另一種聲音\n但佢地沒有責任\n肯播是我的運\n只怪我的聲音太啃\n只怪我的公司無銀\n我與大眾永不會拉近\n\n就算沒法流行\n總想繼續前行\n出碟你記得幫襯",
+  "album": {
+    "slug": "我們在炎熱與抑鬱的夏天-無法停止抽煙-qqPhcd",
+    "name": "我們在炎熱與抑鬱的夏天，無法停止抽煙",
+    "name_en": "We Can't Stop Smoking in the Vicious and Blue Summer"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

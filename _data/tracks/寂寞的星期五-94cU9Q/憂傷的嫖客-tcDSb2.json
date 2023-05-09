@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "憂傷的嫖客-tcDSb2",
+  "name": "憂傷的嫖客",
+  "name_en": "Sorrowful Whoremonger",
+  "href": "/track/憂傷的嫖客-tcDSb2",
+  "disc_number": 1,
+  "track_number": 7,
+  "duration_s": 118,
+  "has_lyrics": true,
+  "lyrics": "［客］\n我就這樣痛哭一場\n在陌生女子懷內失常\n［鳳］\n你說我長得跟你舊愛很像\n才令你突然這樣憂傷\n\n［鳳］\n「你不用那麼傷心，\n早晚你會找到一個喜歡你的人。」\n［客］\n「不是，是我自己不想再跟人一起，\n我覺得我跟其他人不能相處」\n［鳳］\n「如果不合適就早點分開，\n以後的日子還長呢」\n\n［鳳］\n我說人生的經歷總無常\n你又何必介懷心上？\n一切苦與樂最終都一樣\n是為旅途增添花樣\n\n［客］\n我一路喊\n你一路安慰我\n［鳳］\n「你跟她一齊多久？\n為什麼要分開？」\n［客］\n我越講越激動\n直到走嘅時候　你問……\n［鳳］\n「哎，小費可以多給一點嗎？」\n［客］\n我先突然無咁傷心\n\n由不相識再到交心一場\n然後又回復正常\n四十分鐘的關係似夢一樣\n人生經歷總無常\n你又何必介懷心上？",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

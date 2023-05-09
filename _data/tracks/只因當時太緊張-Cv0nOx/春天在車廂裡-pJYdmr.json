@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "春天在車廂裡-pJYdmr",
+  "name": "春天在車廂裡",
+  "name_en": "Spring in the Bus",
+  "href": "/track/春天在車廂裡-pJYdmr",
+  "disc_number": 1,
+  "track_number": 9,
+  "duration_s": 160,
+  "has_lyrics": true,
+  "lyrics": "可否試一次\n與我閒時亂搭巴士\n由上環到天后\n拖著我手到我話夠\n\n請跟我一次\n與我二時搭到十時\n什麼都也可以\n搭到累時吃百力滋\n\n我們這件事\n沒有人知\n流浪到商店\n在這日子\n離別時別掛念\n明年今天再繼續試\n\n我們這件事\n沒有人知\n流浪到商店\n在這日子\n離別時侯約定\n明年今天再繼續試",
+  "album": {
+    "slug": "只因當時太緊張-Cv0nOx",
+    "name": "只因當時太緊張",
+    "name_en": "Becoz I Was Too Nervous at That Time"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

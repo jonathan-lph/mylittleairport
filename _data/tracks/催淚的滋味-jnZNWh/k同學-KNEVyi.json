@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "k同學-KNEVyi",
+  "name": "Ｋ同學",
+  "name_en": "Classmate K",
+  "href": "/track/k同學-KNEVyi",
+  "disc_number": 1,
+  "track_number": 19,
+  "duration_s": 176,
+  "has_lyrics": true,
+  "lyrics": "如果可以重來　到太子午夜時候\n便會拖著你手不會似中學生那麼害羞\n你愛將警察當做背景自拍十張才夠\n路過的夫婦以為你來自韓國到此旅遊\n\n士多老細收錯錢說幾晚不夠人手\n酒吧街邊吧女拚命遊說我們飲啤酒\n\n望向星星是哪星球　它突然間飄走\n懷疑是航拍後　你竟除下口罩向它揮手\n問我想有什麼成就　我本不想活太久\n何以見到你後　我竟然會習武鍛鍊身手\n\n放狗的途人照舊　牠擒向另一女生膝頭\n圍觀到防暴對峙時也行近看下又走\n女生說家有三隻母狗　我說她那味散四周\n群眾都起哄話我　還要是你帶頭\n\n著拖鞋紅衫短袖　手執燒賣配清酒\n願這街坊裝被捕可免受暴動罪追究\n\n望向星星是哪星球　它突然間飄走\n懷疑是航拍後　你竟除下口罩向它揮手\n問我想有什麼成就　我本不想活太久\n何以這晚之後　我竟想去習武保衛地球\n\n問我想有什麼成就　我本不想活太久\n何以見到你後　我竟然會習武鍛鍊身手",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

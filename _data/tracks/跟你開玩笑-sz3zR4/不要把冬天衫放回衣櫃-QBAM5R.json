@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "不要把冬天衫放回衣櫃-QBAM5R",
+  "name": "不要把冬天衫放回衣櫃",
+  "name_en": "Don't Put Winter Clothes in the Closet",
+  "href": "/track/不要把冬天衫放回衣櫃-QBAM5R",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 155,
+  "has_lyrics": true,
+  "lyrics": "不要把冬天衫太早放回衣櫃\n冬天已經走了這只是你認為\n那夜之間聽見太多悲痛的故仔\n更悲痛的故仔原諒我不想再提\n\n不要把冬天衫太早放回衣櫃\n春天已經到了北風還會再嚟\n世上太多苦況才令你成為集體\n你若離開谷底亦會失去安慰\n\n不要把幸福的相都放上網傳遞\n世界都知道了並不代表一切\n極盛大的婚禮轉眼已變前妻\n能夠埋藏心底才算是最珍貴\n\n不要覺得旁人成功是你的關係\n每次你的失敗歸咎旁人問題\n你要是不敢看見他人的光輝\n四季都只會被冬天包圍",
+  "album": {
+    "slug": "跟你開玩笑-sz3zR4",
+    "name": "跟你開玩笑",
+    "name_en": "Just Kidding"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

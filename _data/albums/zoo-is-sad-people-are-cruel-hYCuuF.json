@@ -1,0 +1,97 @@
+{
+  "type": "album",
+  "slug": "zoo-is-sad-people-are-cruel-hYCuuF",
+  "name": "Zoo Is Sad, People Are Cruel",
+  "name_en": "Zoo Is Sad, People Are Cruel",
+  "href": "/album/zoo-is-sad-people-are-cruel-hYCuuF",
+  "total_tracks": 14,
+  "album_type": "album",
+  "album_edition": "limited",
+  "label": "Elefant Records",
+  "label_en": "Elefant Records",
+  "release_date": "2007",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "edward-had-you-ever-thought-that-the-end-of-the-world-would-come-on-20901-BwbVWt",
+      "name": "edward, had you ever thought that the end of the world would come on 20.9.01?",
+      "name_en": "Edward, Had You Ever Thought That the End of the World Would Come On 20.9.01?"
+    },
+    {
+      "slug": "在動物園散步才是正經事-6WvzQ8",
+      "name": "在動物園散步才是正經事",
+      "name_en": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo"
+    },
+    {
+      "slug": "gi-gi-leung-is-dead-np3M4q",
+      "name": "gi gi leung is dead",
+      "name_en": "Gi Gi Leung Is Dead"
+    },
+    {
+      "slug": "victor-fly-me-to-stafford-oOYATU",
+      "name": "victor, fly me to stafford",
+      "name_en": "Victor, Fly Me To Stafford"
+    },
+    {
+      "slug": "leo-are-you-still-jumping-out-of-windows-in-expensive-clothes-wmA71M",
+      "name": "leo, are you still jumping out of windows in expensive clothes?",
+      "name_en": "Leo, Are You Still Jumping Out of Windows in Expensive Clothes?"
+    },
+    {
+      "slug": "i-dont-know-how-to-download-good-av-like-iris-does-eBR1no",
+      "name": "i don't know how to download good av like iris does",
+      "name_en": "I Don't Know How to Download Good AV Like Iris Does"
+    },
+    {
+      "slug": "你的微笑像朵花-TtBmmg",
+      "name": "你的微笑像朵花",
+      "name_en": "You Smile Like A Blossom"
+    },
+    {
+      "slug": "josephines-shop-1m2L2H",
+      "name": "josephine's shop",
+      "name_en": "Josephine's Shop"
+    },
+    {
+      "slug": "when-i-listen-to-the-field-mice-msE2ZF",
+      "name": "When I Listen To The Field Mice",
+      "name_en": "When I Listen To The Field Mice"
+    },
+    {
+      "slug": "山頂公仔波板糖-cx4fyv",
+      "name": "山頂．公仔．波板糖",
+      "name_en": "Mountaintop, Doll, Lollypop"
+    },
+    {
+      "slug": "my-little-banana-MQiQQ1",
+      "name": "my little banana",
+      "name_en": "My Little Banana"
+    },
+    {
+      "slug": "只因當時太緊張-wQwuf7",
+      "name": "只因當時太緊張",
+      "name_en": "Because I Was Too Nervous at That Time"
+    },
+    {
+      "slug": "you-dont-wanna-be-my-girlfriend-phoebe-ifjL8f",
+      "name": "you don't wanna be my girlfriend, phoebe",
+      "name_en": "You Don't Wanna Be My Girlfriend, Phoebe"
+    },
+    {
+      "slug": "dee-it-may-all-end-tomorrow-IV9rDk",
+      "name": "dee, it may all end tomorrow",
+      "name_en": "Dee, It May All End Tomorrow"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/zoo-is-sad-people-are-cruel.jpg",
+      "height": 1737,
+      "width": 1737
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

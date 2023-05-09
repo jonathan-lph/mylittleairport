@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "milan-kIOSB4",
+  "name": "milan",
+  "name_en": "Milan",
+  "href": "/track/milan-kIOSB4",
+  "disc_number": 1,
+  "track_number": 9,
+  "duration_s": 104,
+  "has_lyrics": true,
+  "lyrics": "你告訴我一個　昆德拉的故事\n關於一對情侶　假裝陌生男女\n再勾引對方去　酒店裡一起睡\n最終勾引到分不到對方和自己本身是誰\n\n故事聽到心醉　我都想請你考慮\n假裝你我是一對　知你有男友伴隨\n你我不必一起睡　睡了什麼都會失去\n我最多只是想拖你的手　過一條馬路去\n\n但我沒說這幾句　我不可說這幾句\n因我再也不是　你現在這個年歲\n「什麼都會過去　什麼都總會過去」\n我像一個失落的港女　唱Ｋ最喜歡唱這幾句",
+  "album": {
+    "slug": "香港是個大商場-ITFqbE",
+    "name": "香港是個大商場",
+    "name_en": "Hong Kong Is One Big Shopping Mall"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "my-little-k-and-j-qmu2Q3",
+  "name": "my little k and j",
+  "name_en": "My Little K and J",
+  "href": "/track/my-little-k-and-j-qmu2Q3",
+  "disc_number": 1,
+  "track_number": 17,
+  "duration_s": 254,
+  "has_lyrics": true,
+  "lyrics": "It's Kate's first time to a friend's wedding\nEveryone looked nice with their nice dresses\nKate hugged the bride and gave her best blessing\nShe was arranged to sit next to Jane\nJane smiled to Kate with no talking\nKate was confused and Jane felt interesting\n\nWhen you see her smile you'll understand why\nsee-through blouse and perfume, heels and silk stockings\nJane don't wear those things, she's simply brightening\nSo that is life not just for a night\nChampagne hidden our secrets of lives\nAnd that is it you need no wondering\nYou're no more a little girl\n\nAfter 2 days Jane messaged Kate\n\"Mon cheri, Mon cheri,\" Jane called Kate\nOh who could help Kate she'd fallen to Jane\nShe can't explain why her taste has changed\nThey didn't kiss in their first dating\nFelt shy and smiling, forgot everything\n\nOh little Kate, our tastes can change\nSee how it started in the crowded wedding\nSo that is it you cannot quit the game\nAnd that is love not just for a night\nChampagne hidden their secrets of pink\nAnd that is it they cannot quit the game\n\nKate's no more a little girl\nJane's no more a little girl\nYou're no more a little girl\nYou're no more a little girl",
+  "album": {
+    "slug": "我們在炎熱與抑鬱的夏天-無法停止抽煙-qqPhcd",
+    "name": "我們在炎熱與抑鬱的夏天，無法停止抽煙",
+    "name_en": "We Can't Stop Smoking in the Vicious and Blue Summer"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "reonda-c-ATlTjy",
+          "name": "Reonda C.",
+          "name_en": null
+        },
+        {
+          "slug": "吳卓基-sznxvV",
+          "name": "吳卓基",
+          "name_en": null
+        },
+        {
+          "slug": "lv-l1Ce6K",
+          "name": "LV",
+          "name_en": null
+        },
+        {
+          "slug": "sing-3I9PGo",
+          "name": "Sing",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "邊一個發明了返工-exuyM5",
+  "name": "邊一個發明了返工",
+  "name_en": "Who Invented Working",
+  "href": "/track/邊一個發明了返工-exuyM5",
+  "disc_number": 1,
+  "track_number": 15,
+  "duration_s": 178,
+  "has_lyrics": true,
+  "lyrics": "邊一個發明了返工\n我要給佢米田共（米田共）\n邊一個發明了返工\n返到我愈嚟愈窮（愈嚟愈窮）\n為了薪金一萬元\n令每天都沒了沒完\n一萬元一萬元一萬元\n靈魂賣給了大財團\n\n邊一個發明了返工\n以為自己好有用（好有用）\n邊一個發明了返工\n阻礙我藝術發展重重（發展重重）\n到了薪金兩萬元\n我的青春就快用完\n兩萬元兩萬元兩萬元\n我有更多事沒法做完\n\n我渴望有一個平原\n沒有政府沒有治權\n這平原這平原這平原\n有好多個美女舞蹈團\n\n邊一個發明了返工\n唔係八婆就係八公（就係八公）\n邊一個發明了返工\n返工喺度玩接龍（玩接龍）\n到了薪金三萬元\n我哋都應該唔會有三萬元\n三萬元三萬元三萬元\n三萬元啲人通常都有啲串\n\n我渴望這一個平原\n畢業之後啲同學見唔完\n見面唔會講買股票\n買車　結婚　生仔　買樓　買船",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "thomas-xxF272",
+          "name": "Thomas",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

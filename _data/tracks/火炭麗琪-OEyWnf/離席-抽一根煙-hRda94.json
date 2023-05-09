@@ -1,0 +1,33 @@
+{
+  "type": "track",
+  "slug": "離席-抽一根煙-hRda94",
+  "name": "離席，抽一根煙",
+  "name_en": "Leave the Table, Smoke a Cigarette",
+  "href": "/track/離席-抽一根煙-hRda94",
+  "disc_number": 1,
+  "track_number": 13,
+  "duration_s": 73,
+  "has_lyrics": false,
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

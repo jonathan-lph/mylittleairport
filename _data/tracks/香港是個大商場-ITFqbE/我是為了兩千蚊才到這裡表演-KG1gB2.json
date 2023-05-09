@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "我是為了兩千蚊才到這裡表演-KG1gB2",
+  "name": "我是為了兩千蚊才到這裡表演",
+  "name_en": "I Came Here to Preform Just for the $2000",
+  "href": "/track/我是為了兩千蚊才到這裡表演-KG1gB2",
+  "disc_number": 1,
+  "track_number": 4,
+  "duration_s": 111,
+  "has_lyrics": true,
+  "lyrics": "老實說我是為了兩千蚊\n才來到這個地方表演\n玩了音樂經已六年\n這些年我有許多改變\n\n譬如說我已知這音樂不會有發展\n譬如說我的旋律愈寫愈不自然\n譬如說我已預備在某個夏天\n會回到我的起點\n\n那一年的一個夏天\n我和十二個朋友建立了維港唱片\n那一年是人生過得最快的一年\n那些清甜的回憶\n我仍能看見\n\n有些人過多五年會變很有錢\n有些人過多五年窮到不再露面\n而你會不會記得這一天？\n我為了兩千蚊來到這裡表演",
+  "album": {
+    "slug": "香港是個大商場-ITFqbE",
+    "name": "香港是個大商場",
+    "name_en": "Hong Kong Is One Big Shopping Mall"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

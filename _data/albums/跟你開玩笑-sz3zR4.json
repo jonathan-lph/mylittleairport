@@ -1,0 +1,77 @@
+{
+  "type": "album",
+  "slug": "跟你開玩笑-sz3zR4",
+  "name": "跟你開玩笑",
+  "name_en": "Just Kidding",
+  "href": "/album/跟你開玩笑-sz3zR4",
+  "total_tracks": 10,
+  "album_type": "album",
+  "album_edition": "retail",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2022",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "細胞-1e3vwZ",
+      "name": "細胞",
+      "name_en": "Cell"
+    },
+    {
+      "slug": "某夜後台-VkyWZY",
+      "name": "某夜後台",
+      "name_en": "Backstage Some Night"
+    },
+    {
+      "slug": "循環的夜-F3TLUH",
+      "name": "循環的夜",
+      "name_en": "Repeating Nights"
+    },
+    {
+      "slug": "lunch-lHL2B7",
+      "name": "LUNCH",
+      "name_en": "LUNCH"
+    },
+    {
+      "slug": "德州之戀-gVdcgf",
+      "name": "德州之戀",
+      "name_en": "Texas Romance"
+    },
+    {
+      "slug": "你把我的-rPumW6",
+      "name": "你把我的",
+      "name_en": "You Take My"
+    },
+    {
+      "slug": "嘔吐-lOcs5t",
+      "name": "嘔吐",
+      "name_en": "Nausea"
+    },
+    {
+      "slug": "八點零五分-isM76r",
+      "name": "八點零五分",
+      "name_en": "08:05"
+    },
+    {
+      "slug": "我不適合聚會-FqY6Kc",
+      "name": "我不適合聚會",
+      "name_en": "No Gathering for Me"
+    },
+    {
+      "slug": "不要把冬天衫放回衣櫃-QBAM5R",
+      "name": "不要把冬天衫放回衣櫃",
+      "name_en": "Don't Put Winter Clothes in the Closet"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/跟你開玩笑.jpg",
+      "height": 1200,
+      "width": 1200
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

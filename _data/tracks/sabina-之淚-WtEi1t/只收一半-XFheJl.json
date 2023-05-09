@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "只收一半-XFheJl",
+  "name": "只收一半",
+  "name_en": "Just for Half Price",
+  "href": "/track/只收一半-XFheJl",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 138,
+  "has_lyrics": true,
+  "lyrics": "有次我咪同你講話\n我喺 IG 搵 PTGF 嘅\n有個覆返我話\n三千蚊一個鐘\n包 wet kiss, bj, ml\n同埋 bath tgt\n我有問你抵唔抵㗎嘛\n同埋好唔好每個星期都 call?\n其實呢  我係諗住你會話：\n\n「我只收你一半」\n「我也感到很悶」\n「我也想找個伴」\n「把這假期填滿」\n\n但係你都冇咁樣講\n你叫我快啲 call\n刺激下本地經濟\n我仲諗住\n一齊煮意粉食\n睇啲好耐冇睇嘅戲\n食雲呢拿味雪糕溝啲咖啡入去\n第二朝再煮早餐俾你\n（錢嗰波一你要 (?)，我無所謂㗎）\n（錢個幫胡 (?) 就得啦，吓）\n但係你都冇咁樣講：\n\n「我只收你一半」\n「我也感到很悶」\n「我也想找個伴」\n「把這宇宙填滿」\n（嚟吖，幫吓手喇，吓）\n\n後尾我過咗一半訂俾個 PTGF\n佢覆返我話等一陣\n同一個微笑嘅 emoji 之後\n就再搵唔到佢喇\n仆佢個臭街　頂佢個肺",
+  "album": {
+    "slug": "sabina-之淚-WtEi1t",
+    "name": "SABINA 之淚",
+    "name_en": "Sabina's Tears"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

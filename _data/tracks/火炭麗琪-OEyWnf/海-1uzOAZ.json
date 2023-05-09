@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "海-1uzOAZ",
+  "name": "海",
+  "name_en": "Sea",
+  "href": "/track/海-1uzOAZ",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 93,
+  "has_lyrics": true,
+  "lyrics": "十年後\n你還會記得我們到海邊的那個晚上嗎？\n一整夜的風　一整天的霧\n短暫的快樂\n帶給我翌日猛烈的頭痛\n你笑說　這是海邊的代價\n我苦笑　代價未免太大\n春霧中　你告訴我\n「回憶很奇怪\n唯有兩個人同時記得\n回憶才是真實」\n十年後　你才年過三十\n我已芳華漸暮\n你還會記得\n我們第一次見面是到海邊嗎？\n走過的路還存在嗎？\n看過的風景還美麗嗎？\n假如你不記得\n那場頭痛是我虛無的幻想嗎？",
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "poet",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

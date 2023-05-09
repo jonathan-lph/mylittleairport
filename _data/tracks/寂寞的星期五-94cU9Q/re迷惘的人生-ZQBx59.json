@@ -1,0 +1,69 @@
+{
+  "type": "track",
+  "slug": "re迷惘的人生-ZQBx59",
+  "name": "RE：迷惘的人生",
+  "name_en": "RE: A Perplexed Life",
+  "href": "/track/re迷惘的人生-ZQBx59",
+  "disc_number": 1,
+  "track_number": 15,
+  "duration_s": 125,
+  "has_lyrics": true,
+  "lyrics": "我最親愛的朋友\n請您不用憂愁\n傷悲說不出口\n可以把眼淚流\n\n更深厚的情愛\n總有受挑戰時候\n前世您們纏糾\n今世愛過夠\n\n呼出您的困憂\n世事只是水流\n轉世前決定必修\n學會後回到宇宙\n\n等到了時候\n就自然能看透\n學會把執著放手\n自在自然足夠\n\n無須內疚\n無須牽求\n若要人分憂\n隨時打俾我呼救",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

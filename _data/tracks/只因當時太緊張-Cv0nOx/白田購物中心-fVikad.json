@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "白田購物中心-fVikad",
+  "name": "白田購物中心",
+  "name_en": "Park Tin Commercial Centre",
+  "href": "/track/白田購物中心-fVikad",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 70,
+  "has_lyrics": true,
+  "lyrics": "En fin, il est arrivé\nAprès les trois questions\nLe premier fois\nLa première personne\nTu es si peur comme un petit lapin\nTu es si timide comme une petite fille\nEst-il trop vite?\nY-a-t-il trop d'amour?\nTu ne sais plus\nTu ne sais rien\nJusqu'à quelqu'un t'a dit\n« Il y a toujours le premier fois. »\n« Ne triste pas »\n(Jusqu'à quelqu'un t'a dit)\n(« Il y a toujours le premier fois. »)\n(« Ne triste pas. »)",
+  "album": {
+    "slug": "只因當時太緊張-Cv0nOx",
+    "name": "只因當時太緊張",
+    "name_en": "Becoz I Was Too Nervous at That Time"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

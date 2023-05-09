@@ -1,0 +1,32 @@
+{
+  "type": "album",
+  "slug": "happy-new-year-2008-ppZzKp",
+  "name": "Happy New Year 2008",
+  "name_en": "Happy New Year 2008",
+  "href": "/album/happy-new-year-2008-ppZzKp",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "international",
+  "label": "Elefant Records",
+  "label_en": "Elefant Records",
+  "release_date": "2008",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "阿波馬草結婚了-re4MMv",
+      "name": "阿波馬草結婚了",
+      "name_en": "Por and Macho Got Married"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/happy-new-year-2008.jpg",
+      "height": 640,
+      "width": 640
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

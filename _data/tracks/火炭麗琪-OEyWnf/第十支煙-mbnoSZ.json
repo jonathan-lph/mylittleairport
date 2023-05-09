@@ -1,0 +1,94 @@
+{
+  "type": "track",
+  "slug": "第十支煙-mbnoSZ",
+  "name": "第十支煙",
+  "name_en": "The Tenth Cigarette",
+  "href": "/track/第十支煙-mbnoSZ",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 236,
+  "has_lyrics": true,
+  "lyrics": "我食了第十支煙\n感覺是多麼的苦澀\n主要是新買的煙頭是天然\n為什麼要這麼天然？\n\n我遇見某種女子\n某種女子是多麼瘋癲\n瘋癲到　我也不想再痴纏\n為什麼要這麼痴纏？\n\n每個下午　我都在食煙\n但我沒有忘記　我是一個 rapper\n\nYo check it out\nI wanna tell you a story\nAbout how the girls fool me\nEverybody give me a beat\n\n有晚喺公園坐　有個女仔行近\n想我教佢結他　問我肯唔肯\n我好認真　打量咗佢全身\n就話結他嚟講　其實我都仲學緊\n\n又有晚同個女仔好開心\n去到海邊傾偈　又有酒飲\n一流嘅情調同氣氛\n但就係可惜嗰晚　原來佢 m come\n\nIf you go to the after party\nWe can be company\nI know you only like my personality\nBut you will never like my body\nYou only like my personality\nBut not my body\nNot my body\n\n我遇見某種女子\n想起我　決心食煙的初次\n因我不小心走進朋友討論的故事\n便要食支煙　轉身去出面\n\n離席　抽一支煙\n離席　抽一支煙\n離席　抽一支煙\n離席　抽一支煙",
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        },
+        {
+          "slug": "jackie-uZzjPG",
+          "name": "Jackie",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

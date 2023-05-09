@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "露體狂小丁-auGnbI",
+  "name": "露體狂小丁",
+  "name_en": "Siu Ding The Exhibitionist",
+  "href": "/track/露體狂小丁-auGnbI",
+  "disc_number": 1,
+  "track_number": 4,
+  "duration_s": 175,
+  "has_lyrics": true,
+  "lyrics": "(Ooh ooh ooh ooh)\n(Ooh ooh ooh ooh)\n(Ooh ooh ooh ooh)\n(Ooh ooh ooh ooh)\n\n人們說你要離開這陣營\n我們無不覺得吃驚\n因為這不是你的個性\n你生來是露體狂小丁\n\n我都知道我們不是很有型\n我都知道我們不年青\n這一場革命\n最終無人取勝\n但請你（請你）\n請你　留低一起作見證\n(Ooh ooh ooh ooh)\n(Ooh ooh ooh ooh)\n(Ooh ooh ooh ooh)\n(Ooh ooh ooh ooh)\n\n這裡的人最終都不會明\n世界永沒法安靜\n我們還有多少酒剩\n給你露體狂小丁\n\n我都知道我們不是很有型\n我都知道我們不年青\n這一場革命\n最終無人取勝\n但請你（請你）\n請你　留低一起作見證\n(Ooh ooh ooh ooh)\n(Ooh ooh ooh ooh)\n(Ooh ooh ooh ooh)\n(Ooh ooh ooh ooh)",
+  "album": {
+    "slug": "我都唔知道-xV0JmI",
+    "name": "我都唔知道",
+    "name_en": "我都唔知道"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "何山-yKPTv0",
+          "name": "何山",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "何山-yKPTv0",
+          "name": "何山",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

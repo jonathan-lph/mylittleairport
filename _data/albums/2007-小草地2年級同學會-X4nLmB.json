@@ -1,0 +1,32 @@
+{
+  "type": "album",
+  "slug": "2007-小草地2年級同學會-X4nLmB",
+  "name": "2007 小草地２年級同學會",
+  "name_en": "2007 Grassland Second Grade Reunion",
+  "href": "/album/2007-小草地2年級同學會-X4nLmB",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "taiwan",
+  "label": "默契音樂",
+  "label_en": "Silent Agreement",
+  "release_date": "2007",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "我愛官恩娜-都不及愛你的哨牙-lv6O6G",
+      "name": "我愛官恩娜，都不及愛你的哨牙",
+      "name_en": "I Love Your Whistling Teeth More Than Ella Koon"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/2007-小草地2年級同學會.jpg",
+      "height": 545,
+      "width": 599
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

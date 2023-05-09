@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "只因當時太緊張-wQwuf7",
+  "name": "只因當時太緊張",
+  "name_en": "Because I Was Too Nervous at That Time",
+  "href": "/track/只因當時太緊張-wQwuf7",
+  "disc_number": 1,
+  "track_number": 12,
+  "duration_s": 155,
+  "has_lyrics": true,
+  "lyrics": "只因當時我太緊張\n令你覺得我很異常\n看到你令我有很多遐想\n最好以後都這樣\n\n那次不小心掂了你手掌\n令我覺得很有營養\n與你出街是我的夢想\n人生充滿新方向\n\n別人說你很囂張\n但是我覺得你很善良\n我已沒有心機再細想\n怎麼告訴你真相？\n\n別人說你太囂張\n但是我覺得你很正常\n我已沒有心情再去聯想\n怎麼能令你心癢？\n\n只因當時我太慌張\n沒發揮到我的擅長\n我最想與你去數綿羊\n每夜美夢很歡暢\n\n結果我與你去了足球埸\n然後再逛白購商場\n順便看了一些明星相\n但願你沒高修養\n\n別人說你很囂張\n但是我覺得你很善良\n我已沒有心機再細想\n怎麼告訴你真相？\n\n別人說你太囂張\n但是我覺得你很漂亮\n我已沒有心情再去聯想\n怎麼能令你心癢？\n\n我似漸變抑鬱與感傷\n都不能令你歡暢",
+  "album": {
+    "slug": "zoo-is-sad-people-are-cruel-hYCuuF",
+    "name": "Zoo Is Sad, People Are Cruel",
+    "name_en": "Zoo Is Sad, People Are Cruel"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

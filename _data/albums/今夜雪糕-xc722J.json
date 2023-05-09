@@ -1,0 +1,32 @@
+{
+  "type": "album",
+  "slug": "今夜雪糕-xc722J",
+  "name": "今夜雪糕",
+  "name_en": "Ice Cream Tonight",
+  "href": "/album/今夜雪糕-xc722J",
+  "total_tracks": 1,
+  "album_type": "single",
+  "album_edition": "public",
+  "label": "my little airport",
+  "label_en": "my little airport",
+  "release_date": "2019",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "今夜雪糕-fmgVmJ",
+      "name": "今夜雪糕",
+      "name_en": "Ice Cream Tonight"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/今夜雪糕.jpg",
+      "height": 720,
+      "width": 720
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

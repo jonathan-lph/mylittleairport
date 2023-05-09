@@ -1,0 +1,37 @@
+{
+  "type": "album",
+  "slug": "花吃了那女孩電影原聲帶-baLgAQ",
+  "name": "花吃了那女孩電影原聲帶",
+  "name_en": "Candy Rain OST",
+  "href": "/album/花吃了那女孩電影原聲帶-baLgAQ",
+  "total_tracks": 2,
+  "album_type": "compilation",
+  "album_edition": "taiwan",
+  "label": "亞神音樂娛樂",
+  "label_en": "Asia Muse Entertainment",
+  "release_date": "2008",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "讓我搭上一班會爆炸的飛機-6NC90Y",
+      "name": "讓我搭上一班會爆炸的飛機",
+      "name_en": "Let Me Get On an Exploding Plane"
+    },
+    {
+      "slug": "和陳五-msn-ITOcE2",
+      "name": "和陳五 msn",
+      "name_en": "MSN with Ng Chan"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/花吃了那女孩電影原聲帶.jpg",
+      "height": 640,
+      "width": 640
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

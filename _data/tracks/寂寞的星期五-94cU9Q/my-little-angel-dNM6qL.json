@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "my-little-angel-dNM6qL",
+  "name": "my little angel",
+  "name_en": "My Little Angel",
+  "href": "/track/my-little-angel-dNM6qL",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 97,
+  "has_lyrics": true,
+  "lyrics": "再過兩日你便要走\n新的他會接手\n與你下次再對偶\n我相信在以後\n\n上世與你不能放手\n今世總算有邂逅\n放眼望這大氣世界\n我倆永心有相溝\n\n請你不要傷憂\n我也不淚流\n如若想我\n可以夢裡合奏",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "bass",
+      "members": [
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

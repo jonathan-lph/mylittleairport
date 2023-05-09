@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "how-can-you-fall-in-love-with-a-guy-who-doesnt-know-gainsbourg-xNgEq1",
+  "name": "how can you fall in love with a guy who doesn't know Gainsbourg?",
+  "name_en": "How Can You Fall in Love With a Guy Who Doesn't Know Gainsbourg?",
+  "href": "/track/how-can-you-fall-in-love-with-a-guy-who-doesnt-know-gainsbourg-xNgEq1",
+  "disc_number": 1,
+  "track_number": 4,
+  "duration_s": 120,
+  "has_lyrics": true,
+  "lyrics": "How can you fall in love with a guy who doesn't know Gainsbourg?\nHow can you fall in love with a guy who doesn't know Gainsbourg?\nIf you expect him to be sweet with you,\nI will say good luck to you.\n\nYou can fall in love with someone who dislikes Gainsbourg.\nBut you can't fall in love with a guy who doesn't know Gainsbourg.\nIf you expect him to entertain you,\nyour expectations will fool you.\n\nI translated all the lyrics of Gainsbourg with an online French dictionary.\nFinally I understand the secret of romance. Do you know the secret of romance?\nThe secret of romance is to do something very man.\n\nAfter you fall in love with a guy who loves Gainsbourg.\nYou won't be satisfied with someone who doesn't know Gainsbourg.\nEspecially someone who looks very cool,\nand all the girls loved him in school.\n\nIf you expect him to be sweet with you,\nI will say good luck to you.",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}
