@@ -41,8 +41,8 @@ export default async function importAllAlbums(
   res: NextApiResponse
 ) {
   const promises = albums.map(album => {
-    const img = is(`public/album_artwork/${album.slug}.jpg`)
     const randomBytes = getRandomBytes()
+    const img = is(`public/album-artwork/${_slug}.jpg`)
     const newAlbum: HydratedDocument<AlbumObject> = new AlbumModel({
       type: ResourceType.ALBUM,
       slug: `${album.slug}-${randomBytes}`,
