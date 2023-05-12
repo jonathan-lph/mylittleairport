@@ -1,12 +1,11 @@
 import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
-import tracks from "_data/toc/tracks.json"
-import { Track } from '@src/common/asset/mla'
+import tracks from "src/__data/toc/tracks.json"
 import { ParsedUrlQuery } from 'querystring'
-import translationJSON from '@common/translation/tracks.json'
+import translationJSON from '@translations/tracks.json'
 import { TrackList } from '@src/components/tracks/TrackList'
-import { Locales, locales } from '@src/common/definitions'
-import { TocTrackObject } from '@src/common/asset/types/Track'
+import { Locales, locales } from '@consts/definitions'
+import { TocTrackObject } from '@src/types/Track'
 
 const Tracks: NextPage<TracksProps> = ({ tracks, translation, locale, ...props }) => {
   return (<>
@@ -14,13 +13,11 @@ const Tracks: NextPage<TracksProps> = ({ tracks, translation, locale, ...props }
       <title>{translation.page_title} - my little airport</title>
     </Head>
 
-    <main>
-      <TrackList
-        tracks={tracks}
-        translation={translation}
-        locale={locale}
-      />
-    </main>
+    <TrackList
+      tracks={tracks}
+      translation={translation}
+      locale={locale}
+    />
   </>)
 }
 

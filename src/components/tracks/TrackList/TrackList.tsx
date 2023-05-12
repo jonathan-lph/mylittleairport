@@ -1,9 +1,9 @@
 import { Track } from "@src/common/asset/mla"
 import styles from "./TrackList.module.sass"
 import clsx from "clsx"
-import { TocTrackObject } from "@src/common/asset/types/Track"
+import { TocTrackObject } from "@src/types/Track"
 import { useState } from "react"
-import { Icon } from "@src/common/components/Icon"
+import { Icon } from "@components/Icon"
 import Link from "next/link"
 
 interface TrackListProps {

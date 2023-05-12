@@ -18,14 +18,14 @@
     "paths": {
       "@src/*": ["src/*"],
       "@common/*": ["src/common/*"],
-      "@context/*": ["src/common/context/*"],
-      "@components/*": ["src/common/components/*"],
-      "@hooks/*": ["src/common/hooks/*"],
-      "@util/*": ["src/common/util/*"],
-      "@styles/*": ["src/common/styles/*"],
+      "@components/*": ["src/components/*"],
+      "@utils/*": ["src/utils/*"],
+      "@styles/*": ["src/assets/styles/*"],
       "@public/*": ["public/*"],
-      "@firebaseApp": ["lib/firebase"],
-      "@lib/*": ["lib/*"]
+      "@lib/*": ["src/lib/*"],
+      "@database/*": ["src/services/database/*"],
+      "@consts/*": ["src/consts/*"],
+      "@translations/*": ["src/consts/translations/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

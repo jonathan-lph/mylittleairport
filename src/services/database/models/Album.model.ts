@@ -1,6 +1,6 @@
 import { AlbumType } from "@src/common/asset/test";
-import { AlbumEditionType, AlbumObject, CompilationEditionType, SingleEditionType } from "@src/common/asset/types/Album";
-import { DatePrecision, ResourceType } from "@src/common/asset/types/common";
+import { AlbumEditionType, AlbumObject, CompilationEditionType, SingleEditionType } from "@src/types/Album";
+import { DatePrecision, ResourceType } from "@src/types/common";
 import { Schema, model, models } from "mongoose";
 
 const AlbumSchema : Schema = new Schema({

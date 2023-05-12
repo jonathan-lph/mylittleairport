@@ -1,8 +1,8 @@
 import { useRef, useEffect } from "react"
 import styles from "./AlbumDiv.module.sass"
 import type { Album, AlbumEdition, AlbumType } from "@src/common/asset/mla"
-import { AlbumObject, ExpandedAlbumObject } from "@src/common/asset/types/Album"
-import { Locales } from "@src/common/definitions"
+import { AlbumObject, ExpandedAlbumObject } from "@src/types/Album"
+import { Locales } from "@consts/definitions"
 
 interface AlbumDivProps {
   album: AlbumObject

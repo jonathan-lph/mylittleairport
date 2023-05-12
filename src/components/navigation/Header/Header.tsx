@@ -1,13 +1,13 @@
 import styles from './Header.module.sass'
-import translationJSON from '@common/translation/common.json'
-import { Icon, Logo } from '@common/components/Icon'
+import translationJSON from '@translations/common.json'
+import { Icon, Logo } from '@components/Icon'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Track } from '@src/common/asset/mla'
 import { useRef, useState, useEffect, FormEvent } from 'react'
 import { SearchBar } from './SearchBar'
 import clsx from 'clsx'
-import { TocTrackObject } from '@src/common/asset/types/Track'
+import { TocTrackObject } from '@src/types/Track'
 
 interface HeaderProps {
   locale: string
@@ -29,7 +29,7 @@ export const Header = ({
 
   const handleRandomRedirect = () => {
     const getRandom = <T,>(arr : Array<T>) => arr[Math.floor(Math.random() * arr.length)]
-    const tracks : Array<TocTrackObject> = require('_data/toc/tracks.json')
+    const tracks : Array<TocTrackObject> = require('src/__data/toc/tracks.json')
     const track = getRandom(tracks)
     router.push({
       pathname: '/[locale]/[album]/[track]',

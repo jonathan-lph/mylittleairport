@@ -1,13 +1,13 @@
 import styles from './SearchBar.module.sass'
-import translationJSON from '@common/translation/common.json'
-import { Icon, Logo } from '@common/components/Icon'
+import translationJSON from '@translations/common.json'
+import { Icon, Logo } from '@components/Icon'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Track } from '@src/common/asset/mla'
 import { useRef, useState, useEffect, } from 'react'
 import type { Dispatch, SetStateAction, FormEvent } from 'react'
 import { SearchBarResult } from './SearchBarResult'
-import { TocTrackObject } from '@src/common/asset/types/Track'
+import { TocTrackObject } from '@src/types/Track'
 
 interface SearchBarProps {
   open: boolean
@@ -58,7 +58,7 @@ export const SearchBar = ({
     const debouncer = setTimeout(() => {
       // Load Tracks
       if (!loadedTracks.current) {
-        loadedTracks.current = require('_data/toc/tracks.json')
+        loadedTracks.current = require('src/__data/toc/tracks.json')
       }
       // Find matching name or lyrics tracks
       const _result : SearchResult[] = loadedTracks.current!

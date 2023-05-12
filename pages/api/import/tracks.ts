@@ -1,13 +1,13 @@
 import mongoosePromise from '@lib/mongoose'
-import { ResourceType } from '@src/common/asset/types/common'
+import { ResourceType } from '@src/types/common'
 import type { NextApiRequest, NextApiResponse } from 'next'
 import tracks from '@common/asset/tracks.json'
 import { AlbumModel, ArtistModel, TrackModel } from 'models'
 import { HydratedDocument } from 'mongoose'
-import { AlbumObject } from '@src/common/asset/types/Album'
+import { AlbumObject } from '@src/types/Album'
 import crypto from 'crypto'
-import { ArtistObject } from '@src/common/asset/types/Artist'
-import { TrackArtist, TrackArtistRole } from '@src/common/asset/types/Track'
+import { ArtistObject } from '@src/types/Artist'
+import { TrackArtist, TrackArtistRole } from '@src/types/Track'
 import { TrackCreditsCategory } from '@src/common/asset/mla'
 
 mongoosePromise

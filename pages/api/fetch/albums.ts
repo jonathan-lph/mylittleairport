@@ -1,7 +1,6 @@
 import mongoosePromise from '@lib/mongoose'
+import { AlbumModel } from '@database/models'
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { AlbumModel, TrackModel } from 'models'
-import fs from "fs"
 
 mongoosePromise
 

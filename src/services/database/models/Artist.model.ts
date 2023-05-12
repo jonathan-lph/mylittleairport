@@ -1,5 +1,5 @@
-import { ArtistObject } from "@src/common/asset/types/Artist";
-import { ResourceType } from "@src/common/asset/types/common";
+import { ArtistObject } from "@src/types/Artist";
+import { ResourceType } from "@src/types/common";
 import { Schema, model, models } from "mongoose";
 
 const ArtistSchema : Schema = new Schema({

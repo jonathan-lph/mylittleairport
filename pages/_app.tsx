@@ -1,5 +1,5 @@
-import { Footer } from '@src/common/components/Footer'
-import { Header } from '@src/common/components/Header'
+import { Footer } from '@components/navigation/Footer'
+import { Header } from '@components/navigation/Header'
 import '@styles/globals.sass'
 import styles from '@styles/layout.module.sass'
 import type { AppProps } from 'next/app'

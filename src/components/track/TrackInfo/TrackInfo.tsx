@@ -1,12 +1,8 @@
-import { Track, Album } from "@src/common/asset/mla"
-import { Icon } from "@src/common/components/Icon"
-import { FC, useEffect, useMemo, useRef, useState, MouseEvent } from "react"
+import { useEffect, useRef, useState, MouseEvent } from "react"
 import styles from './TrackInfo.module.sass'
-import { ExpandedTrackArtist, ExpandedTrackObject } from "@src/common/asset/types/Track"
-import { SimplifiedAlbumObject } from "@src/common/asset/types/Album"
+import { ExpandedTrackObject } from "@src/types/Track"
 
 interface TrackInfoProps {
-  album: SimplifiedAlbumObject
   track: ExpandedTrackObject
   translation: any
 }
@@ -17,8 +13,8 @@ const getTimestamp = (time: number): string => {
   return `${min}:${sec}`
 }
 
-export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.Element => {
-  const { name, lyrics } = track
+export const TrackInfo = ({ track, translation }: TrackInfoProps) : JSX.Element => {
+  const { name } = track
   const [playing, setPlaying] = useState(false)
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
 
@@ -95,11 +91,11 @@ export const TrackInfo = ({ album, track, translation }: TrackInfoProps) : JSX.E
         
       <div className={styles.imgBorder}>
         <img
-          src={album.images[0].url}
+          src={track.album.images[0].url}
           className={styles.img}
         />
         <div className={styles.albumName}>
-          {album.name}
+          {track.album.name}
         </div>
         <div className={styles.trackNo}>
           {track.track_number}

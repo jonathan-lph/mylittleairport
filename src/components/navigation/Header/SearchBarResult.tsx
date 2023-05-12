@@ -1,12 +1,12 @@
 import styles from './SearchBarResult.module.sass'
-import translationJSON from '@common/translation/common.json'
-import { Icon, Logo } from '@common/components/Icon'
+import translationJSON from '@translations/common.json'
+import { Icon, Logo } from '@components/Icon'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Track } from '@src/common/asset/mla'
 import { useRef, useState, useEffect, } from 'react'
 import type { Dispatch, SetStateAction, FormEvent } from 'react'
-import { TocTrackObject } from '@src/common/asset/types/Track'
+import { TocTrackObject } from '@src/types/Track'
 
 interface SearchResult extends TocTrackObject {
   line: number | null

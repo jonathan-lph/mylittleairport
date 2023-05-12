@@ -1,11 +1,11 @@
 import styles from './Footer.module.sass'
-import translationJSON from '@common/translation/common.json'
-import { Icon, Logo } from '@common/components/Icon'
+import translationJSON from '@translations/common.json'
+import { Icon, Logo } from '@components/Icon'
 import { MouseEvent, useEffect, useState, useRef } from 'react'
 import clsx from 'clsx'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { locales, credits } from '@src/common/definitions'
+import { locales, credits } from '@consts/definitions'
 
 interface FooterProps {
   locale: string

@@ -1,4 +1,4 @@
-@import 'src/common/styles/theme'
+@import 'src/assets/styles/theme'
 
 $tile-width: 200px
 $tile-sm-width: 150px
@@ -47,7 +47,9 @@ $tile-sm-width: 150px
     font-size: 1.5rem
     
   .otherAlbums
-    margin-top: spacing(4)
+    margin: spacing(4, 0)
+    /* scroll-bar padding */
+    padding-bottom: spacing(4)
     display: flex
     flex-wrap: no-wrap
     gap: spacing(4)

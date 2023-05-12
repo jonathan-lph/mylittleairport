@@ -1,16 +1,11 @@
 import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
-// import albums from "@common/asset/albums.json"
-import { Album } from '@src/common/asset/mla'
 import { ParsedUrlQuery } from 'querystring'
-import { AlbumInfo } from '@src/components/album/AlbumInfo'
-import * as translationJSON from '@common/translation/albums.json'
+import * as translationJSON from '@translations/albums.json'
 import { AlbumList } from '@src/components/albums/AlbumList'
-import { locales, Locales } from '@src/common/definitions'
-import { AlbumModel } from 'models'
+import { locales, Locales } from '@consts/definitions'
 import fs from "fs"
-import { AlbumObject, ExpandedAlbumObject } from '@src/common/asset/types/Album'
-import mongoosePromise from '@lib/mongoose'
+import { AlbumObject } from '@src/types/Album'
 
 const Albums: NextPage<AlbumsProps> = ({ albums, translation, locale, ...props }) => {
   return (<>
@@ -18,13 +13,11 @@ const Albums: NextPage<AlbumsProps> = ({ albums, translation, locale, ...props }
       <title>{translation.page_title} - my little airport</title>
     </Head>
 
-    <main>
-      <AlbumList
-        albums={albums}
-        translation={translation}
-        locale={locale}
-      />
-    </main>
+    <AlbumList
+      albums={albums}
+      translation={translation}
+      locale={locale}
+    />
   </>)
 }
 
@@ -42,8 +35,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const translation = translationJSON[locale]
   return {
     props: { 
-      albums: fs.readdirSync('_data/albums')
-        .map(file => require('_data/albums/'+file)),
+      albums: fs.readdirSync('src/__data/albums')
+        .map(file => require('src/__data/albums/'+file)),
       locale,
       translation
     }

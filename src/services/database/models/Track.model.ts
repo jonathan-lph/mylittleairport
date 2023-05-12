@@ -1,5 +1,5 @@
-import { ResourceType } from "@src/common/asset/types/common";
-import { TrackArtistRole, TrackObject } from "@src/common/asset/types/Track";
+import { ResourceType } from "@src/types/common";
+import { TrackArtistRole, TrackObject } from "@src/types/Track";
 import { Schema, model, models } from "mongoose";
 
 const TrackSchema : Schema = new Schema({

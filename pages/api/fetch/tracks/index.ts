@@ -1,6 +1,6 @@
 import mongoosePromise from '@lib/mongoose'
+import { TrackModel } from '@database/models'
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { AlbumModel, TrackModel } from 'models'
 
 mongoosePromise
 
@@ -9,7 +9,7 @@ export default async function getAlbums(
   res: NextApiResponse
 ) {
   const albums = await TrackModel
-    .findOne({name: 'coka, i\'m fine'})
+    .findOne()
     .populate({
       path: 'album',
       select: '-artists -genres -__v',

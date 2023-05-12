@@ -1,10 +1,8 @@
-import { Album, Track, AlbumTrackRef } from "@src/common/asset/mla"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 import styles from './AlbumInfo.module.sass'
-import clsx from 'clsx'
 import Link from 'next/link'
-import { Icon } from "@src/common/components/Icon"
-import { AlbumObject, ExpandedAlbumObject } from "@src/common/asset/types/Album"
+import { Icon } from "@components/Icon"
+import type { ExpandedAlbumObject } from "@src/types/Album"
 
 interface AlbumInfoProps {
   album: ExpandedAlbumObject

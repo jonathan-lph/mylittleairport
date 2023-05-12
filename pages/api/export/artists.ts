@@ -1,7 +1,7 @@
+import { writeFileSync } from 'fs'
 import mongoosePromise from '@lib/mongoose'
+import { ArtistModel } from '@database/models'
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { ArtistModel } from 'models'
-import fs from "fs"
 
 mongoosePromise
 
@@ -15,8 +15,8 @@ export default async function exportAlbums(
     .exec()
 
   for (let artist of artists) {
-    fs.writeFileSync(
-      `_data/artists/${artist.slug}.json`, 
+    writeFileSync(
+      `src/__data/artists/${artist.slug}.json`, 
       JSON.stringify(artist, null, 2), 
       'utf-8'
     )

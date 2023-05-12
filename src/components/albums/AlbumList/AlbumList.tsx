@@ -4,9 +4,9 @@ import { Fragment, useEffect, useRef, useState } from "react"
 import styles from "./AlbumList.module.sass"
 import clsx from "clsx"
 import { AlbumDiv } from "."
-import { AlbumEditionType, AlbumObject, SingleEditionType, EditionType, CompilationEditionType, ExpandedAlbumObject } from "@src/common/asset/types/Album"
-import { Locales } from "@src/common/definitions"
-import type * as translationJSON from '@common/translation/albums.json'
+import { AlbumEditionType, AlbumObject, SingleEditionType, EditionType, CompilationEditionType, ExpandedAlbumObject } from "@src/types/Album"
+import { Locales } from "@consts/definitions"
+import type * as translationJSON from '@translations/albums.json'
 
 interface AlbumListProps {
   albums: AlbumObject[]

@@ -1,7 +1,7 @@
+import { mkdirSync, writeFileSync } from 'fs'
 import mongoosePromise from '@lib/mongoose'
+import { TrackModel } from '@database/models'
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { AlbumModel, TrackModel } from 'models'
-import fs from "fs"
 
 mongoosePromise
 
@@ -23,9 +23,9 @@ export default async function exportTracks(
     .exec()
 
   for (let track of tracks) {
-    fs.mkdirSync(`_data/tracks/${track.album.slug}`, {recursive: true})
-    fs.writeFileSync(
-      `_data/tracks/${track.album.slug}/${track.slug}.json`, 
+    mkdirSync(`src/__data/tracks/${track.album.slug}`, {recursive: true})
+    writeFileSync(
+      `src/__data/tracks/${track.album.slug}/${track.slug}.json`, 
       JSON.stringify(track, null, 2),
       'utf-8'
     )
