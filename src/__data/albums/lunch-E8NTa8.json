@@ -22,6 +22,11 @@
   ],
   "images": [
     {
+      "url": "/album-artwork/lunch.webp",
+      "height": 500,
+      "width": 500
+    },
+    {
       "url": "/album-artwork/lunch.jpg",
       "height": 500,
       "width": 500

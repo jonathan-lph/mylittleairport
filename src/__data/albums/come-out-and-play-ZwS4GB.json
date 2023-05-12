@@ -22,6 +22,11 @@
   ],
   "images": [
     {
+      "url": "/album-artwork/come-out-and-play.webp",
+      "height": 350,
+      "width": 350
+    },
+    {
       "url": "/album-artwork/come-out-and-play.jpg",
       "height": 350,
       "width": 350

@@ -22,6 +22,11 @@
   ],
   "images": [
     {
+      "url": "/album-artwork/happy-new-year-2008.webp",
+      "height": 640,
+      "width": 640
+    },
+    {
       "url": "/album-artwork/happy-new-year-2008.jpg",
       "height": 640,
       "width": 640

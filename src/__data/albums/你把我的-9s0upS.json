@@ -22,6 +22,11 @@
   ],
   "images": [
     {
+      "url": "/album-artwork/你把我的.webp",
+      "height": 720,
+      "width": 720
+    },
+    {
       "url": "/album-artwork/你把我的.jpg",
       "height": 720,
       "width": 720

@@ -22,6 +22,11 @@
   ],
   "images": [
     {
+      "url": "/album-artwork/is-3.webp",
+      "height": 382,
+      "width": 353
+    },
+    {
       "url": "/album-artwork/is-3.jpg",
       "height": 382,
       "width": 353
