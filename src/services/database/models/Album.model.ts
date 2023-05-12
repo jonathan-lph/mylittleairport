@@ -1,4 +1,4 @@
-import { AlbumType } from "@src/common/asset/test";
+import { AlbumType } from "@src/assets/archive/test";
 import { AlbumEditionType, AlbumObject, CompilationEditionType, SingleEditionType } from "@src/types/Album";
 import { DatePrecision, ResourceType } from "@src/types/common";
 import { Schema, model, models } from "mongoose";

@@ -1,4 +1,4 @@
-import { Track } from "@src/common/asset/mla"
+import { Track } from "@src/assets/archive/mla"
 import styles from "./TrackList.module.sass"
 import clsx from "clsx"
 import { TocTrackObject } from "@src/types/Track"

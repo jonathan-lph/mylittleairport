@@ -1,4 +1,4 @@
-import type { Album, AlbumType } from "@src/common/asset/mla"
+import type { Album, AlbumType } from "@src/assets/archive/mla"
 import type { Dispatch, SetStateAction } from "react"
 import { Fragment, useEffect, useRef, useState } from "react"
 import styles from "./AlbumList.module.sass"

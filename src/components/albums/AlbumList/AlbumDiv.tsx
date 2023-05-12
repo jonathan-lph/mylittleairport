@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react"
 import styles from "./AlbumDiv.module.sass"
-import type { Album, AlbumEdition, AlbumType } from "@src/common/asset/mla"
+import type { Album, AlbumEdition, AlbumType } from "@src/assets/archive/mla"
 import { AlbumObject, ExpandedAlbumObject } from "@src/types/Album"
 import { Locales } from "@consts/definitions"
 
