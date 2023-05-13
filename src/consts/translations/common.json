@@ -1,5 +1,5 @@
 {
-  "zh": {
+  "zh_hk": {
     "header": {
       "shuffle": "隨機曲目",
       "search" : "搜尋",
@@ -20,7 +20,7 @@
       "tracks": "歌曲"
     }
   },
-  "en": {
+  "en_us": {
     "header": {
       "shuffle": "Random Track",
       "search": "Search",

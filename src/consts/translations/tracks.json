@@ -1,5 +1,5 @@
 {
-  "zh": {
+  "zh_hk": {
     "page_title": "曲目",
     "filters": {
       "lyrics": "歌詞",
@@ -7,7 +7,7 @@
       "list_view": "列表模式"
     }
   },
-  "en": {
+  "en_us": {
     "page_title": "Tracks",
     "filters": {
       "lyrics": "Lyrics",

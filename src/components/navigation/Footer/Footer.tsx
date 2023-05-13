@@ -5,10 +5,10 @@ import { MouseEvent, useEffect, useState, useRef } from 'react'
 import clsx from 'clsx'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { locales, credits } from '@consts/definitions'
+import { locales, credits, Locales } from '@consts/definitions'
 
 interface FooterProps {
-  locale: string
+  locale: Locales
 }
 
 
@@ -19,7 +19,7 @@ export const Footer = ({
   const router = useRouter()
   
   // @ts-ignore
-  const translation = translationJSON[locale ?? 'zh'].footer
+  const translation = translationJSON[locale ?? Locales.ZH].footer
   
   return (
     <footer className={styles.root}>

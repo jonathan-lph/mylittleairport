@@ -1,8 +1,9 @@
 export enum Locales {
-  ZH = "zh",
-  EN = "en"
+  ZH = "zh_hk",
+  EN = "en_us"
 }
 
+// https://developers.google.com/search/docs/specialty/international/localized-versions
 export const locales : {
   locale: Locales,
   label: string

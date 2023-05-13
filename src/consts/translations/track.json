@@ -1,5 +1,5 @@
 {
-  "zh": {
+  "zh_hk": {
     "credits": {
       "composer": "作曲",
       "lyricist": "填詞",
@@ -15,7 +15,7 @@
     },
     "no_lyrics": "（無歌詞）"
   },
-  "en": {
+  "en_us": {
     "credits": {
       "composer": "Composer",
       "lyricist": "Lyricist",

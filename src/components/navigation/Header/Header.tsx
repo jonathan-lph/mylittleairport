@@ -8,9 +8,10 @@ import { useRef, useState, useEffect, FormEvent } from 'react'
 import { SearchBar } from './SearchBar'
 import clsx from 'clsx'
 import { TocTrackObject } from '@src/types/Track'
+import { Locales } from '@src/consts/definitions'
 
 interface HeaderProps {
-  locale: string
+  locale: Locales
 }
 
 const LINKS = ["albums", "tracks"]
@@ -25,7 +26,7 @@ export const Header = ({
   const [menuOpen, setMenuOpen] = useState(false)
 
   // @ts-ignore
-  const translation = translationJSON[locale ?? 'zh'].header
+  const translation = translationJSON[locale ?? Locales.ZH].header
 
   const handleRandomRedirect = () => {
     const getRandom = <T,>(arr : Array<T>) => arr[Math.floor(Math.random() * arr.length)]
@@ -71,6 +72,7 @@ export const Header = ({
               pathname: `/[locale]/${dir}`,
               query: { locale }
             }}>
+              {/* @ts-ignore */}
               {translation[dir]}
             </Link> 
           )}
@@ -109,12 +111,14 @@ export const Header = ({
               query: { locale }
             }}>
               <a onClick={toggleMenu} className={styles.mobileLinks}>
+                {/* @ts-ignore */}
                 {translation[dir]}
               </a>
             </Link> 
           )}
           {DEAD_LINKS.map(dir =>
             <div key={dir} className={styles.deadLinks}>
+              {/* @ts-ignore */}
               {translation[dir]}
               <div className={styles.comingSoon}>
                 {translation.coming_soon}

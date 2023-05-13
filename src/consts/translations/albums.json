@@ -1,5 +1,5 @@
 {
-  "zh": {
+  "zh_hk": {
     "page_title": "專輯",
     "title": {
       "album": "專輯",
@@ -17,7 +17,7 @@
       "international": "國際"
     }
   },
-  "en": {
+  "en_us": {
     "page_title": "Albums",
     "title": {
       "album": "Album",

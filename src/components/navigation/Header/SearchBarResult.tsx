@@ -7,6 +7,7 @@ import { Track } from '@src/assets/archive/mla'
 import { useRef, useState, useEffect, } from 'react'
 import type { Dispatch, SetStateAction, FormEvent } from 'react'
 import { TocTrackObject } from '@src/types/Track'
+import { Locales } from '@src/consts/definitions'
 
 interface SearchResult extends TocTrackObject {
   line: number | null
@@ -14,7 +15,7 @@ interface SearchResult extends TocTrackObject {
 
 interface SearchBarResultProps {
   result: Array<SearchResult>
-  locale: string
+  locale: Locales
   input: string
   setOpen: Dispatch<SetStateAction<boolean>>
 }
@@ -64,7 +65,7 @@ export const SearchBarResult = ({
 }: SearchBarResultProps) : JSX.Element => {
 
   // @ts-ignore
-  const translation = translationJSON[locale ?? 'zh'].header
+  const translation = translationJSON[locale ?? Locales.ZH].header
 
   return (
     <ul className={styles.root}>

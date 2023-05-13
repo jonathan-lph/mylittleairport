@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   const router = useRouter()
 
   useEffect(() => {
-    router.replace('/zh/albums')
+    router.replace('/zh_HK/albums')
   }, [])
 
   return (<></>)
