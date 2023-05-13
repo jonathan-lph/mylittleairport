@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/add-to-friends.webp",
+      "type": "webp",
       "height": 700,
       "width": 700
     },
     {
       "url": "/album-artwork/add-to-friends.jpg",
+      "type": "jpg",
       "height": 700,
       "width": 700
     }

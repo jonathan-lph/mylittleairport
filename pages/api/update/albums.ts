@@ -17,19 +17,21 @@ export default async function getAlbums(
     const _slug = album.slug.slice(0, -7)
     const jpg = is(`public/album-artwork/${_slug}.jpg`)
     const webp = is(`public/album-artwork/${_slug}.webp`)
-    return AlbumModel.findOneAndUpdate({
+    return res(AlbumModel.findOneAndUpdate({
       _id: album.id
     }, {
       images: [{
         url: `/album-artwork/${_slug}.webp`,
+        type: 'webp',
         height: webp.height ?? null,
         width: webp.width ?? null,
       }, {
         url: `/album-artwork/${_slug}.jpg`,
+        type: 'jpg',
         height: jpg.height ?? null,
         width: jpg.width ?? null,
       }]
-    }).exec()
+    }).exec())
   }))
 
   const _res = await Promise.all(promises)

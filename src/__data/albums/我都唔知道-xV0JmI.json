@@ -133,11 +133,13 @@
   "images": [
     {
       "url": "/album-artwork/我都唔知道.webp",
+      "type": "webp",
       "height": 544,
       "width": 544
     },
     {
       "url": "/album-artwork/我都唔知道.jpg",
+      "type": "jpg",
       "height": 544,
       "width": 544
     }

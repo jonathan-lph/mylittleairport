@@ -48,11 +48,13 @@
   "images": [
     {
       "url": "/album-artwork/singing-in-the-telephone.webp",
+      "type": "webp",
       "height": 1057,
       "width": 1165
     },
     {
       "url": "/album-artwork/singing-in-the-telephone.jpg",
+      "type": "jpg",
       "height": 1057,
       "width": 1165
     }

@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/in-the-name-of-amk.webp",
+      "type": "webp",
       "height": 350,
       "width": 350
     },
     {
       "url": "/album-artwork/in-the-name-of-amk.jpg",
+      "type": "jpg",
       "height": 350,
       "width": 350
     }

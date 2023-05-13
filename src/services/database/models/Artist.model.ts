@@ -34,6 +34,10 @@ const ArtistSchema : Schema = new Schema({
       type: String,
       required: true
     },
+    type: {
+      type: String,
+      required: true
+    },
     height: {
       type: Number,
       required: false

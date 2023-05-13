@@ -28,11 +28,13 @@
   "images": [
     {
       "url": "/album-artwork/when-i-listen-to-the-field-mice.webp",
+      "type": "webp",
       "height": 360,
       "width": 400
     },
     {
       "url": "/album-artwork/when-i-listen-to-the-field-mice.jpg",
+      "type": "jpg",
       "height": 360,
       "width": 400
     }

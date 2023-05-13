@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/2007-小草地2年級同學會.webp",
+      "type": "webp",
       "height": 545,
       "width": 599
     },
     {
       "url": "/album-artwork/2007-小草地2年級同學會.jpg",
+      "type": "jpg",
       "height": 545,
       "width": 599
     }

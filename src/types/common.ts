@@ -1,5 +1,6 @@
 export type ImageObject = {
   url: string
+  type: string
   height: number | null
   width: number | null
 }

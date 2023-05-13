@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/我愛郊野-但不愛派對.webp",
+      "type": "webp",
       "height": 480,
       "width": 480
     },
     {
       "url": "/album-artwork/我愛郊野-但不愛派對.jpg",
+      "type": "jpg",
       "height": 480,
       "width": 480
     }

@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/吳小姐.webp",
+      "type": "webp",
       "height": 720,
       "width": 720
     },
     {
       "url": "/album-artwork/吳小姐.jpg",
+      "type": "jpg",
       "height": 720,
       "width": 720
     }

@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/前度-去你的.webp",
+      "type": "webp",
       "height": 240,
       "width": 240
     },
     {
       "url": "/album-artwork/前度-去你的.jpg",
+      "type": "jpg",
       "height": 240,
       "width": 240
     }

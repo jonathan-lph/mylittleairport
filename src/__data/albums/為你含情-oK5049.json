@@ -68,11 +68,13 @@
   "images": [
     {
       "url": "/album-artwork/為你含情.webp",
+      "type": "webp",
       "height": 691,
       "width": 720
     },
     {
       "url": "/album-artwork/為你含情.jpg",
+      "type": "jpg",
       "height": 691,
       "width": 720
     }

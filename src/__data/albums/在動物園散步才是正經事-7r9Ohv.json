@@ -68,11 +68,13 @@
   "images": [
     {
       "url": "/album-artwork/在動物園散步才是正經事.webp",
+      "type": "webp",
       "height": 1576,
       "width": 1576
     },
     {
       "url": "/album-artwork/在動物園散步才是正經事.jpg",
+      "type": "jpg",
       "height": 1576,
       "width": 1576
     }

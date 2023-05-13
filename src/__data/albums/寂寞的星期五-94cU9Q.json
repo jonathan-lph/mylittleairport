@@ -103,11 +103,13 @@
   "images": [
     {
       "url": "/album-artwork/寂寞的星期五.webp",
+      "type": "webp",
       "height": 1342,
       "width": 1342
     },
     {
       "url": "/album-artwork/寂寞的星期五.jpg",
+      "type": "jpg",
       "height": 1342,
       "width": 1342
     }

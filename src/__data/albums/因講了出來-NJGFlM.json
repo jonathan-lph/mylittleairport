@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/因講了出來.webp",
+      "type": "webp",
       "height": 500,
       "width": 500
     },
     {
       "url": "/album-artwork/因講了出來.jpg",
+      "type": "jpg",
       "height": 500,
       "width": 500
     }

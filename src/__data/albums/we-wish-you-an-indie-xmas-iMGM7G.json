@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/we-wish-you-an-indie-xmas.webp",
+      "type": "webp",
       "height": 480,
       "width": 480
     },
     {
       "url": "/album-artwork/we-wish-you-an-indie-xmas.jpg",
+      "type": "jpg",
       "height": 480,
       "width": 480
     }

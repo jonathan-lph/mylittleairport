@@ -183,11 +183,13 @@
   "images": [
     {
       "url": "/album-artwork/催淚的滋味.webp",
+      "type": "webp",
       "height": 544,
       "width": 544
     },
     {
       "url": "/album-artwork/催淚的滋味.jpg",
+      "type": "jpg",
       "height": 544,
       "width": 544
     }

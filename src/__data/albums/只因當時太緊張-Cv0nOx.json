@@ -68,11 +68,13 @@
   "images": [
     {
       "url": "/album-artwork/只因當時太緊張.webp",
+      "type": "webp",
       "height": 1200,
       "width": 1200
     },
     {
       "url": "/album-artwork/只因當時太緊張.jpg",
+      "type": "jpg",
       "height": 1200,
       "width": 1200
     }

@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/lmfxxyearfest.webp",
+      "type": "webp",
       "height": 640,
       "width": 640
     },
     {
       "url": "/album-artwork/lmfxxyearfest.jpg",
+      "type": "jpg",
       "height": 640,
       "width": 640
     }

@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/告別吧-香港.webp",
+      "type": "webp",
       "height": 480,
       "width": 480
     },
     {
       "url": "/album-artwork/告別吧-香港.jpg",
+      "type": "jpg",
       "height": 480,
       "width": 480
     }

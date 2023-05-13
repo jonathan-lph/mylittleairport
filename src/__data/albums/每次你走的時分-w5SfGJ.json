@@ -23,11 +23,13 @@
   "images": [
     {
       "url": "/album-artwork/每次你走的時分.webp",
+      "type": "webp",
       "height": 600,
       "width": 600
     },
     {
       "url": "/album-artwork/每次你走的時分.jpg",
+      "type": "jpg",
       "height": 600,
       "width": 600
     }

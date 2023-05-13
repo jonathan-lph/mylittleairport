@@ -78,11 +78,13 @@
   "images": [
     {
       "url": "/album-artwork/你說之後會找我.webp",
+      "type": "webp",
       "height": 1342,
       "width": 1342
     },
     {
       "url": "/album-artwork/你說之後會找我.jpg",
+      "type": "jpg",
       "height": 1342,
       "width": 1342
     }

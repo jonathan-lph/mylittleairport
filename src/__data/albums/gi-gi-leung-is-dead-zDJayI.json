@@ -38,11 +38,13 @@
   "images": [
     {
       "url": "/album-artwork/gi-gi-leung-is-dead.webp",
+      "type": "webp",
       "height": 432,
       "width": 432
     },
     {
       "url": "/album-artwork/gi-gi-leung-is-dead.jpg",
+      "type": "jpg",
       "height": 432,
       "width": 432
     }
