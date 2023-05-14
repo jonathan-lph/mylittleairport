@@ -31,7 +31,7 @@ export const Footer = ({
         />
         <div className={styles.locales}>
           {locales.map(({locale, label}) => <>
-            <Link href={{
+            <Link key={label} href={{
               pathname: router.pathname,
               query: { 
                 ...router.query,
@@ -54,7 +54,7 @@ export const Footer = ({
         <div>{translation.copyright_year}</div>
       </div>
 
-      <a href={credits.link} className={styles.credits} target="_blank">
+      <a href={credits.link} className={styles.credits} target="_blank" rel="noreferrer">
         <div>{translation.design}</div>
         <div>{` ${credits.name} `}</div>
       </a>

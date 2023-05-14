@@ -1,3 +1,4 @@
+import { Locales } from '@src/consts/definitions'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
@@ -7,7 +8,7 @@ const Home: NextPage = () => {
   const router = useRouter()
 
   useEffect(() => {
-    router.replace('/zh_HK/albums')
+    router.replace(`/${Locales.ZH}/albums`)
   }, [])
 
   return (<></>)
