@@ -102,7 +102,13 @@ export const AlbumInfo = ({
             <div className={styles.icon}>
               <Icon icon="arrow_forward"/>
             </div>
-            <Link href={`/${locale}/${album.slug}/${track.slug}`}>
+            <Link href={{
+              pathname: `/[locale]/track/[track]`,
+              query: { 
+                locale: locale,
+                track: track.slug
+              }
+            }}>
               <a className={styles.name}>
                 {track.name}
               </a>

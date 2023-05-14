@@ -22,7 +22,13 @@ export const TrackAlbumInfo: FC<TrackAlbumInfoProps> = ({
 
       <div className={styles.album}>
         <h3 className={styles.title}>
-          <Link href={`/${locale}/${track.album.slug}`}>
+          <Link href={{
+            pathname: `/[locale]/album/[album]`,
+            query: { 
+              locale: locale,
+              album: track.album.slug
+            }
+          }}>
             {track.album.name}
           </Link>
         </h3>
@@ -33,7 +39,13 @@ export const TrackAlbumInfo: FC<TrackAlbumInfoProps> = ({
                 [styles.track]: true,
                 [styles.selected]: track.slug === _track.slug
               })}>
-                  <Link href={`/${locale}/${track.album.slug}/${_track.slug}`}>
+                  <Link href={{
+                    pathname: `/[locale]/track/[track]`,
+                    query: { 
+                      locale: locale,
+                      track: _track.slug
+                    }
+                  }}>
                     {_track.name}
                   </Link>
               </div>
@@ -54,7 +66,13 @@ export const TrackAlbumInfo: FC<TrackAlbumInfoProps> = ({
             // if (trackAlbum.slug === album.slug) return null
             return (
               <Link 
-                href={`/${locale}/${_track.album.slug}/${_track.slug}`} 
+                href={{
+                  pathname: `/[locale]/track/[track]`,
+                  query: { 
+                    locale: locale,
+                    track: _track.slug
+                  }
+                }} 
                 scroll={false}
                 key={_track.slug}
               >

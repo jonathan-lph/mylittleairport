@@ -26,7 +26,7 @@ export function fetchExpandedAlbumFromFiles(albumSlug: string) {
   const expandedAlbum : ExpandedAlbumObject = {
     ...exportedAlbum,
     tracks: exportedAlbum.tracks.map((_track) => omit(
-      require(`src/__data/tracks/${exportedAlbum.slug}/${_track.slug}`) as ExportedTrackObject,
+      require(`src/__data/tracks/${_track.slug}`) as ExportedTrackObject,
       ["has_lyrics", "lyrics", "album", "artists"]
     )),
     artists: exportedAlbum.artists.map((_artist) => omit(

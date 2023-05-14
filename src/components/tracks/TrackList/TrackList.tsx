@@ -75,10 +75,9 @@ export const TrackList = ({
           .sort((a,b) => a.name.localeCompare(b.name, 'zh-Hant'))
           .map((track, trackIdx) => 
             <Link key={track.slug} href={{
-              pathname: `/[locale]/[album]/[track]`,
+              pathname: `/[locale]/track/[track]`,
               query: { 
                 locale: locale,
-                album: track.album.slug,
                 track: track.slug
               }
             }}>
@@ -111,8 +110,7 @@ export const TrackList = ({
                   [styles.hidden]: !filters.lyrics
                 })}>
                   {track.lyrics?.replaceAll('\n\n', '\n').replaceAll('\n', '／')}
-                </div>
-                
+                </div> 
               </li>
             </Link>
           )

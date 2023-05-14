@@ -32,7 +32,7 @@ export const AlbumDiv = ({
   return (
     <a 
       className={styles.album}
-      href={`/${locale}/${album.slug}`}
+      href={`/${locale}/album/${album.slug}`}
       ref={ref}
     >
       <div className={styles.imgBorder}>

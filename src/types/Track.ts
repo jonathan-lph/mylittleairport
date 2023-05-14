@@ -61,7 +61,7 @@ export interface ExportedTrackObject extends Omit<TrackObject,
   | 'album'
   | 'artists'
 > {
-  album: Pick<AlbumObject, 'slug' | 'name' | 'name_en'>[]
+  album: Pick<AlbumObject, 'slug' | 'name' | 'name_en'>
   artists: ExportedTrackArtist[]
 }
 

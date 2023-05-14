@@ -23,9 +23,9 @@ export default async function exportTracks(
     .exec()
 
   for (let track of tracks) {
-    mkdirSync(`src/__data/tracks/${track.album.slug}`, {recursive: true})
+    // mkdirSync(`src/__data/tracks/${track.album.slug}`, {recursive: true})
     writeFileSync(
-      `src/__data/tracks/${track.album.slug}/${track.slug}.json`, 
+      `src/__data/tracks/${track.slug}.json`,
       JSON.stringify(track, null, 2),
       'utf-8'
     )

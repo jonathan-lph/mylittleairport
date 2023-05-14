@@ -74,10 +74,9 @@ export const SearchBarResult = ({
           .sort((a,b) => a.name.localeCompare(b.name, "zh-Hant"))
           .map(_track => 
             <Link key={_track.slug} href={{
-              pathname: `/[locale]/[album]/[track]`,
+              pathname: `/[locale]/track/[track]`,
               query: { 
                 locale: locale,
-                album: _track.album.slug,
                 track: _track.slug
               }
             }}>

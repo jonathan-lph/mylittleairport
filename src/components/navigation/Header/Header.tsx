@@ -33,10 +33,9 @@ export const Header = ({
     const tracks : Array<TocTrackObject> = require('src/__data/toc/tracks.json')
     const track = getRandom(tracks)
     router.push({
-      pathname: '/[locale]/[album]/[track]',
+      pathname: '/[locale]/track/[track]',
       query: {
         locale: locale,
-        album: track.album.slug,
         track: track.slug
       }
     })
@@ -61,7 +60,7 @@ export const Header = ({
           className={styles.menuButton}
           onClick={toggleMenu}
         />
-        <Link href={`/`}>
+        <Link href="/">
           <a className={styles.logoWrapper}>
             <Logo className={styles.logo}/>
           </a>

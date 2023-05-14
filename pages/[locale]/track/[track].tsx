@@ -7,14 +7,22 @@ import { TrackAlbumInfo } from '@src/components/track/TrackAlbumInfo'
 import { Locales, locales } from '@consts/definitions'
 import { ExpandedTrackObject, TocTrackObject } from '@src/types/Track'
 import { fetchExpandedTrackFromFiles, searchTracksFromFiles } from '@database/track'
+import metadata from '@consts/metadata.json'
+import { useRouter } from 'next/router'
+import { useRef } from 'react'
+import { injectObjectToString } from '@src/utils/helper'
 
 const TrackDetails: NextPage<TrackDetailsProps> = ({ 
   track,
   tracksWithSameName,
   locale,
-  translation, 
+  translation,
+  metaTags,
   ...props 
 }) => {
+
+  console.log(injectObjectToString(translation.og_tags.description, track))
+
   return (<>
     <Head>
       <title>{track.name} - {track.album.name} - my little airport</title>
@@ -40,7 +48,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
     paths: tracksToc.flatMap((track : TocTrackObject) => 
       locales.map(({ locale }) => ({
         params: {
-          album: track.album.slug,
           track: track.slug,
           locale: locale,
         }
@@ -51,10 +58,11 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const { track: _trackSlug, album, locale } = context.params as IParams
-  const track = fetchExpandedTrackFromFiles(_trackSlug, album)
+  const { track: _trackSlug, locale } = context.params as IParams
+  const track = fetchExpandedTrackFromFiles(_trackSlug)
   const tracksWithSameName = searchTracksFromFiles({name: track.name})
   const translation = translationJSON[locale]
+
   return {
     props: { 
       track, 
@@ -72,6 +80,7 @@ type TrackDetailsProps = {
   tracksWithSameName: TocTrackObject[]
   locale: Locales
   translation: typeof translationJSON[Locales.EN]
+  metaTags: Record<string, string[] | string>
   props: any
 }
 

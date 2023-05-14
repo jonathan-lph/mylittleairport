@@ -25,13 +25,13 @@ export async function fetchExpandedTracksFromDB() {
   return tracks
 } 
 
-export function fetchExpandedTrackFromFiles(trackSlug: string, albumSlug: string) {
-  const exportedTrack : ExportedTrackObject = require(`src/__data/tracks/${albumSlug}/${trackSlug}`)
-  const exportedAlbum : ExportedAlbumObject = require(`src/__data/albums/${albumSlug}`)
+export function fetchExpandedTrackFromFiles(trackSlug: string) {
+  const exportedTrack : ExportedTrackObject = require(`src/__data/tracks/${trackSlug}`)
+  const exportedAlbum : ExportedAlbumObject = require(`src/__data/albums/${exportedTrack.album.slug}`)
   const expandedAlbum : SimplifiedAlbumObject = omit({
     ...exportedAlbum,
     tracks: exportedAlbum.tracks.map((_track) => omit(
-      require(`src/__data/tracks/${exportedAlbum.slug}/${_track.slug}`) as ExportedTrackObject,
+      require(`src/__data/tracks/${_track.slug}`) as ExportedTrackObject,
       ["has_lyrics",  "lyrics", "album", "artists"]
     ))
   }, ["artists", "genres"])
@@ -60,6 +60,6 @@ export function searchTracksFromFiles(query: Partial<TocTrackObject>, expand?: b
   )
   if (!matchedTracks || matchedTracks.length === 0) return []
   return expand
-    ? matchedTracks.map(_track => fetchExpandedTrackFromFiles(_track.slug, _track.album.slug))
+    ? matchedTracks.map(_track => fetchExpandedTrackFromFiles(_track.slug))
     : matchedTracks
 }
