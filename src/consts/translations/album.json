@@ -1,10 +1,12 @@
 {
-  "zh_HK": {
-    "track": "曲目",
-    "track_idx": "目次",
-    "track_list": "曲目列表"
+  "zh_hk": {
+    "page_title": "my little airport《::name::》(::release_date::)",
+    "og_title": "my little airport《::name::》",
+    "og_description": "my little airport《::name::》(::release_date::) 。"
   },
   "en_us": {
-    
+    "page_title": "my little airport - ::name:: (::release_date::)",
+    "og_title": "::name:: by my little airport",
+    "og_description": "my little airport - ::name:: (::release_date::)."
   }
 }

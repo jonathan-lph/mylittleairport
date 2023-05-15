@@ -1,0 +1,26 @@
+{
+  "short_name": "mla",
+  "name": "my little airport",
+  "icons": [{
+    "src": "favicon.ico",
+    "type": "image/x-icon",
+    "sizes": "64x64 32x32 24x24 16x16"
+  }, {
+    "src": "icons/icon-128.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  }, {
+    "src": "icons/icon-192.png",
+    "type": "image/png",
+    "sizes": "192x192 android-chron"
+  }, {
+    "src": "icons/icon-512.png",
+    "type": "image/png",
+    "sizes": "512x512",
+    "purpose": "any maskable"
+  }],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#060101",
+  "background_color": "#f6f6f6"
+}

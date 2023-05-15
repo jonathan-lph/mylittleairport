@@ -1,0 +1,22 @@
+{
+  "title": "my little airport",
+  "version": "1.0.0",
+  "developer": "jonathan-lph",
+  "copyright": "© my little airport",
+  "base_url": "https://mylittleairport.app",
+  "document": {
+    "author": "jonathan-lph",
+    "keywords": "my little airport, mla",
+    "theme-color": "#060101",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "black-translucent"
+  },
+  "app": {
+    "viewport": "width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
+  },
+  "link": {
+    "icon": "/favicon.ico",
+    "apple-touch-icon": "/icons/icon-192.png",
+    "manifest": "/manifest.json"
+  }
+}
