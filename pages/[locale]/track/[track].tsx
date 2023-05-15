@@ -10,6 +10,8 @@ import { fetchExpandedTrackFromFiles, searchTracksFromFiles } from '@database/tr
 import metadata from '@consts/metadata.json'
 import { injectObjectToString } from '@src/utils/helper'
 import mapMetaTags from '@src/utils/mapMetaTags'
+import { useEffect } from 'react'
+import { getAnalytics, logEvent } from 'firebase/analytics'
 
 const TrackDetails: NextPage<TrackDetailsProps> = ({ 
   track,
@@ -19,6 +21,15 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
   metaTags,
   ...props 
 }) => {
+
+  useEffect(() => {
+    logEvent(
+      getAnalytics(), 
+      'track_view', 
+      { track: track.slug }
+    )
+  }, [])
+
   return (<>
     <Head>
       <title>{injectObjectToString(translation.page_title, track)}</title>

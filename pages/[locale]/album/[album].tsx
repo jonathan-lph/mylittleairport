@@ -9,6 +9,8 @@ import { fetchExpandedAlbumFromFiles } from '@database/album'
 import metadata from '@consts/metadata.json'
 import { injectObjectToString } from '@src/utils/helper'
 import mapMetaTags from '@src/utils/mapMetaTags'
+import { useEffect } from 'react'
+import { getAnalytics, logEvent } from 'firebase/analytics'
 
 const AlbumDetails: NextPage<AlbumDetailsProps> = ({
   album,
@@ -17,6 +19,15 @@ const AlbumDetails: NextPage<AlbumDetailsProps> = ({
   metaTags,
   ...props
 }) => {
+
+  useEffect(() => {
+    logEvent(
+      getAnalytics(), 
+      'album_view', 
+      { album: album.slug }
+    )
+  }, [])
+
   return (<>
     <Head>
       <title>{injectObjectToString(translation.page_title, album)}</title>
