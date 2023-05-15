@@ -1,18 +1,15 @@
 import styles from './SearchBar.module.sass'
-import translationJSON from '@translations/common.json'
-import { Icon, Logo } from '@components/Icon'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
-import { Track } from '@src/assets/archive/mla'
+import { Icon } from '@components/Icon'
 import { useRef, useState, useEffect, } from 'react'
 import type { Dispatch, SetStateAction, FormEvent } from 'react'
 import { SearchBarResult } from './SearchBarResult'
 import { TocTrackObject } from '@src/types/Track'
+import { Locales } from '@consts/definitions'
 
 interface SearchBarProps {
   open: boolean
   setOpen: Dispatch<SetStateAction<boolean>>
-  locale: string
+  locale: Locales
 }
 
 interface SearchResult extends TocTrackObject {
