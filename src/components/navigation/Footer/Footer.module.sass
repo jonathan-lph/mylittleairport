@@ -52,7 +52,8 @@
 
 @include bp-down('sm')
   .root
-    padding: spacing(0, 4)
+    padding: spacing(2, 4, 4)
+    padding-bottom: calc(spacing(4) + env(safe-area-inset-bottom))
     height: $footer-height-sm
 
     .globe

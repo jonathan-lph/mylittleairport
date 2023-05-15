@@ -86,6 +86,7 @@
 @include bp-down('sm')
   .root
     padding: spacing(0, $header-lr-padding-sm)
+    padding-top: env(safe-area-inset-top)
 
     &.searchMode
       grid-template-columns: unset
