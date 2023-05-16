@@ -30,7 +30,7 @@ export const Footer = ({
           className={styles.globe}
         />
         <div className={styles.locales}>
-          {locales.map(({locale, label}) => <>
+          {locales.map(({locale, label}) =>
             <Link key={label} href={{
               pathname: router.pathname,
               query: { 
@@ -45,7 +45,7 @@ export const Footer = ({
                 {label}
               </a>
             </Link>
-          </>)}
+          )}
         </div>
       </div>
 

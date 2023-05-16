@@ -112,13 +112,14 @@ export const AlbumList = ({
             <h2 className={styles.title}>
               {translation.title[type]
                 .split('--')
-                .map((_str: string, index: number) => {
-                  if (index === 0) return <>{_str}</>
-                  return <>
-                    -<wbr/>
-                    {_str}
-                  </> 
-              })}
+                .map((_str: string, index: number) => 
+                  index === 0 
+                  ? _str
+                  : <Fragment key={index}>
+                      -<wbr/>
+                      {_str}
+                    </Fragment> 
+              )}
             </h2>
             <div className={styles.line}/>
             <div className={styles.editionLinks}>

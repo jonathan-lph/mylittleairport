@@ -39,6 +39,7 @@ export const Header = ({
         track: track.slug
       }
     })
+    setMenuOpen(false)
   }
 
   const handleSwitchMode = () => {

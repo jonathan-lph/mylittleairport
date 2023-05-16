@@ -87,6 +87,7 @@ export const SearchBar = ({
         className={styles.input} 
         value={searchInput}
         onChange={handleInputChange}
+        autoFocus
       />
       <Icon icon="search" className={styles.icon}/>
       {searchResult && 
