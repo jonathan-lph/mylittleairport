@@ -73,12 +73,13 @@ $tile-sm-width: 150px
 @include bp-down('sm')
   .root
     display: block
-    padding: 0
     padding: spacing(8, 0)
 
-  .category + .category
+  .category
     display: block
-    margin-top: spacing(12, 0)
+
+  .category + .category
+    margin-top: spacing(12)
       
   .titleWrapper
     height: unset
