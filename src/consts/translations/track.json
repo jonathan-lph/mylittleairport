@@ -19,7 +19,20 @@
     "title": {
       "appears_on": "收錄於"
     },
-    "no_lyrics": "（無歌詞）"
+    "no_lyrics": "（無歌詞）",
+    "to_album": "專輯詳情",
+    "export": {
+      "button": "分享歌詞",
+      "pre": {
+        "title": "選擇歌詞",
+        "action": "繼續"
+      },
+      "post": {
+        "title": "下載圖片",
+        "action": "返回",
+        "tooltip": "電腦：右鍵選取並下載圖片。\niOS/Android：長按圖片以下載。"
+      }
+    }
   },
   "en_us": {
     "credits": {
@@ -41,6 +54,19 @@
     "title": {
       "appears_on": "Appears On"
     },
-    "no_lyrics": "(No lyrics)"
+    "no_lyrics": "(No lyrics)",
+    "to_album": "Album Details",
+    "export": {
+      "button": "Share Lyrics",
+      "pre": {
+        "title": "Pick Lyrics",
+        "action": "Next"
+      },
+      "post": {
+        "title": "Download Image",
+        "action": "Back",
+        "tooltip": "Computer: Right click on the image to save image.\niOS/Android: Long-press on the image to save or share image."
+      }
+    }
   }
 }

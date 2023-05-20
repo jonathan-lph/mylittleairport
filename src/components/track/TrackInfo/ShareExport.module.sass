@@ -1,0 +1,117 @@
+@import 'src/assets/styles/theme'
+@import 'src/assets/styles/animations'
+
+.backdrop
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: rgba(0, 0, 0, 0.1)
+  z-index: 100
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+
+.dialog
+  all: unset
+  position: relative
+  width: clamp(300px, 500px, 90%)
+  @include dialog-box
+  animation: fadeInUp .3s both ease
+
+.inner
+  height: clamp(300px, 80vh, 80vh)
+  display: flex
+  flex-direction: column
+  overflow: hidden
+
+  >.selectLyrics, .figure
+    flex: 1
+    display: flex
+    flex-direction: column
+    min-height: min-content
+    overflow-x: auto
+
+.titleDiv
+  display: flex
+  align-items: center
+  border-bottom: 1px solid palette(misc, divider)
+
+  .title
+    padding: spacing(4, 6)
+    flex: 1
+    @include bold
+    font-size: 1.25rem
+
+  .closeDiv
+    display: flex
+    margin: spacing(3,4)
+    cursor: pointer
+    font-size: 1.25rem
+
+.selectLyrics
+  flex: 1
+  padding: spacing(4, 6)
+
+  p
+    padding: spacing(2, 0)
+    opacity: 0.5
+    cursor: pointer
+
+  p.selected
+    opacity: 1
+    border-left: 2px solid palette(misc, background-dark)
+    padding: spacing(2, 4)
+
+.button
+  // Visual correction for alignment
+  padding: spacing(3, 4, 4)
+  text-align: center
+  display: flex
+  align-items: center
+
+  &.forward
+    animation: nextFadeInLeft .3s both ease
+    align-self: flex-end
+
+  &.backward
+    animation: fadeInRight .3s both ease
+    align-self: flex-start
+
+  &.enabled
+    opacity: 1 !important
+
+  .arrow
+    font-size: 1.25rem
+    // Visual correction for alignment
+    transform: translateY(1px)
+
+.figure
+  justify-content: center
+  align-items: center
+  padding: spacing(4)
+
+  .exportImg
+    width: $export-image-width
+
+  .caption
+    font-size: .7rem
+    white-space: pre-wrap
+    text-align: center
+    color: palette(text, secondary)
+    margin-top: spacing(4)
+
+@include bp-down('sm')
+  .figure
+    .exportImg
+      width: 100%
+
+@keyframes nextFadeInLeft
+  0%
+    opacity: 0
+    transform: translateX(-20px)
+  100%
+    opacity: .5
+    transform: translateX(0)

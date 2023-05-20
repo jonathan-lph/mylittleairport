@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState, MouseEvent } from "react"
 import styles from './TrackInfo.module.sass'
 import { ExpandedTrackObject } from "@src/types/Track"
+import { ShareExport } from "./ShareExport"
 import type translationJSON from '@translations/track.json'
 import { Locales } from "@src/consts/definitions"
+import { Icon } from "@src/components/Icon"
 
 interface TrackInfoProps {
   track: ExpandedTrackObject
@@ -19,6 +21,7 @@ export const TrackInfo = ({ track, translation }: TrackInfoProps) : JSX.Element 
   const { name } = track
   const [playing, setPlaying] = useState(false)
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
+  const [open, setOpen] = useState(false)
 
   const timestamp   = useRef<HTMLSpanElement | null>(null)
   const progressBar = useRef<HTMLDivElement | null>(null)
@@ -140,7 +143,20 @@ export const TrackInfo = ({ track, translation }: TrackInfoProps) : JSX.Element 
             )
           : <p>{translation.no_lyrics}</p>
         }
+        <button className={styles.shareLyrics} onClick={() => setOpen(true)}>
+          {translation.export.button}
+          <Icon icon="arrow_forward" className={styles.forward}/>
+        </button>
       </div>
+
+      {open && 
+        <ShareExport
+          translation={translation}
+          track={track}
+          open={open}
+          setOpen={setOpen}
+        />}
+
     </div>
   )
 }

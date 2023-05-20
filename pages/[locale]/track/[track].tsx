@@ -12,6 +12,7 @@ import { injectObjectToString } from '@src/utils/helper'
 import mapMetaTags from '@src/utils/mapMetaTags'
 import { useEffect } from 'react'
 import { getAnalytics, logEvent } from 'firebase/analytics'
+import styles from '@components/track/index.module.sass'
 
 const TrackDetails: NextPage<TrackDetailsProps> = ({ 
   track,
@@ -36,16 +37,18 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
       {mapMetaTags(metaTags)}
     </Head>
 
-    <TrackInfo
-      track={track} 
-      translation={translation}
-    />
-    <TrackAlbumInfo 
-      track={track}
-      tracksWithSameName={tracksWithSameName}
-      translation={translation}
-      locale={locale}
-    />
+    <div className={styles.root}>
+      <TrackInfo
+        track={track} 
+        translation={translation}
+      />
+      <TrackAlbumInfo 
+        track={track}
+        tracksWithSameName={tracksWithSameName}
+        translation={translation}
+        locale={locale}
+      />
+    </div>
   </>)
 }
 

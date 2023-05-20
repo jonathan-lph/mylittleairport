@@ -11,6 +11,8 @@ $footer-height-sm: 50px;
 $navbar-height: 50px;
 $navbar-width: 200px;
 
+$export-image-width: 400px;
+
 $default-fonts: (-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif);
 
 $typography: (
@@ -140,4 +142,10 @@ $breakpoints: (
 @mixin normal {
   font-family: map-get($typography, contentFont);
   font-weight: map-get($typography, fontWeight, regular)
+}
+
+@mixin dialog-box {
+  background: palette('misc', 'background');
+  border: 1px solid palette('misc', 'divider');
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px
 }
