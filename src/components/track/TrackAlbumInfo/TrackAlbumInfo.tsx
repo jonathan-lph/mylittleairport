@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { ExpandedTrackObject, TocTrackObject } from "@src/types/Track"
 import type translationJSON from '@translations/track.json'
 import { Locales } from "@src/consts/definitions"
+import { Icon } from "@src/components/Icon"
 
 interface TrackAlbumInfoProps {
   track: ExpandedTrackObject
@@ -24,15 +25,7 @@ export const TrackAlbumInfo: FC<TrackAlbumInfoProps> = ({
 
       <div className={styles.album}>
         <h3 className={styles.title}>
-          <Link href={{
-            pathname: `/[locale]/album/[album]`,
-            query: { 
-              locale: locale,
-              album: track.album.slug
-            }
-          }}>
-            {track.album.name}
-          </Link>
+          {track.album.name}
         </h3>
         <div className={styles.tracklist}>
           {track.album.tracks.map((_track, idx) => 
@@ -57,6 +50,18 @@ export const TrackAlbumInfo: FC<TrackAlbumInfoProps> = ({
             </Fragment>
           )}
         </div>
+        <Link href={{
+          pathname: `/[locale]/album/[album]`,
+          query: { 
+            locale: locale,
+            album: track.album.slug
+          }
+        }}>
+          <a className={styles.backButton}>
+            <Icon icon="arrow_back" className={styles.back}/>
+            {translation.to_album}
+          </a>
+        </Link>
       </div>
 
       <div className={styles.artworks}>
