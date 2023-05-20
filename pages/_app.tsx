@@ -29,17 +29,15 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta key={type} name={type} content={content} />)}
     </Head>
 
-    <div className={styles.root}>
-      <Header
-        locale={pageProps.locale}
-      />
-      <main className={styles.main}>
-        <Component {...pageProps}/>
-      </main>
-      <Footer
-        locale={pageProps.locale}
-      />
-    </div>
+    <Header
+      locale={pageProps.locale}
+    />
+    <main className={styles.main}>
+      <Component {...pageProps}/>
+    </main>
+    <Footer
+      locale={pageProps.locale}
+    />
 
   </>)
 }

@@ -3,12 +3,14 @@ import styles from './TrackAlbumInfo.module.sass'
 import clsx from 'clsx'
 import Link from 'next/link'
 import { ExpandedTrackObject, TocTrackObject } from "@src/types/Track"
+import type translationJSON from '@translations/track.json'
+import { Locales } from "@src/consts/definitions"
 
 interface TrackAlbumInfoProps {
   track: ExpandedTrackObject
   tracksWithSameName: TocTrackObject[]
   locale: string
-  translation: any
+  translation: typeof translationJSON[Locales.ZH]
 }
 
 export const TrackAlbumInfo: FC<TrackAlbumInfoProps> = ({ 

@@ -42,7 +42,7 @@
   left: 0
   background: palette(misc, background)
   z-index: 50
-  margin-top: $header-height-sm
+  margin-top: calc($header-height-sm + env(safe-area-inset-top))
   padding: spacing(6)
   font-size: 1.5rem
   @include bold

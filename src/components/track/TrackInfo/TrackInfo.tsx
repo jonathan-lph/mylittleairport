@@ -1,10 +1,12 @@
 import { useEffect, useRef, useState, MouseEvent } from "react"
 import styles from './TrackInfo.module.sass'
 import { ExpandedTrackObject } from "@src/types/Track"
+import type translationJSON from '@translations/track.json'
+import { Locales } from "@src/consts/definitions"
 
 interface TrackInfoProps {
   track: ExpandedTrackObject
-  translation: any
+  translation: typeof translationJSON[Locales.ZH]
 }
 
 const getTimestamp = (time: number): string => {

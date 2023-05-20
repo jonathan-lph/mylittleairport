@@ -8,7 +8,9 @@
       "poet": "詩",
       "reciter": "唸",
       "backup_vocal": "伴唱",
-      "bass": "低音吉他"
+      "bass": "低音吉他",
+      "other": "其他"
+    },
     "meta": {
       "title": "my little airport〈::name::〉歌詞 -《::album.name::》",
       "og_title": "my little airport〈::name::〉",
@@ -28,7 +30,9 @@
       "poet": "Poem By",
       "reciter": "Recite By",
       "backup_vocal": "Backup Vocal",
-      "bass": "Bass"
+      "bass": "Bass",
+      "other": "其他"
+    },
     "meta": {
       "title": "my little airport - ::name:: Lyrics - ::album.name::",
       "og_title": "my little airport - ::name::",
