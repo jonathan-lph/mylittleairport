@@ -32,7 +32,7 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
 
   return (<>
     <Head>
-      <title>{injectObjectToString(translation.page_title, track)}</title>
+      <title>{injectObjectToString(translation.meta.title, track)}</title>
       {mapMetaTags(metaTags)}
     </Head>
 
@@ -73,11 +73,11 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   const jpg = track.album.images.find(_image => _image.type === 'jpg')!
   const metaTags = {
-    'og:title': injectObjectToString(translation.og_title, track),
+    'og:title': injectObjectToString(translation.meta.og_title, track),
     'og:type': 'music.song',
     'og:url': `${metadata.base_url}/${locale}/track/${trackSlug}`,
     'og:site_name': metadata.title,
-    'og:description': injectObjectToString(translation.og_description, track)
+    'og:description': injectObjectToString(translation.meta.og_description, track)
       + track.lyrics?.replaceAll('\n\n', '\n').replaceAll('\n', '／').slice(0,100),
     'og:locale': locale,
     'og:locale:alternate': Object.values(Locales).filter(_loc => _loc !== locale),

@@ -9,13 +9,14 @@
       "reciter": "唸",
       "backup_vocal": "伴唱",
       "bass": "低音吉他"
+    "meta": {
+      "title": "my little airport〈::name::〉歌詞 -《::album.name::》",
+      "og_title": "my little airport〈::name::〉",
+      "og_description": "〈::name::〉收錄於《::album.name::》(::album.release_date::) 碟 ::disc_number:: 第 ::track_number:: 首。"
     },
     "title": {
       "appears_on": "收錄於"
     },
-    "page_title": "my little airport〈::name::〉歌詞 -《::album.name::》",
-    "og_title": "my little airport〈::name::〉",
-    "og_description": "〈::name::〉收錄於《::album.name::》(::album.release_date::) 碟 ::disc_number:: 第 ::track_number:: 首。",
     "no_lyrics": "（無歌詞）"
   },
   "en_us": {
@@ -28,10 +29,11 @@
       "reciter": "Recite By",
       "backup_vocal": "Backup Vocal",
       "bass": "Bass"
+    "meta": {
+      "title": "my little airport - ::name:: Lyrics - ::album.name::",
+      "og_title": "my little airport - ::name::",
+      "og_description": "::name:: (::album.release_date::) in album ::album.name::, disc ::disc_number:: track ::track_number::."
     },
-    "page_title": "my little airport - ::name:: Lyrics - ::album.name::",
-    "og_title": "my little airport - ::name::",
-    "og_description": "::name:: (::album.release_date::) in album ::album.name::, disc ::disc_number:: track ::track_number::.",
     "title": {
       "appears_on": "Appears On"
     },
