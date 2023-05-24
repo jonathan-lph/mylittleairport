@@ -10,75 +10,11 @@ interface AlbumInfoProps {
   translation: any
 }
 
-interface AlbumInfoState {
-  track: string | null
-  ref: HTMLAudioElement | null,
-  playing: boolean
-}
-
 export const AlbumInfo = ({
   album,
   locale,
   translation
 }: AlbumInfoProps) : JSX.Element => {
-
-  const [play, setPlay] = useState<AlbumInfoState>({
-    track: null,
-    ref: null,
-    playing: false
-  })
-
-  const handleLoadedMetadata = (audio: HTMLAudioElement, slug: string) => (e: Event) => {
-    audio.play()
-    setPlay({
-      track: slug,
-      ref: audio,
-      playing: true
-    })
-  }
-  const handleError = (slug: string) => (e: Event) => {
-    setPlay({
-      track: slug,
-      ref: null,
-      playing: false
-    })
-  }
-
-  const playAudio = (slug: string) => () => {
-    const hasPlaying = Boolean(play.track)
-    const notSelfPlaying = play.track && play.track !== slug
-    const hasAudio = Boolean(play.ref)
-
-    if (notSelfPlaying && hasAudio) {
-      play.ref!.pause()
-    }
-    if (!hasPlaying || notSelfPlaying) {
-      const _audioFile = new Audio(`/track_file/${slug}.mp3`)
-      _audioFile.addEventListener('loadedmetadata', handleLoadedMetadata(_audioFile, slug))
-      _audioFile.addEventListener('error', handleError(slug))
-    }
-    
-    // Pause or resume same song
-    if (hasPlaying && hasAudio && slug === play.track) {
-      if (play.playing) {
-        play.ref!.pause()
-        setPlay({...play, playing: false})
-      } else {
-        play.ref!.play()
-        setPlay({...play, playing: true})
-      }
-    }
-  }
-
-  useEffect(() => {
-    return () => {
-      if (!play.ref || !play.track) return
-      play.ref.pause()
-      play.ref.removeEventListener('loadedmetadata', handleLoadedMetadata(play.ref, play.track))
-      play.ref.removeEventListener('error', handleError(play.track))
-    }
-  }, [play])
-
   return (
     <div className={styles.root}>
 
