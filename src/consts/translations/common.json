@@ -18,6 +18,10 @@
     "navigation": {
       "albums": "專輯",
       "tracks": "歌曲"
+    },
+    "page_not_found": {
+      "title": "404 | my little airport",
+      "message": "頁面不存在。"
     }
   },
   "en_us": {
@@ -39,6 +43,10 @@
     "navigation": {
       "albums": "albums",
       "tracks": "tracks"
+    },
+    "page_not_found": {
+      "title": "404 | my little airport",
+      "message": "Page not found."
     }
   }
 }

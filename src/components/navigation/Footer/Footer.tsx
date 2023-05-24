@@ -35,12 +35,12 @@ export const Footer = ({
               pathname: router.pathname,
               query: { 
                 ...router.query,
-                locale: locale 
+                locale: locale ?? Locales.ZH
               }
             }}>
               <a className={clsx({
                 [styles.locale]: true,
-                [styles.selected]: locale === router.query.locale
+                [styles.selected]: locale === (router.query.locale ?? Locales.ZH)
               })}>
                 {label}
               </a>

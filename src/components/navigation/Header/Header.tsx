@@ -72,7 +72,9 @@ export const Header = ({
           {LINKS.map(dir => 
             <Link key={dir} href={{
               pathname: `/[locale]/${dir}`,
-              query: { locale }
+              query: { 
+                locale: locale ?? Locales.ZH
+              }
             }}>
               {/* @ts-ignore */}
               {translation[dir]}
@@ -114,7 +116,9 @@ export const Header = ({
           {LINKS.map(dir => 
             <Link key={dir} href={{
               pathname: `/[locale]/${dir}`,
-              query: { locale }
+              query: { 
+                locale: locale ?? Locales.ZH
+              }
             }}>
               <a onClick={toggleMenu} className={styles.mobileLinks}>
                 {/* @ts-ignore */}

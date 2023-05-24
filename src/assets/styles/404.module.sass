@@ -1,0 +1,19 @@
+@import 'theme'
+
+.root
+  padding: spacing(12)
+
+.header
+  @include bold
+  font-size: 4rem
+
+.messages
+  padding: spacing(4, 0)
+  display: flex
+  flex-direction: column
+  gap: spacing(2)
+  color: palette(text, secondary)
+
+@include bp-down('sm')
+  .root
+    padding: spacing(8, 4)
