@@ -14,12 +14,21 @@
   justify-content: center
   align-items: center
 
+  &.mount
+    animation: fadeIn .25s ease
+    .dialog
+      animation: fadeInDown .25s ease
+
+  &.unmount
+    animation: fadeOut .25s ease
+    .dialog
+      animation: fadeOut .25s ease, slideOutDown .25s ease
+
 .dialog
   all: unset
   position: relative
   width: clamp(300px, 500px, 90%)
   @include dialog-box
-  animation: fadeInUp .3s both ease
 
 .inner
   height: clamp(300px, 80vh, 80vh)

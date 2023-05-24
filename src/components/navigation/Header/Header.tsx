@@ -9,6 +9,7 @@ import { SearchBar } from './SearchBar'
 import clsx from 'clsx'
 import { TocTrackObject } from '@src/types/Track'
 import { Locales } from '@src/consts/definitions'
+import { useDelayUnmount } from '@hooks/index'
 
 interface HeaderProps {
   locale: Locales
@@ -24,6 +25,7 @@ export const Header = ({
   const router = useRouter()
   const [searchMode, setSearchMode] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const shouldRenderMenu = useDelayUnmount(menuOpen, 250)
 
   // @ts-ignore
   const translation = translationJSON[locale ?? Locales.ZH].header
@@ -103,8 +105,12 @@ export const Header = ({
           locale={locale}
         />
       }
-      {menuOpen &&
-        <div className={styles.menu}>
+      {shouldRenderMenu &&
+        <div className={clsx({
+          [styles.menu]: true,
+          [styles.unmount]: !menuOpen,
+          [styles.mount]: menuOpen
+        })}>
           {LINKS.map(dir => 
             <Link key={dir} href={{
               pathname: `/[locale]/${dir}`,

@@ -68,7 +68,11 @@ export const ShareExport = ({
   })
 
   return (
-    <div className={styles.backdrop} onClick={handleClose}>
+    <div className={clsx({
+      [styles.backdrop]: true,
+      [styles.unmount]: !open,
+      [styles.mount]: open,
+    })} onClick={handleClose}>
       <dialog className={styles.dialog} open={open}>
         <div className={styles.inner}>
           <div className={styles.titleDiv}>

@@ -5,6 +5,7 @@ import { ShareExport } from "./ShareExport"
 import type translationJSON from '@translations/track.json'
 import { Locales } from "@src/consts/definitions"
 import { Icon } from "@src/components/Icon"
+import { useDelayUnmount } from "@hooks/index"
 
 interface TrackInfoProps {
   track: ExpandedTrackObject
@@ -21,7 +22,8 @@ export const TrackInfo = ({ track, translation }: TrackInfoProps) : JSX.Element 
   const { name } = track
   const [playing, setPlaying] = useState(false)
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
-  const [open, setOpen] = useState(false)
+  const [openExport, setOpenExport] = useState(false)
+  const shouldRenderExportDialog = useDelayUnmount(openExport, 250)
 
   const timestamp   = useRef<HTMLSpanElement | null>(null)
   const progressBar = useRef<HTMLDivElement | null>(null)
@@ -143,18 +145,18 @@ export const TrackInfo = ({ track, translation }: TrackInfoProps) : JSX.Element 
             )
           : <p>{translation.no_lyrics}</p>
         }
-        <button className={styles.shareLyrics} onClick={() => setOpen(true)}>
+        <button className={styles.shareLyrics} onClick={() => setOpenExport(true)}>
           {translation.export.button}
           <Icon icon="arrow_forward" className={styles.forward}/>
         </button>
       </div>
 
-      {open && 
+      {shouldRenderExportDialog && 
         <ShareExport
           translation={translation}
           track={track}
-          open={open}
-          setOpen={setOpen}
+          open={openExport}
+          setOpen={setOpenExport}
         />}
 
     </div>

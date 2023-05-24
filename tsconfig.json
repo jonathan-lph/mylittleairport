@@ -25,7 +25,8 @@
       "@lib/*": ["src/lib/*"],
       "@database/*": ["src/services/database/*"],
       "@consts/*": ["src/consts/*"],
-      "@translations/*": ["src/consts/translations/*"]
+      "@translations/*": ["src/consts/translations/*"],
+      "@hooks/*": ["src/hooks/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

@@ -1,4 +1,5 @@
 @import 'src/assets/styles/theme'
+@import 'src/assets/styles/animations'
 
 .root
   padding: spacing(0, $header-lr-padding)
@@ -33,6 +34,7 @@
   display: none
   font-size: 2rem
   margin-right: spacing(2)
+  cursor: pointer
 
 .menu
   height: var(--app-height, 100vh)
@@ -46,6 +48,12 @@
   padding: spacing(6)
   font-size: 1.5rem
   @include bold
+  
+  &.mount
+    animation: fadeInUp .25s ease-in-out
+
+  &.unmount
+    animation: fadeOut .25s ease-in-out, slideOutDown .25s ease-in-out
   
   .mobileLinks, .deadLinks
     display: flex
