@@ -1,9 +1,10 @@
-import { AlbumModel } from "@database/models";
-import { ExportedTrackObject } from "@src/types/Track";
-import { ExportedAlbumObject, ExpandedAlbumObject, TocAlbumObject } from "@src/types/Album";
-import { omit } from "@utils/helper";
-import { ExportedArtistObject } from "@src/types/Artist";
-import mongoosePromise from "@lib/mongoose";
+import mongoosePromise from "@lib/mongoose"
+import { AlbumModel } from "@database/models"
+import { omit } from "@utils/helper"
+
+import type { ExportedTrackObject } from "@__types/Track"
+import type { ExportedArtistObject } from "@__types/Artist"
+import type { ExportedAlbumObject, ExpandedAlbumObject, TocAlbumObject } from "@__types/Album"
 
 export async function fetchExpandedAlbumsFromDB() {
   mongoosePromise

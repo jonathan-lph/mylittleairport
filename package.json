@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "clsx": "^1.1.1",
-    "firebase": "^9.9.0",
     "html2canvas": "^1.4.1",
     "image-size": "^1.0.2",
     "mongodb": "^5.1.0",

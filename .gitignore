@@ -38,9 +38,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
-# firebase
-.firebase/**
-
 # pwa
 /public/sw.js
 /public/workbox-*.js

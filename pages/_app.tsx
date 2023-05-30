@@ -1,7 +1,5 @@
 import { useEffect } from 'react'
 import Head from 'next/head'
-import firebase from '@src/lib/firebase'
-import { getAnalytics, logEvent } from 'firebase/analytics'
 
 import { Footer, Header } from '@components/navigation'
 import metadata from '@consts/metadata.json'
@@ -20,9 +18,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       )
     window.addEventListener('resize', appHeight)
     appHeight()
-    // Setup Firebase Analytics
-    const analytics = getAnalytics(firebase)
-    logEvent(analytics, 'page_view')
     return () => window.removeEventListener('resize', appHeight)
   }, [])
 

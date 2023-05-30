@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import { useEffect } from 'react'
-import { getAnalytics, logEvent } from 'firebase/analytics'
-
 import { TrackInfo } from '@components/track/TrackInfo'
 import { TrackAlbumInfo } from '@components/track/TrackAlbumInfo'
 import { fetchExpandedTrackFromFiles, searchTracksFromFiles } from '@database/track'
@@ -23,15 +20,6 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
   metaTags,
   ...props 
 }) => {
-
-  useEffect(() => {
-    logEvent(
-      getAnalytics(), 
-      'track_view', 
-      { track: track.slug }
-    )
-  }, [track.slug])
-
   return (<>
     <Head>
       <title>{injectObjectToString(translation.meta.title, track)}</title>

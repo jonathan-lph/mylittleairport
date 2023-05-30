@@ -1,62 +1,64 @@
-import { ArtistObject } from "@src/types/Artist";
-import { ResourceType } from "@src/types/common";
-import { Schema, model, models } from "mongoose";
+import { ArtistObject } from '@__types/Artist'
+import { ResourceType } from '@__types/common'
+import { Schema, model, models } from 'mongoose'
 
-const ArtistSchema : Schema = new Schema({
+const ArtistSchema: Schema = new Schema({
   type: {
     type: String,
     required: true,
-    default: ResourceType.ARTIST
+    default: ResourceType.ARTIST,
   },
-  slug: { 
+  slug: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   name: {
     type: String,
-    required: true
+    required: true,
   },
   name_en: {
     type: String,
-    required: false
+    required: false,
   },
   alias: {
     type: [String],
-    required: true
+    required: true,
   },
   href: {
     type: String,
-    required: true
+    required: true,
   },
-  images: [{
-    url: {
-      type: String,
-      required: true
+  images: [
+    {
+      url: {
+        type: String,
+        required: true,
+      },
+      type: {
+        type: String,
+        required: true,
+      },
+      height: {
+        type: Number,
+        required: false,
+      },
+      width: {
+        type: Number,
+        required: false,
+      },
     },
-    type: {
-      type: String,
-      required: true
-    },
-    height: {
-      type: Number,
-      required: false
-    },
-    width: {
-      type: Number,
-      required: false
-    }
-  }],
+  ],
   external_urls: {
     type: Map,
     of: String,
-    required: true
+    required: true,
   },
   external_social_urls: {
     type: Map,
     of: String,
-    required: true
-  }
+    required: true,
+  },
 })
 
 export default models['Artist'] || model<ArtistObject>('Artist', ArtistSchema)

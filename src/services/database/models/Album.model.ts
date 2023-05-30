@@ -1,39 +1,44 @@
-import { AlbumType } from "@src/assets/archive/test";
-import { AlbumEditionType, AlbumObject, CompilationEditionType, SingleEditionType } from "@src/types/Album";
-import { DatePrecision, ResourceType } from "@src/types/common";
-import { Schema, model, models } from "mongoose";
+import {
+  AlbumType,
+  AlbumEditionType,
+  AlbumObject,
+  CompilationEditionType,
+  SingleEditionType,
+} from '@__types/Album'
+import { DatePrecision, ResourceType } from '@__types/common'
+import { Schema, model, models } from 'mongoose'
 
-const AlbumSchema : Schema = new Schema({
+const AlbumSchema: Schema = new Schema({
   type: {
     type: String,
     required: true,
-    default: ResourceType.ALBUM
+    default: ResourceType.ALBUM,
   },
-  slug: { 
+  slug: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   name: {
     type: String,
-    required: true
+    required: true,
   },
   name_en: {
     type: String,
-    required: false
+    required: false,
   },
   href: {
     type: String,
-    required: true
+    required: true,
   },
   total_tracks: {
     type: Number,
-    required: true
+    required: true,
   },
   album_type: {
     type: String,
     required: true,
-    enum: AlbumType
+    enum: AlbumType,
   },
   album_edition: {
     type: String,
@@ -41,68 +46,70 @@ const AlbumSchema : Schema = new Schema({
     enum: {
       ...AlbumEditionType,
       ...SingleEditionType,
-      ...CompilationEditionType
-    }
+      ...CompilationEditionType,
+    },
   },
   label: {
     type: String,
-    required: true
+    required: true,
   },
   label_en: {
     type: String,
-    required: false
+    required: false,
   },
   release_date: {
     type: String,
-    required: true
+    required: true,
   },
   release_date_precision: {
     type: String,
     required: true,
-    enum: DatePrecision
+    enum: DatePrecision,
   },
   is_live: {
     type: Boolean,
     required: true,
-    default: false
+    default: false,
   },
   artists: {
     type: [Schema.Types.ObjectId],
     ref: 'Artist',
-    required: true
+    required: true,
   },
   tracks: {
     type: [Schema.Types.ObjectId],
     ref: 'Track',
-    required: true
+    required: true,
   },
-  images: [{
-    url: {
-      type: String,
-      required: true
+  images: [
+    {
+      url: {
+        type: String,
+        required: true,
+      },
+      type: {
+        type: String,
+        required: true,
+      },
+      height: {
+        type: Number,
+        required: false,
+      },
+      width: {
+        type: Number,
+        required: false,
+      },
     },
-    type: {
-      type: String,
-      required: true
-    },
-    height: {
-      type: Number,
-      required: false
-    },
-    width: {
-      type: Number,
-      required: false
-    }
-  }],
+  ],
   genres: {
     type: [String],
-    required: true
+    required: true,
   },
   external_urls: {
     type: Map,
     of: String,
-    required: true
-  }
+    required: true,
+  },
 })
 
 export default models['Album'] || model<AlbumObject>('Album', AlbumSchema)

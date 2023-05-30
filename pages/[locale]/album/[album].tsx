@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import { useEffect } from 'react'
-import { getAnalytics, logEvent } from 'firebase/analytics'
-
 import { AlbumInfo } from '@components/album/AlbumInfo'
 import { fetchExpandedAlbumFromFiles } from '@database/album'
 import metadata from '@consts/metadata.json'
@@ -20,15 +17,6 @@ const AlbumDetails: NextPage<AlbumDetailsProps> = ({
   metaTags,
   ...props
 }) => {
-
-  useEffect(() => {
-    logEvent(
-      getAnalytics(), 
-      'album_view', 
-      { album: album.slug }
-    )
-  }, [album.slug])
-
   return (<>
     <Head>
       <title>{injectObjectToString(translation.page_title, album)}</title>

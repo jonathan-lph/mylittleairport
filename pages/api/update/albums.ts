@@ -2,7 +2,7 @@ import mongoosePromise from '@lib/mongoose'
 import { AlbumModel, TrackModel } from '@database/models'
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { HydratedDocument } from 'mongoose'
-import { AlbumObject } from '@src/types/Album'
+import { AlbumObject } from '@__types/Album'
 import is from "image-size"
 
 mongoosePromise

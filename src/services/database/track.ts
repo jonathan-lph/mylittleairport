@@ -1,9 +1,10 @@
-import { TrackModel } from "@database/models";
-import { ExpandedTrackObject, ExportedTrackObject, TocTrackObject } from "@src/types/Track";
-import { ExportedAlbumObject, SimplifiedAlbumObject } from "@src/types/Album";
-import { omit } from "@utils/helper";
-import { ExportedArtistObject } from "@src/types/Artist";
-import mongoosePromise from "@lib/mongoose";
+import mongoosePromise from "@lib/mongoose"
+import { TrackModel } from "@database/models"
+import { omit } from "@utils/helper"
+
+import type { ExportedArtistObject } from "@__types/Artist"
+import type { ExportedAlbumObject, SimplifiedAlbumObject } from "@__types/Album"
+import type { ExpandedTrackObject, ExportedTrackObject, TocTrackObject } from "@__types/Track"
 
 export async function fetchExpandedTracksFromDB() {
   mongoosePromise
