@@ -2,7 +2,8 @@ import clsx from 'clsx'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Icon } from '@components/Icon'
-import { locales, credits, Locales } from '@consts/definitions'
+import metadata from '@consts/metadata.json'
+import { locales, Locales } from '@consts/definitions'
 import translationJSON from '@translations/common.json'
 import styles from './Footer.module.sass'
 
@@ -45,13 +46,12 @@ export const Footer = ({ locale }: FooterProps): JSX.Element => {
       </div>
 
       <a
-        href={credits.link}
+        href={metadata.github_url}
         className={styles.credits}
         target="_blank"
         rel="noreferrer"
       >
-        <div>{translation.design}</div>
-        <div>{` ${credits.name} `}</div>
+        <Icon icon="github" aria-label="github"/>
       </a>
     </footer>
   )

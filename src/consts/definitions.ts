@@ -14,8 +14,3 @@ export const locales : {
   locale: Locales.EN,
   label: 'EN',
 }]
-
-export const credits = {
-  name: "jon.l",
-  link: "https://jonathanl.dev"
-}
