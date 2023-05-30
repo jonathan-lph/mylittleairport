@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "失落沮喪歌-vyADRI",
+  "name": "失落沮喪歌",
+  "name_en": "The Lost and Frustration Song",
+  "href": "/track/失落沮喪歌-vyADRI",
+  "disc_number": 1,
+  "track_number": 33,
+  "duration_s": 180,
+  "has_lyrics": true,
+  "lyrics": "我又有心事\n自從看了太宰治\n我問誰\n誰都不會在意死亡的意義\n\n世界像似崩裂\n我倆都無可救治\n我但求\n乘風飛到別處再重新開始\n\n願你可以給我寫首詩\n紀念我們約會過六次（十次）\n\n我沒法想像\n看過的童話故事\n有陣時\n成長不過是個悲劇的開始\n\n我做過的事\n沒太多是有意義\n接近誰\n誰都不會快樂這些我都知\n\n願我可變歡笑的天使\n這樣你便願看數十次\n\n願我可變優雅的詩篇\n這樣你便願看數十遍",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

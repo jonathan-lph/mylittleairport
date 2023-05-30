@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "我愛官恩娜-都不及愛你的哨牙-lv6O6G",
+  "name": "我愛官恩娜，都不及愛你的哨牙",
+  "name_en": "I Love Your Whistling Teeth More Than Ella Koon",
+  "href": "/track/我愛官恩娜-都不及愛你的哨牙-lv6O6G",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 126,
+  "has_lyrics": true,
+  "lyrics": "（咦，原來你鍾意官恩娜㗎）\n\n難道你已經不再喜歡我\n踫見面也都不嗌吓我\n難道你已經不再關心我\n看見亦要直行直過\n\n其實我已經算很喜歡你\n對住第二個都無咁好氣\n其實我已經算很欣賞你\n看住電視亦會想起你\n\n我就算喜愛官恩娜\n都不及愛你的哨牙\n我就算喜愛何韻詩\n她都不及你的法文詩\n\n如若你真的這麼喜歡我\n到最後你不應該放棄我\n難道你也見一個鍾意一個\n每個月看中數十個\n\nOn partage la musique\nDans la rue, sur le lit\nOn n'a pas besoin de parler\nEt la main dans la main\nComme ça, juste toi et moi\nEnsemble, toujours\n\n我就算喜愛薛凱琪\n都不及愛你的皺眉\n我就算喜愛張柏芝\n她都不及你咁得意\n\n我就算喜愛官恩娜\n都不及愛你的哨牙\n我就算喜愛何韻詩\n她都不及你的法文詩\n她都不及你咁得意\n她都不及你咁真摰",
+  "album": {
+    "slug": "2007-小草地2年級同學會-X4nLmB",
+    "name": "2007 小草地２年級同學會",
+    "name_en": "2007 Grassland Second Grade Reunion"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "poet",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

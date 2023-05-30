@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "循環的夜-F3TLUH",
+  "name": "循環的夜",
+  "name_en": "Repeating Nights",
+  "href": "/track/循環的夜-F3TLUH",
+  "disc_number": 1,
+  "track_number": 3,
+  "duration_s": 145,
+  "has_lyrics": true,
+  "lyrics": "這樣的問題\n只可以是個謎\n若你要問到底\n把黑夜都摧毀\n\n「喜不喜歡我？」\n「可否拖著我？」\n真的需要直接回答麼？\n\n答案在風裡\n線索在夜裡\n眼睛不早已傳遞訊息一堆？\n\n最後的事情\n留待路線說明\n每步都在決定\n下一站的風景\n\n散步的風格\n古典的想法\n已置身到無辦法掌握\n\n海風吹的你\n不真實的你\n有點想接近 也許只是好奇\n\n啦啦啦啦啦\n有把聲音說\n早晚亦會遠離\n\n啦啦啦啦啦\n「你只不過是對他有點好奇」\n「你只不過是對他有點好奇」",
+  "album": {
+    "slug": "跟你開玩笑-sz3zR4",
+    "name": "跟你開玩笑",
+    "name_en": "Just Kidding"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

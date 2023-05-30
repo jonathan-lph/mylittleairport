@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "my-little-st-valentines-day-LMZs2F",
+  "name": "my little st. valentine's day",
+  "name_en": "My Little St. Valentine's Day",
+  "href": "/track/my-little-st-valentines-day-LMZs2F",
+  "disc_number": 1,
+  "track_number": 9,
+  "duration_s": 133,
+  "has_lyrics": true,
+  "lyrics": "Feeling sad when I woke up, I thought of you at noon\nWhat I have done to you makes me feel so bad\nPlease don't cry baby, please don't cry baby\nYou told me that on the St. Valentine's Day\n\nTell me I'll be ok, without you by my side\nTell me you'll be happy, without the rose we planted\nThe days have gone, yeah, the days have gone\nYou told me that on the St. Valentine's Day\n\nListen to the little voice, it tells you what to do\nWhat is right and what is wrong; desire's just an animal thing\nWe're all pathetic, we try to hide it\nAnd you told me that on the St. Valentine's Day\n\nTell me...",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "lwtv-TNhStB",
+          "name": "LWTV",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

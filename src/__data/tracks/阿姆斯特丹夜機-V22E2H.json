@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "阿姆斯特丹夜機-V22E2H",
+  "name": "阿姆斯特丹夜機",
+  "name_en": "Night Flight to Amsterdam",
+  "href": "/track/阿姆斯特丹夜機-V22E2H",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 132,
+  "has_lyrics": true,
+  "lyrics": "七月十五號凌晨\n第一次去阿姆斯特丹\n我想快啲瞓著\n但兩點幾嗰陣\n突然有飛機餐食\n全機人都食緊\n好難一個人唔食\n於是我集中精神望窗外面\n當時經過緊個地方\n有好多一條條白色螢光嘅馬路\n中間有啲紅色點\n成個地面得兩隻色\n好似好科幻咁\n喺唔知邊度\n\n我諗起小學有次交功課\n題目係當父母唔俾自己睇電視\n作為子女應該點\n我寫「我會看窗外鄰家的電視」\n「雖然沒有聲音但好過沒有得看」\n結果班主任叫我對全班讀一次\n羞辱我\n但佢羞辱唔到我\n我細個係無感覺嘅人\n\n嗰日七月十四號\n我先轉機去德國　再去冰島\n我飲晒杯好難飲嘅白酒\n但都瞓唔著\n\n呢幾年我住厭咗土瓜灣\n有時搭小巴返去\n我特登唔叫落車\n等其他人嗌\n我先落車\n睇下會行幾遠路\n有次去到九龍城都未有人落\n我先忍唔住叫有落\n有時除咗買嘢食\n我可以全日唔駛講嘢\n\n去完旅行我會搬去深水埗\n深水埗有啲拎住籠雀\n戴住老夫子嘅帽\n好似清朝嘅人\n\n嗰日七月十四號\n上機前我上咗一陣網\n我已經有愛人\n香港無我嘅事",
+  "album": {
+    "slug": "你說之後會找我-iTEUSg",
+    "name": "你說之後會找我",
+    "name_en": "You Said We'd Be Back"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

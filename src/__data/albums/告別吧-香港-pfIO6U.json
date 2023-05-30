@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "告別吧-香港-pfIO6U",
+  "name": "告別吧，香港",
+  "name_en": "Farewell, Hong Kong",
+  "href": "/album/告別吧-香港-pfIO6U",
+  "total_tracks": 1,
+  "album_type": "single",
+  "album_edition": "unlisted",
+  "label": "my little airport",
+  "label_en": "my little airport",
+  "release_date": "2010",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "告別吧-香港-jOg9Jg",
+      "name": "告別吧，香港",
+      "name_en": "Farewell, Hong Kong"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/告別吧-香港.webp",
+      "type": "webp",
+      "height": 480,
+      "width": 480
+    },
+    {
+      "url": "/album-artwork/告別吧-香港.jpg",
+      "type": "jpg",
+      "height": 480,
+      "width": 480
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

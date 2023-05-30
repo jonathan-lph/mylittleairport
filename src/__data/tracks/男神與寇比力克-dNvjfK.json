@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "男神與寇比力克-dNvjfK",
+  "name": "男神與寇比力克",
+  "name_en": "Boygod and Kubrick",
+  "href": "/track/男神與寇比力克-dNvjfK",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 116,
+  "has_lyrics": true,
+  "lyrics": "那個潮濕的晚上\n我與男神去看 2001\n漆黑的電影院\n空洞洞的兩個人\n十多年前看不懂的畫面\n巨石　星球\n今天終於明白了\n內心激動地跳著\n為寇比力克的時空\n穿梭宇宙的靈魂\n也為男神衣領上的迷迭幽香\n散場　男神體貼地送我回家\n我一邊訴說對寇比力克的仰慕\n他一邊點頭沒有搭話\n好看嗎？　我說\n看不懂。　他說\n為甚麼？　為甚麼？\n完美的男神\n看不懂寇比力克\n完美的男神\n缺陷能原諒嗎？",
+  "album": {
+    "slug": "適婚的年齡-YZU7BE",
+    "name": "適婚的年齡",
+    "name_en": "The Right Age for Marriage"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

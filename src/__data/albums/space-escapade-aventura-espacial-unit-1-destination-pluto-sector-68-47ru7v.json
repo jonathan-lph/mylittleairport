@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "space-escapade-aventura-espacial-unit-1-destination-pluto-sector-68-47ru7v",
+  "name": "Space Escapade (Aventura Espacial) Unit 1 - Destination: Pluto Sector 68",
+  "name_en": "Space Escapade (Aventura Espacial) Unit 1 - Destination: Pluto Sector 68",
+  "href": "/album/space-escapade-aventura-espacial-unit-1-destination-pluto-sector-68-47ru7v",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "international",
+  "label": "Elefant Records",
+  "label_en": "Elefant Records",
+  "release_date": "2010",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "edward-had-you-ever-thought-that-the-end-of-the-world-would-come-on-20901-9FNzrn",
+      "name": "edward, had you ever thought that the end of the world would come on 20.9.01?",
+      "name_en": "Edward, Had You Ever Thought That the End of the World Would Come On 20.9.01?"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/space-escapade-aventura-espacial-unit-1-destination-pluto-sector-68.webp",
+      "type": "webp",
+      "height": 700,
+      "width": 700
+    },
+    {
+      "url": "/album-artwork/space-escapade-aventura-espacial-unit-1-destination-pluto-sector-68.jpg",
+      "type": "jpg",
+      "height": 700,
+      "width": 700
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

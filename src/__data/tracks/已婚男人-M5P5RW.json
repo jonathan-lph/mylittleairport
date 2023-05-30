@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "已婚男人-M5P5RW",
+  "name": "已婚男人",
+  "name_en": "Married Men",
+  "href": "/track/已婚男人-M5P5RW",
+  "disc_number": 1,
+  "track_number": 12,
+  "duration_s": 155,
+  "has_lyrics": true,
+  "lyrics": "Du...\n\n一早都告訴你女人就是女人\n你說不同地方的女人都是不同類人\n直到你的外遇開始要求你離婚\n你是否了解女人最終只想關係安穩？\n\n那時告訴過你但你沒有放在心\n我說免費的性愛是最昂貴的講真\n寧願每次都付費但你不同意如今\n便為短暫的興奮付出最昂貴的教訓\n\n最後那位外遇在網上向你太太現身\n那夜朋友們由食花生變到為你痛心\n據聞你挽救婚姻時說「孩子才剛出生，\n不可以離婚」然後沒人再打聽到下文\n\n其實都只因為你實在太早結婚\n但內心仍很想證明自己的吸引\n正是不夠標致又不肯安份\n有太多秘密但又藏得不夠深\n\n世事看似只是不幸　但都不是沒原因",
+  "album": {
+    "slug": "適婚的年齡-YZU7BE",
+    "name": "適婚的年齡",
+    "name_en": "The Right Age for Marriage"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "陳銘澤-在草地上-adqGjK",
+          "name": "陳銘澤 @ 在草地上",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "因講了出來-otaku-mobb-remix-2EIm7h",
+  "name": "因講了出來 (OTAKU MOBB Remix)",
+  "name_en": "When I Let It Out (OTAKU MOBB Remix)",
+  "href": "/album/因講了出來-otaku-mobb-remix-2EIm7h",
+  "total_tracks": 1,
+  "album_type": "single",
+  "album_edition": "published",
+  "label": "my little airport",
+  "label_en": "my little airport",
+  "release_date": "2021",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "因講了出來-otaku-mobb-remix-LfTmhr",
+      "name": "因講了出來 (OTAKU MOBB Remix)",
+      "name_en": "When I Let It Out (OTAKU MOBB Remix)"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/因講了出來-otaku-mobb-remix.webp",
+      "type": "webp",
+      "height": 300,
+      "width": 300
+    },
+    {
+      "url": "/album-artwork/因講了出來-otaku-mobb-remix.jpg",
+      "type": "jpg",
+      "height": 300,
+      "width": 300
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "when-the-party-is-over-i-miss-my-dear-pornstar-demo-rYDI5B",
+  "name": "when the party is over, i miss my dear pornstar (demo)",
+  "name_en": "When The Party Is Over, I Miss My Dear Pornstar (demo)",
+  "href": "/track/when-the-party-is-over-i-miss-my-dear-pornstar-demo-rYDI5B",
+  "disc_number": 1,
+  "track_number": 9,
+  "duration_s": 87,
+  "has_lyrics": true,
+  "lyrics": "When the party is over, I miss my dear porn star\nWhen the party is over, I miss my dear porn star\nDo you have any boyfriend in Beijing?\nDo you have any boyfriend in Beijing?\nI don't think you have boyfriend in Beijing\nAnd I am the same\n\nI can only sing \"Sha la la\"\nBecause I can't sing Putonghua\nI can only sing \"Sha La La\"\nBecause I don't know Putonghua\nYou will be queen of indie in Beijing\nI will be Hong Kong indie king\nOh what am I saying?\nI'm just kidding\n\nSha la la la la la la la la la la la\nSha la la la la la la la la la la la\nI know tomorrow you will be leaving\nAnd your \"mushroom head\" is going\nAnd your post punk music is going\nBack to Beijing",
+  "album": {
+    "slug": "為你含情-oK5049",
+    "name": "為你含情",
+    "name_en": "Hum Ching for You"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

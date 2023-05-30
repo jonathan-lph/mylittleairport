@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "牛頭角青年-k977An",
+  "name": "牛頭角青年",
+  "name_en": "Youths of Ngau Tau Kok",
+  "href": "/track/牛頭角青年-k977An",
+  "disc_number": 1,
+  "track_number": 3,
+  "duration_s": 159,
+  "has_lyrics": true,
+  "lyrics": "牛頭角都玩厭了\n我們還可以去邊？\n全世界都有暴動的青年\n但香港幾時先出現？\n\n再過春天　再過秋天\n這裡都不會改變\n或者永遠都不變\n如果我們都只願做旁觀的青年\n\n牛頭角的日出都看厭\n時間不站在你身邊\n沉迷過的樂隊解散了\n還記得穿橙色衫的阿 Tim\n\n「在吐煙」　「在發癲」\n首歌叫〈究竟應該點？〉\n事隔差不多二十年\n不知你是否已不是個「討厭的青年」？\n\n而我想寫首法文歌叫「Jamais」\n「永遠不會」的意思\n« Jamais je ne t'ai dit que je t'aimerai toujour »\n\n過了秋天　再過冬天\n我都回不到你身邊\n然後這一首歌的最尾一句叫「adieu」\n意思是「永遠的再見」",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "jackie-uZzjPG",
+          "name": "Jackie",
+          "name_en": null
+        },
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

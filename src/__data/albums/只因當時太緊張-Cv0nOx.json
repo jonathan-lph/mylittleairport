@@ -1,0 +1,84 @@
+{
+  "type": "album",
+  "slug": "只因當時太緊張-Cv0nOx",
+  "name": "只因當時太緊張",
+  "name_en": "Becoz I Was Too Nervous at That Time",
+  "href": "/album/只因當時太緊張-Cv0nOx",
+  "total_tracks": 10,
+  "album_type": "album",
+  "album_edition": "retail",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2005",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "gi-gi-leung-is-dead-aPe9nh",
+      "name": "gi gi leung is dead",
+      "name_en": "Gi Gi Leung Is Dead"
+    },
+    {
+      "slug": "i-dont-know-how-to-download-good-av-like-iris-does-uqWldp",
+      "name": "i don't know how to download good av like iris does",
+      "name_en": "I Don't Know How to Download Good AV Like Iris Does"
+    },
+    {
+      "slug": "只因當時太緊張-1MlpYa",
+      "name": "只因當時太緊張",
+      "name_en": "Because I Was Too Nervous at That Time"
+    },
+    {
+      "slug": "失落沮喪歌-27tWTf",
+      "name": "失落沮喪歌",
+      "name_en": "The Lost and Frustration Song"
+    },
+    {
+      "slug": "就當我是張如城-d0V86o",
+      "name": "就當我是張如城",
+      "name_en": "Just Pretend I Am Jacky Cheung"
+    },
+    {
+      "slug": "白田購物中心-fVikad",
+      "name": "白田購物中心",
+      "name_en": "Park Tin Commercial Centre"
+    },
+    {
+      "slug": "leo-are-you-still-jumping-out-of-windows-in-expensive-clothes-1Xu9JW",
+      "name": "leo, are you still jumping out of windows in expensive clothes?",
+      "name_en": "Leo, Are You Still Jumping Out of Windows in Expensive Clothes?"
+    },
+    {
+      "slug": "你的微笑像朵花-RdeanD",
+      "name": "你的微笑像朵花",
+      "name_en": "You Smile Like A Blossom"
+    },
+    {
+      "slug": "春天在車廂裡-pJYdmr",
+      "name": "春天在車廂裡",
+      "name_en": "Spring in the Bus"
+    },
+    {
+      "slug": "my-little-fish-D6G4JY",
+      "name": "my little fish",
+      "name_en": "My Little Fish"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/只因當時太緊張.webp",
+      "type": "webp",
+      "height": 1200,
+      "width": 1200
+    },
+    {
+      "url": "/album-artwork/只因當時太緊張.jpg",
+      "type": "jpg",
+      "height": 1200,
+      "width": 1200
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

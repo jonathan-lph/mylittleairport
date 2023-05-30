@@ -1,0 +1,94 @@
+{
+  "type": "track",
+  "slug": "明天不要賴床-baby-7yoFIY",
+  "name": "明天不要賴床 baby",
+  "name_en": "Don't Sleep In Tomorrow, Baby",
+  "href": "/track/明天不要賴床-baby-7yoFIY",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 145,
+  "has_lyrics": true,
+  "lyrics": "我有過很多瘋狂往事\n例如網上認識一位女子\n互相傾訴了數小時\n便結伴旅遊廈門市\n\n當然看過她照片多次\n四日旅程覺得可以一試\n若不好也是四天的事\n讓人生多添個故事\n\n那天我先到廈門市\n機場麵店內等愛情飄至\n又開始後悔怎麼可以\n轉眼她已到達面前\n\n她長得比照片還得意\n然後我們上了一架的士\n司機介紹情侶要到那兒\n早上出發不要遲\n\n我說明天不要賴床 baby\n突然飾演另一個人彷似\n但跟你才見面第一次\n我故意講多聲 baby\n\n某天她說有新對象心儀\n餘下我獨自回望往事\n事後多想時間可以\n就留在那程的士\n\n事後多想時間可以\n讓我再講多聲 baby\n明天不要賴床 baby",
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "夏日浪漫-5RtaZt",
+          "name": "夏日浪漫",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "年輕的茶餐廳老闆娘-Y85Y9v",
+  "name": "年輕的茶餐廳老闆娘",
+  "name_en": "Cha Chaan Teng's Young Boss Lady",
+  "href": "/track/年輕的茶餐廳老闆娘-Y85Y9v",
+  "disc_number": 1,
+  "track_number": 28,
+  "duration_s": 185,
+  "has_lyrics": true,
+  "lyrics": "這是我最後一次\n來吃午飯吃到四點\n以後或不會再見\n到底我也是高傲的成年\n\n已考慮不知幾多遍\n才決定給你這信件\n寫了電話等你致電\n明知你看了只會笑一百遍\n\n這些年裡面\n你都知我很少到別的店\n但若你最終給我來電\n你可知道這感覺會點\n\n像一支小蠟燭的光點\n讓漆黑的房滿佈光線\n像打開考試試卷發現\n突然所有答案都看得見\n\n對上的一次冬至\n來吃晚飯吃到八點\n但你卻沒有出現\n出現我也不敢看你正面\n\n已幻想不知幾多遍\n旅行有你在我身邊\n多次見你髮型轉變\n又是為吸引那個他的視線\n\n這些年裡面\n你都知我很少到別的店\n但若你最終給我來電\n你可知道這感覺會點\n\n像一支小蠟燭的光點\n讓漆黑的房滿佈光線\n像打開考試試卷發現\n突然所有答案都看得見\n\n這些年裡面\n我也不知道我可以去邊\n但若你最終給我來電\n我可給你一整個的春天",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

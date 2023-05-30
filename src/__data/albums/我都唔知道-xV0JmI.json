@@ -1,0 +1,149 @@
+{
+  "type": "album",
+  "slug": "我都唔知道-xV0JmI",
+  "name": "我都唔知道",
+  "name_en": "我都唔知道",
+  "href": "/album/我都唔知道-xV0JmI",
+  "total_tracks": 33,
+  "album_type": "album",
+  "album_edition": "online",
+  "label": "my little airport",
+  "label_en": "my little airport",
+  "release_date": "2022",
+  "release_date_precision": "year",
+  "is_live": true,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "你叫我譯一首德國歌詞-cZqUst",
+      "name": "你叫我譯一首德國歌詞",
+      "name_en": "You Asked Me to Translate a German Song"
+    },
+    {
+      "slug": "我們一起離開吧-HLIu8e",
+      "name": "我們一起離開吧",
+      "name_en": "Let's Leave Together"
+    },
+    {
+      "slug": "愛情-disabled-xL34Sm",
+      "name": "愛情 disabled",
+      "name_en": "Love Disabled"
+    },
+    {
+      "slug": "露體狂小丁-auGnbI",
+      "name": "露體狂小丁",
+      "name_en": "Siu Ding The Exhibitionist"
+    },
+    {
+      "slug": "美麗新香港-wPPZT9",
+      "name": "美麗新香港",
+      "name_en": "Brand New Hong Kong"
+    },
+    {
+      "slug": "再殺一個人-7ORLyk",
+      "name": "再殺一個人",
+      "name_en": "Killed Off One More"
+    },
+    {
+      "slug": "今天沒大麻在身-D2ePKa",
+      "name": "今天沒大麻在身",
+      "name_en": "No Weed on Me Today"
+    },
+    {
+      "slug": "西西弗斯之歌-k55Jrs",
+      "name": "西西弗斯之歌",
+      "name_en": "The Hymn of Sisyphus"
+    },
+    {
+      "slug": "今夜雪糕-tKbbAc",
+      "name": "今夜雪糕",
+      "name_en": "Ice Cream Tonight"
+    },
+    {
+      "slug": "宅女-上街吧-PoRgLA",
+      "name": "宅女，上街吧",
+      "name_en": "Geeky Girls, Hit the Streets"
+    },
+    {
+      "slug": "失業抗爭歌-j0Go9p",
+      "name": "失業抗爭歌",
+      "name_en": "Anthem of the Unemployment Resistance"
+    },
+    {
+      "slug": "牛頭角青年-L36Imi",
+      "name": "牛頭角青年",
+      "name_en": "Youths of Ngau Tau Kok"
+    },
+    {
+      "slug": "今宵多珍重-p3jpUG",
+      "name": "今宵多珍重",
+      "name_en": "Farewell"
+    },
+    {
+      "slug": "吳小姐-ECDLMp",
+      "name": "吳小姐",
+      "name_en": "Miss Ng"
+    },
+    {
+      "slug": "k同學-fhLiaH",
+      "name": "Ｋ同學",
+      "name_en": "Classmate K"
+    },
+    {
+      "slug": "香港香港-TsIQzC",
+      "name": "香港香港",
+      "name_en": "Hong Kong Hong Kong"
+    },
+    {
+      "slug": "廣州足浴一夜-STFNhf",
+      "name": "廣州足浴一夜",
+      "name_en": "A Night of GuangZhou Foot Massage"
+    },
+    {
+      "slug": "驗孕的下晝-pNG5TE",
+      "name": "驗孕的下晝",
+      "name_en": "Afternoon of Pregnancy Testing"
+    },
+    {
+      "slug": "九龍公園游泳池-MAQmPJ",
+      "name": "九龍公園游泳池",
+      "name_en": "Kowloon Park Swimming Pool"
+    },
+    {
+      "slug": "詩歌舞街-zR6rK8",
+      "name": "詩歌舞街",
+      "name_en": "Sycamore Street"
+    },
+    {
+      "slug": "下了兩天雨-KavfaF",
+      "name": "下了兩天雨",
+      "name_en": "Rained for Two Days"
+    },
+    {
+      "slug": "五點鐘去天光墟-kII8sP",
+      "name": "五點鐘去天光墟",
+      "name_en": "To Dawn Market at 5AM"
+    },
+    {
+      "slug": "失落沮喪歌-obGJbY",
+      "name": "失落沮喪歌",
+      "name_en": "The Lost and Frustration Song"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/我都唔知道.webp",
+      "type": "webp",
+      "height": 544,
+      "width": 544
+    },
+    {
+      "url": "/album-artwork/我都唔知道.jpg",
+      "type": "jpg",
+      "height": 544,
+      "width": 544
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

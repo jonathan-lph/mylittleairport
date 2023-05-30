@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "藍白紅風格練習-PwUxAy",
+  "name": "藍白紅風格練習",
+  "name_en": "Exercicse de Style",
+  "href": "/track/藍白紅風格練習-PwUxAy",
+  "disc_number": 1,
+  "track_number": 14,
+  "duration_s": 58,
+  "has_lyrics": true,
+  "lyrics": "Tu me manques, tous les jours, tous les soirs\n我把你的名字　栽種在一株李樹下\n讓枝葉伸展　向天空表白\n我無從訴說的愛\n\nJe vais traverser la rue pour te retrouver\n你給的功課　我都做完了\n學會了　如何撒嬌\n如何獨自睡覺\n如何點煙\n如何和不相識的人聊天\n如何離去　不驚動任何人\n\nJe me souviens de toi, comme ça\n我記得一些周日的早上\n我記得一些醒來的感覺\n我記得一些城市的清晨\n我記得你長長的眼睫毛\n我記得他安靜的呼吸聲\n我記得對街樓房的光線\n我記得陽台上的灰鴿子\n我記得深夜的便利商店\n我記得戲院裡你的側影\n我記得　我怕我將不記得",
+  "album": {
+    "slug": "everyone-remembers-the-orange-OvkCUS",
+    "name": "everyone remembers the orange",
+    "name_en": "everyone remembers the orange"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "陳寧-oZix7Y",
+          "name": "陳寧",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "陳寧-oZix7Y",
+          "name": "陳寧",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

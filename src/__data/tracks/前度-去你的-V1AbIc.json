@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "前度-去你的-V1AbIc",
+  "name": "前度，去你的",
+  "name_en": "Ex, To Hell With You",
+  "href": "/track/前度-去你的-V1AbIc",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 99,
+  "has_lyrics": true,
+  "lyrics": "前度　去你的\n\n在分開的第212天\n我聽到一些關於我們的傳言\n我沒有故作大方\n隨即將你從 facebook 及 msn 中刪除掉\n以為你不會再在我眼前出現\n但你那些礙眼的遺物就在我的跟前\n心裡不禁低聲罵了一句　去你的\n沒錯　去你的\n去你的壞品味\n去你的飄忽不定\n去你的表裡不一\n去你的不三不四九唔搭八\n去你的虛假的甜言蜜語\n去你的嘔心的英雄主義\n去你的從不欣賞我為你寫的一字一句\n去你的居然背著我偷偷愛上別人\n去你的浪費了我兩年光陰\n去你的\n前度　去你的",
+  "album": {
+    "slug": "前度-去你的-96BZ3X",
+    "name": "前度，去你的",
+    "name_en": "Ex, To Hell With You"
+  },
+  "artists": [
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "poet",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "荔枝角網球場宣言-FYyfcJ",
+  "name": "荔枝角網球場宣言",
+  "name_en": "Manifesto on the Lai Chi Kok Park Tennis Courts",
+  "href": "/track/荔枝角網球場宣言-FYyfcJ",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 66,
+  "has_lyrics": true,
+  "lyrics": "電車　電車路\n失業青年　白兔\n工人　露體狂\n龐克信徒　紛紛撤出電車路\n\n電影院　天台\n散落傳單　網球場宣言\n一傳十　十傳一千\n二十年　五十年　九十年\n\n陽光普照的下午　太多清甜的回憶\n觀鳥家　學生\n途人　合唱團\n神秘主義者　長頸鹿\n機械人　孔雀\n攝影師　日記簿和詩集\n雙雙陣亡",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "吳小姐-9iArtR",
+  "name": "吳小姐",
+  "name_en": "Miss Ng",
+  "href": "/album/吳小姐-9iArtR",
+  "total_tracks": 1,
+  "album_type": "single",
+  "album_edition": "public",
+  "label": "my little airport",
+  "label_en": "my little airport",
+  "release_date": "2019",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "吳小姐-UaoON4",
+      "name": "吳小姐",
+      "name_en": "Miss Ng"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/吳小姐.webp",
+      "type": "webp",
+      "height": 720,
+      "width": 720
+    },
+    {
+      "url": "/album-artwork/吳小姐.jpg",
+      "type": "jpg",
+      "height": 720,
+      "width": 720
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

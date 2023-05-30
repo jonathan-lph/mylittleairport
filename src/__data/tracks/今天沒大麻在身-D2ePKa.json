@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "今天沒大麻在身-D2ePKa",
+  "name": "今天沒大麻在身",
+  "name_en": "No Weed on Me Today",
+  "href": "/track/今天沒大麻在身-D2ePKa",
+  "disc_number": 1,
+  "track_number": 7,
+  "duration_s": 131,
+  "has_lyrics": true,
+  "lyrics": "我的煩惱不是愛人對我不夠真\n亦不是她對我流露蔑視的眼神\nNo, non, いいえ\n不是朋友逐一結婚\n而是今天沒大麻在身\n而是今天沒大麻在身\n\n我的煩惱不是沒有照顧好父親\n亦不是看見他（變成衰老的人）\nNo, non, いいえ\n不是憂慮無處棲身\n而是今天沒大麻在身\n而是今天沒大麻在身\n\nNo, non, いいえ\n不是我沒變 gentleman\nNo, non, いいえ\n不是沒學好法文\nNo, non, いいえ\n不是選舉不知投哪人\n而是今天沒大麻在身\n\n(No, non, いいえ)\n(No, non, いいえ)\n\n我的煩惱不是每日起身就眼瞓\n亦不是想找人瞓已沒有人肯\nNo, non, いいえ\n不是愛上朋友的女人\n而是今天沒大麻在身\n而是今天沒大麻在身\n而是今天沒大麻在身",
+  "album": {
+    "slug": "我都唔知道-xV0JmI",
+    "name": "我都唔知道",
+    "name_en": "我都唔知道"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,119 @@
+{
+  "type": "album",
+  "slug": "我們在炎熱與抑鬱的夏天-無法停止抽煙-qqPhcd",
+  "name": "我們在炎熱與抑鬱的夏天，無法停止抽煙",
+  "name_en": "We Can't Stop Smoking in the Vicious and Blue Summer",
+  "href": "/album/我們在炎熱與抑鬱的夏天-無法停止抽煙-qqPhcd",
+  "total_tracks": 17,
+  "album_type": "album",
+  "album_edition": "retail",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2007",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "jai-peur-oVjPiL",
+      "name": "j'ai peur",
+      "name_en": "J'ai Peur"
+    },
+    {
+      "slug": "japan-實瓜-R7iagg",
+      "name": "japan 實瓜",
+      "name_en": "Japan Sat-Gwaa"
+    },
+    {
+      "slug": "我愛官恩娜-都不及愛你的哨牙-IfGflK",
+      "name": "我愛官恩娜，都不及愛你的哨牙",
+      "name_en": "I Love Your Whistling Teeth More Than Ella Koon"
+    },
+    {
+      "slug": "馬田的心事-tvC3Fb",
+      "name": "馬田的心事",
+      "name_en": "Martin's Worries"
+    },
+    {
+      "slug": "讓我搭一班會爆炸的飛機-D0yDa1",
+      "name": "讓我搭一班會爆炸的飛機",
+      "name_en": "Let Me Get On an Exploding Plane"
+    },
+    {
+      "slug": "indie-悲歌-l528wO",
+      "name": "indie 悲歌",
+      "name_en": "Indie Elegy"
+    },
+    {
+      "slug": "奇人的離職-wKjKXL",
+      "name": "奇人的離職",
+      "name_en": "Weirdo's Resignation"
+    },
+    {
+      "slug": "frankie-wants-to-be-alone-H5NTW5",
+      "name": "frankie wants to be alone",
+      "name_en": "Frankie Wants to Be Alone"
+    },
+    {
+      "slug": "悲傷的採購-NX3lNt",
+      "name": "悲傷的採購",
+      "name_en": "Sad Purchase"
+    },
+    {
+      "slug": "荔枝角公園-rsn9VM",
+      "name": "荔枝角公園",
+      "name_en": "Lai Chi Kok Park"
+    },
+    {
+      "slug": "je-pense-a-toi-V7k3VN",
+      "name": "je pense à toi",
+      "name_en": "Je Pense à Toi"
+    },
+    {
+      "slug": "畢業變成失業-30i8hM",
+      "name": "畢業變成失業",
+      "name_en": "Graduation Equals Jobless"
+    },
+    {
+      "slug": "美孚根斯堡與白田珍寶金-jt3K67",
+      "name": "美孚根斯堡與白田珍寶金",
+      "name_en": "Mei Foo Gainsbourg and Pak Tin Pirkin"
+    },
+    {
+      "slug": "和陳五-msn-9F1wwX",
+      "name": "和陳五 msn",
+      "name_en": "MSN with Ng Chan"
+    },
+    {
+      "slug": "debbie-dont-send-this-song-to-others-dWERjp",
+      "name": "debbie, don't send this song to others",
+      "name_en": "Debbie, Don't Send This Song to Others"
+    },
+    {
+      "slug": "dolly-and-bb-will-not-wake-up-anymore-LUZmoA",
+      "name": "dolly and bb will not wake up anymore",
+      "name_en": "Dolly and BB Will Not Wake Up Anymore"
+    },
+    {
+      "slug": "my-little-k-and-j-qmu2Q3",
+      "name": "my little k and j",
+      "name_en": "My Little K and J"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/我們在炎熱與抑鬱的夏天-無法停止抽煙.webp",
+      "type": "webp",
+      "height": 1342,
+      "width": 1342
+    },
+    {
+      "url": "/album-artwork/我們在炎熱與抑鬱的夏天-無法停止抽煙.jpg",
+      "type": "jpg",
+      "height": 1342,
+      "width": 1342
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

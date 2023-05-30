@@ -1,0 +1,28 @@
+{
+  "zh_hk": {
+    "page_title": "曲目",
+    "meta": {
+      "title": "所有曲目｜my little airport",
+      "og_title": "曲目｜my little airport",
+      "og_description": "my little airport 所有已推出之曲目。"
+    },
+    "filters": {
+      "lyrics": "歌詞",
+      "thumbnail": "專輯封面",
+      "list_view": "列表模式"
+    }
+  },
+  "en_us": {
+    "page_title": "Tracks",
+    "meta": {
+      "title": "All Tracks | my little airport",
+      "og_title": "Tracks | my little airport",
+      "og_description": "All published tracks by my little airport."
+    },
+    "filters": {
+      "lyrics": "Lyrics",
+      "thumbnail": "Album Art",
+      "list_view": "List View"
+    }
+  }
+}

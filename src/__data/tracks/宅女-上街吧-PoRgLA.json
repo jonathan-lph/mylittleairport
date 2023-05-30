@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "宅女-上街吧-PoRgLA",
+  "name": "宅女，上街吧",
+  "name_en": "Geeky Girls, Hit the Streets",
+  "href": "/track/宅女-上街吧-PoRgLA",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 139,
+  "has_lyrics": true,
+  "lyrics": "你錯過了反高鐵\n你錯過了保衛天星碼頭\n你錯過了包圍禮賓府\n你錯過了反世貿\n\n宅女　上街吧\n這個政府靠得過嗎？\n宅女　上街吧\n你要未來繼續任由人魚肉嗎？\n\n不要再說你沒有仔吼\n你對你的生活都沒有要求\n你只關心工作已經不夠\n你本來可以結識一個俊俏的八十後\n趁你現在還可以補救\n不要再信媒體中的主流\n佢哋只會著眼肢體的爭鬥\n不會理會暴力的政策才是因由\n\n宅女　上街吧\n這個政府靠得過嗎？\n宅女　上街吧\n功能組別還不夠醜惡嗎？\n\n我們已錯過了美好的六十年代\n錯過了胡士托\n反戰學運的精彩\n現在理想主義已逐漸歸來\n但你為何還不變改？\n\n你錯過了反高鐵\n我錯過了保衛天星碼頭\n有時我也會很悔疚\n但願你的醒覺\n不會是在多年以後",
+  "album": {
+    "slug": "我都唔知道-xV0JmI",
+    "name": "我都唔知道",
+    "name_en": "我都唔知道"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

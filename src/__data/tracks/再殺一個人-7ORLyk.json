@@ -1,0 +1,94 @@
+{
+  "type": "track",
+  "slug": "再殺一個人-7ORLyk",
+  "name": "再殺一個人",
+  "name_en": "Killed Off One More",
+  "href": "/track/再殺一個人-7ORLyk",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 217,
+  "has_lyrics": true,
+  "lyrics": "有人話世間所有感情最終都會走向末路\n最好可以死喺三十七歲之前或者更早\n有理想嘅文青到某個階段開始變得深奧\n簡單嘅字句要有學術字眼先表達到\n每個作家都覺得自己嘅作品最純粹最樸素\n市面賣得好嘅一般都有危害社會嘅元素\n無人會諗自己嘅才能係咪需要進步\n但總會覺得自己嘅地位有待提高\n\n尤其是你為什麼可以這樣做\n你都知道我曾對你很好\n但我從不會表現憤怒\n某天先知道碰到你眼也不想一掃\n\n我想生活喺一千年前嗰陣時未有電腦\n唯一唔捨得嘅係冬天嘅時候無熱水爐\n近年我嘅生活開始無咁刺激無咁虛無\n以前深夜我會打俾人講我殺咗人一時糊塗\n但第日完全唔記得做乜我會咁做\n我懷念嗰陣時每日每夜都好 emo\n你係我嘅青春期永遠唔會再接觸到\n兩個人就咁永遠疏離都無話好定唔好\n\n尤其是你為什麼可以這樣做\n你都知道我曾對你很好\n但我從不會表現憤怒\n某天先知道碰到你眼也不想一掃",
+  "album": {
+    "slug": "我都唔知道-xV0JmI",
+    "name": "我都唔知道",
+    "name_en": "我都唔知道"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "夏日浪漫-5RtaZt",
+          "name": "夏日浪漫",
+          "name_en": null
+        },
+        {
+          "slug": "kit-22cats-IE7ur3",
+          "name": "Kit @ 22cats",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

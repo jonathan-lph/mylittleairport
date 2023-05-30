@@ -1,0 +1,69 @@
+{
+  "type": "track",
+  "slug": "浪漫九龍塘-bQSaMp",
+  "name": "浪漫九龍塘",
+  "name_en": "Romantic Kowloon Tong",
+  "href": "/track/浪漫九龍塘-bQSaMp",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 126,
+  "has_lyrics": true,
+  "lyrics": "I want to sing you a song,\nAbout me and you went to Kowloon Tong,\nWe have to be very strong,\nIf we want to do something very wrong.\n\n我們終於去到了九龍塘\n在城大旁的酒店爆房\n你臉上沒有一點點的徬徨\n我們都似是很開放\n\nI want to sing you a song,\nAbout me and you went to Kowloon Tong,\nWe have to be very strong,\nIf we want to do something very wrong.\n\n我們打開房便見到一張床\n然後才開始覺有點慌\n我在想應否真的行房\n這樣會否破壞了交往\n我們會否繼續再交往",
+  "album": {
+    "slug": "為你含情-oK5049",
+    "name": "為你含情",
+    "name_en": "Hum Ching for You"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

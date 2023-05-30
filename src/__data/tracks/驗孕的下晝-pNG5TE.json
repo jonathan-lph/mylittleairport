@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "驗孕的下晝-pNG5TE",
+  "name": "驗孕的下晝",
+  "name_en": "Afternoon of Pregnancy Testing",
+  "href": "/track/驗孕的下晝-pNG5TE",
+  "disc_number": 1,
+  "track_number": 18,
+  "duration_s": 155,
+  "has_lyrics": true,
+  "lyrics": "當我知這一次或會改變我前程\n應要繼續我路拒絕命運的邀請\n或已到某個階段應該順應天命\n為你的到來而高興\n\n想你應將得到眾多姨姨的垂青\n想你會使我努力　為這關係打拼\n縱是我未認清你母親的個性\n但婚姻無關愛情反正\n\n不會責備你若你什麼都跟我傾\n包括青春期會遇到的各種類型\n世界要你努力去考取功名\n但是真誠才是最大本領\n\n總會有很多事令你失去熱情\n總在青春過後留不住舊髮型\n只願驗孕結果能在此刻呈陰性\n不負如來不負卿",
+  "album": {
+    "slug": "我都唔知道-xV0JmI",
+    "name": "我都唔知道",
+    "name_en": "我都唔知道"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

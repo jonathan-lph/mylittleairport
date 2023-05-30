@@ -1,0 +1,11 @@
+@import 'src/assets/styles/theme'
+
+.root
+  padding: spacing(12, 0)
+
+  > * + *
+    margin-top: spacing(12)
+
+@include bp-down('sm')
+  .root
+    padding: 0

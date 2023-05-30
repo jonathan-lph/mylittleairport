@@ -1,0 +1,76 @@
+@import 'src/assets/styles/theme'
+
+.root
+  display: grid
+  grid-template-columns: 45% 55%
+  max-width: map-get($breakpoints, 'xl')
+  margin: 0 auto
+  margin-top: 12rem
+  padding: spacing(0, 4)
+  row-gap: spacing(4)
+
+.meta
+  display: flex
+  flex-direction: column
+  align-self: flex-end
+  padding: spacing(0, 8)
+  height: max-content 
+  position: sticky
+  top: $header-height
+
+  .title
+    @include bold
+    font-size: 3.5rem
+    word-break: break-all
+
+  .year
+    @include bold
+    font-size: 1.5rem
+
+.img
+  width: 100%
+
+.list
+  display: grid
+  grid-template-columns: max-content 1fr 4rem
+  margin-bottom: 12rem
+  
+  .track
+    display: contents
+    font-size: 1.2rem
+
+    > *
+      border-top: 1px solid palette(text, primary)
+      padding: spacing(4, 2)
+
+    .trackIdx
+      text-align: right
+
+@include bp-up('lg')
+  .root
+    grid-template-columns: 55% 45%
+
+@include bp-down('sm')
+  .root
+    display: block
+    margin-top: spacing(8)
+    padding: 0
+
+  .meta
+    position: static
+    margin-bottom: spacing(12)
+    padding: spacing(4)
+
+    .title
+      font-size: 2.75rem
+      position: static
+      margin: 0
+
+    .year
+      font-size: 1.5rem
+      color: palette(text, secondary)
+      padding-left: spacing(.5)
+
+  .list
+    padding: spacing(6, 4)
+    margin: 0

@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "我不適合聚會-FqY6Kc",
+  "name": "我不適合聚會",
+  "name_en": "No Gathering for Me",
+  "href": "/track/我不適合聚會-FqY6Kc",
+  "disc_number": 1,
+  "track_number": 9,
+  "duration_s": 127,
+  "has_lyrics": true,
+  "lyrics": "我不適合聚會\n不知道聚會的規矩\n不知道帶什麼酒精\n蜜瓜　香料　毒品　火腿\n\n我不適合聚會\n不知道準時的樂趣\n不知道說什麼笑話\n是非　天氣　社會　過去\n\n我不知怎聚會\n吸煙的習慣已失去\n再不知怎隨意轉身到露台去\n\n我不適合人類\n超過半小時的派對\n靈魂在這裡　沒有同類",
+  "album": {
+    "slug": "跟你開玩笑-sz3zR4",
+    "name": "跟你開玩笑",
+    "name_en": "Just Kidding"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "eloobe-xvrcwO",
+          "name": "eloobe",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

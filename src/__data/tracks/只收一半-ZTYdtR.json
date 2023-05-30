@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "只收一半-ZTYdtR",
+  "name": "只收一半",
+  "name_en": "Just for Half Price",
+  "href": "/track/只收一半-ZTYdtR",
+  "disc_number": 1,
+  "track_number": 14,
+  "duration_s": 171,
+  "has_lyrics": true,
+  "lyrics": "有次我咪同你講話\n我喺 IG 搵 PTGF 嘅\n有個覆返我話\n三千蚊一個鐘\n包 wet kiss, bj, ml\n同埋bath tgt\n我有問你抵唔抵㗎嘛\n同埋好唔好每個星期都 call?\n其實呢  我係諗住\n我係諗住你會話：\n\n「我只收你一半」\n「我也感到很悶」\n「我也想找個伴」\n「把這假期填滿」\n「我只收你一半」\n「我也感到很悶」\n「我也想找個伴」\n「把這宇宙填滿」\n\n但係你都冇咁樣講\n你叫我快啲 call\n刺激下本地經濟\n我仲諗住\n一齊煮意粉食\n睇啲好耐冇睇嘅戲\n食雲呢拿味雪糕溝啲咖啡入去\n第二朝再煮早餐俾你\n但係你都冇咁樣講：\n\n「我只收你一半」\n「我也感到很悶」\n「我也想找個伴」\n「把這假期填滿」\n「我只收你一半」\n「我也感到很悶」\n「我也想找個伴」\n「把這宇宙填滿」",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

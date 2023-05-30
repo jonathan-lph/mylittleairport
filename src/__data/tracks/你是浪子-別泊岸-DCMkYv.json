@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "你是浪子-別泊岸-DCMkYv",
+  "name": "你是浪子，別泊岸",
+  "name_en": "You're a Drifter, Don't Dock",
+  "href": "/track/你是浪子-別泊岸-DCMkYv",
+  "disc_number": 1,
+  "track_number": 7,
+  "duration_s": 108,
+  "has_lyrics": true,
+  "lyrics": "你是浪子別泊岸\n就算她笑得多好看\n間中回味是最適當\n泊岸以後誰想再看？\n\n你是浪子別泊岸\n一般人都難以抵抗\n眾生都墮入情網\n你是我們唯一寄望\n\n每當看見路上的愛侶擁抱互望\n我只看得見絕望\n「離婚的最主因是結婚」這不是亂講\n一百年前已流傳西方\n\n你是浪子別泊岸\n清風是你的翅膀\n太陽帶給你光芒\n泊岸卻令你枯乾",
+  "album": {
+    "slug": "香港是個大商場-ITFqbE",
+    "name": "香港是個大商場",
+    "name_en": "Hong Kong Is One Big Shopping Mall"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

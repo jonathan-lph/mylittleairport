@@ -1,0 +1,43 @@
+@import 'src/assets/styles/theme'
+
+.root
+  height: $footer-height
+  display: flex
+  justify-content: space-between
+  padding: spacing(0, 14)
+  font-size: .8rem
+  z-index: 100
+  border-top: 1px solid palette(misc, background-dark)
+
+  > *
+    display: flex
+    gap: spacing(1)
+    align-items: center
+
+.language
+  gap: spacing(2)
+  
+  .locales
+    display: flex
+    gap: spacing(2)
+
+    .locale
+      opacity: .5
+
+      &:hover, &.active
+        opacity: 1
+
+.credits
+  opacity: .5
+
+  &:hover
+    opacity: 1
+
+@include bp-down('sm')
+  .root
+    height: $footer-height-sm
+    padding: spacing(2, 4)
+    padding-bottom: calc(spacing(4) + env(safe-area-inset-bottom))
+
+  .globe
+    display: none

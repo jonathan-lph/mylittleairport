@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "每次你走的時分-K3DVah",
+  "name": "每次你走的時分",
+  "name_en": "Every Time You Left",
+  "href": "/track/每次你走的時分-K3DVah",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 183,
+  "has_lyrics": true,
+  "lyrics": "每次到了你要走的時分\n我的心都會痛一陣\n總想有人會對你更貼心\n但又怕你不再接近\n\n世上總有人純粹而聰敏\n能夠明瞭這情感\n盼望你能被照顧得開心\n遙距與我共度餘生\n\n愛就似條河水般支分\n不由得流向他人\n這種抽離和這種痴心\n一秒即永恆（不留傷痕）\n\n世上總有人純粹而聰敏\n能夠明瞭這情感\n盼望你能被照顧得開心\n遙距與我共度餘生\n\n每次約會前\n我都先打掃房間\n不知這次你會否上來\n小心翼翼\n不留低之前任何人的髮根\n\n每次到了你要走的時分\n我的心都會痛一陣\n每次到了你要走的時分\n我的心都會痛一陣（不留傷痕）\n\n每次到了你要走的時分\n我的心都會痛一陣\n每次到了你要走的時分\n我的心都會痛一陣（不留傷痕）\n（不留傷痕）",
+  "album": {
+    "slug": "每次你走的時分-w5SfGJ",
+    "name": "每次你走的時分",
+    "name_en": "Every Time You Left"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

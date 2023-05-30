@@ -1,0 +1,120 @@
+@import 'src/assets/styles/theme'
+
+$album-tile-width: 200px
+$album-tile-width-sm: 150px
+
+.root
+  display: grid
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+  max-width: map-get($breakpoints, 'xl')
+  margin-left: auto
+  margin-right: auto
+  padding: spacing(0, 14)
+  gap: spacing(20)
+
+.album, .artworks
+
+  .title
+    @include bold
+    font-size: 1.5rem
+    margin-bottom: spacing(8)
+
+.album
+
+  .trackList
+    font-size: 1.5rem
+
+    .track, .divider
+      display: inline
+      color: palette(text, secondary)
+
+    .track
+      transition: color 0.2s ease-in-out
+
+      &:hover
+        color: palette(text, primary)
+
+      &.active
+        @include bold
+        font-weight: 700
+        color: palette(text, primary)
+
+  .backButton
+    padding: spacing(4, 0)
+    margin-top: spacing(4)
+    display: flex
+    align-items: center
+    width: max-content
+
+    .back
+      /* Visual correction for alignment */
+      transform: translateY(1px)
+      transition: transform .2s ease
+
+    &:hover .back
+      transform: translateY(1px) translateX(- spacing(2))
+
+.artworks
+
+  .otherAlbums
+    margin: spacing(4, 0)
+    /* Scroll-bar padding */
+    padding-bottom: spacing(4)
+    display: flex
+    flex-wrap: no-wrap
+    gap: spacing(4)
+    overflow: auto
+
+    .otherAlbum
+      cursor: pointer
+
+    .imgBorder
+      width: $album-tile-width
+      aspect-ratio: 1
+      background: palette(misc, background-dark)
+      display: flex
+      justify-content: center
+      align-items: center
+
+      .img
+        width: 70%
+
+    .name
+      padding: spacing(2, 0)
+      max-width: $album-tile-width
+      @include overflow-textbox(2)
+
+      &.active
+        @include bold
+
+@include bp-down('md')
+  .root
+    display: block
+
+    > *
+      margin: spacing(12, 0)
+
+    .album .trackList
+      font-size: 1.25rem
+
+@include bp-down('sm')
+  .root
+    display: block
+    margin: spacing(12, 4)
+    padding: 0
+
+  .album, .artworks
+
+    .title
+      margin-bottom: spacing(4)
+
+  .album
+
+    .tracklist
+      font-size: 1.25rem
+
+    .backButton
+      margin-top: spacing(2)
+
+  .artworks .name
+    font-size: 0.9rem

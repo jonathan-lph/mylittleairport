@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "今晚講嘢夜唔夜-PoNws3",
+  "name": "今晚講嘢夜唔夜",
+  "name_en": "Is It Too Late to Chat Tonight",
+  "href": "/track/今晚講嘢夜唔夜-PoNws3",
+  "disc_number": 1,
+  "track_number": 4,
+  "duration_s": 161,
+  "has_lyrics": true,
+  "lyrics": "［阿Ｐ］\n或者你可以坐得更近\n靠在我耳邊講嘢不會過份\n\n［Nicole］\n但我天生就是這麼拘謹\n還未有那份自信心\n\n［阿Ｐ］\n若你問我什麼先叫做緣份\n我會說緣份只留給夠進取的人\n\n［Nicole］\n好既然依家個情況係咁\n過咗今晚之後我先至再做好人\n\n［Chorus］\n今晚講嘢夜唔夜\n咁啱我就有部車\n車你去山頂感受個山有幾斜\n望你千萬不要太心邪\n\n［阿Ｐ］\n或者等我表白內心嘅黑暗\n其實我從未放低過舊愛人\n所以先每晚搵不同人瞓\n希望你不要太過黐身\n\n［Nicole］\n我又點會唔明白你嘅內心\n我又何嘗唔係想搵人瞓一瞓\n所以先扮拘謹等你勾引\n又估唔到你真係會咁易當真\n\n［Chorus］\n今晚講嘢夜唔夜\n咁啱我就有部車\n車你返屋企先飲杯咖啡\n再傾返陣先至好扯\n望你千萬不要太早扯",
+  "album": {
+    "slug": "適婚的年齡-YZU7BE",
+    "name": "適婚的年齡",
+    "name_en": "The Right Age for Marriage"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "陳銘澤-在草地上-adqGjK",
+          "name": "陳銘澤 @ 在草地上",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

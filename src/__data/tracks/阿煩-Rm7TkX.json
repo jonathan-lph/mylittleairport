@@ -1,0 +1,69 @@
+{
+  "type": "track",
+  "slug": "阿煩-Rm7TkX",
+  "name": "阿煩",
+  "name_en": "Ah Fan",
+  "href": "/track/阿煩-Rm7TkX",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 101,
+  "has_lyrics": true,
+  "lyrics": "一年一年　你又再出現\n一年一年　你又再出現\n那天相見在水平線\n有天出現在天堂見\n失蹤了就最好\n永不相見就最好\n你出現不遲不早\n帶來無限煩惱\n\n雖然很煩　我亦愛找麻煩\n怎樣都煩　我自有空間\n那天相見在水平線\n有天出現在天堂見\n睇不到誰都好\n仍在風雨中趕路\n在地上畫滿記號\n有天可　再擁抱",
+  "album": {
+    "slug": "為你含情-oK5049",
+    "name": "為你含情",
+    "name_en": "Hum Ching for You"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

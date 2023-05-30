@@ -1,0 +1,84 @@
+{
+  "type": "album",
+  "slug": "為你含情-oK5049",
+  "name": "為你含情",
+  "name_en": "Hum Ching for You",
+  "href": "/album/為你含情-oK5049",
+  "total_tracks": 10,
+  "album_type": "album",
+  "album_edition": "collaboration",
+  "label": "LYFE Music",
+  "label_en": "LYFE Music",
+  "release_date": "2008",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "浪漫九龍塘-bQSaMp",
+      "name": "浪漫九龍塘",
+      "name_en": "Romantic Kowloon Tong"
+    },
+    {
+      "slug": "浪漫九龍城-GhTLR5",
+      "name": "浪漫九龍城",
+      "name_en": "Romantic Kowloon City"
+    },
+    {
+      "slug": "公司裡的愛琴海-epEadJ",
+      "name": "公司裡的愛琴海",
+      "name_en": "Love Sea in The Office"
+    },
+    {
+      "slug": "畢業變成失業-0vrbNv",
+      "name": "畢業變成失業",
+      "name_en": "Graduation Equals Jobless"
+    },
+    {
+      "slug": "阿煩-Rm7TkX",
+      "name": "阿煩",
+      "name_en": "Ah Fan"
+    },
+    {
+      "slug": "在動物園散步才是正經事-9ak5BR",
+      "name": "在動物園散步才是正經事",
+      "name_en": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo"
+    },
+    {
+      "slug": "離開是為了回來-cL1WHa",
+      "name": "離開是為了回來",
+      "name_en": "Leaving Is for Coming Back"
+    },
+    {
+      "slug": "悲傷的採購-jtw3m7",
+      "name": "悲傷的採購",
+      "name_en": "Sad Purchase"
+    },
+    {
+      "slug": "when-the-party-is-over-i-miss-my-dear-pornstar-demo-rYDI5B",
+      "name": "when the party is over, i miss my dear pornstar (demo)",
+      "name_en": "When The Party Is Over, I Miss My Dear Pornstar (demo)"
+    },
+    {
+      "slug": "see-you-there-UVr93e",
+      "name": "see you there",
+      "name_en": "See You There"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/為你含情.webp",
+      "type": "webp",
+      "height": 691,
+      "width": 720
+    },
+    {
+      "url": "/album-artwork/為你含情.jpg",
+      "type": "jpg",
+      "height": 691,
+      "width": 720
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "今夜雪糕-fmgVmJ",
+  "name": "今夜雪糕",
+  "name_en": "Ice Cream Tonight",
+  "href": "/track/今夜雪糕-fmgVmJ",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 147,
+  "has_lyrics": true,
+  "lyrics": "何も言うことはない\nNon ho niente da dire\nIch habe nichts zu sagen\nNo tengo nada que decir\nJe n'ai rien à dire\n\n有時很懊惱\n有時也感到驕傲\n有時不後悔曾這樣表達憤怒\n\n今夜我可以吃更多雪糕\n想像明天中午會被捕\n\n還有些心願未做\n還未去埃及希臘秘魯\n還未跟你曾相處得更好\n\n揭開手套用胎記相認嘅朋友\n逾越嘅喜悅\n地鐵售票機上面嘅一堆散銀\n推完鐵馬流嘅汗\n最後一班列車嘅車門\n\n今夜我可以走八千里路\n想像明天會特赦全部\n今夜我可以\n想像明天中午",
+  "album": {
+    "slug": "今夜雪糕-xc722J",
+    "name": "今夜雪糕",
+    "name_en": "Ice Cream Tonight"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

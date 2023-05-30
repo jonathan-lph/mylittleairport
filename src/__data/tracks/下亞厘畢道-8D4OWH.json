@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "下亞厘畢道-8D4OWH",
+  "name": "下亞厘畢道",
+  "name_en": "Lower Albert Road",
+  "href": "/track/下亞厘畢道-8D4OWH",
+  "disc_number": 1,
+  "track_number": 17,
+  "duration_s": 152,
+  "has_lyrics": true,
+  "lyrics": "和你兩個月前每日 inbox 傾訴\n初次約會要設定一種暗號\n如你我碰面後若想離開提早\n用暗號避免直接令對方失措\n\n一杯 moscato　再一杯 moscato\n你教我講冰島語如何問好\n由歌賦街飲到去下亞厘畢道\n只是 moscato 未能亂我腳步\n\n由兩個月前等待今晚的來到\n都不敢把寄望定得太高\n但這約會後為何開始煩惱\n自你離開前的一個擁抱\n\n一杯 moscato　再一杯 moscato\n你說你明天不用上班多好\n由歌賦街飲到去下亞厘畢道\n聽著 Sinatra 的《我不會跳舞》\n\n和你設了暗號若想離開提早\n但沒設有暗號若想再進一步",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "夏日浪漫-5RtaZt",
+          "name": "夏日浪漫",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

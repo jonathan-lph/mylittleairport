@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "debbie-dont-send-this-song-to-others-6qECDT",
+  "name": "debbie, don't send this song to others",
+  "name_en": "Debbie, Don't Send This Song to Others",
+  "href": "/track/debbie-dont-send-this-song-to-others-6qECDT",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 194,
+  "has_lyrics": true,
+  "lyrics": "Where are you?\nOh my dear Debbie\nDon't you know me?\nI am your little P\nYeah...\n\nI dance alone\nYou just stand near Jerry\nNever give me fantasy\nOh my darling Debbie\n\nOh my Debbie, can you imagine\nIf one day I disappear\nAnd will you cry for me?\nWill you miss me?\n\nOh my Debbie, you make me crazy\nIf you still talk with Jerry\nI could not sleep\nHow could I sleep?\n\nNa…\n\nOh my Debbie, Jerry laughed at me\nHe said that I was in a dream\nDo you think it's a dream to me?\nOh my dear Debbie\n\nI have a dream\nHolding hands with Debbie\nKissing her lips\nTouching her skin\n\nWhere are you?",
+  "album": {
+    "slug": "stay-as-sweet-as-you-are-UWW5cE",
+    "name": "Stay As Sweet As You Are",
+    "name_en": "Stay As Sweet As You Are"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "jerry-MIQvzB",
+          "name": "Jerry",
+          "name_en": null
+        },
+        {
+          "slug": "josephine-tyLHlP",
+          "name": "Josephine",
+          "name_en": null
+        },
+        {
+          "slug": "tim-pNhLJ9",
+          "name": "Tim",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

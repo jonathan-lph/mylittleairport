@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "嘔吐-LmY7QD",
+  "name": "嘔吐",
+  "name_en": "Nausea",
+  "href": "/album/嘔吐-LmY7QD",
+  "total_tracks": 1,
+  "album_type": "single",
+  "album_edition": "published",
+  "label": "my little airport",
+  "label_en": null,
+  "release_date": "2022",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "嘔吐-yQJpv7",
+      "name": "嘔吐",
+      "name_en": "Nausea"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/嘔吐.webp",
+      "type": "webp",
+      "height": 1440,
+      "width": 1440
+    },
+    {
+      "url": "/album-artwork/嘔吐.jpg",
+      "type": "jpg",
+      "height": 1440,
+      "width": 1440
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

@@ -1,0 +1,44 @@
+{
+  "type": "album",
+  "slug": "when-i-listen-to-the-field-mice-sjQeRZ",
+  "name": "When I Listen to the Field Mice",
+  "name_en": "When I Listen to the Field Mice",
+  "href": "/album/when-i-listen-to-the-field-mice-sjQeRZ",
+  "total_tracks": 2,
+  "album_type": "album",
+  "album_edition": "limited",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2005",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "when-i-listen-to-the-field-mice-noyVje",
+      "name": "When I Listen To The Field Mice",
+      "name_en": "When I Listen To The Field Mice"
+    },
+    {
+      "slug": "when-i-listen-to-the-field-mice-catalog-mix-TdE65S",
+      "name": "When I Listen To The Field Mice (Catalog Mix)",
+      "name_en": "When I Listen To The Field Mice (Catalog Mix)"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/when-i-listen-to-the-field-mice.webp",
+      "type": "webp",
+      "height": 360,
+      "width": 400
+    },
+    {
+      "url": "/album-artwork/when-i-listen-to-the-field-mice.jpg",
+      "type": "jpg",
+      "height": 360,
+      "width": 400
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "little-darla-has-a-treat-for-you-volume-25-endless-summer-2007-08-HnESbz",
+  "name": "Little Darla Has a Treat for You, Volume 25: Endless Summer 2007-08",
+  "name_en": "Little Darla Has a Treat for You, Volume 25: Endless Summer 2007-08",
+  "href": "/album/little-darla-has-a-treat-for-you-volume-25-endless-summer-2007-08-HnESbz",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "international",
+  "label": "Darla Records",
+  "label_en": "Darla Records",
+  "release_date": "2007",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "coka-im-fine-eqI9dP",
+      "name": "coka, i'm fine",
+      "name_en": "Coka, I'm Fine"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/little-darla-has-a-treat-for-you-volume-25-endless-summer-2007-08.webp",
+      "type": "webp",
+      "height": 1080,
+      "width": 1080
+    },
+    {
+      "url": "/album-artwork/little-darla-has-a-treat-for-you-volume-25-endless-summer-2007-08.jpg",
+      "type": "jpg",
+      "height": 1080,
+      "width": 1080
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

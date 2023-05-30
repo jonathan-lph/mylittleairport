@@ -1,0 +1,161 @@
+// CSS Variables
+
+$header-height: 75px;
+$header-height-sm: 65px;
+$header-lr-padding: 14;
+$header-lr-padding-sm: 4;
+
+$footer-height: 60px;
+$footer-height-sm: 50px;
+
+$export-image-width: 400px;
+
+$album-tile-width: 250px;
+$album-tile-width-sm: 150px;
+
+$default-fonts: (-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif);
+
+$typography: (
+  fontSize: 16px,
+  titleFont: ('Noto Serif SC'),
+  contentFont: ('Noto Sans HK'),
+  fontWeight: (
+    light:   300,
+    regular: 400,
+    medium:  500,
+    bold:    700,
+    heavy:   900,
+  )
+);
+
+// Palette
+
+$dark-colors: (
+  text: (
+    primary:   #dda890,
+    secondary: #82868c,
+  ),
+  misc: (
+    background: #010000,
+    divider: rgba(255, 255, 255, .8),
+  ),
+  action: (
+    hover: rgba(255, 255, 255, 0.05),
+    select: rgba(255, 255, 255, 0.1),
+    disabled: rgba(255, 255, 255, 0.26),
+    disabledBg: rgba(255, 255, 255, 0.15),
+    disabledOpacity: 0.38,
+  )
+);
+
+$light-colors: (
+  text: (
+    primary:   #060101,
+    secondary: #82868c,
+  ),
+  misc: (
+    background: #f6f6f6,
+    background-dark: #eeece9,
+    divider: rgba(0, 0, 0, .8),
+  ),
+  action: (
+    hover: rgba(0, 0, 0, 0.05),
+    select: rgba(0, 0, 0, 0.1),
+    disabled: rgba(0, 0, 0, 0.26),
+    disabledBg: rgba(0, 0, 0, 0.15),
+    disabledOpacity: 0.38,
+  )
+);
+
+// Fn to retrieve CSS variables
+// Ref: https://codepen.io/jakealbaugh/post/css4-variables-and-sass
+
+@function palette($color-name, $color-variant: null, $true-val: false) {
+  @if ($true-val == true) {
+    @if ($color-variant != null) {
+      @return map-get(map-get($light-colors, $color-name), $color-variant);
+    } @else {
+      @return map-get($colors, $color-name);
+    }
+  } @else {
+    @if ($color-variant != null) {
+      @return var(--#{$color-name}-#{$color-variant});
+    } @else {
+      @return var(--#{$color-name});
+    }
+  }
+};
+
+// Media queries
+
+$breakpoints: (
+  xs: 0px,
+  sm: 600px,
+  md: 900px,
+  lg: 1200px,
+  xl: 1800px
+);
+
+@mixin bp-down($bp) {
+  @media all and (max-width: map-get($breakpoints, $bp)) {
+    @content
+  };
+};
+
+@mixin bp-up($bp) {
+  @media all and (min-width: map-get($breakpoints, $bp)) {
+    @content
+  };
+};
+
+@mixin bp-in($lower-bp, $upper-bp) {
+  @media all and (min-width: map-get($breakpoints, $lower-bp)) and (max-width: map-get($breakpoints, $upper-bp)) {
+    @content
+  };
+};
+
+// Spacing
+
+@function spacing($top, $right: null, $bottom: null, $left: null) {
+  $step: 4px;
+  @if $right  == null and $bottom == null and $left == null { @return $top * $step };
+  @if $left   == null { $left:   $right };
+  @if $bottom == null { $bottom: $top   };
+  @if $right  == null { $right:  $top   };
+  @return $top * $step $right * $step $bottom * $step $left * $step;
+};
+
+// Mixins
+
+@mixin bold {
+  font-family: map-get($typography, titleFont);
+  font-weight: map-get($typography, fontWeight, bold)
+}
+
+@mixin normal {
+  font-family: map-get($typography, contentFont);
+  font-weight: map-get($typography, fontWeight, regular)
+}
+
+@mixin dialog-box {
+  background: palette('misc', 'background');
+  border: 1px solid palette('misc', 'divider');
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px
+}
+
+@mixin overflow-textbox($line-clamp) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line-clamp;
+  overflow: hidden
+}
+
+@mixin fullscreen-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 100
+}

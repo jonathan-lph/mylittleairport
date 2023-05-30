@@ -1,0 +1,12 @@
+{
+  "zh_hk": {
+    "page_title": "my little airport《::name::》(::release_date::)",
+    "og_title": "my little airport《::name::》",
+    "og_description": "my little airport《::name::》(::release_date::) 。"
+  },
+  "en_us": {
+    "page_title": "my little airport - ::name:: (::release_date::)",
+    "og_title": "::name:: by my little airport",
+    "og_description": "my little airport - ::name:: (::release_date::)."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "給-face-雜誌的記者-ivy-MvVDWu",
+  "name": "給 face 雜誌的記者 ivy",
+  "name_en": "To FACE Weekly's Ivy",
+  "href": "/track/給-face-雜誌的記者-ivy-MvVDWu",
+  "disc_number": 1,
+  "track_number": 11,
+  "duration_s": 117,
+  "has_lyrics": true,
+  "lyrics": "五月十八號你打嚟約我做訪問\n話想知道關於我哋首〈please die, donald tsang〉\n聽到你係《FACE》已經覺得有啲甘\n同你三唔識七受害應該都係我本人\n\n我話唔得閒亦唔想做你訪問\n但你打好幾次嚟又態度好誠懇\n所以我都俾你喺個電話度問\n總好過你完全亂作我個心係咁諗\n\n開始嘅時候你都係正常咁問\n除咗無啦啦問我有無女友同佢點諗\n我再三叮囑唔好寫我正職嘅身份\n你話都唔知我返乜工又點會有可能\n\n第日我個 friend 打嚟話見到個訪問\n而且當中仲問埋我間公司嘅高層\n嗰個仲要係陳志雲\n問佢點樣睇呢一位員工嘅呢一首作品\n\nIvy　我知你本身不是這種人\n我們都一樣低薪兼出賣靈魂\n但公司裁員時不會講社會責任\n你又何必賣力到賣埋自己嘅良心\n\nIvy　我知近年畢業是很不幸\n讀書時你應該無諗要過呢種人生\n仲要寫多幾多期同害多幾多個人\n夏天來了　不如轉吓份工唔好再等\n當你仲可以嘅時候要趁早起行",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

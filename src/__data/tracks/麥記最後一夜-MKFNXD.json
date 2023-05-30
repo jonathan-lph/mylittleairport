@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "麥記最後一夜-MKFNXD",
+  "name": "麥記最後一夜",
+  "name_en": "The Last Night at McDonald's",
+  "href": "/track/麥記最後一夜-MKFNXD",
+  "disc_number": 1,
+  "track_number": 4,
+  "duration_s": 206,
+  "has_lyrics": true,
+  "lyrics": "就在那夜送你歸家以後\n你再打給我說　你沒有上樓\n沿著我背後一路走　因見面不敢開口\n「明天要返英國」　電話裡淚流\n\n就到家的我即轉身回頭\n寒夜跟你到麥記　朱古力當是酒\n我若全力追究　你也會來去自由\n那種金牛座特性你全沒有\n\n麥記的最後一夜\n白燈、廣東歌與露宿者\n想起廟街某夜 相士說你屬於那些\n「矛盾波動的千里馬」般狂野\n\n就在八月知你住我家附近之後\n那夜經過大角咀你細訴小時候\n然後我們隔一兩週 便結伴公園夜遊\n潛入「嶺南之風」看不見四周\n\n但是我亦走不進你心裡頭\n某夜親吻到似變了男女朋友\n但是你從不愛拖手　只是放手進我衣袖\n代表只想取暖　是否？\n\n麥記的最後一夜\n白燈、廣東歌與露宿者\n這惡俗的不捨　比一起更好過些\n才是你遠走的主因　或者？\n\n麥記的最後一夜\n橙汁、朱古力與露宿者\n合照留下一些 轉地方睡最後今夜\n完結這一場冬天的狂野\n\n電捲風馳　從此各自上車",
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

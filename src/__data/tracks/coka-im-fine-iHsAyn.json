@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "coka-im-fine-iHsAyn",
+  "name": "coka, i'm fine",
+  "name_en": "Coka, I'm Fine",
+  "href": "/track/coka-im-fine-iHsAyn",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 110,
+  "has_lyrics": true,
+  "lyrics": "I am so sorry I have no time to call you\nI've been so busy recently and I don't want\nDo you recall the park where we spent for whole night?\nWe walked and talked till the sunrise\n\nPublic exam's coming, you've got to be hard working\nYou should not be as lazy as I'm being\nI will always stand by you, so don't be afraid\nThough I can't give you any note\n\nCoka, Coka, Coka, Coka\nIf you still remember me\nJust call me when you are free",
+  "album": {
+    "slug": "singing-in-the-telephone-m3Ewxs",
+    "name": "Singing in the Telephone",
+    "name_en": "Singing in the Telephone"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

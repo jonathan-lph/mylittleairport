@@ -1,0 +1,99 @@
+{
+  "type": "track",
+  "slug": "阿叔今年四十歲-mni5XA",
+  "name": "阿叔今年四十歲",
+  "name_en": "Uncle is 40 This Year",
+  "href": "/track/阿叔今年四十歲-mni5XA",
+  "disc_number": 1,
+  "track_number": 13,
+  "duration_s": 144,
+  "has_lyrics": true,
+  "lyrics": "阿叔今年已經四十歲\n都算係食過無數咁多女\n辜負過嘅點止一大堆\n但你話人生無悔會係幾咁無趣\n\n所以最緊要學識謙虛\n無咁大個頭就忍住唔好亂咁吹\n想分享一句人生嘅金句\n就係生得靚仔其實真係無罪\n\n聽眾係咁打嚟爆啲秘密出去\n係咪世上所有嘅朋友都已經失去\n我係就係唱得有啲聲衰\n但係就係勝在唱得有啲 Sam Hui\n\n阿叔其實過晒四十歲\n仲想繼續喺度玩落去\n對於婚姻從來都不抗拒\n如果有個女人可以令我心碎\n\n聽眾係咁打嚟爆啲秘密出去\n係咪世上所有嘅朋友都已經失去\n今夜讓我做住你伴侶\n同你一齊去尋找上太空嘅樂趣",
+  "album": {
+    "slug": "適婚的年齡-YZU7BE",
+    "name": "適婚的年齡",
+    "name_en": "The Right Age for Marriage"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "陳銘澤-在草地上-adqGjK",
+          "name": "陳銘澤 @ 在草地上",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

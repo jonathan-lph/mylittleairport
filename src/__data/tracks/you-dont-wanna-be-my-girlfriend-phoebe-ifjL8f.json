@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "you-dont-wanna-be-my-girlfriend-phoebe-ifjL8f",
+  "name": "you don't wanna be my girlfriend, phoebe",
+  "name_en": "You Don't Wanna Be My Girlfriend, Phoebe",
+  "href": "/track/you-dont-wanna-be-my-girlfriend-phoebe-ifjL8f",
+  "disc_number": 1,
+  "track_number": 13,
+  "duration_s": 138,
+  "has_lyrics": true,
+  "lyrics": "You don't wanna be my girlfriend, Phoebe\nYou just wanna show your beauty\nOh my Phoebe\nCan you see that I'm crying?\n\nAll the boys think that you are the best\nAll the eyes are just looking at your breast\nOh my Phoebe\nYou just wanna show your beauty\n\nYou don't wanna kiss me\nYou just wanna show your beauty\nYou don't wanna know me\nYou know you're not just a love song to me.\n\nYou've ever sent your photos to me\nWatching your face is an interesting journey\nOh my Phoebe\nI wanna tell you my little story\n\nCan you talk to me when I'm lonely?\nCan we talk not only when you're lonely?\nI know you Phoebe\nI think I trend to know you completely.\n\nYou don't wanna kiss me\nYou just wanna show your beauty\nYou don't wanna know me\nYou will never send all your love to me\n\nSo please don't say \"Maybe we may meet one day\"\nThis sentence could not last more than one day\n'Cause you know I'm not the only one be missed by you\nAs same as I don't only miss you",
+  "album": {
+    "slug": "zoo-is-sad-people-are-cruel-hYCuuF",
+    "name": "Zoo Is Sad, People Are Cruel",
+    "name_en": "Zoo Is Sad, People Are Cruel"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

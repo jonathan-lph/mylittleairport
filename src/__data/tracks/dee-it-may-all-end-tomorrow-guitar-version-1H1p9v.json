@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "dee-it-may-all-end-tomorrow-guitar-version-1H1p9v",
+  "name": "dee, it may all end tomorrow (guitar version)",
+  "name_en": "Dee, It May All End Tomorrow (Guitar Version)",
+  "href": "/track/dee-it-may-all-end-tomorrow-guitar-version-1H1p9v",
+  "disc_number": 1,
+  "track_number": 4,
+  "duration_s": 79,
+  "has_lyrics": true,
+  "lyrics": "But how can I forget?\nBut how can I forget your tender smile?\nBut how can you forgive?\nBut how can you forgive my unstable mind?\nOne day we may meet again\nOne day we may kiss again very splendid\nOne day you may get married\nOne day I may be buried, very smiley",
+  "album": {
+    "slug": "gi-gi-leung-is-dead-zDJayI",
+    "name": "Gi Gi Leung Is Dead",
+    "name_en": "Gi Gi Leung Is Dead"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

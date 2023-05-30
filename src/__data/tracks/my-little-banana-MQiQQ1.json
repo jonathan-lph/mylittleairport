@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "my-little-banana-MQiQQ1",
+  "name": "my little banana",
+  "name_en": "My Little Banana",
+  "href": "/track/my-little-banana-MQiQQ1",
+  "disc_number": 1,
+  "track_number": 11,
+  "duration_s": 119,
+  "has_lyrics": true,
+  "lyrics": "My little beautiful pretty pretty banana\nYou are all that I'd like and I want to share you\nWith all my friends, family and loved one\nI just open all your skin then I take a small bite\nOnce I have a wonderful dream about you\nWe were dancing in the sea\nAnd the fishes all swimming around us\nCome with me so I can show you big boat that I built\nLet's go for a ride\nI promise it will fly to the sky where no one cries\nBanana you will see the clouds beneath our feet\nTo the space where twinkle stars\nSaying hello and smile\nThey're shinning bright happily\n\nWill we see each other any more after ten years?\nWhy don't you tell me you're falling ill and not happy?\nPlease stay well and be tasty\nI don't want to see you be grumpy\nPlease stay strong and be healthy\nWe still have a lot to do like exploring the whole world\nYou're the only one can't be replaced\nHey you, listen\nBanana you're the best, man!",
+  "album": {
+    "slug": "zoo-is-sad-people-are-cruel-hYCuuF",
+    "name": "Zoo Is Sad, People Are Cruel",
+    "name_en": "Zoo Is Sad, People Are Cruel"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "馬克斯marcus-bHcBdU",
+          "name": "馬克斯（Marcus）",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

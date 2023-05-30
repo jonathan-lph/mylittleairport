@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "告別吧-香港-jOg9Jg",
+  "name": "告別吧，香港",
+  "name_en": "Farewell, Hong Kong",
+  "href": "/track/告別吧-香港-jOg9Jg",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 131,
+  "has_lyrics": true,
+  "lyrics": "當我走上街　條街很靜\n我看見人們微笑　但沒笑聲\n我感覺到太陽熾熱　但沒光明\n嗰日係五月十六號\n黑色星期天　但天晴\n\n當我走入車廂　沒有人覺得悲傷\n晚上十時半廣播後　我開始幻想\n我看得見草原　我看得見花\n我感覺到軍隊　我感覺到人們熟睡去\n\n告別吧　香港\n告別吧　再見\n再會了　係噉\n再會吧　再約\n拜拜　拜拜\n再會　拜拜",
+  "album": {
+    "slug": "告別吧-香港-pfIO6U",
+    "name": "告別吧，香港",
+    "name_en": "Farewell, Hong Kong"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

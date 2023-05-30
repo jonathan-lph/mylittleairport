@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "菊花的味道-fpvJx5",
+  "name": "菊花的味道",
+  "name_en": "The Taste of Chocolate Starfish",
+  "href": "/track/菊花的味道-fpvJx5",
+  "disc_number": 1,
+  "track_number": 12,
+  "duration_s": 128,
+  "has_lyrics": true,
+  "lyrics": "La la la...\n\n我記不起多久沒試過菊花的味道\n只知道沒你我不會嚐到\n我要怎麼答謝你給我的引導\n為我帶來這奇異的喜好\n\nLa la la...\n\n這世間的道理我未能逐一參透到\n只知太快樂是一種虛無\n只有菊花的味道最能令我驕傲\n含淚的快樂才是高分數\n\n你給了我這一種菊花的味道\n亦從此為我帶來煩惱\n我不知道可以跟誰來傾訴\n只知黑暗不再像從前恐怖\n\n每一分每一刻你我都步向衰老\n還要堅守甚麼純潔的信徒\n如未真的試過這奇異的喜好\n又如何確定它的不好？\n\nLa la la...",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "edward-had-you-ever-thought-that-the-end-of-the-world-would-come-on-20901-tElUE4",
+  "name": "edward, had you ever thought that the end of the world would come on 20.9.01?",
+  "name_en": "Edward, Had You Ever Thought That the End of the World Would Come On 20.9.01?",
+  "href": "/track/edward-had-you-ever-thought-that-the-end-of-the-world-would-come-on-20901-tElUE4",
+  "disc_number": 1,
+  "track_number": 4,
+  "duration_s": 141,
+  "has_lyrics": true,
+  "lyrics": "Well it happened a few years ago\nWe're still pen friends at 17 years old\nI waited for you everyday, did you know?\nI scared to call you anyway, you didn't know\n\nThen we met in a rainy day\nI remember how you dressed that day\nI forgot what I wanted to say when I saw your face\nIt's just like happened yesterday\nBut now you fall away\nOh now you fall away\n\nWhere are you now?\nWhy can't we be ourselves just like yesterday?\nEdward, we were good pen friends\nAnd did you ever believe me?\nWhen I say \"I don't need to be free\nIf you could only\nCould only stay with me\"\nI don't need to be free\nIf you could stay with me\nIf you could stay with me",
+  "album": {
+    "slug": "stay-as-sweet-as-you-are-UWW5cE",
+    "name": "Stay As Sweet As You Are",
+    "name_en": "Stay As Sweet As You Are"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

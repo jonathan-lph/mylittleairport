@@ -1,0 +1,79 @@
+{
+  "type": "track",
+  "slug": "山頂公仔波板糖-OA8TyO",
+  "name": "山頂．公仔．波板糖",
+  "name_en": "Mountaintop, Doll, Lollypop",
+  "href": "/track/山頂公仔波板糖-OA8TyO",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 137,
+  "has_lyrics": true,
+  "lyrics": "斷斷續續點點感覺你的臉在我心裏打轉\n日日夜夜都想跟你到山頂遠看風景\n我送你的公仔在你房中暗凝視著你\n偶爾碰到的目光真的竟能弄碎了波板糖\n怎知你渴望快遠走\n心中佈滿幻化虛構\n不知哪日會可了解\nhey hey hey hey\n\n斷斷續續點點感覺你的臉在我心裏打轉\n日日夜夜都想跟你到山頂遠看風景\n我送你的公仔在你房中暗凝視著你\n偶爾碰到的目光真的竟能弄碎了波板糖\n怎知你渴望快遠走\n心中滲透幻化虛構\n不知哪日會可了解\nhey hey hey hey",
+  "album": {
+    "slug": "in-the-name-of-amk-hfkOOA",
+    "name": "In the Name of AMK",
+    "name_en": "In the Name of AMK"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "amk-LY8thN",
+          "name": "AMK",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "amk-LY8thN",
+          "name": "AMK",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

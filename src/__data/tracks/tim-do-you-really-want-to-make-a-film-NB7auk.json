@@ -1,0 +1,69 @@
+{
+  "type": "track",
+  "slug": "tim-do-you-really-want-to-make-a-film-NB7auk",
+  "name": "Tim, Do You Really Want to Make A Film?",
+  "name_en": "Tim, Do You Really Want to Make A Film?",
+  "href": "/track/tim-do-you-really-want-to-make-a-film-NB7auk",
+  "disc_number": 2,
+  "track_number": 12,
+  "duration_s": 189,
+  "has_lyrics": true,
+  "lyrics": "係呢個太陽充沛嘅早上\n我哋有位叫阿Ｐ的聽眾\n點咗首歌畀阿 Tim 話：\n\nTim, if you do wanna make a film\nWhy don't you start to write a script?\nDo you just wanna tell everybody\nThat you plan to make a film?\n'Cause you want to show your existence\nLet the world knows who's Tim\nYou even don't try to pick up a pen\nTo write anything\n\nBut I do wanna see you\nCan make a film that belongs to you\nAnd I know you are more than this\nIt's time to start it and make a smile\n'Cause I do wanna see you\nCan make a film that belongs to you\nI've been waiting so long\nYou have to start it within this summer\n\nEvery day in this summer is like Sunday\nYou catch up with your friends every night and day\nPlan to date Candy in Causeway Bay\nThough she doesn't really wanna see your face\nGo shopping from Monday to Friday\nAnd watching VCDs every Saturday\nTelling me your story will be okay\nBut no action until the end of this holiday\n\nTim, if I said I feel happy\nThat sometimes you're worse than me\nWould you think that I have low self-esteem\nAnd even more disguise than you?\nWill you be very angry?\nDo you still wanna talk to me?\nMaybe you just think\nNo one understand you in this world\n\nBut I do wanna see you\nCan make a film that belongs to you\nAnd I know you are more than this\nIt's time to start it and make a smile\n'Cause I do wanna see you\nCan make a film that belongs to you\nI've been waiting so long\nYou have to start it within this summer\n\nLa la la la\nLa la la la\nLa la la",
+  "album": {
+    "slug": "come-out-and-play-ZwS4GB",
+    "name": "Come Out and Play",
+    "name_en": "Come Out and Play"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

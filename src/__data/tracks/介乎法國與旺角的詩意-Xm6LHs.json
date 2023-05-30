@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "介乎法國與旺角的詩意-Xm6LHs",
+  "name": "介乎法國與旺角的詩意",
+  "name_en": "Poetics - Something Between Montparnasse and Mongkok",
+  "href": "/track/介乎法國與旺角的詩意-Xm6LHs",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 147,
+  "has_lyrics": true,
+  "lyrics": "俾我再約多你一次\n再約多一次　再多一次\n你我這件事　回到公司\n不會有人知\n\n俾我再交換多一次\n交換多一次　換禮物的心意\n放進去雪櫃　用黃色的膠袋包起\n不會有人懷疑\n\n其實我不願離開這公司\n全都因為對你太鍾意\n\n俾我再講多一次\n再講多一次　我的心事\n我最愛你是　介乎法國與旺角的詩意\n\n俾我再送多你一次\n再送多一次　到你家多一次\n送到去門前　再行多一圈\n再兜多一轉\n\n其實我不願離開這公司\n全都因為對你太鍾意\n\n其實我心願離開這公司\n然之後一同與你搞生意\n誰都知是對你太鍾意",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "jackie-uZzjPG",
+          "name": "Jackie",
+          "name_en": null
+        },
+        {
+          "slug": "sot-kanin-GVBdkc",
+          "name": "Sot Kanin",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

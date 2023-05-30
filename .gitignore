@@ -18,6 +18,7 @@
 # misc
 .DS_Store
 *.pem
+.prettierrc*
 
 # debug
 npm-debug.log*
@@ -36,3 +37,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# pwa
+/public/sw.js
+/public/workbox-*.js

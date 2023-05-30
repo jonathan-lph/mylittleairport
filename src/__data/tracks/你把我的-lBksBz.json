@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "你把我的-lBksBz",
+  "name": "你把我的",
+  "name_en": "You Take My",
+  "href": "/track/你把我的-lBksBz",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 145,
+  "has_lyrics": true,
+  "lyrics": "你把　我的　各種　訊息\n都也　給予　別個　看的\n覺得　你跟　各位　更親\n跟我　一向　不算　很近\n\n我也只想回到我的山洞裡\n再也不想隨便相信人類\n我也只好放你進思念收集區\n這樣不會傷害誰\n\n最初　沒想　什麼　目的\n結果　也都　逐步　沉溺\n若果　我不　就此　絕跡\n最終　淪為　更糟　角色\n\n我也只想回到我的山洞裡\n再也不想隨便相信人類\n我也只好放你進思念收集區\n這樣不會傷害誰",
+  "album": {
+    "slug": "你把我的-9s0upS",
+    "name": "你把我的",
+    "name_en": "You Take My"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

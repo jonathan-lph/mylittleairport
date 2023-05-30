@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "leo-are-you-still-jumping-out-of-windows-in-expensive-clothes-wmA71M",
+  "name": "leo, are you still jumping out of windows in expensive clothes?",
+  "name_en": "Leo, Are You Still Jumping Out of Windows in Expensive Clothes?",
+  "href": "/track/leo-are-you-still-jumping-out-of-windows-in-expensive-clothes-wmA71M",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 129,
+  "has_lyrics": true,
+  "lyrics": "I hope you can see what I can see\nI hope you can hear what I can hear\nBecause it's not easy\nBecause it's not easy\n\nI hope you can feel what I can feel\nI hope you believe what I believe\nBecause I feel lonely\nBecause I'm so lonely\n\nI don't wanna go home\nI still can recall\nAll the days in F.4 we played in our school\nNow I stay in Mei Foo\nBut where are you?\nLeo, where are you?\n\nI hope you can taste what I can taste\nI hope you can think what I can think\nBecause I'm so crazy\nBecause I'm so crazy\n\n'Cause I know you know what I don't know\nI know you can think what I can't think\nBecause you are special\nBecause you're so special\n\nHow I wish you were here\nSo I called your home\nBut your mom said that you've gone somewhere\nI have never heard before\nWhy didn't you call me\nWhen you leave here?\n\nAnd all the things changed\nAfter we repeated a year in school",
+  "album": {
+    "slug": "zoo-is-sad-people-are-cruel-hYCuuF",
+    "name": "Zoo Is Sad, People Are Cruel",
+    "name_en": "Zoo Is Sad, People Are Cruel"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

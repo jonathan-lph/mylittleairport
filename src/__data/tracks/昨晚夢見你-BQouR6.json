@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "昨晚夢見你-BQouR6",
+  "name": "昨晚夢見你",
+  "name_en": "Dreamt of You Last Night",
+  "href": "/track/昨晚夢見你-BQouR6",
+  "disc_number": 1,
+  "track_number": 11,
+  "duration_s": 147,
+  "has_lyrics": true,
+  "lyrics": "昨晚夢見你死了\n怨恨在懷裡消失了\n看著天空變白了\n雨下呀　燕子飛過來了\n\n細個半夜去公園坐\n大門原來是鎖緊咗\n年輕沒人可以管我\n笑笑一起便闖過\n\n你我沒有見很久了\n那年聖誕你失戀了\n你不面對　我放棄了\n心裡暗暗生氣了\n\n請原諒我\n年輕的我　不懂生命很多\n如果　一切就是最好的安排\n你當年難道有錯麼？\n\n請明白我\n無知的我　愛你很多\n如果　一切可以重頭來過\n無論怎樣過　只管盡情過\n\n昨晚夢見你死了\n一切都不緊要了\n雨白天空變清了\n數十燕子也歸家去了",
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "夏日浪漫-5RtaZt",
+          "name": "夏日浪漫",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "hey-hey-baby-meonGc",
+  "name": "HEY HEY BABY",
+  "name_en": "HEY HEY BABY",
+  "href": "/track/hey-hey-baby-meonGc",
+  "disc_number": 1,
+  "track_number": 8,
+  "duration_s": 139,
+  "has_lyrics": true,
+  "lyrics": "有次同你搭長途巴士去瑞典\n巴士查飛嘅人問我另一半喺邊？\n當時我指住你\n你排緊喺我後面\n然後查飛嘅人話唔係\n係張飛嘅另一半喺邊\n\n手機裡螢幕放著是你照片\n當要看時間便看見你視線\n\n有晚開始傾極電話都唔收線\n然後每晚同你 video chat 到三點\n你話唔想瞓住\n驚瞓咗之後無得再見\n但我一眯埋眼只見到你的臉\n\n手機裡螢幕放著是你照片\n當要看時間便看見你視線\n手機裡螢幕放著是你照片\n當要看時間我便會碰電",
+  "album": {
+    "slug": "你說之後會找我-iTEUSg",
+    "name": "你說之後會找我",
+    "name_en": "You Said We'd Be Back"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "陳輝陽-ktztHY",
+          "name": "陳輝陽",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

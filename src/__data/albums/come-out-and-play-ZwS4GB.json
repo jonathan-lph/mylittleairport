@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "come-out-and-play-ZwS4GB",
+  "name": "Come Out and Play",
+  "name_en": "Come Out and Play",
+  "href": "/album/come-out-and-play-ZwS4GB",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "hong_kong",
+  "label": "89628 / the PANIC",
+  "label_en": "89628 / the PANIC",
+  "release_date": "2004",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "tim-do-you-really-want-to-make-a-film-NB7auk",
+      "name": "Tim, Do You Really Want to Make A Film?",
+      "name_en": "Tim, Do You Really Want to Make A Film?"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/come-out-and-play.webp",
+      "type": "webp",
+      "height": 350,
+      "width": 350
+    },
+    {
+      "url": "/album-artwork/come-out-and-play.jpg",
+      "type": "jpg",
+      "height": 350,
+      "width": 350
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

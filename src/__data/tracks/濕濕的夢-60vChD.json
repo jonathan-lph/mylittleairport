@@ -1,0 +1,114 @@
+{
+  "type": "track",
+  "slug": "濕濕的夢-60vChD",
+  "name": "濕濕的夢",
+  "name_en": "Wet Dream",
+  "href": "/track/濕濕的夢-60vChD",
+  "disc_number": 1,
+  "track_number": 2,
+  "duration_s": 182,
+  "has_lyrics": true,
+  "lyrics": "這晚　要與你做個濕濕的夢（濕濕的夢）\n與你　去創造這深深的痛（深深的痛）\n這次　要跌入你黑黑的洞（黑黑的洞）\n你教我　要學會盡量放鬆（盡量放鬆）\n\n噢　來跟我做趟運動\n還請你帶我配合你節奏之中\n誰使我再次自覺是有用\n全因你流出了澎湃洶湧\n噢……\n\n每次　遇上你也會一起衝動（一起衝動）\n每晚　也要與你輕輕相碰（輕輕相碰）\n再次　再次共創濕濕的夢（濕濕的夢）\n可否　帶著我盡量去衝（盡量去衝）\n\n噢　來跟我做趟運動\n還請你帶我配合你節奏之中\n誰使我再次自覺是有用\n全因你流出了澎湃洶湧\n噢……",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "觀鳥家果仔-6ObXET",
+          "name": "觀鳥家果仔",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "lwtv-TNhStB",
+          "name": "LWTV",
+          "name_en": null
+        },
+        {
+          "slug": "jackie-uZzjPG",
+          "name": "Jackie",
+          "name_en": null
+        },
+        {
+          "slug": "sot-kanin-GVBdkc",
+          "name": "Sot Kanin",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        },
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "jackie-uZzjPG",
+          "name": "Jackie",
+          "name_en": null
+        },
+        {
+          "slug": "sot-kanin-GVBdkc",
+          "name": "Sot Kanin",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

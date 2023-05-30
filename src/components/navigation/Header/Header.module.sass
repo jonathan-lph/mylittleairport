@@ -1,0 +1,96 @@
+@import 'src/assets/styles/theme'
+@import 'src/assets/styles/animations'
+
+.root
+  padding: spacing(0, $header-lr-padding)
+  background: palette(misc, background)
+  z-index: 100
+  position: sticky
+  top: 0
+  
+  &.searchMode
+    display: grid
+    align-items: center
+    grid-template-columns: 1fr max-content
+    column-gap: spacing(4)
+
+.nav
+  display: flex
+  justify-content: space-between
+  align-items: center
+  gap: spacing(1)
+  min-height: $header-height
+  position: relative
+  z-index: 100
+
+.menu
+  display: none
+
+.logo
+  font-size: 2.5rem
+
+.links
+  padding: spacing(0, 8)
+  flex: 1
+  display: flex
+  align-items: center
+  gap: spacing(4)
+
+.actions
+  display: flex
+  gap: spacing(4)
+
+  .action
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: spacing(1)
+
+  .icon
+    font-size: 1.75rem
+
+@include bp-down('md')
+  .actions
+    display: grid
+    grid-auto-flow: column
+    grid-auto-columns: 1fr
+    
+    .action
+      flex-direction: column
+      font-size: .75rem
+
+    .icon
+      font-size: 1.5rem
+
+@include bp-up('sm')
+  .action.active
+    display: none
+
+@include bp-down('sm')
+  .root
+    padding: spacing(0, $header-lr-padding-sm)
+    padding-top: env(safe-area-inset-top)
+
+    &.searchMode
+      grid-template-columns: unset
+
+  .nav
+    min-height: $header-height-sm
+
+  .menu
+    display: block
+    font-size: 2rem
+    margin-right: spacing(2)
+    cursor: pointer
+
+  .links
+    display: none
+
+  .logoWrapper
+    flex: 1
+
+    .logo
+      font-size: 2rem
+
+  .actions .action
+    font-size: .6rem

@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "荔枝角公園-rsn9VM",
+  "name": "荔枝角公園",
+  "name_en": "Lai Chi Kok Park",
+  "href": "/track/荔枝角公園-rsn9VM",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 69,
+  "has_lyrics": true,
+  "lyrics": "Chaque fois, quand je te vois, je pleure\nToutes les petites choses me font pleurer\nEt après toutes les larmes\nJ'ai déjà oubile pourquoi je t'aime\nLe temp est arrive\nIl faut que je te dise: « Je m'en vais. »",
+  "album": {
+    "slug": "我們在炎熱與抑鬱的夏天-無法停止抽煙-qqPhcd",
+    "name": "我們在炎熱與抑鬱的夏天，無法停止抽煙",
+    "name_en": "We Can't Stop Smoking in the Vicious and Blue Summer"
+  },
+  "artists": [
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "poet",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "vincent-tigreat-4mQFus",
+          "name": "Vincent Tigreat",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

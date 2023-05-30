@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "fc5-118-hitoradiocom-開站紀念盤-bQZTN9",
+  "name": "FC5-118 Hitoradio.com 開站紀念盤",
+  "name_en": "FC5-118 Hitoradio.com Launch Commemorative Disc",
+  "href": "/album/fc5-118-hitoradiocom-開站紀念盤-bQZTN9",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "taiwan",
+  "label": "台北之音",
+  "label_en": "Hitoradio",
+  "release_date": "2005",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "i-dont-know-how-to-download-good-av-like-iriss-WC9Z6r",
+      "name": "I Don't Know How To Download Good AV Like Iris's",
+      "name_en": "I Don't Know How To Download Good AV Like Iris's"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/fc5-118-hitoradiocom-開站紀念盤.webp",
+      "type": "webp",
+      "height": 400,
+      "width": 400
+    },
+    {
+      "url": "/album-artwork/fc5-118-hitoradiocom-開站紀念盤.jpg",
+      "type": "jpg",
+      "height": 400,
+      "width": 400
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

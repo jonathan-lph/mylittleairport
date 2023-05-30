@@ -1,0 +1,106 @@
+@import 'src/assets/styles/theme'
+
+$index-offset-top: spacing(.75)
+
+.root
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(325px, 1fr) )
+  column-gap: spacing(8)
+
+.track
+  display: grid
+  position: relative
+  padding: spacing(4, 2)
+  grid-template-columns: max-content 1fr max-content
+  grid-template-areas: 'index meta img' 'index lyrics img'
+  column-gap: spacing(4)
+
+  &:hover
+    cursor: pointer
+
+    .index .number
+      opacity: 0
+
+    .index .arrow
+      opacity: 1
+      transform: translateX(- $index-offset-top)
+
+  .index
+    grid-area: index
+    @include bold
+    font-size: .8rem
+    padding-top: $index-offset-top
+    position: relative
+    
+    .number
+      opacity: 1
+      transition: opacity .2s ease-in-out
+
+    .arrow
+      position: absolute
+      top: $index-offset-top
+      left: 0
+      transform: translateX(-100%)
+      opacity: 0
+      transition: all .25s ease-in-out
+
+  .meta
+    grid-area: meta
+
+    .name
+      grid-area: name
+      @include bold
+
+    .album
+      grid-area: album
+      font-size: .8rem
+      color: palette(text, secondary)
+
+  .img
+    grid-area: img
+    width: spacing(20)
+
+  .lyrics
+    grid-area: lyrics
+    padding-top: spacing(2)
+    color: palette(text, secondary)
+    font-size: .8rem
+    @include overflow-textbox(3)
+    word-wrap: break-word
+
+  *.hidden
+    display: none
+
+.root.compact
+  display: block
+
+  .track
+    display: flex
+    padding: spacing(.5, 0)
+    
+  .meta 
+    flex: 1
+
+    .name, .album
+      display: inline
+
+    .album
+      padding-left: spacing(1)
+
+  .img, .lyrics
+    display: none
+
+@include bp-down('sm')
+  .root
+    padding: spacing(0, 4)
+
+  .track
+    grid-template-columns: max-content 1fr max-content
+    padding: spacing(2, 2)
+
+    .img
+      align-self: flex-end
+      width: spacing(14)
+
+    .lyrics
+      @include overflow-textbox(2)

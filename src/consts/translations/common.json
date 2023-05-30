@@ -1,0 +1,52 @@
+{
+  "zh_hk": {
+    "header": {
+      "shuffle": "隨機曲目",
+      "search" : "搜尋",
+      "no_result": "查無結果。",
+      "albums": "專輯",
+      "tracks": "曲目",
+      "artists": "歌手",
+      "contribute": "發展",
+      "coming_soon": "即將推出"
+    },
+    "footer": {
+      "copyright_name": "my little airport",
+      "copyright_year": " © 2023",
+      "design": "Dev: "
+    },
+    "navigation": {
+      "albums": "專輯",
+      "tracks": "歌曲"
+    },
+    "page_not_found": {
+      "title": "404 | my little airport",
+      "message": "頁面不存在。"
+    }
+  },
+  "en_us": {
+    "header": {
+      "shuffle": "Random",
+      "search": "Search",
+      "no_result": "No result.",
+      "albums": "Albums",
+      "tracks": "Tracks",
+      "artists": "Artists",
+      "contribute": "Contribute",
+      "coming_soon": "Coming Soon"
+    },
+    "footer": {
+      "copyright_name": "my little airport",
+      "copyright_year": " © 2023",
+      "design": "Dev: "
+    },
+    "navigation": {
+      "albums": "albums",
+      "tracks": "tracks"
+    },
+    "page_not_found": {
+      "title": "404 | my little airport",
+      "message": "Page not found."
+    }
+  }
+}

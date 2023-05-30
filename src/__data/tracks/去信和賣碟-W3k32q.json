@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "去信和賣碟-W3k32q",
+  "name": "去信和賣碟",
+  "name_en": "Selling CDs in Sino Centre",
+  "href": "/track/去信和賣碟-W3k32q",
+  "disc_number": 1,
+  "track_number": 13,
+  "duration_s": 129,
+  "has_lyrics": true,
+  "lyrics": "到你再過多兩年\n差不多三十歲的某天\n你會去最後一次二手唱片店\n\n賣去過往十數年\n買落的幾百張唱片\n這個時候你要賣得有技巧一點\n\n技巧是要知道有兩種唱片店\n一種是每張碟報不同價錢\n一種是一個價錢報一堆唱片\n\n你要以第一種店為先\n它不會收下所有唱片\n餘下的就再賣去第二種店\n\n這次序當中的重點\n不只可整體賣高一倍價錢\n還可讓你盡量忘掉眼前\n\n事關一下子失去所有唱片\n會有把夢燒光的感覺出現\n忙著分析價錢有助讓這感覺不見",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

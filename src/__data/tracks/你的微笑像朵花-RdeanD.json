@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "你的微笑像朵花-RdeanD",
+  "name": "你的微笑像朵花",
+  "name_en": "You Smile Like A Blossom",
+  "href": "/track/你的微笑像朵花-RdeanD",
+  "disc_number": 1,
+  "track_number": 8,
+  "duration_s": 158,
+  "has_lyrics": true,
+  "lyrics": "已經過了兩星期\n沒有與你食雪梨\n我與你確係離奇\n年紀相差五十里\n\n那天你要去外地\n剩下我獨自皺眉\n你的個性最迷離\n讓我不可以忘記\n\n願明日能再見\n你迷人的嘴臉\n我現時就快要\n找你對住我笑\n\n你知嗎　你最迷人\n是你回望那帶笑眼神\n那刻已被你迷魂\n為了你甘願受困\n\n可惜我另有愛人\n實在讓我最頭暈\n怎可以共你蜜運\n望你可給我熱吻\n\n願明日能再見\n你迷人的嘴臉\n我現時就要叫\n想起你就要跳",
+  "album": {
+    "slug": "只因當時太緊張-Cv0nOx",
+    "name": "只因當時太緊張",
+    "name_en": "Becoz I Was Too Nervous at That Time"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

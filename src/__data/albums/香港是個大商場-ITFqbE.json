@@ -1,0 +1,109 @@
+{
+  "type": "album",
+  "slug": "香港是個大商場-ITFqbE",
+  "name": "香港是個大商場",
+  "name_en": "Hong Kong Is One Big Shopping Mall",
+  "href": "/album/香港是個大商場-ITFqbE",
+  "total_tracks": 15,
+  "album_type": "album",
+  "album_edition": "retail",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2011",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "九龍公園游泳池-aXDtKR",
+      "name": "九龍公園游泳池",
+      "name_en": "Kowloon Park Swimming Pool"
+    },
+    {
+      "slug": "迷人的頸巾-bgLp1T",
+      "name": "迷人的頸巾",
+      "name_en": "Fascinating Scarf"
+    },
+    {
+      "slug": "通利的阿賢-5oyeE0",
+      "name": "通利的阿賢",
+      "name_en": "Tom Lee's Ah Yin"
+    },
+    {
+      "slug": "我是為了兩千蚊才到這裡表演-KG1gB2",
+      "name": "我是為了兩千蚊才到這裡表演",
+      "name_en": "I Came Here to Preform Just for the $2000"
+    },
+    {
+      "slug": "豬隻在城中逐一消失-0IqdGm",
+      "name": "豬隻在城中逐一消失",
+      "name_en": "Pigs Are Vanishing One By One"
+    },
+    {
+      "slug": "terence-的心事-MBUIgb",
+      "name": "terence 的心事",
+      "name_en": "Terence's Worries"
+    },
+    {
+      "slug": "你是浪子-別泊岸-DCMkYv",
+      "name": "你是浪子，別泊岸",
+      "name_en": "You're a Drifter, Don't Dock"
+    },
+    {
+      "slug": "if-you-bring-me-to-the-party-Mmyn5Y",
+      "name": "if you bring me to the party",
+      "name_en": "If You Bring Me to the Party"
+    },
+    {
+      "slug": "milan-kIOSB4",
+      "name": "milan",
+      "name_en": "Milan"
+    },
+    {
+      "slug": "rm1210-vTXx6h",
+      "name": "rm1210",
+      "name_en": "Rm1210"
+    },
+    {
+      "slug": "公司裁員三百人-JJ2SjJ",
+      "name": "公司裁員三百人",
+      "name_en": "Laid Off 300"
+    },
+    {
+      "slug": "搭的士上班去-3cWNEz",
+      "name": "搭的士上班去",
+      "name_en": "I Go to Work by Taxi"
+    },
+    {
+      "slug": "西西弗斯之歌-vrBwcn",
+      "name": "西西弗斯之歌",
+      "name_en": "The Hymn of Sisyphus"
+    },
+    {
+      "slug": "給金鐘地鐵站車廂內的人-674aaY",
+      "name": "給金鐘地鐵站車廂內的人",
+      "name_en": "To Those On Board at Admiralty Station"
+    },
+    {
+      "slug": "直到人類滅亡-VBbF0Z",
+      "name": "直到人類滅亡",
+      "name_en": "Until We Go Extinct"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/香港是個大商場.webp",
+      "type": "webp",
+      "height": 1342,
+      "width": 1342
+    },
+    {
+      "url": "/album-artwork/香港是個大商場.jpg",
+      "type": "jpg",
+      "height": 1342,
+      "width": 1342
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

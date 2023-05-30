@@ -1,0 +1,72 @@
+{
+  "zh_hk": {
+    "credits": {
+      "composer": "作曲",
+      "lyricist": "填詞",
+      "arranger": "編曲",
+      "lead_vocal": "主唱",
+      "poet": "詩",
+      "reciter": "唸",
+      "backup_vocal": "伴唱",
+      "bass": "低音吉他",
+      "other": "其他"
+    },
+    "meta": {
+      "title": "my little airport〈::name::〉歌詞 -《::album.name::》",
+      "og_title": "my little airport〈::name::〉",
+      "og_description": "〈::name::〉收錄於《::album.name::》(::album.release_date::) 碟 ::disc_number:: 第 ::track_number:: 首。"
+    },
+    "title": {
+      "appears_on": "收錄於"
+    },
+    "no_lyrics": "（無歌詞）",
+    "to_album": "專輯詳情",
+    "export": {
+      "button": "分享歌詞",
+      "pre": {
+        "title": "選擇歌詞",
+        "action": "繼續"
+      },
+      "post": {
+        "title": "下載圖片",
+        "action": "返回",
+        "tooltip": "電腦：右鍵選取並下載圖片。\niOS/Android：長按圖片以下載。"
+      }
+    }
+  },
+  "en_us": {
+    "credits": {
+      "composer": "Composer",
+      "lyricist": "Lyricist",
+      "arranger": "Arranged By",
+      "lead_vocal": "Lead Vocal",
+      "poet": "Poem By",
+      "reciter": "Recite By",
+      "backup_vocal": "Backup Vocal",
+      "bass": "Bass",
+      "other": "其他"
+    },
+    "meta": {
+      "title": "my little airport - ::name:: Lyrics - ::album.name::",
+      "og_title": "my little airport - ::name::",
+      "og_description": "::name:: (::album.release_date::) in album ::album.name::, disc ::disc_number:: track ::track_number::."
+    },
+    "title": {
+      "appears_on": "Appears On"
+    },
+    "no_lyrics": "(No lyrics)",
+    "to_album": "Album Details",
+    "export": {
+      "button": "Share Lyrics",
+      "pre": {
+        "title": "Pick Lyrics",
+        "action": "Next"
+      },
+      "post": {
+        "title": "Download Image",
+        "action": "Back",
+        "tooltip": "Computer: Right click on the image to save image.\niOS/Android: Long-press on the image to save or share image."
+      }
+    }
+  }
+}

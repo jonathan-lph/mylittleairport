@@ -1,0 +1,84 @@
+{
+  "type": "track",
+  "slug": "獨身的理由-j89QTD",
+  "name": "獨身的理由",
+  "name_en": "Reasons to Be Single",
+  "href": "/track/獨身的理由-j89QTD",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 148,
+  "has_lyrics": true,
+  "lyrics": "告訴我你婚後的事兒\n我與你已很久沒見面\n網上看見一篇文章說\n情侶分手後若相處依然\n代表　已是沒有愛意\n或者　愛意從沒有改變\n但我卻更覺得適用於\n形容情侶分手以後從沒有再見\n\n我會在 IG 看你一生的轉變\n在 IG 等你 BB 的出現\n星期天見你遛狗到山邊\n晚上與你姊妹的合照片\n偶爾也會見到他露面\n與你遊歷的異國景點\n時光飛逝　如幻似煙\n何時先可以停止懷緬？\n\nMuss es sein?\nEs muss sein!\n\n你與我唯一的接觸點\n是我仍用你編號買書在誠品店\n像「非如此不可」的德國語言\n埋藏在貝多芬的四重奏經典裡面",
+  "album": {
+    "slug": "火炭麗琪-OEyWnf",
+    "name": "火炭麗琪",
+    "name_en": "Fo Tan Lai Ki"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

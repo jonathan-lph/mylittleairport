@@ -1,0 +1,69 @@
+{
+  "type": "track",
+  "slug": "悲傷的採購-digilick-remix-EVrtHe",
+  "name": "悲傷的採購 (Digilick Remix)",
+  "name_en": "Sad Purchase (Digilick Remix)",
+  "href": "/track/悲傷的採購-digilick-remix-EVrtHe",
+  "disc_number": 1,
+  "track_number": 6,
+  "duration_s": 272,
+  "has_lyrics": true,
+  "lyrics": "訂了一季　又到下季\n為何人大了就要成為工作的奴隸\n最愛作的不可發揮\n我的感覺　逐漸流逝\n從前曾話過要如何欣賞世界的美麗\n現在只懂得放假去消費\n\n如果繼續這樣\n我還是我嗎？\n我還喜歡我嗎？\n或者我應該死去吧\n總好過變得更差\n如果繼續這樣\n你還願意嗎？\n和我奏著結他？\n日子不應該這樣吧\n而現實就是這樣可怕\n\n如果繼續這樣\n我還是我嗎？\n我還喜歡我嗎？\n或者我應該死去吧\n總好過變得更差\n如果繼續這樣\n你還願意嗎？\n和我奏著結他？\n日子不應該這樣吧\n而現實就是這樣\n\n可怕",
+  "album": {
+    "slug": "we-wish-you-an-indie-xmas-iMGM7G",
+    "name": "We Wish You An Indie X'mas",
+    "name_en": "We Wish You An Indie X'mas"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "digilick-HKxPqp",
+          "name": "Digilick",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

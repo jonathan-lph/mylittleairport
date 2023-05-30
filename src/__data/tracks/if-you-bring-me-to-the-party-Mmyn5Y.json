@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "if-you-bring-me-to-the-party-Mmyn5Y",
+  "name": "if you bring me to the party",
+  "name_en": "If You Bring Me to the Party",
+  "href": "/track/if-you-bring-me-to-the-party-Mmyn5Y",
+  "disc_number": 1,
+  "track_number": 8,
+  "duration_s": 93,
+  "has_lyrics": true,
+  "lyrics": "If you bring me once more to the party,\nI promise that I'll behave like a lady.\nI understand I'm no longer twenty,\nbut I'm still looking for the sweetie.\ndo do do...",
+  "album": {
+    "slug": "香港是個大商場-ITFqbE",
+    "name": "香港是個大商場",
+    "name_en": "Hong Kong Is One Big Shopping Mall"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "michhy-the-evening-primrose-Fo2Nfe",
+          "name": "Michhy @ The Evening Primrose",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

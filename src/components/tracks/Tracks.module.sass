@@ -1,0 +1,36 @@
+@import 'src/assets/styles/theme'
+
+.root
+  max-width: map-get($breakpoints, 'xl')
+  margin: 0 auto
+  padding: spacing(12, 12)
+  display: grid
+
+.title
+  @include bold
+  font-size: 4rem
+  margin-bottom: spacing(12)
+
+.filters
+  display: flex
+  gap: spacing(2)
+  margin: spacing(8, 0)
+
+  .toggleButton
+    display: flex
+    align-items: center
+    border: .5px solid palette(misc, divider)
+    padding: spacing(1, 2)
+
+@include bp-down('sm')
+  .root
+    display: block
+    padding: spacing(8, 0)
+
+  .title
+    padding: spacing(0, 4)
+    font-size: 3rem
+
+  .filters
+    padding: spacing(0, 4)
+    font-size: .8rem

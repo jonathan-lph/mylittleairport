@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "josephines-shop-SpmLzX",
+  "name": "josephine's shop",
+  "name_en": "Josephine's Shop",
+  "href": "/track/josephines-shop-SpmLzX",
+  "disc_number": 1,
+  "track_number": 7,
+  "duration_s": 166,
+  "has_lyrics": true,
+  "lyrics": "'Cause running business is not your gift\nWhy don't you close it\nWhy don't say \"Damn it\"?\nDepression in your shop of Mong Kok\nSilence on Monday, no change on Thursday\n\nBut Josephine\nYou may think your pals cannot lose you\nProbably they need you so much more than they love you\n\nSo why don't you abandon them?\nLet yourself be free\nThis world is bigger than\nWhat we always believe in\nSo why don't you try to fade out\nFrom your dream of dreams?\nTry to take the other risks\nYour life should not be like this\nEvery color we can be\n\nThe only thing I've bought in your shop\nWas a $10 candle with some nice smelling\nIt couldn't help you to pay the rent\nCouldn't resist hazards nor prevent disease\n\nBut Josephine\nYou know your shop is cute and beautiful\nThe truth is\nYou know this beauty can't make you happy\n\nSo why don't you abandon them?\nLet yourself be free\nThis world is bigger than\nWhat we always believe in\nSo why don't you try to fade out\nFrom your dream of dreams?\nTry to take the other risks\nYour life should not be like this\nEvery color we can be",
+  "album": {
+    "slug": "在動物園散步才是正經事-7r9Ohv",
+    "name": "在動物園散步才是正經事",
+    "name_en": "The OK Thing to Do on Sunday Afternoon Is to Toddle in the Zoo"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

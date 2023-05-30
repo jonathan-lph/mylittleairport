@@ -1,0 +1,117 @@
+@import 'src/assets/styles/theme'
+@import 'src/assets/styles/animations'
+ 
+.backdrop
+  @include fullscreen-backdrop
+  display: flex
+  justify-content: center
+  align-items: center
+
+  &.mount
+    animation: fadeIn .25s ease
+    .dialog
+      animation: fadeIn .25s ease, slideInDown .25s ease
+
+  &.unmount
+    animation: fadeOut .25s ease
+    .dialog
+      animation: fadeOut .25s ease, slideOutDown .25s ease
+
+.dialog
+  all: unset
+  @include dialog-box
+  position: relative
+  width: clamp(300px, 500px, 90%)
+  height: clamp(300px, 80vh, 80vh)
+  display: flex
+  flex-direction: column
+  overflow: hidden
+
+  .selectLyrics, .figure
+    flex: 1
+    min-height: min-content
+    overflow-x: auto
+
+.close
+  display: flex
+  font-size: 1.25rem
+  position: absolute
+  top: spacing(4)
+  right: spacing(4)
+
+.header
+  border-bottom: 1px solid palette(misc, divider)
+  padding: spacing(4, 6)
+
+  .title
+    @include bold
+    font-size: 1.25rem
+
+.selectLyrics
+  padding: spacing(4, 6)
+
+  p
+    padding: spacing(2, 0)
+    opacity: 0.5
+    cursor: pointer
+
+    &.selected
+      opacity: 1
+      border-left: 2px solid palette(misc, background-dark)
+      padding: spacing(2, 4)
+
+.footer
+  display: flex
+
+  &.forward
+    justify-content: flex-end
+
+    .button
+      animation: fadeInDisabled .3s both ease, slideInLeft .3s both ease
+
+  &.backward
+    justify-content: flex-start
+
+    .button
+      animation: fadeIn .3s both ease, slideInRight .3s both ease
+
+  .button
+    padding: spacing(3, 4)
+    display: flex
+    align-items: center
+
+    &.enabled
+      opacity: 1 !important
+
+    .arrow
+      font-size: 1.25rem
+      /* Visual correction for alignment */
+      transform: translateY(1px)
+
+.figure
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  padding: spacing(4)
+
+  .exportImg
+    width: $export-image-width
+
+  .caption
+    font-size: .7rem
+    white-space: pre-wrap
+    text-align: center
+    color: palette(text, secondary)
+    margin: spacing(4)
+
+@include bp-down('sm')
+  .figure
+    .exportImg
+      width: 100%
+
+@keyframes fadeInDisabled
+  0%
+    opacity: 0
+  100%
+    opacity: .5

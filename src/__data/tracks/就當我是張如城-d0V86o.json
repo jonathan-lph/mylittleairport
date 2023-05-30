@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "就當我是張如城-d0V86o",
+  "name": "就當我是張如城",
+  "name_en": "Just Pretend I Am Jacky Cheung",
+  "href": "/track/就當我是張如城-d0V86o",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 109,
+  "has_lyrics": true,
+  "lyrics": "說我是張如城吧\n說我是張如城吧\n已經豁了出來\n都反正已經豁了出來\n年輕的你不要怕\n\n說我是夏金城吧\n說我是夏金城吧\n怎麼要批評他的差\n怎麼要批評\n夢想你都有過嗎？\n\n說我是 la la la la la\n說我是 la la la la la\nla la la la la la\nla la la\nla la la la la la\n什麼使你會害怕？",
+  "album": {
+    "slug": "只因當時太緊張-Cv0nOx",
+    "name": "只因當時太緊張",
+    "name_en": "Becoz I Was Too Nervous at That Time"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

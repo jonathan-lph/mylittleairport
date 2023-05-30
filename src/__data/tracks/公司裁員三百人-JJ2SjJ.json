@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "公司裁員三百人-JJ2SjJ",
+  "name": "公司裁員三百人",
+  "name_en": "Laid Off 300",
+  "href": "/track/公司裁員三百人-JJ2SjJ",
+  "disc_number": 1,
+  "track_number": 11,
+  "duration_s": 138,
+  "has_lyrics": true,
+  "lyrics": "裁員潮又再次出現\n據說這次要裁走三百件\n但員工的心態已經改變\n反而擔心自己不在名單裡面\n反而擔心裁員只不過是傳言\n員工都驚怕夢想不能兌現\n他們都想逃脫企業的魔掌\n他們都不想在這裡留得長\n要離開又順便取得一個月賠償\n入職三年都只係加到一萬蚊一個月糧\n\n公司傳聞　每到凌晨\n樓梯轉角　有樂隊四人\n疑似鬼魂　但歌曲感人\n副歌部份　大概係咁：\n「我要你裁走我　我要你裁走我\n但是你每次都裁錯　裁親的人其實都不錯\n我要你裁走我　我要你裁走我\n但是你每次都裁錯\n我才是公司最應該被裁走的那個」",
+  "album": {
+    "slug": "香港是個大商場-ITFqbE",
+    "name": "香港是個大商場",
+    "name_en": "Hong Kong Is One Big Shopping Mall"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

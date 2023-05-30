@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "你的微笑像朵花-guitar-version-x66ZCK",
+  "name": "你的微笑像朵花 (guitar version)",
+  "name_en": "You Smile Like A Blossom (Guitar Version)",
+  "href": "/track/你的微笑像朵花-guitar-version-x66ZCK",
+  "disc_number": 1,
+  "track_number": 3,
+  "duration_s": 163,
+  "has_lyrics": true,
+  "lyrics": "已經過了兩星期\n沒有與你食雪梨\n我與你確係離奇\n年紀相差五十里\n\n那天你要去外地\n剩下我獨自皺眉\n你的個性最迷離\n讓我不可以忘記\n\n願明日能再見\n你迷人的嘴臉\n我現時就快要\n找你對住我笑\n\n你知嗎　你最迷人\n是你回望帶笑眼神\n那刻已被你迷魂\n望你可給我熱吻\n\n可惜我並沒有運\n看著你我會頭暈\n怎可以做你情人\n為了你甘願受困\n\n願明日能再見\n你迷人的嘴臉\n我現時就快要\n找你對住我笑\n\n願明日就會見\n你迷人的嘴臉\n我現時就要叫\n想起你就要笑",
+  "album": {
+    "slug": "gi-gi-leung-is-dead-zDJayI",
+    "name": "Gi Gi Leung Is Dead",
+    "name_en": "Gi Gi Leung Is Dead"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

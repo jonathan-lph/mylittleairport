@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "see-you-there-UVr93e",
+  "name": "see you there",
+  "name_en": "See You There",
+  "href": "/track/see-you-there-UVr93e",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 152,
+  "has_lyrics": true,
+  "lyrics": "la-la-la la-la-la la-la-la la-la-la-la\nla-la-la la-la-la la-la-la la-la-la-la\nla-la-la la-la-la la-la-la la-di-la-la\nla-la-la-la-la\nla-la-la\n\nla la-la-la la-la-la la-la-la la-la-la-la\nla-la la-la-la la-la-la la-la-la la-la-la-la\nla-la-la la-la-la la-la-la la-la-la-la\nla-la-la-la-la\nSee you there\n\nla-la la la-la\nla-la-la-la la-la-la-la\nla-la-la-la la-la-la-la-la-lah-ah\n\n(la-la-la)\n(la-la-la)\n(la-la-la)\n(la la la la)\n\nla la-la-la la-la-la la-la-la la-la-la-la\n(la-la-la la-la-la la-la-la la-la-la)\nla-la la-la-la la-la-la la-la-la la-la-la-la\n(la-la-la-la)\nla-la la-la-la la-la-la la-la-la la-la-la-la\n(ah-ha ah-ha-ah)\nla-la-la-la-la\nSee you there\n\nla-la-la la-la-la la-la-la la-la-la-la\nla-la-la-la-la\nSee you there",
+  "album": {
+    "slug": "為你含情-oK5049",
+    "name": "為你含情",
+    "name_en": "Hum Ching for You"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林一峰-roGVf9",
+          "name": "林一峰",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

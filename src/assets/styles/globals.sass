@@ -1,0 +1,52 @@
+@import 'theme'
+
+html
+  min-height: calc(100% + env(safe-area-inset-top))
+  height: 100%
+  font-family: map-get($typography, contentFont), $default-fonts
+  font-size: 16px
+  font-weight: normal
+  scroll-behavior: smooth
+  -webkit-font-smoothing: antialiased
+
+// Resets
+
+body
+  background: palette(misc, background)
+  color: palette(text, primary)
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+button
+  all: unset
+  border: 0
+  outline: 0
+  cursor: pointer
+
+a
+  all: unset
+  color: inherit
+  cursor: pointer
+
+ul
+  list-style-type: none
+
+dialog
+  inset-inline: unset
+
+input
+  all: unset
+
+// Set up CSS Variables
+// Ref: https://codepen.io/jakealbaugh/post/css4-variables-and-sass
+
+:root
+  @each $name, $color in $light-colors
+    @if type-of($color) == "map" 
+      @each $subname, $subcolor in $color 
+        --#{$name}-#{$subname}: #{$subcolor}   
+    @else if type-of($color) == "color" 
+      --#{$name}: #{$color}

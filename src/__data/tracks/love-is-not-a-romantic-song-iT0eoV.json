@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "love-is-not-a-romantic-song-iT0eoV",
+  "name": "love is not a romantic song",
+  "name_en": "Love Is Not a Romantic Song",
+  "href": "/track/love-is-not-a-romantic-song-iT0eoV",
+  "disc_number": 1,
+  "track_number": 16,
+  "duration_s": 64,
+  "has_lyrics": true,
+  "lyrics": "Love is not just a song.\nLove is not just you and me.\nLove is not the kiss you're looking for so long.\nLove is not just words and melody.\nLove is not one night in a week.\nLove is not missing someone with tears.\nLove is not the passion you think you got a lot.\nLove is just the years.\nLove is just the thing you fear to give.",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

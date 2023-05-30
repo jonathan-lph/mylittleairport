@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "印度-bmKAc3",
+  "name": "印度",
+  "name_en": "India",
+  "href": "/track/印度-bmKAc3",
+  "disc_number": 1,
+  "track_number": 19,
+  "duration_s": 73,
+  "has_lyrics": true,
+  "lyrics": "我沒有名字\n沒有臉孔\n沒有手腳\n沒有焦點\n我是湧向海洋的流水\n我是陶瓷之前的泥土\n我是吹過你身邊的微風\n有時候　我是全世界\n有時候　我甚麼也不是",
+  "album": {
+    "slug": "everyone-remembers-the-orange-OvkCUS",
+    "name": "everyone remembers the orange",
+    "name_en": "everyone remembers the orange"
+  },
+  "artists": [
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "poet",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

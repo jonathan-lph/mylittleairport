@@ -1,0 +1,114 @@
+{
+  "type": "album",
+  "slug": "介乎法國與旺角的詩意-yna5Ci",
+  "name": "介乎法國與旺角的詩意",
+  "name_en": "Poetics - Something Between Montparnasse and Mongkok",
+  "href": "/album/介乎法國與旺角的詩意-yna5Ci",
+  "total_tracks": 16,
+  "album_type": "album",
+  "album_edition": "retail",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2009",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "介乎法國與旺角的詩意-Xm6LHs",
+      "name": "介乎法國與旺角的詩意",
+      "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+    },
+    {
+      "slug": "濕濕的夢-60vChD",
+      "name": "濕濕的夢",
+      "name_en": "Wet Dream"
+    },
+    {
+      "slug": "北歐是我們的死亡終站-3gpIkH",
+      "name": "北歐是我們的死亡終站",
+      "name_en": "Scandinavia Is Our Final Destination"
+    },
+    {
+      "slug": "窮人賣屎忽-f67bY7",
+      "name": "窮人賣屎忽",
+      "name_en": "Work Our Poor Asses Off"
+    },
+    {
+      "slug": "社會主義青年-ZBInFP",
+      "name": "社會主義青年",
+      "name_en": "Socialist Youths"
+    },
+    {
+      "slug": "荔枝角網球場宣言-FYyfcJ",
+      "name": "荔枝角網球場宣言",
+      "name_en": "Manifesto on the Lai Chi Kok Park Tennis Courts"
+    },
+    {
+      "slug": "瓜分林瑞麟三十萬薪金-NW4erX",
+      "name": "瓜分林瑞麟三十萬薪金",
+      "name_en": "Splitting Stephen Lam's $300,000 Payroll"
+    },
+    {
+      "slug": "藍白紅風格練習-94JXVO",
+      "name": "藍白紅風格練習",
+      "name_en": "Exercicse de Style"
+    },
+    {
+      "slug": "my-little-st-valentines-day-LMZs2F",
+      "name": "my little st. valentine's day",
+      "name_en": "My Little St. Valentine's Day"
+    },
+    {
+      "slug": "失業抗爭歌-0puZu0",
+      "name": "失業抗爭歌",
+      "name_en": "Anthem of the Unemployment Resistance"
+    },
+    {
+      "slug": "給-face-雜誌的記者-ivy-MvVDWu",
+      "name": "給 face 雜誌的記者 ivy",
+      "name_en": "To FACE Weekly's Ivy"
+    },
+    {
+      "slug": "when-the-party-is-over-i-miss-my-dear-porn-star-Ly5t7E",
+      "name": "when the party is over, i miss my dear porn star",
+      "name_en": "When the Party Is Over, I Miss My Dear Porn Star"
+    },
+    {
+      "slug": "浪漫九龍塘-DDak6r",
+      "name": "浪漫九龍塘",
+      "name_en": "Romantic Kowloon Tong"
+    },
+    {
+      "slug": "阿波馬草結婚了-F0LSxP",
+      "name": "阿波馬草結婚了",
+      "name_en": "Por and Macho Got Married"
+    },
+    {
+      "slug": "邊一個發明了返工-exuyM5",
+      "name": "邊一個發明了返工",
+      "name_en": "Who Invented Working"
+    },
+    {
+      "slug": "donald-tsang-please-die-uALd0I",
+      "name": "donald tsang, please die",
+      "name_en": "Donald Tsang, Please Die"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/介乎法國與旺角的詩意.webp",
+      "type": "webp",
+      "height": 1342,
+      "width": 1342
+    },
+    {
+      "url": "/album-artwork/介乎法國與旺角的詩意.jpg",
+      "type": "jpg",
+      "height": 1342,
+      "width": 1342
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

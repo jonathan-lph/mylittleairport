@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "你把我的-9s0upS",
+  "name": "你把我的",
+  "name_en": "You Take My",
+  "href": "/album/你把我的-9s0upS",
+  "total_tracks": 1,
+  "album_type": "single",
+  "album_edition": "published",
+  "label": "my little airport",
+  "label_en": null,
+  "release_date": "2022",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "你把我的-lBksBz",
+      "name": "你把我的",
+      "name_en": "You Take My"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/你把我的.webp",
+      "type": "webp",
+      "height": 720,
+      "width": 720
+    },
+    {
+      "url": "/album-artwork/你把我的.jpg",
+      "type": "jpg",
+      "height": 720,
+      "width": 720
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

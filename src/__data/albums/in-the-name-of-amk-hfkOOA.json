@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "in-the-name-of-amk-hfkOOA",
+  "name": "In the Name of AMK",
+  "name_en": "In the Name of AMK",
+  "href": "/album/in-the-name-of-amk-hfkOOA",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "hong_kong",
+  "label": "維港唱片",
+  "label_en": "Habour Records",
+  "release_date": "2004",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "山頂公仔波板糖-OA8TyO",
+      "name": "山頂．公仔．波板糖",
+      "name_en": "Mountaintop, Doll, Lollypop"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/in-the-name-of-amk.webp",
+      "type": "webp",
+      "height": 350,
+      "width": 350
+    },
+    {
+      "url": "/album-artwork/in-the-name-of-amk.jpg",
+      "type": "jpg",
+      "height": 350,
+      "width": 350
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

@@ -1,0 +1,54 @@
+{
+  "type": "track",
+  "slug": "悼二零一二年的夏-lSbIql",
+  "name": "悼二零一二年的夏",
+  "name_en": "Mourning the Summer of 2012",
+  "href": "/track/悼二零一二年的夏-lSbIql",
+  "disc_number": 1,
+  "track_number": 17,
+  "duration_s": 90,
+  "has_lyrics": true,
+  "lyrics": "這個夏天很冷\n陽光很猛\n卻失去暖人的溫度\n你的離開不合情理\n我常在默想\n那幾分鐘之前\n你在幹甚麼？\n那幾分鐘之前\n一切有預兆麼？\n你以砍頭的力量追尋自由\n我們腳踏實地為你延續理想\n今天\n約定彼岸的你\n在下一個炎夏\n看繁花盛放",
+  "album": {
+    "slug": "寂寞的星期五-94cU9Q",
+    "name": "寂寞的星期五",
+    "name_en": "Lonely Friday"
+  },
+  "artists": [
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "poet",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "reciter",
+      "members": [
+        {
+          "slug": "阿雪-9gs9Oc",
+          "name": "阿雪",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

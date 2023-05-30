@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "奇人的離職-HPo3EZ",
+  "name": "奇人的離職",
+  "name_en": "Weirdo's Resignation",
+  "href": "/track/奇人的離職-HPo3EZ",
+  "disc_number": 1,
+  "track_number": 3,
+  "duration_s": 120,
+  "has_lyrics": true,
+  "lyrics": "到最後你都係要走\n我沒有挽留\n到最後你都係要分手\n你沒有回頭\n我沒有強求\n你在我眼前\n我在你背後\n看你離開帶走你的小狗\n\n到最後我都沒有開口\n我只有垂頭\n到最後我都沒有跳樓\n我只有淚流\n對於愛情\n對於友情\n我都會任由\n任由它自己飄走",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

@@ -1,0 +1,94 @@
+{
+  "type": "track",
+  "slug": "你叫我譯一首德國歌詞-cZqUst",
+  "name": "你叫我譯一首德國歌詞",
+  "name_en": "You Asked Me to Translate a German Song",
+  "href": "/track/你叫我譯一首德國歌詞-cZqUst",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 188,
+  "has_lyrics": true,
+  "lyrics": "你叫我幫你譯一首德國歌詞\n並沒有說是為什麼事\n那首歌說向外面世界奔馳\n渴望那一天將至\n\n祈求風和雨\n吹我到理想的遠處\n故土沒法跟隨我意願\n但為什麼終於\n穿過海灣來到老遠\n卻很想返回我的屋邨\n\n你叫我幫你譯一首德國歌詞\n像在訴說著你心願\n拍拖　出國　交友　工作　生兒\n難道不是為逃避寂寞不斷？\n\n祈求風和雨\n吹我返故鄉的某處\n異國沒法消除我睏倦\n但為什麼終於\n返到故鄉鞋也未轉\n卻很想回去我的屋邨\n但為什麼終於\n穿過海灣來到老遠\n卻很想返回我的屋邨",
+  "album": {
+    "slug": "我都唔知道-xV0JmI",
+    "name": "我都唔知道",
+    "name_en": "我都唔知道"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "夏日浪漫-5RtaZt",
+          "name": "夏日浪漫",
+          "name_en": null
+        },
+        {
+          "slug": "銘銘-2iurFy",
+          "name": "銘銘",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

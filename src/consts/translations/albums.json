@@ -1,0 +1,48 @@
+{
+  "zh_hk": {
+    "page_title": "專輯",
+    "meta": {
+      "title": "所有專輯｜my little airport",
+      "og_title": "專輯｜my little airport",
+      "og_description": "my little airport 已推出之專輯、單曲、與合輯。"
+    },
+    "title": {
+      "album": "專輯",
+      "single": "單曲",
+      "compilation": "合輯",
+      "online": "線上",
+      "retail": "發行",
+      "limited": "限定",
+      "collaboration": "合作",
+      "published": "發行",
+      "public": "線上",
+      "unlisted": "非官方",
+      "hong_kong": "香港",
+      "taiwan": "台灣",
+      "international": "國際"
+    }
+  },
+  "en_us": {
+    "page_title": "Albums",
+    "meta": {
+      "title": "All Albums | my little airport",
+      "og_title": "Albums | my little airport",
+      "og_description": "All published albums, singles / EPs, and collaborations by my little airport."
+    },
+    "title": {
+      "album": "Album",
+      "single": "Single",
+      "compilation": "Compi--lation",
+      "online": "Online",
+      "retail": "Retail",
+      "limited": "Limited",
+      "collaboration": "Collab",
+      "published": "Published",
+      "public": "Public",
+      "unlisted": "Unlisted",
+      "hong_kong": "Hong Kong", 
+      "taiwan": "Taiwan",
+      "international": "International"
+    }
+  }
+}

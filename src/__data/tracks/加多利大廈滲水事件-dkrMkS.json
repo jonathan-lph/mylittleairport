@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "加多利大廈滲水事件-dkrMkS",
+  "name": "加多利大廈滲水事件",
+  "name_en": "Water Seepage Incident at Kadoorie Mansion",
+  "href": "/track/加多利大廈滲水事件-dkrMkS",
+  "disc_number": 1,
+  "track_number": 1,
+  "duration_s": 110,
+  "has_lyrics": true,
+  "lyrics": "我要告訴你知\n事關這新聞未算太多人知\n這是有關天花板滲水的事\n地點是發生在太子\n\n住喺加多利大廈的鄔女士\n零六年開始過滲水的日子\n零七年經過地台蓄水的測試\n確實滲水由上層單位所致\n\n樓上原來係屋宇署前署長蔡宇略嘅屋企地址\n佢一直話滲水唔關佢事\n職員上嚟幾次都唔俾人入屋做測試\n四年浸水　就係咁俾蔡宇略拖遲\n鄔女士慨嘆讀咁多書　點解會讀到失去良知\n\n六零年加入政府獲資助讀到博士\nD5 人工月入十五萬唔止\n退休前又曾被投訴濫權假公濟私\n用公帑評估清拆僭建物　但嗰個係自己嘅地址\n\n滲水可以滲足四年　係你本事\n政府淨係識依足指示辦事\n但依足指示辦四年都沒有成事\n這個社會就是要逼人起義\n\n這是滲水帶來的啟示\n再等落去嗰個先至係白痴\n請和你的朋友分享這件事\n不要介意旋律同其他歌似",
+  "album": {
+    "slug": "加多利大廈滲水事件-yD6tGr",
+    "name": "加多利大廈滲水事件",
+    "name_en": "Water Seepage Incident at Kadoorie Mansion"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

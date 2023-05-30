@@ -1,0 +1,89 @@
+{
+  "type": "track",
+  "slug": "德州之戀-gVdcgf",
+  "name": "德州之戀",
+  "name_en": "Texas Romance",
+  "href": "/track/德州之戀-gVdcgf",
+  "disc_number": 1,
+  "track_number": 5,
+  "duration_s": 163,
+  "has_lyrics": true,
+  "lyrics": "一想到你這樣遙遠\n說回來至少要等一年\n三百六十五天\n你在黑夜時我在白天\n\n不過你未說這是遙遠\n或我未能填補你每天？\n但我知人類情感\n是無從計算\n\n但我還是會等\n厭倦無目的覓尋\n回憶不應當是紀念品\n\n共你愈談愈深\n怎不會被逐漸吸引？\n你還不知你內心是乾淨得很\n\n（ 男：）可唔可以問吓你啲嘢？\n（ 女：）你講吖\n（ 男：）你諗住幾時結婚？\n（ 女：）我冇諗過要結婚喎 你有嘅咩？\n（ 男：）我都冇人同我結\n（ 女：）咁即係如果我同你結 你就即刻結？\n（ 男：）係呀 不過最好等一年\n（ 女：）哈哈 你唔想網上結婚\n（ 男：）係 見咗面先\n（ 女：）咁我都想等四十歲先\n（ 男：）但係如果計劃定咁遠 好似冇咗意思喎\n（ 女：）咁 一係2028年2月22號啦\n（ 男：）咁我依家mark低 開始儲錢\n\n但我仍是會等\n接近無限的覓尋\n回憶不應當是戰利品\n\n共你愈談愈深\n世間仿似定在某時份\n我們不知不覺間在討論婚姻",
+  "album": {
+    "slug": "跟你開玩笑-sz3zR4",
+    "name": "跟你開玩笑",
+    "name_en": "Just Kidding"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        },
+        {
+          "slug": "阿賢-JcU62z",
+          "name": "阿賢",
+          "name_en": null
+        },
+        {
+          "slug": "阿科-EJl2L7",
+          "name": "阿科",
+          "name_en": null
+        },
+        {
+          "slug": "蕭暢悅-uT8J7W",
+          "name": "蕭暢悅",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

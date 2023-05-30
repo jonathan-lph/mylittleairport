@@ -1,0 +1,64 @@
+{
+  "type": "track",
+  "slug": "donald-tsang-please-die-uALd0I",
+  "name": "donald tsang, please die",
+  "name_en": "Donald Tsang, Please Die",
+  "href": "/track/donald-tsang-please-die-uALd0I",
+  "disc_number": 1,
+  "track_number": 16,
+  "duration_s": 113,
+  "has_lyrics": true,
+  "lyrics": "Donald Tsang, please die.\n我哋實上街\nDonald Tsang, please die.\nWhen will you be fired?\n假設 Donald 今日你俾人斬咗隻手\n二十年後嗰個人發咗達又做埋特首\n你會否因為佢嘅成就\n然後叫自己不要追究？\n\nDonald Tsang, please die.\n我哋實上街\nDonald Tsang, please die.\nWe're all poor guys.\n董建華雖然做野係渣\n但係良心都唔會好似你咁差\n你任內最驕人嘅成就\n就係強化市民對民主嘅要求\n\nDonald Tsang, please die.\nWhen will you die?\nDonald Tsang, please die.\nWhen will you be fired?",
+  "album": {
+    "slug": "介乎法國與旺角的詩意-yna5Ci",
+    "name": "介乎法國與旺角的詩意",
+    "name_en": "Poetics - Something Between Montparnasse and Mongkok"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": false,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}

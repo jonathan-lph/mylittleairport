@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "is-3-mBHlRI",
+  "name": "IS #3",
+  "name_en": "IS #3",
+  "href": "/album/is-3-mBHlRI",
+  "total_tracks": 1,
+  "album_type": "compilation",
+  "album_edition": "taiwan",
+  "label": "荒島網路科技",
+  "label_en": "Isle Networks",
+  "release_date": "2005",
+  "release_date_precision": "year",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "victor-fly-me-to-stafford-remix-KSozGh",
+      "name": "victor, fly me to stafford (remix)",
+      "name_en": "victor, fly me to stafford (remix)"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/is-3.webp",
+      "type": "webp",
+      "height": 382,
+      "width": 353
+    },
+    {
+      "url": "/album-artwork/is-3.jpg",
+      "type": "jpg",
+      "height": 382,
+      "width": 353
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}

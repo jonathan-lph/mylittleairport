@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "slug": "sabina-之淚-ka03NG",
+  "name": "SABINA 之淚",
+  "name_en": "SABINA 之淚",
+  "href": "/track/sabina-之淚-ka03NG",
+  "disc_number": 1,
+  "track_number": 10,
+  "duration_s": 157,
+  "has_lyrics": true,
+  "lyrics": "應該早知道（應該早知道）\n根本就不是（根本就不是）\n應該早知道（應該早知道）\n根本不會是（根本不會是）\n對方沒任何表示\n純粹是沒有意思\n難道你認為是他不敢示意\n\n應該早知道（應該早知道）\n根本就不是（根本就不是）\n應該早知道（應該早知道）\n根本不會是（根本不會是）\n對方沒任何表示\n沉默像深海帶子\n情慾會令人突然喪失睿智\n\n心已經被佢偷走幾次\n誤解晒每個 post 每個 story\n過盡千帆皆不是\n根本冇個 post 係關你事\n\n但要逃脫亦不易\n繼續前行亦沒意思\n魂斷維也納他都不會在意\n\n應該早知道（應該早知道）\n應該早知道（應該早知道）",
+  "album": {
+    "slug": "催淚的滋味-jnZNWh",
+    "name": "催淚的滋味",
+    "name_en": "催淚的滋味"
+  },
+  "artists": [
+    {
+      "role": "composer",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lyricist",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "arranger",
+      "members": [
+        {
+          "slug": "林阿p-HhXrV8",
+          "name": "林阿Ｐ",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "lead_vocal",
+      "members": [
+        {
+          "slug": "nicole-TLqe6t",
+          "name": "Nicole",
+          "name_en": null
+        }
+      ]
+    },
+    {
+      "role": "backup_vocal",
+      "members": [
+        {
+          "slug": "karena-32wm5r",
+          "name": "Karena",
+          "name_en": null
+        }
+      ]
+    }
+  ],
+  "genres": [],
+  "is_live": true,
+  "is_playable": false,
+  "preview_url": null,
+  "external_urls": {}
+}
