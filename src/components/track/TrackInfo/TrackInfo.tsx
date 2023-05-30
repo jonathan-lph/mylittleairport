@@ -20,7 +20,11 @@ export const TrackInfo = ({
   return (
     <div className={styles.root}>
       <figure className={styles.imgBorder}>
-        <img src={track.album.images[0].url} className={styles.img} />
+        <img
+          src={track.album.images[0].url}
+          alt={track.album.name}
+          className={styles.img}
+        />
         <figcaption>
           <div className={styles.albumName}>{track.album.name}</div>
           <div className={styles.trackNo}>{track.track_number}</div>

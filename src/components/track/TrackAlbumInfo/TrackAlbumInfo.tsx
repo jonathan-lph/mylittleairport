@@ -85,7 +85,11 @@ const AppearsOnAlbumList = ({
           >
             <figure className={styles.otherAlbum}>
               <div className={styles.imgBorder}>
-                <img src={_track.album.images[0].url} className={styles.img} />
+                <img
+                  src={_track.album.images[0].url}
+                  alt={_track.album.name}
+                  className={styles.img}
+                />
               </div>
               <figcaption
                 className={clsx({

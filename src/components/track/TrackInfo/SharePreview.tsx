@@ -25,7 +25,11 @@ export const SharePreview = ({
               line !== '' ? <p key={index}>{line}</p> : <br key={index} />
             )}
         </div>
-        <img src={track.album.images[0].url} className={styles.img} />
+        <img
+          src={track.album.images[0].url}
+          alt={track.album.name}
+          className={styles.img}
+        />
         <div className={styles.info}>
           <div className={styles.album}>{track.album.name}</div>
           <div className={styles.mla}>my little airport</div>

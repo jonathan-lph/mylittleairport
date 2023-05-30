@@ -31,7 +31,11 @@ export const AlbumSection = ({ album, locale }: AlbumDivProps): JSX.Element => {
       <a>
         <article className={styles.root} ref={ref}>
           <div className={styles.imgBorder}>
-            <img src={album.images[0].url} className={styles.img} />
+            <img
+              src={album.images[0].url}
+              alt={album.name}
+              className={styles.img}
+            />
           </div>
           <div className={styles.name}>{album.name}</div>
           <div className={styles.year}>{album.release_date}</div>

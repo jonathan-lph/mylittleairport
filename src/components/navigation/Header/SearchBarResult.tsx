@@ -68,7 +68,11 @@ export const SearchBarResult = ({
                 }}
               >
                 <li className={styles.entry} onClick={toggleOpen}>
-                  <img src={_track.album.images[0]?.url} className={styles.img} />
+                  <img 
+                    src={_track.album.images[0]?.url}
+                    alt={_track.album.name}
+                    className={styles.img}
+                  />
                   <div className={styles.name}>
                     {highlightTerms(_track.name, input)}
                   </div>

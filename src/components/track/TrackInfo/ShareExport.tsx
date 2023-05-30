@@ -62,7 +62,11 @@ const PreviewPanel = ({
         <h4 className={styles.title}>{translation.title}</h4>
       </header>
       <figure className={styles.figure}>
-        <img src={imgUrl} className={styles.exportImg} />
+        <img
+          src={imgUrl}
+          alt="Export image."
+          className={styles.exportImg}
+        />
         <figcaption className={styles.caption}>
           {translation.tooltip}
         </figcaption>

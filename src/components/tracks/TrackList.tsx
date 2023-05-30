@@ -41,6 +41,7 @@ export const TrackList = ({
               </div>
               <img
                 src={track.album.images[0]?.url}
+                alt={track.album.name}
                 className={clsx({
                   [styles.img]: true,
                   [styles.hidden]: !filters.thumbnail,
