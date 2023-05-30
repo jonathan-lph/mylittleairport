@@ -1,3 +1,4 @@
+import { ObjectId } from "mongodb"
 import { ArtistObject, SimplifiedArtistObject } from "./Artist"
 import { TrackObject, SimplifiedTrackObject } from "./Track"
 import {
@@ -28,6 +29,14 @@ export interface AlbumObject {
   images: ImageObject[]
   genres: string[]
   external_urls: Record<ExternalUrlOrigin, string>
+}
+
+export interface DbAlbumObject extends Omit<AlbumObject,
+  | 'artists'
+  | 'tracks'
+> {
+  artists: ObjectId[]
+  tracks: ObjectId[]
 }
 
 export interface TocAlbumObject extends Pick<AlbumObject,
