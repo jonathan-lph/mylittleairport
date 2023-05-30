@@ -66,6 +66,7 @@ export const SearchBarResult = ({
                     track: _track.slug,
                   },
                 }}
+                passHref
               >
                 <li className={styles.entry} onClick={toggleOpen}>
                   <img 

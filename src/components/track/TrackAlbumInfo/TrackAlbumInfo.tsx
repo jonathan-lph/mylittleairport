@@ -82,6 +82,7 @@ const AppearsOnAlbumList = ({
             }}
             scroll={false}
             key={_track.slug}
+            passHref
           >
             <figure className={styles.otherAlbum}>
               <div className={styles.imgBorder}>

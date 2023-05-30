@@ -29,6 +29,7 @@ export const TrackList = ({
                 track: track.slug,
               },
             }}
+            passHref
           >
             <li className={styles.track} key={track.slug}>
               <div className={styles.index}>
