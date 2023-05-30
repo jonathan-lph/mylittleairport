@@ -27,7 +27,7 @@ const AlbumDetails: NextPage<AlbumDetailsProps> = ({
       'album_view', 
       { album: album.slug }
     )
-  }, [])
+  }, [album.slug])
 
   return (<>
     <Head>

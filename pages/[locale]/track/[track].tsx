@@ -30,7 +30,7 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
       'track_view', 
       { track: track.slug }
     )
-  }, [])
+  }, [track.slug])
 
   return (<>
     <Head>

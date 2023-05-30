@@ -9,7 +9,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     router.replace(`/${Locales.ZH}/albums`)
-  }, [])
+  }, [router])
 
   return (<></>)
 }

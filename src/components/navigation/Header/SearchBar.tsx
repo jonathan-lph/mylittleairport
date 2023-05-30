@@ -39,7 +39,7 @@ export const SearchBar = ({
     }
     document.addEventListener('mousedown', check)
     return () => document.removeEventListener('mousedown', check)
-  }, [open])
+  }, [open, searchButtonRef, toggleOpen])
 
   // Handle input change 
   useEffect(() => {
@@ -71,7 +71,7 @@ export const SearchBar = ({
       setResult(_result)
     }, 500)
     return () => clearTimeout(debouncer)
-  }, [input])
+  }, [input, result])
 
   return (
     <div className={styles.inputWrapper} ref={ref}>

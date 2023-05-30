@@ -25,7 +25,7 @@ export const EditionSection = ({
       if (!ref.current) return
       observer.unobserve(ref.current)
     }
-  }, [])
+  }, [edition, setCurrSection])
 
   return (
     <section className={styles.root} ref={ref} id={edition}>
