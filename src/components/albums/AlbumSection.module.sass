@@ -1,15 +1,8 @@
 @import 'src/assets/styles/theme'
-  
-.album
-  display: grid
-  grid-template-rows: repeat(2, max-content) 
-  opacity: 0
-  transform: translateY(10%)
+@import 'src/assets/styles/animations'
 
-  &.enter
-    opacity: 1
-    transform: translateY(0px)
-    transition: all .5s ease-in-out 
+.root.enter
+  animation: fadeIn .5s forwards ease, slideInDown .5s forwards ease
 
 .imgBorder
   width: 100%
@@ -23,24 +16,19 @@
     width: 70%
 
 .name
-  display: -webkit-box
-  -webkit-box-orient: vertical
-  -webkit-line-clamp: 2
-  overflow: hidden
-  padding-left: spacing(1)
+  @include overflow-textbox(2)
+  padding: spacing(0, 1)
   margin-top: spacing(2)
 
 .year
   color: palette(text, secondary)
   font-size: .8em
-  display: flex
-  justify-content: space-between
   padding-left: spacing(1)
 
 @include bp-down('sm')
   .name
     margin-top: spacing(1)
-    font-size: .8rem 
+    font-size: .8rem
 
   .year
     font-size: .6rem

@@ -1,0 +1,29 @@
+@import 'src/assets/styles/theme'
+
+.root
+  scroll-margin-top: calc($header-height + spacing(8))
+  
+  & + .root
+    margin-top: spacing(10)
+
+.edition
+  width: 100%
+  font-size: 1.5rem
+  @include bold
+  border-bottom: 1px palette(misc, divider) solid
+  margin-bottom: spacing(6)
+  padding-bottom: spacing(2)
+
+.albums
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax($album-tile-width, 1fr))
+  gap: spacing(4) spacing(2)
+
+@include bp-down('sm')
+  .edition
+    font-size: 1.25rem
+    padding: spacing(0, 4, 2)
+
+  .albums
+    grid-template-columns: repeat(2, 1fr)
+    gap: spacing(2) spacing(1)

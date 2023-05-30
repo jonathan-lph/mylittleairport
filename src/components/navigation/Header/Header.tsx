@@ -1,143 +1,129 @@
-import styles from './Header.module.sass'
-import translationJSON from '@translations/common.json'
-import { Icon, Logo } from '@components/Icon'
+import clsx from 'clsx'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Track } from '@src/assets/archive/mla'
-import { useRef, useState, useEffect, FormEvent } from 'react'
-import { SearchBar } from './SearchBar'
-import clsx from 'clsx'
-import { TocTrackObject } from '@src/types/Track'
+import { useRef, useState } from 'react'
+
 import { Locales } from '@src/consts/definitions'
 import { useDelayUnmount } from '@hooks/index'
+import { Icon, Logo } from '@components/Icon'
+import { MobileMenu, SearchBar } from '.'
+import translationJSON from '@translations/common.json'
+import styles from './Header.module.sass'
 
-interface HeaderProps {
-  locale: Locales
-}
+import type { TocTrackObject } from '@__types/Track'
 
-const LINKS = ["albums", "tracks"]
-const DEAD_LINKS = ["artists", "contribute"]
+const LINKS = ['albums', 'tracks']
+const DEAD_LINKS = ['artists', 'contribute']
 
-export const Header = ({ 
-  locale,
-}: HeaderProps) : JSX.Element => {
-  
+export const Header = ({ locale }: HeaderProps): JSX.Element => {
   const router = useRouter()
+  const searchButtonRef = useRef<HTMLButtonElement | null>(null)
+
   const [searchMode, setSearchMode] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const shouldRenderMenu = useDelayUnmount(menuOpen, 250)
 
-  // @ts-ignore
   const translation = translationJSON[locale ?? Locales.ZH].header
 
   const handleRandomRedirect = () => {
-    const getRandom = <T,>(arr : Array<T>) => arr[Math.floor(Math.random() * arr.length)]
-    const tracks : Array<TocTrackObject> = require('src/__data/toc/tracks.json')
+    const getRandom = <T,>(arr: Array<T>) =>
+      arr[Math.floor(Math.random() * arr.length)]
+    const tracks: Array<TocTrackObject> = require('src/__data/toc/tracks.json')
     const track = getRandom(tracks)
     router.push({
       pathname: '/[locale]/track/[track]',
       query: {
         locale: locale,
-        track: track.slug
-      }
+        track: track.slug,
+      },
     })
-    setMenuOpen(false)
+    closeMenu()
   }
 
-  const handleSwitchMode = () => {
-    if (!searchMode) setSearchMode(true)
+  const toggleSearchMode = () => {
+    setSearchMode((_saerchMode) => !_saerchMode)
+    if (menuOpen) setMenuOpen(false)
   }
 
-  const toggleMenu = () => {
-    setMenuOpen(_menu => !_menu)
-  }
-  
+  const closeMenu = () => setMenuOpen(false)
+  const toggleMenu = () => setMenuOpen((_menu) => !_menu)
+
   return (
-    <header className={clsx({
-      [styles.root]: true,
-      [styles.searchMode]: searchMode
-    })}>
-      <nav className={styles.nav}>
-        <Icon 
-          icon={!menuOpen ? "menu" : "close"}
-          className={styles.menuButton}
+    <header
+      className={clsx({
+        [styles.root]: true,
+        [styles.searchMode]: searchMode,
+      })}
+    >
+      <div className={styles.nav}>
+        <Icon
+          icon={!menuOpen ? 'menu' : 'close'}
+          className={styles.menu}
           onClick={toggleMenu}
         />
         <Link href="/">
-          <a className={styles.logoWrapper}>
-            <Logo className={styles.logo}/>
+          <a className={styles.logoWrapper} onClick={closeMenu}>
+            <Logo className={styles.logo} />
           </a>
         </Link>
-        <div className={styles.links}>
-          {LINKS.map(dir => 
-            <Link key={dir} href={{
-              pathname: `/[locale]/${dir}`,
-              query: { 
-                locale: locale ?? Locales.ZH
-              }
-            }}>
-              {/* @ts-ignore */}
-              {translation[dir]}
-            </Link> 
-          )}
-        </div>
-        <div className={styles.actionButtons}>
-          <button className={styles.actionButton} onClick={handleRandomRedirect}>
-            <Icon
-              icon='shuffle'
-              className={styles.icon}
-            />
+        <nav className={styles.links}>
+          {LINKS.map((dir) => (
+            <Link
+              key={dir}
+              href={{
+                pathname: `/[locale]/${dir}`,
+                query: {
+                  locale: locale ?? Locales.ZH,
+                },
+              }}
+            >
+              {translation[dir as keyof typeof translation]}
+            </Link>
+          ))}
+        </nav>
+        <section className={styles.actions}>
+          <button
+            className={styles.action}
+            onClick={handleRandomRedirect}
+          >
+            <Icon icon="shuffle" className={styles.icon} />
             {translation.shuffle}
           </button>
-          {!searchMode &&
-            <button className={styles.actionButton} onClick={handleSwitchMode}>
-              <Icon
-                icon='search'
-                className={styles.icon}
-              />
-              {translation.search}
-            </button>
-          }
-        </div>
-      </nav>
-      {searchMode && 
+          <button
+            ref={searchButtonRef}
+            className={clsx({
+              [styles.action]: true,
+              [styles.active]: searchMode,
+            })}
+            onClick={toggleSearchMode}
+          >
+            <Icon icon="search" className={styles.icon} />
+            {translation.search}
+          </button>
+        </section>
+      </div>
+      {searchMode && (
         <SearchBar
           open={searchMode}
-          setOpen={setSearchMode}
+          toggleOpen={toggleSearchMode}
           locale={locale}
+          searchButtonRef={searchButtonRef}
+          translation={translation}
         />
-      }
-      {shouldRenderMenu &&
-        <div className={clsx({
-          [styles.menu]: true,
-          [styles.unmount]: !menuOpen,
-          [styles.mount]: menuOpen
-        })}>
-          {LINKS.map(dir => 
-            <Link key={dir} href={{
-              pathname: `/[locale]/${dir}`,
-              query: { 
-                locale: locale ?? Locales.ZH
-              }
-            }}>
-              <a onClick={toggleMenu} className={styles.mobileLinks}>
-                {/* @ts-ignore */}
-                {translation[dir]}
-              </a>
-            </Link> 
-          )}
-          {DEAD_LINKS.map(dir =>
-            <div key={dir} className={styles.deadLinks}>
-              {/* @ts-ignore */}
-              {translation[dir]}
-              <div className={styles.comingSoon}>
-                {translation.coming_soon}
-              </div>
-            </div>
-          )}
-        </div>
-      }
-
+      )}
+      {shouldRenderMenu && (
+        <MobileMenu
+          locale={locale}
+          consts={{ LINKS, DEAD_LINKS }}
+          translation={translation}
+          open={menuOpen}
+          toggleOpen={toggleMenu}
+        />
+      )}
     </header>
   )
+}
+
+interface HeaderProps {
+  locale: Locales
 }

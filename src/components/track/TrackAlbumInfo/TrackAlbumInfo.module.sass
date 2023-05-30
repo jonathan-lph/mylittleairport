@@ -1,7 +1,7 @@
 @import 'src/assets/styles/theme'
 
-$tile-width: 200px
-$tile-sm-width: 150px
+$album-tile-width: 200px
+$album-tile-width-sm: 150px
 
 .root
   display: grid
@@ -12,17 +12,16 @@ $tile-sm-width: 150px
   padding: spacing(0, 14)
   gap: spacing(20)
 
-.album
+.album, .artworks
 
   .title
     @include bold
     font-size: 1.5rem
     margin-bottom: spacing(8)
 
-  .img
-    width: 20%
+.album
 
-  .tracklist
+  .trackList
     font-size: 1.5rem
 
     .track, .divider
@@ -35,7 +34,7 @@ $tile-sm-width: 150px
       &:hover
         color: palette(text, primary)
 
-      &.selected
+      &.active
         @include bold
         font-weight: 700
         color: palette(text, primary)
@@ -48,7 +47,7 @@ $tile-sm-width: 150px
     width: max-content
 
     .back
-      // Visual correction for alignment
+      /* Visual correction for alignment */
       transform: translateY(1px)
       transition: transform .2s ease
 
@@ -57,14 +56,9 @@ $tile-sm-width: 150px
 
 .artworks
 
-  .title
-    @include bold
-    margin-bottom: spacing(8)
-    font-size: 1.5rem
-    
   .otherAlbums
     margin: spacing(4, 0)
-    /* scroll-bar padding */
+    /* Scroll-bar padding */
     padding-bottom: spacing(4)
     display: flex
     flex-wrap: no-wrap
@@ -72,13 +66,10 @@ $tile-sm-width: 150px
     overflow: auto
 
     .otherAlbum
-      display: flex
-      flex-direction: column
-      gap: spacing(1)
       cursor: pointer
 
     .imgBorder
-      width: $tile-width
+      width: $album-tile-width
       aspect-ratio: 1
       background: palette(misc, background-dark)
       display: flex
@@ -88,30 +79,23 @@ $tile-sm-width: 150px
       .img
         width: 70%
 
-    .albumName
-      max-width: $tile-width
-      display: -webkit-box
-      -webkit-box-orient: vertical
-      -webkit-line-clamp: 2
-      overflow: hidden
+    .name
+      padding: spacing(2, 0)
+      max-width: $album-tile-width
+      @include overflow-textbox(2)
 
-      &.current
+      &.active
         @include bold
 
 @include bp-down('md')
   .root
     display: block
 
-    .album
-      margin: spacing(12 ,0)
-    
-      .tracklist
-        font-size: 1.25rem
-
-    .artworks
+    > *
       margin: spacing(12, 0)
 
-
+    .album .trackList
+      font-size: 1.25rem
 
 @include bp-down('sm')
   .root
@@ -119,21 +103,18 @@ $tile-sm-width: 150px
     margin: spacing(12, 4)
     padding: 0
 
-  .album
-    margin: spacing(12, 0)
+  .album, .artworks
 
     .title
       margin-bottom: spacing(4)
-      
+
+  .album
+
     .tracklist
       font-size: 1.25rem
 
-  .artworks
+    .backButton
+      margin-top: spacing(2)
 
-    .title
-      margin-bottom: spacing(4)
-
-    .albumName
-      font-size: 0.8rem
-      
-    
+  .artworks .name
+    font-size: 0.9rem

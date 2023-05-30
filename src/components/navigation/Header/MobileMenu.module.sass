@@ -1,0 +1,35 @@
+@import 'src/assets/styles/theme'
+@import 'src/assets/styles/animations'
+  
+.root
+  height: var(--app-height, 100vh)
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  background: palette(misc, background)
+  z-index: 50
+  margin-top: calc($header-height-sm + env(safe-area-inset-top))
+  padding: spacing(6)
+  @include bold
+  font-size: 1.5rem
+  
+  &.mount
+    animation: fadeIn .25s ease-in-out, slideInUp .25s ease-in-out
+
+  &.unmount
+    animation: fadeOut .25s ease-in-out, slideOutDown .25s ease-in-out
+  
+.links, .deadLinks
+  display: flex
+  justify-content: space-between
+  border-top: 1px solid palette(misc, divider)
+  padding: spacing(1, 0, 4)
+
+.deadLinks
+  color: palette(text, secondary)
+
+.comingSoon
+  @include normal
+  font-size: 1rem

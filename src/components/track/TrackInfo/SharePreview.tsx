@@ -1,32 +1,21 @@
-import { RefObject, useEffect, useRef, useState } from 'react'
-import styles from './SharePreview.module.sass'
-import { ExpandedTrackObject } from '@src/types/Track'
+import { usePortal } from '@hooks/index'
 import metadata from '@consts/metadata.json'
-import reactDom from 'react-dom'
+import styles from './SharePreview.module.sass'
 
-interface SharePreviewProps {
-  track: ExpandedTrackObject
-  lines: number[]
-  parentRef: RefObject<HTMLDivElement>
-}
+import type { RefObject } from 'react'
+import type { ExpandedTrackObject } from '@__types/Track'
 
-export const SharePreview = ({ 
+export const SharePreview = ({
   track,
   lines,
-  parentRef
+  parentRef,
 }: SharePreviewProps): JSX.Element => {
-  const portalRef = useRef<HTMLElement | null>(null)
-  const [mounted, setMounted] = useState(false)
+  const [portal, createPortal] = usePortal()
 
-  useEffect(() => {
-    portalRef.current = document.getElementById('portal')
-    setMounted(true)
-  }, [])
-
-  if (!mounted || !portalRef.current) return <></>;
-  return reactDom.createPortal(
-    <div className={styles.root}>
-      <div ref={parentRef} className={styles.export}>
+  if (!portal) return <></>
+  return createPortal(
+    <section className={styles.root}>
+      <article ref={parentRef} className={styles.export}>
         <div className={styles.track}>{track.name}</div>
         <div className={styles.lyrics}>
           {track.lyrics
@@ -42,8 +31,14 @@ export const SharePreview = ({
           <div className={styles.mla}>my little airport</div>
         </div>
         <div className={styles.credits}>{`${metadata.base_url.slice(8)}`}</div>
-      </div>
-    </div>
-    ,portalRef.current
+      </article>
+    </section>,
+    portal
   )
+}
+
+interface SharePreviewProps {
+  track: ExpandedTrackObject
+  lines: number[]
+  parentRef: RefObject<HTMLElement>
 }

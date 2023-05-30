@@ -1,140 +1,137 @@
 @import 'src/assets/styles/theme'
+
+$lyrics-indent: - spacing(4)
   
 .root
   margin: 0 auto
+  padding: spacing(0, 14)
   max-width: map-get($breakpoints, 'xl')
-  display: grid
-  grid-template-columns: .25fr .75fr 1fr
-  grid-template-areas: 'title title title' 'info info info' 'hr img lyrics'
   position: relative
-  row-gap: spacing(8)
+  display: grid
+  grid-template-columns: max-content .75fr 1fr
+  grid-template-areas: 'title title title' 'info info info' 'vr img lyrics'
+  gap: spacing(8) 5%
 
-  .imgBorder
-    grid-area: img
-    align-self: flex-start
-    width: 100%
-    aspect-ratio: 1
-    display: flex
-    justify-content: center
-    align-items: center
-    background: palette(misc, background-dark)
+.title
+  grid-area: title
+  @include bold
+  font-size: 3rem
+  margin-right: 20vw
 
-    .img
-      width: 60%
-
-    .albumName, .trackNo
-      width: 100%
-      position: absolute
-      padding: spacing(3)
-      opacity: 0.5
-      font-size: 0.8rem
-    
-    .albumName
-      bottom: 0
-      left: 0
-
-    .trackNo
-      bottom: 0
-      right: 0
-      text-align: right
-
-  .hr
-    grid-area: hr
-    border-left: 1px solid palette(misc, divider)
-    margin-left: spacing(14)
-    display: flex
-
-    .name
-      writing-mode: vertical-rl
-      @include bold
-      font-size: 1rem
-      border-left: 1px solid palette(misc, background)
-      margin-left: -1px
-      padding: spacing(2, 0)
-      align-self: flex-end
-
-  .imgBorder
-    position: sticky
-    top: calc(spacing(8) + $header-height)
-
-  .title
-    grid-area: title
+.infosheet
+  grid-area: info
+  display: flex
+  flex-wrap: wrap
+  gap: spacing(4)
+  margin-bottom: spacing(4)
+  font-size: 0.8em
+  
+  dt
     @include bold
-    font-size: 3rem
-    margin-left: spacing(14)
-    margin-right: 20vw
 
-  .lyrics
-    grid-area: lyrics
-    padding: 0 10%
-    line-height: 1.5rem
-
-    p
-      text-indent: - spacing(4)
-
-    .shareLyrics
-      // Match p text-indent
-      transform: translateX(- spacing(4))
-      padding: spacing(1, 2)
-      margin-top: spacing(6)
-      display: flex
-      align-items: center
-      border: 1px solid palette(misc, divider)
-      transition: all .2s ease
-
-      &:hover
-        background: palette(misc, background-dark)
-
-  .infosheet
-    grid-area: info
+  dd
     display: flex
-    flex-wrap: wrap
-    gap: spacing(4)
-    margin: spacing(0, 14, 4)
-    font-size: 0.8em
-    
-    dt
-      @include bold
+    gap: spacing(2)
 
-    dd
-      display: flex
-      gap: spacing(2)
+.imgBorder
+  grid-area: img
+  align-self: flex-start
+  width: 100%
+  aspect-ratio: 1
+  display: flex
+  justify-content: center
+  align-items: center
+  background: palette(misc, background-dark)
+  position: sticky
+  top: calc(spacing(8) + $header-height)
+
+  .img
+    width: 60%
+
+  .albumName, .trackNo
+    width: 100%
+    position: absolute
+    padding: spacing(3)
+    color: palette(text, secondary)
+    font-size: 0.8rem
+  
+  .albumName
+    bottom: 0
+    left: 0
+
+  .trackNo
+    bottom: 0
+    right: 0
+    text-align: right
+
+.vr
+  grid-area: vr
+  display: flex
+  border-left: 1px solid palette(misc, divider)
+
+  .name
+    writing-mode: vertical-rl
+    @include bold
+    font-size: 1rem
+    border-left: 1px solid palette(misc, background)
+    /* Remove border */
+    margin-left: -1px
+    padding: spacing(2, 0)
+    align-self: flex-end
+
+.lyrics
+  grid-area: lyrics
+  padding-left: spacing(4)
+  line-height: 1.5rem
+
+  p
+    text-indent: $lyrics-indent
+
+  .shareLyrics
+    transform: translateX($lyrics-indent)
+    padding: spacing(1, 2)
+    margin-top: spacing(6)
+    display: flex
+    align-items: center
+    border: 1px solid palette(misc, divider)
+    transition: all .2s ease
+
+    &:hover
+      background: palette(misc, background-dark)
 
     
 @include bp-down('md')
   .root
-    grid-template-columns: .2fr .5fr 1fr
+    column-gap: spacing(4) 
+    
+  .imgBorder .img
+    width: 70%
 
 @include bp-down('sm')
   .root
     margin: 0 0 spacing(12)
-    grid-template-columns: spacing(16) 1fr
-    grid-template-areas: 'img img' 'title title' 'info info' 'lyrics lyrics'
-    row-gap: spacing(6)
+    padding: 0
+    display: block
 
-    .imgBorder
-      top: 0
-      position: relative
-      aspect-ratio: 3/4
+    > *
+      margin: spacing(6, 4)
 
-    .hr 
-      margin: spacing(0, 4)
-      display: none
+  .title
+    padding: 0
+    font-size: 2rem
 
-      .name
-        display: none
-      
-    .title
-      margin: spacing(0, 4)
-      padding: 0
-      font-size: 2rem
+  .imgBorder
+    margin: 0
+    top: 0
+    position: relative
+    aspect-ratio: 3/4
 
-    .infosheet
-      margin: spacing(0, 4, 2)
-      padding: 0
-      row-gap: spacing(2)
+  .infosheet
+    padding: 0
+    row-gap: spacing(2)
 
-    .lyrics
-      padding: 0 
-      padding-right: spacing(4)
-      padding-left: spacing(8)
+  .vr
+    display: none
+
+  .lyrics
+    padding: spacing(0, 4)

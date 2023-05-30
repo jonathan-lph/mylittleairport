@@ -1,22 +1,22 @@
 @import 'src/assets/styles/theme'
 
+$export-width: 400px
+$export-padding-lr: 4
+$img-width: 40px
+$info-padding-lr: 2
+
 .root
   position: fixed
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
-  display: flex
-  justify-content: center
-  align-items: center
-  z-index: -100
+  top: -9999
+  left: -9999
+  z-index: 100
 
 .export
   display: grid
-  width: 400px
+  width: $export-width
   grid-template-areas: 'track track' 'lyrics lyrics' 'img info' 'credits credits'
-  grid-template-columns: 40px 1fr
-  padding: spacing(6, 4)
+  grid-template-columns: $img-width 1fr
+  padding: spacing(6, $export-padding-lr)
   row-gap: spacing(2)
   background-color: palette(misc, background)
 
@@ -37,12 +37,12 @@
 
 .info
   grid-area: info
-  padding: spacing(0, 2)
+  padding: spacing(0, $info-padding-lr)
   font-size: .75rem
   align-self: center
 
   *
-    width: calc(400px - spacing(4*2) - 40px - spacing(2*2))
+    width: calc($export-width - spacing($export-padding-lr*2) - $img-width - spacing($info-padding-lr*2))
     overflow: hidden
     white-space: nowrap
     text-overflow: ellipsis

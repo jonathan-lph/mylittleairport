@@ -13,7 +13,6 @@
   display: flex
   flex-direction: column
   align-self: flex-end
-  // justify-content: flex-end
   padding: spacing(0, 8)
   height: max-content 
   position: sticky
@@ -22,15 +21,11 @@
   .title
     @include bold
     font-size: 3.5rem
-    justify-self: flex-start
-    position: sticky
-    top: $header-height
     word-break: break-all
 
   .year
     @include bold
     font-size: 1.5rem
-    font-weight: 700
 
 .img
   width: 100%
@@ -48,11 +43,6 @@
       border-top: 1px solid palette(text, primary)
       padding: spacing(4, 2)
 
-    .icon
-      display: flex
-      align-self: stretch
-      align-items: center
-
     .trackIdx
       text-align: right
 
@@ -62,9 +52,8 @@
 
 @include bp-down('sm')
   .root
-    grid-template-columns: unset
+    display: block
     margin-top: spacing(8)
-    row-gap: 0
     padding: 0
 
   .meta
@@ -78,7 +67,9 @@
       margin: 0
 
     .year
-      display: none
+      font-size: 1.5rem
+      color: palette(text, secondary)
+      padding-left: spacing(.5)
 
   .list
     padding: spacing(6, 4)

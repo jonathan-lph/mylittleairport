@@ -1,18 +1,19 @@
-import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
-import { ParsedUrlQuery } from 'querystring'
-import { TrackInfo } from '@src/components/track/TrackInfo'
-import translationJSON from '@translations/track.json'
-import { TrackAlbumInfo } from '@src/components/track/TrackAlbumInfo'
-import { Locales, locales } from '@consts/definitions'
-import { ExpandedTrackObject, TocTrackObject } from '@src/types/Track'
-import { fetchExpandedTrackFromFiles, searchTracksFromFiles } from '@database/track'
-import metadata from '@consts/metadata.json'
-import { injectObjectToString } from '@src/utils/helper'
-import mapMetaTags from '@src/utils/mapMetaTags'
 import { useEffect } from 'react'
 import { getAnalytics, logEvent } from 'firebase/analytics'
+
+import { TrackInfo } from '@components/track/TrackInfo'
+import { TrackAlbumInfo } from '@components/track/TrackAlbumInfo'
+import { fetchExpandedTrackFromFiles, searchTracksFromFiles } from '@database/track'
+import metadata from '@consts/metadata.json'
+import { Locales, locales } from '@consts/definitions'
+import { mapMetaTags, injectObjectToString } from '@utils/index'
+import translationJSON from '@translations/track.json'
 import styles from '@components/track/index.module.sass'
+
+import type { ParsedUrlQuery } from 'querystring'
+import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
+import type { ExpandedTrackObject, TocTrackObject } from '@__types/Track'
 
 const TrackDetails: NextPage<TrackDetailsProps> = ({ 
   track,
@@ -117,7 +118,7 @@ type TrackDetailsProps = {
   track: ExpandedTrackObject
   tracksWithSameName: TocTrackObject[]
   locale: Locales
-  translation: typeof translationJSON[Locales.EN]
+  translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string[] | string>
   props: any
 }

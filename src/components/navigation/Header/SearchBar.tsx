@@ -1,57 +1,52 @@
-import styles from './SearchBar.module.sass'
+import { useRef, useState, useEffect } from 'react'
 import { Icon } from '@components/Icon'
-import { useRef, useState, useEffect, } from 'react'
-import type { Dispatch, SetStateAction, FormEvent } from 'react'
-import { SearchBarResult } from './SearchBarResult'
-import { TocTrackObject } from '@src/types/Track'
-import { Locales } from '@consts/definitions'
+import { SearchBarResult } from '.'
+import styles from './SearchBar.module.sass'
 
-interface SearchBarProps {
-  open: boolean
-  setOpen: Dispatch<SetStateAction<boolean>>
-  locale: Locales
-}
+import type { MutableRefObject, FormEvent } from 'react'
+import type { TocTrackObject } from '@__types/Track'
+import type { Locales } from '@consts/definitions'
+import type translationJSON from '@translations/common.json'
 
-interface SearchResult extends TocTrackObject {
-  line: number | null
-}
-
-export const SearchBar = ({ 
+export const SearchBar = ({
   open,
-  setOpen,
+  toggleOpen,
   locale,
-}: SearchBarProps) : JSX.Element => {
-
+  searchButtonRef,
+  translation
+}: SearchBarProps): JSX.Element => {
   const ref = useRef<HTMLDivElement>(null)
-  const [searchInput, setSearchInput] = useState('')
-  const [searchResult, setSearchResult] = useState<SearchResult[] | null>(null)
+  const [input, setInput] = useState('')
+  const [result, setResult] = useState<SearchResult[] | null>(null)
   const loadedTracks = useRef<TocTrackObject[] | null>(null)
 
   const handleInputChange = (e: FormEvent<HTMLInputElement>) => {
-    setSearchInput(e.currentTarget.value)
+    setInput(e.currentTarget.value)
   }
 
+  // Turn off search mode if unfocused
   useEffect(() => {
-    const check = (e : Event) => {
+    const check = (e: Event) => {
       if (
-        open && 
-        ref.current && 
-        !ref.current.contains(e.target as Node)
+        open &&
+        ref.current &&
+        searchButtonRef.current &&
+        !ref.current.contains(e.target as Node) &&
+        !searchButtonRef.current.contains(e.target as Node)
       ) {
-        setOpen(false)
+        toggleOpen()
       }
     }
     document.addEventListener('mousedown', check)
     return () => document.removeEventListener('mousedown', check)
   }, [open])
 
+  // Handle input change 
   useEffect(() => {
-
-    if (!searchInput) {
-      if (searchResult) setSearchResult(null);
-      return;
+    if (!input) {
+      if (result) setResult(null)
+      return
     }
-
     const debouncer = setTimeout(() => {
       // Load Tracks
       if (!loadedTracks.current) {
@@ -60,12 +55,12 @@ export const SearchBar = ({
       // Find matching name or lyrics tracks
       const _result : SearchResult[] = loadedTracks.current!
         .reduce((acc : SearchResult[], _track: TocTrackObject) => {
-          if (_track.name.includes(searchInput)) 
+          if (_track.name.includes(input)) 
             return [...acc, {
               line: null,
               ..._track
             }]
-          const lineIndex = _track.lyrics?.split('\n').findIndex(_line => _line.includes(searchInput))
+          const lineIndex = _track.lyrics?.split('\n').findIndex(_line => _line.includes(input))
           if (lineIndex !== undefined && lineIndex !== -1)
             return [...acc, {
               line: lineIndex,
@@ -73,31 +68,43 @@ export const SearchBar = ({
             }]
           return acc
         }, [])
-      setSearchResult(_result)
-      
+      setResult(_result)
     }, 500)
     return () => clearTimeout(debouncer)
-  }, [searchInput])
+  }, [input])
 
   return (
     <div className={styles.inputWrapper} ref={ref}>
-      <input 
-        name="search" 
-        type="text" 
-        className={styles.input} 
-        value={searchInput}
+      <input
+        name="search"
+        type="text"
+        className={styles.input}
+        value={input}
         onChange={handleInputChange}
         autoFocus
       />
-      <Icon icon="search" className={styles.icon}/>
-      {searchResult && 
+      <Icon icon="search" className={styles.icon} />
+      {result && (
         <SearchBarResult
-          result={searchResult}
-          input={searchInput}
+          result={result}
+          input={input}
           locale={locale}
-          setOpen={setOpen}
+          toggleOpen={toggleOpen}
+          translation={translation}
         />
-      }
+      )}
     </div>
   )
+}
+
+interface SearchBarProps {
+  open: boolean
+  toggleOpen: () => void
+  locale: Locales
+  searchButtonRef: MutableRefObject<HTMLButtonElement | null>
+  translation: (typeof translationJSON)[Locales.EN]['header']
+}
+
+interface SearchResult extends TocTrackObject {
+  line: number | null
 }

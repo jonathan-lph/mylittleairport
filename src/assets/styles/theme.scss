@@ -8,10 +8,10 @@ $header-lr-padding-sm: 4;
 $footer-height: 60px;
 $footer-height-sm: 50px;
 
-$navbar-height: 50px;
-$navbar-width: 200px;
-
 $export-image-width: 400px;
+
+$album-tile-width: 250px;
+$album-tile-width-sm: 150px;
 
 $default-fonts: (-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif);
 
@@ -19,8 +19,6 @@ $typography: (
   fontSize: 16px,
   titleFont: ('Noto Serif SC'),
   contentFont: ('Noto Sans HK'),
-  // titleFont: ('Lora', 'Noto Serif SC'),
-  // contentFont: ('Lora', 'Noto Serif SC'),
   fontWeight: (
     light:   300,
     regular: 400,
@@ -52,17 +50,12 @@ $dark-colors: (
 
 $light-colors: (
   text: (
-    // primary:   #181818,
     primary:   #060101,
-    // primary:   #030305,
     secondary: #82868c,
   ),
   misc: (
     background: #f6f6f6,
     background-dark: #eeece9,
-    // background: #f7e7da,
-    // background: #e9e6e5,
-
     divider: rgba(0, 0, 0, .8),
   ),
   action: (
@@ -132,7 +125,7 @@ $breakpoints: (
   @return $top * $step $right * $step $bottom * $step $left * $step;
 };
 
-//
+// Mixins
 
 @mixin bold {
   font-family: map-get($typography, titleFont);
@@ -148,4 +141,21 @@ $breakpoints: (
   background: palette('misc', 'background');
   border: 1px solid palette('misc', 'divider');
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px
+}
+
+@mixin overflow-textbox($line-clamp) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line-clamp;
+  overflow: hidden
+}
+
+@mixin fullscreen-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 100
 }

@@ -1,17 +1,18 @@
-import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
-import Head from 'next/head'
-import tracks from "src/__data/toc/tracks.json"
-import { ParsedUrlQuery } from 'querystring'
-import translationJSON from '@translations/tracks.json'
-import { TrackList } from '@src/components/tracks/TrackList'
-import { Locales, locales } from '@consts/definitions'
-import { TocTrackObject } from '@src/types/Track'
-import { injectObjectToString } from '@src/utils/helper'
-import metadata from "@consts/metadata.json"
-import mapMetaTags from '@src/utils/mapMetaTags'
 import is from "image-size"
+import Head from 'next/head'
 
-const Tracks: NextPage<TracksProps> = ({
+import { Tracks } from '@components/tracks'
+import tracks from "@src/__data/toc/tracks.json"
+import metadata from "@consts/metadata.json"
+import { Locales, locales } from '@consts/definitions'
+import { mapMetaTags, injectObjectToString } from '@utils/index'
+import translationJSON from '@translations/tracks.json'
+
+import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
+import type { ParsedUrlQuery } from 'querystring'
+import type { TocTrackObject } from '@__types/Track'
+
+const TracksPage: NextPage<TracksProps> = ({
   tracks,
   locale,
   translation,
@@ -24,7 +25,7 @@ const Tracks: NextPage<TracksProps> = ({
       {mapMetaTags(metaTags)}
     </Head>
 
-    <TrackList
+    <Tracks
       tracks={tracks}
       translation={translation}
       locale={locale}
@@ -71,12 +72,12 @@ export const getStaticProps: GetStaticProps = async (context) => {
   }
 }
 
-export default Tracks
+export default TracksPage
 
 type TracksProps = {
   tracks: TocTrackObject[]
   locale: Locales
-  translation: typeof translationJSON[Locales.EN]
+  translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string | string[] | Record<string, string>[]>
   props: any
 }

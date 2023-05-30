@@ -1,52 +1,42 @@
-import styles from './Footer.module.sass'
-import translationJSON from '@translations/common.json'
-import { Icon, Logo } from '@components/Icon'
-import { MouseEvent, useEffect, useState, useRef } from 'react'
 import clsx from 'clsx'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { Icon } from '@components/Icon'
 import { locales, credits, Locales } from '@consts/definitions'
+import translationJSON from '@translations/common.json'
+import styles from './Footer.module.sass'
 
-interface FooterProps {
-  locale: Locales
-}
-
-
-export const Footer = ({ 
-  locale,
-}: FooterProps) : JSX.Element => {
-
+export const Footer = ({ locale }: FooterProps): JSX.Element => {
   const router = useRouter()
-  
-  // @ts-ignore
   const translation = translationJSON[locale ?? Locales.ZH].footer
-  
+
   return (
     <footer className={styles.root}>
-
       <div className={styles.language}>
-        <Icon
-          icon="language" 
-          className={styles.globe}
-        />
-        <div className={styles.locales}>
-          {locales.map(({locale, label}) =>
-            <Link key={label} href={{
-              pathname: router.pathname,
-              query: { 
-                ...router.query,
-                locale: locale ?? Locales.ZH
-              }
-            }}>
-              <a className={clsx({
-                [styles.locale]: true,
-                [styles.selected]: locale === (router.query.locale ?? Locales.ZH)
-              })}>
+        <Icon icon="language" className={styles.globe} />
+        <section className={styles.locales}>
+          {locales.map(({ locale, label }) => (
+            <Link
+              key={label}
+              href={{
+                pathname: router.pathname,
+                query: {
+                  ...router.query,
+                  locale: locale ?? Locales.ZH,
+                },
+              }}
+            >
+              <a
+                className={clsx({
+                  [styles.locale]: true,
+                  [styles.active]: locale === (router.query.locale ?? Locales.ZH),
+                })}
+              >
                 {label}
               </a>
             </Link>
-          )}
-        </div>
+          ))}
+        </section>
       </div>
 
       <div className={styles.copyright}>
@@ -54,11 +44,19 @@ export const Footer = ({
         <div>{translation.copyright_year}</div>
       </div>
 
-      <a href={credits.link} className={styles.credits} target="_blank" rel="noreferrer">
+      <a
+        href={credits.link}
+        className={styles.credits}
+        target="_blank"
+        rel="noreferrer"
+      >
         <div>{translation.design}</div>
         <div>{` ${credits.name} `}</div>
       </a>
-
     </footer>
   )
+}
+
+interface FooterProps {
+  locale: Locales
 }

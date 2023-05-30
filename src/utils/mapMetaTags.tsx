@@ -1,4 +1,4 @@
-export default function mapMetaTags(
+export function mapMetaTags(
   obj: Record<string, string | string[] | Record<string, string>[]>
 ) {
   return Object.entries(obj).map(([prop, content]) =>

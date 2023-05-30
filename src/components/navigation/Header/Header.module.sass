@@ -13,76 +13,34 @@
     align-items: center
     grid-template-columns: 1fr max-content
     column-gap: spacing(4)
-    justify-content: stretch
 
 .nav
   display: flex
   justify-content: space-between
-  gap: spacing(1)
   align-items: center
-  width: 100%
+  gap: spacing(1)
   min-height: $header-height
   position: relative
   z-index: 100
 
-  // background: linear-gradient(180deg, palette(misc, background-dark) 0%, palette(misc, background-dark) 70%, rgba(palette(misc, background-dark, true), 0) 100%)
+.menu
+  display: none
 
 .logo
   font-size: 2.5rem
 
-.menuButton
-  display: none
-  font-size: 2rem
-  margin-right: spacing(2)
-  cursor: pointer
-
-.menu
-  height: var(--app-height, 100vh)
-  width: 100%
-  position: absolute
-  top: 0
-  left: 0
-  background: palette(misc, background)
-  z-index: 50
-  margin-top: calc($header-height-sm + env(safe-area-inset-top))
-  padding: spacing(6)
-  font-size: 1.5rem
-  @include bold
-  
-  &.mount
-    animation: fadeInUp .25s ease-in-out
-
-  &.unmount
-    animation: fadeOut .25s ease-in-out, slideOutDown .25s ease-in-out
-  
-  .mobileLinks, .deadLinks
-    display: flex
-    justify-content: space-between
-    border-top: 1px solid palette(misc, divider)
-    padding: spacing(1, 0, 4)
-
-  .deadLinks
-    color: palette(text, secondary)
-
-  .comingSoon
-    font-size: 1rem
-    @include normal
-
-  
-
 .links
-  display: flex
-  flex: 1
   padding: spacing(0, 8)
+  flex: 1
+  display: flex
   align-items: center
   gap: spacing(4)
 
-.actionButtons
+.actions
   display: flex
   gap: spacing(4)
-  width: max-content
 
-  .actionButton
+  .action
     display: flex
     align-items: center
     justify-content: center
@@ -90,6 +48,23 @@
 
   .icon
     font-size: 1.75rem
+
+@include bp-down('md')
+  .actions
+    display: grid
+    grid-auto-flow: column
+    grid-auto-columns: 1fr
+    
+    .action
+      flex-direction: column
+      font-size: .75rem
+
+    .icon
+      font-size: 1.5rem
+
+@include bp-up('sm')
+  .action.active
+    display: none
 
 @include bp-down('sm')
   .root
@@ -101,10 +76,12 @@
 
   .nav
     min-height: $header-height-sm
-    grid-template-columns: 1fr max-content
 
-  .menuButton
+  .menu
     display: block
+    font-size: 2rem
+    margin-right: spacing(2)
+    cursor: pointer
 
   .links
     display: none
@@ -112,19 +89,8 @@
   .logoWrapper
     flex: 1
 
-  .logo
-    font-size: 2rem
+    .logo
+      font-size: 2rem
 
-  .actionButtons
-    display: grid
-    grid-auto-flow: column
-    grid-auto-columns: 1fr
-    
-    .actionButton
-      flex-direction: column
-      font-size: 0.6rem
-
-    .icon
-      font-size: 1.5rem
-
-
+  .actions .action
+    font-size: .6rem

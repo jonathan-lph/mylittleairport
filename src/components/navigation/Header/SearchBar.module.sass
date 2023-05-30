@@ -6,7 +6,6 @@
   position: relative
   
 .input
-  all: unset
   padding: spacing(2)
   padding-left: 2rem
   background: palette(misc, background-dark)
@@ -20,67 +19,9 @@
   left: spacing(1)
   transform: translateY(-50%)
 
-.result
-  position: absolute
-  top: calc(100% + spacing(6))
-  right: 0
-  width: 400px
-  max-height: 60vh
-  z-index: 50
-  overflow-x: auto
-  list-style-type: none
-  @include dialog-box
-  padding: spacing(2, 0)
-
-  .entry
-    display: grid
-    grid-template-columns: spacing(16) 1fr
-    // align-items: center
-    gap: spacing(1) spacing(4)
-    padding: spacing(2, 4)
-    cursor: pointer
-    transition: background .2s ease-in-out
-
-    &:hover
-      background: palette(misc, background-dark)
-
-  .lyrics
-    color: palette(text, secondary)
-    font-size: .9em
-    display: -webkit-box
-    -webkit-box-orient: vertical
-    -webkit-line-clamp: 2
-    overflow: hidden
-
-  .highlight
-    color: palette(text, primary)
-    @include bold
-
-  .img
-    width: 100%
-    grid-row: 2 span
-    align-self: center
-
-  .noResult
-    padding: spacing(2, 4)
-    text-align: center
-    color: palette(text, secondary)
-
-
 @include bp-down('sm')
   .inputWrapper
     margin-bottom: spacing(2)
 
   .input
     flex: 1
-    
-  .result
-    top: calc(100% + spacing(4))
-    left: 50%
-    transform: translateX(-50%)
-    width: calc(100vw - 2 * spacing($header-lr-padding-sm))
-    padding: spacing(2, 4)
-    font-size: .8rem
-
-    .entry
-      grid-template-columns: spacing(12) 1fr

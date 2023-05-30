@@ -1,8 +1,8 @@
-import { Locales } from '@src/consts/definitions'
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import { useRouter } from 'next/router'
 import { useEffect } from 'react'
+import { useRouter } from 'next/router'
+import { Locales } from '@src/consts/definitions'
+
+import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   const router = useRouter()

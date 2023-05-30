@@ -1,50 +1,113 @@
-import {
-  Dispatch,
-  MouseEvent,
-  SetStateAction,
-  useEffect,
-  useRef,
-  useState,
-} from 'react'
-import styles from './ShareExport.module.sass'
-import { ExpandedTrackObject } from '@src/types/Track'
-import h2c from 'html2canvas'
+import { useEffect, useRef, useState } from 'react'
 import clsx from 'clsx'
-import { SharePreview } from './SharePreview'
-import type translationJSON from '@translations/track.json'
-import { Locales } from '@src/consts/definitions'
+import h2c from 'html2canvas'
+import { SharePreview } from '.'
 import { Icon } from '@src/components/Icon'
+import { usePortal } from '@hooks/index'
+import styles from './ShareExport.module.sass'
 
-interface TrackInfoProps {
-  translation: (typeof translationJSON)[Locales.ZH]
-  track: ExpandedTrackObject
-  open: boolean
-  setOpen: Dispatch<SetStateAction<boolean>>
+import type { MouseEvent } from 'react'
+import type { ExpandedTrackObject } from '@__types/Track'
+import type translationJSON from '@translations/track.json'
+import type { Locales } from '@consts/definitions'
+
+const LyricsSelectionPanel = ({
+  lyrics,
+  translation,
+  lines,
+  buttonAction,
+  selectLyrics,
+}: LyricsSelectionPanelProps): JSX.Element => {
+  return (
+    <>
+      <header className={styles.header}>
+        <h4 className={styles.title}>{translation.title}</h4>
+      </header>
+      <div className={styles.selectLyrics}>
+        {lyrics?.split('\n').map((line, index) => (
+          <p
+            key={index}
+            onClick={selectLyrics(index)}
+            className={clsx(lines.includes(index) && styles.selected)}
+          >
+            {line !== '' ? line : '\u00A0'}
+          </p>
+        ))}
+      </div>
+      <footer className={clsx(styles.footer, styles.forward)}>
+        <button
+          onClick={buttonAction}
+          className={clsx({
+            [styles.button]: true,
+            [styles.enabled]: lines.length !== 0,
+          })}
+          disabled={lines.length === 0}
+        >
+          {translation.action}
+          <Icon icon="arrow_forward" className={styles.arrow} />
+        </button>
+      </footer>
+    </>
+  )
+}
+
+const PreviewPanel = ({
+  imgUrl,
+  translation,
+  buttonAction,
+}: PreviewPanelProps): JSX.Element => {
+  return (
+    <>
+      <header className={styles.header}>
+        <h4 className={styles.title}>{translation.title}</h4>
+      </header>
+      <figure className={styles.figure}>
+        <img src={imgUrl} className={styles.exportImg} />
+        <figcaption className={styles.caption}>
+          {translation.tooltip}
+        </figcaption>
+      </figure>
+      <footer className={clsx(styles.footer, styles.backward)}>
+        <button
+          onClick={buttonAction}
+          className={clsx(styles.button, styles.backward)}
+        >
+          <Icon icon="arrow_back" className={styles.arrow} />
+          {translation.action}
+        </button>
+      </footer>
+    </>
+  )
 }
 
 export const ShareExport = ({
   translation,
   track,
   open,
-  setOpen,
+  closeSelf,
 }: TrackInfoProps): JSX.Element => {
-  const exportRef = useRef<HTMLDivElement | null>(null)
-  const [selectedLyrics, setSelectedLyrics] = useState<number[]>([])
+  const exportRef = useRef<HTMLElement | null>(null)
+  const [selectedLines, setSelectedLines] = useState<number[]>([])
   const [imgUrl, setImgUrl] = useState<string | null>(null)
+  const [portal, createPortal] = usePortal()
 
   const selectLyrics = (line: number) => () => {
-    setSelectedLyrics((_selectedLyrics) => {
-      if (_selectedLyrics.length === 0) return [line]
-      const firstLine = _selectedLyrics[0]
-      const lastLine  = _selectedLyrics[_selectedLyrics.length - 1]
-      return !_selectedLyrics.includes(line)
-        ?   firstLine === line+1 ? [line, ..._selectedLyrics]
-          : lastLine  === line-1 ? [..._selectedLyrics, line]
+    setSelectedLines((_selectedLines) => {
+      if (_selectedLines.length === 0) return [line]
+      const firstLine = _selectedLines[0]
+      const lastLine = _selectedLines[_selectedLines.length - 1]
+      return !_selectedLines.includes(line)
+        ?   firstLine === line + 1 ? [line, ..._selectedLines]
+          : lastLine  === line - 1 ? [..._selectedLines, line]
           : [line]
-        :   firstLine === line ? _selectedLyrics.slice(1)
-          : lastLine  === line ? _selectedLyrics.slice(0,-1)
+        :   firstLine === line ? _selectedLines.slice(1)
+          : lastLine  === line ? _selectedLines.slice(0, -1)
           : [line]
     })
+  }
+
+  const handleClose = (e: MouseEvent) => {
+    if (e.currentTarget === e.target) closeSelf()
   }
 
   const exportPng = async () => {
@@ -52,91 +115,72 @@ export const ShareExport = ({
     setImgUrl(url.toDataURL())
   }
 
-  const returnToSelect = () => {
-    setImgUrl(null)
-  }
-
-  const handleClose = (e: MouseEvent) => {
-    if (e.currentTarget === e.target) setOpen(false)
-  }
+  const returnToSelect = () => setImgUrl(null)
 
   useEffect(() => {
     document.body.style.overflow = 'hidden'
-    return () => {
-      document.body.style.overflow = ''
-    }
+    return () => { document.body.style.overflow = '' }
   })
 
-  return (
-    <div className={clsx({
-      [styles.backdrop]: true,
-      [styles.unmount]: !open,
-      [styles.mount]: open,
-    })} onClick={handleClose}>
-      <dialog className={styles.dialog} open={open}>
-        <div className={styles.inner}>
-          <div className={styles.titleDiv}>
-            <div className={styles.title}>
-              {!imgUrl
-                ? translation.export.pre.title
-                : translation.export.post.title}
-            </div>
-            <button className={styles.closeDiv} onClick={() => setOpen(false)}>
-              <Icon icon="close" className={styles.close}/>
-            </button>
-          </div>
+  if (!portal) return <></>
+  return createPortal(
+    <>
+      <div
+        className={clsx({
+          [styles.backdrop]: true,
+          [styles.unmount]: !open,
+          [styles.mount]: open,
+        })}
+        onClick={handleClose}
+      >
+        <dialog className={styles.dialog} open={open}>
+          <button className={styles.close} onClick={closeSelf}>
+            <Icon icon="close" />
+          </button>
           {!imgUrl ? (
-            <>
-              <div className={styles.selectLyrics}>
-                {track.lyrics?.split('\n').map((line, index) => (
-                  <p
-                    key={index}
-                    onClick={selectLyrics(index)}
-                    className={clsx({
-                      [styles.selected]: selectedLyrics.includes(index),
-                    })}
-                  >
-                    {line !== '' ? line : '\u00A0'}
-                  </p>
-                ))}
-              </div>
-              <button
-                onClick={exportPng}
-                className={clsx({
-                  [styles.button]: true,
-                  [styles.forward]: true,
-                  [styles.enabled]: selectedLyrics.length !== 0,
-                })}
-                disabled={selectedLyrics.length === 0}
-              >
-                {translation.export.pre.action}
-                <Icon icon="arrow_forward" className={styles.arrow} />
-              </button>
-            </>
+            <LyricsSelectionPanel
+              lyrics={track.lyrics}
+              lines={selectedLines}
+              selectLyrics={selectLyrics}
+              buttonAction={exportPng}
+              translation={translation.export.pre}
+            />
           ) : (
-            <>
-              <figure className={styles.figure}>
-                <img src={imgUrl} className={styles.exportImg} />
-                <figcaption className={styles.caption}>
-                  {translation.export.post.tooltip}
-                </figcaption>
-              </figure>
-              <button
-                onClick={returnToSelect}
-                className={clsx(styles.button, styles.backward)}
-              >
-                <Icon icon="arrow_back" className={styles.arrow} />
-                {translation.export.post.action}
-              </button>
-            </>
+            <PreviewPanel
+              imgUrl={imgUrl}
+              buttonAction={returnToSelect}
+              translation={translation.export.post}
+            />
           )}
-        </div>
-      </dialog>
+        </dialog>
+      </div>
       <SharePreview
         track={track}
-        lines={selectedLyrics}
-        parentRef={exportRef!}
+        lines={selectedLines}
+        parentRef={exportRef}
       />
-    </div>
+    </>,
+    portal
   )
+}
+
+interface TrackInfoProps {
+  translation: ((typeof translationJSON))[Locales.ZH]
+  track: ExpandedTrackObject
+  open: boolean
+  closeSelf: () => void
+}
+
+interface LyricsSelectionPanelProps {
+  lyrics: ExpandedTrackObject['lyrics']
+  lines: number[]
+  buttonAction: () => void
+  selectLyrics: (line: number) => () => void
+  translation: (typeof translationJSON)[Locales.ZH]['export']['pre']
+}
+
+interface PreviewPanelProps {
+  imgUrl: string
+  buttonAction: () => void
+  translation: (typeof translationJSON)[Locales.ZH]['export']['post']
 }

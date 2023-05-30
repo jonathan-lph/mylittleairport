@@ -1,15 +1,8 @@
 @import 'src/assets/styles/theme'
 @import 'src/assets/styles/animations'
-
+ 
 .backdrop
-  position: fixed
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
-  background: rgba(0, 0, 0, 0.1)
-  z-index: 100
-  height: 100%
+  @include fullscreen-backdrop
   display: flex
   justify-content: center
   align-items: center
@@ -17,7 +10,7 @@
   &.mount
     animation: fadeIn .25s ease
     .dialog
-      animation: fadeInDown .25s ease
+      animation: fadeIn .25s ease, slideInDown .25s ease
 
   &.unmount
     animation: fadeOut .25s ease
@@ -26,42 +19,35 @@
 
 .dialog
   all: unset
+  @include dialog-box
   position: relative
   width: clamp(300px, 500px, 90%)
-  @include dialog-box
-
-.inner
   height: clamp(300px, 80vh, 80vh)
   display: flex
   flex-direction: column
   overflow: hidden
 
-  >.selectLyrics, .figure
+  .selectLyrics, .figure
     flex: 1
-    display: flex
-    flex-direction: column
     min-height: min-content
     overflow-x: auto
 
-.titleDiv
+.close
   display: flex
-  align-items: center
+  font-size: 1.25rem
+  position: absolute
+  top: spacing(4)
+  right: spacing(4)
+
+.header
   border-bottom: 1px solid palette(misc, divider)
+  padding: spacing(4, 6)
 
   .title
-    padding: spacing(4, 6)
-    flex: 1
     @include bold
     font-size: 1.25rem
 
-  .closeDiv
-    display: flex
-    margin: spacing(3,4)
-    cursor: pointer
-    font-size: 1.25rem
-
 .selectLyrics
-  flex: 1
   padding: spacing(4, 6)
 
   p
@@ -69,35 +55,42 @@
     opacity: 0.5
     cursor: pointer
 
-  p.selected
-    opacity: 1
-    border-left: 2px solid palette(misc, background-dark)
-    padding: spacing(2, 4)
+    &.selected
+      opacity: 1
+      border-left: 2px solid palette(misc, background-dark)
+      padding: spacing(2, 4)
 
-.button
-  // Visual correction for alignment
-  padding: spacing(3, 4, 4)
-  text-align: center
+.footer
   display: flex
-  align-items: center
 
   &.forward
-    animation: nextFadeInLeft .3s both ease
-    align-self: flex-end
+    justify-content: flex-end
+
+    .button
+      animation: fadeInDisabled .3s both ease, slideInLeft .3s both ease
 
   &.backward
-    animation: fadeInRight .3s both ease
-    align-self: flex-start
+    justify-content: flex-start
 
-  &.enabled
-    opacity: 1 !important
+    .button
+      animation: fadeIn .3s both ease, slideInRight .3s both ease
 
-  .arrow
-    font-size: 1.25rem
-    // Visual correction for alignment
-    transform: translateY(1px)
+  .button
+    padding: spacing(3, 4)
+    display: flex
+    align-items: center
+
+    &.enabled
+      opacity: 1 !important
+
+    .arrow
+      font-size: 1.25rem
+      /* Visual correction for alignment */
+      transform: translateY(1px)
 
 .figure
+  display: flex
+  flex-direction: column
   justify-content: center
   align-items: center
   padding: spacing(4)
@@ -110,17 +103,15 @@
     white-space: pre-wrap
     text-align: center
     color: palette(text, secondary)
-    margin-top: spacing(4)
+    margin: spacing(4)
 
 @include bp-down('sm')
   .figure
     .exportImg
       width: 100%
 
-@keyframes nextFadeInLeft
+@keyframes fadeInDisabled
   0%
     opacity: 0
-    transform: translateX(-20px)
   100%
     opacity: .5
-    transform: translateX(0)

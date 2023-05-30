@@ -1,18 +1,15 @@
 @import 'src/assets/styles/theme'
 
 .root
+  width: 400px
+  max-height: 60vh
+  padding: spacing(2, 0)
   position: absolute
   top: calc(100% + spacing(6))
   right: 0
-  width: 400px
-  max-height: 60vh
   z-index: 50
   overflow-x: auto
-  list-style-type: none
-  background: palette(misc, background)
-  border: 1px solid palette(misc, divider)
-  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px
-  padding: spacing(2, 0)
+  @include dialog-box
 
 .entry
   display: grid
@@ -28,10 +25,7 @@
 .lyrics
   color: palette(text, secondary)
   font-size: .9em
-  display: -webkit-box
-  -webkit-box-orient: vertical
-  -webkit-line-clamp: 2
-  overflow: hidden
+  @include overflow-textbox(2)
 
 .highlight
   color: palette(text, primary)
@@ -49,7 +43,6 @@
 
 
 @include bp-down('sm')
-    
   .root
     top: calc(100% + spacing(4))
     left: 50%

@@ -1,15 +1,16 @@
-import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
-import Head from 'next/head'
-import { ParsedUrlQuery } from 'querystring'
-import * as translationJSON from '@translations/albums.json'
-import { AlbumList } from '@src/components/albums/AlbumList'
-import { locales, Locales } from '@consts/definitions'
 import fs from "fs"
-import { AlbumObject } from '@src/types/Album'
-import metadata from '@consts/metadata.json'
 import is from "image-size"
-import { injectObjectToString } from '@src/utils/helper'
-import mapMetaTags from '@src/utils/mapMetaTags'
+import Head from 'next/head'
+
+import { AlbumList } from '@components/albums'
+import metadata from '@consts/metadata.json'
+import { locales, Locales } from '@consts/definitions'
+import { mapMetaTags, injectObjectToString } from '@utils/index'
+import translationJSON from '@translations/albums.json'
+
+import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
+import type { ParsedUrlQuery } from 'querystring'
+import type { AlbumObject } from '@__types/Album'
 
 const Albums: NextPage<AlbumsProps> = ({ 
   albums,
@@ -77,7 +78,7 @@ export default Albums
 type AlbumsProps = {
   albums: AlbumObject[]
   locale: Locales
-  translation: typeof translationJSON[Locales.EN]
+  translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string | string[] | Record<string, string>[]>
   props: any
 }

@@ -1,16 +1,17 @@
-import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import Head from 'next/head'
-import { ParsedUrlQuery } from 'querystring'
-import { AlbumInfo } from '@src/components/album/AlbumInfo'
-import translationJSON from '@translations/album.json'
-import { Locales, locales } from '@consts/definitions'
-import { ExpandedAlbumObject, TocAlbumObject } from '@src/types/Album'
-import { fetchExpandedAlbumFromFiles } from '@database/album'
-import metadata from '@consts/metadata.json'
-import { injectObjectToString } from '@src/utils/helper'
-import mapMetaTags from '@src/utils/mapMetaTags'
 import { useEffect } from 'react'
 import { getAnalytics, logEvent } from 'firebase/analytics'
+
+import { AlbumInfo } from '@components/album/AlbumInfo'
+import { fetchExpandedAlbumFromFiles } from '@database/album'
+import metadata from '@consts/metadata.json'
+import { Locales, locales } from '@consts/definitions'
+import { mapMetaTags, injectObjectToString } from '@utils/index'
+import translationJSON from '@translations/album.json'
+
+import type { ExpandedAlbumObject, TocAlbumObject } from '@__types/Album'
+import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
+import type { ParsedUrlQuery } from 'querystring'
 
 const AlbumDetails: NextPage<AlbumDetailsProps> = ({
   album,
@@ -102,7 +103,7 @@ export default AlbumDetails
 type AlbumDetailsProps = {
   album: ExpandedAlbumObject
   locale: Locales
-  translation: typeof translationJSON[Locales.EN]
+  translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string | string[] | Record<string, string>[]>
   props: any
 }
