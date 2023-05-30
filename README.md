@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# my little airport
 
-## Getting Started
+A collection of all musical publications, including albums, EPs, singles, compilations, and corresponding tracks, of the Hong Kong based band my little airport. Published at [mylittleairport.app](https://mylittleairport.app).
 
-First, run the development server:
+## Installation
 
-```bash
+### Basic Installation
+
+1. Clone the repository.
+2. Install dependencies.
+```
+npm install
+```
+3. Run development server at `localhost:3000`.
+```
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Using MongoDB (optional)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Data files are available at [`src/__data`](src/__data) and act as a database for generating the pages. MongoDB (Mongoose) are used as an alternative database to manipulate the files. If you wish to use these specific database functions, additional setup is needed. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. Create a MongoDB cluster.
+2. Clone [`.env.local.example`](.env.local.example).
+3. Paste your [connection string](https://www.mongodb.com/docs/drivers/node/current/quick-start/create-a-connection-string/#copy-your-connection-string) as the value of `MONGODB_URI`.
+```
+MONGODB_URI=<CONNECTION_STRING>
+```
+4. Save the file as `.env.local`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You may then run the server and import the data into your cluster.
 
-## Learn More
+5. Run development server at `localhost:3000`.
+```
+npm run dev
+```
+6. Call API `localhost:3000/api/import`.
 
-To learn more about Next.js, take a look at the following resources:
+Certain functions on Next.js SSG function `getStaticProps` can be replaced to fetch from MongoDB instead. Example functions are included in [`src/services/database/*`](src/services/database).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For more details on setup, reference [MongoDB documentation](https://www.mongodb.com/docs/drivers/node/current/quick-start/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contribution
 
-## Deploy on Vercel
+Guidelines for contributions will be published soon. Welcome to modify or provide further information to current data at [`src/__data`](src/__data) by submitting a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Credits
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+All copyright and credits, including album artworks and intellectual propreties, go to my little airport.
