@@ -1,17 +1,20 @@
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
-import { Locales } from '@src/consts/definitions'
+import Head from 'next/head'
+import { Locales } from '@consts/definitions'
+import metadata from '@consts/metadata.json'
 
 import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
-  const router = useRouter()
 
-  useEffect(() => {
-    router.replace(`/${Locales.ZH}/albums`)
-  }, [router])
+  const host = process.env.NODE_ENV === 'development'
+    ? 'http://localhost:3000'
+    : `https://${metadata.base_url}`
 
-  return (<></>)
+  return (
+    <Head>
+      <meta httpEquiv="refresh" content={`0; url='${host}/${Locales.ZH}/albums'`}/>
+    </Head>
+  )
 }
 
 export default Home
