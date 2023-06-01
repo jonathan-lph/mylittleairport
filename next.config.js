@@ -6,7 +6,16 @@ const withPWA = require('next-pwa')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true
+  reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: `/zh_hk/albums`,
+        permanent: false
+      }
+    ]
+  }
 }
 
 module.exports = withPWA(nextConfig)
