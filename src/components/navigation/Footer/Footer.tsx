@@ -47,7 +47,7 @@ export const Footer = ({ locale }: FooterProps): JSX.Element => {
 
       <a
         href={metadata.github_url}
-        className={styles.credits}
+        className={styles.github}
         target="_blank"
         rel="noreferrer"
       >

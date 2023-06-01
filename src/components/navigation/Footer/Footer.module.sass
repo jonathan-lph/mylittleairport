@@ -4,6 +4,7 @@
   height: $footer-height
   display: flex
   justify-content: space-between
+  align-items: center
   padding: spacing(0, 14)
   font-size: .8rem
   z-index: 100
@@ -23,21 +24,24 @@
 
     .locale
       opacity: .5
+      transition: opacity .2s ease-in-out
 
       &:hover, &.active
         opacity: 1
 
-.credits
+.github
+  padding: spacing(2)
   opacity: .5
-
+  transition: opacity .2s ease-in-out
+  
   &:hover
     opacity: 1
 
 @include bp-down('sm')
   .root
-    height: $footer-height-sm
-    padding: spacing(2, 4)
-    padding-bottom: calc(spacing(4) + env(safe-area-inset-bottom))
+    height: calc($footer-height-sm + env(safe-area-inset-bottom))
+    padding: spacing(0, 4)
+    padding-bottom: env(safe-area-inset-bottom)
 
   .globe
     display: none
