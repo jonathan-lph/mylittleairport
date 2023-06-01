@@ -33,7 +33,7 @@ export const Header = ({ locale }: HeaderProps): JSX.Element => {
     router.push({
       pathname: '/[locale]/track/[track]',
       query: {
-        locale: locale,
+        locale: locale ?? Locales.ZH,
         track: track.slug,
       },
     })
@@ -106,14 +106,14 @@ export const Header = ({ locale }: HeaderProps): JSX.Element => {
         <SearchBar
           open={searchMode}
           toggleOpen={toggleSearchMode}
-          locale={locale}
+          locale={locale ?? Locales.ZH}
           searchButtonRef={searchButtonRef}
           translation={translation}
         />
       )}
       {shouldRenderMenu && (
         <MobileMenu
-          locale={locale}
+          locale={locale ?? Locales.ZH}
           consts={{ LINKS, DEAD_LINKS }}
           translation={translation}
           open={menuOpen}
