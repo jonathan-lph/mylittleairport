@@ -1,12 +1,18 @@
+const isDev = process.env.NODE_ENV === 'development'
+
 const withPWA = require('next-pwa')({
   dest: 'public',
-  disable: process.env.NODE_ENV === 'development',
+  disable: isDev,
   cacheOnFrontEndNav: true
 })
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true
+  reactStrictMode: true,
+  webpack: (config, { isServer }) => {
+    if (isServer && !isDev) require('./src/scripts/generateSitemap.js')
+    return config
+  }
 }
 
 module.exports = withPWA(nextConfig)

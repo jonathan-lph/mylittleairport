@@ -41,3 +41,6 @@ yarn-error.log*
 # pwa
 /public/sw.js
 /public/workbox-*.js
+
+# sitemap
+/public/sitemap.xml
