@@ -5,8 +5,8 @@ const tracks = require('../__data/toc/tracks.json')
 const albums = require('../__data/toc/albums.json')
 
 const LOCALES = {
-  ZH: 'zh_hk',
-  EN: 'en_us',
+  ZH: 'zh-hk',
+  EN: 'en-us',
 }
 
 function addPage(page) {

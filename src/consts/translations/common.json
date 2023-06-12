@@ -1,5 +1,5 @@
 {
-  "zh_hk": {
+  "zh-hk": {
     "header": {
       "shuffle": "隨機曲目",
       "search" : "搜尋",
@@ -24,7 +24,7 @@
       "message": "頁面不存在。"
     }
   },
-  "en_us": {
+  "en-us": {
     "header": {
       "shuffle": "Random",
       "search": "Search",
