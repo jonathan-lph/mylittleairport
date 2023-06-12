@@ -20,6 +20,7 @@ function objToXml(obj: Record<string, any>) {
       acc += val
     }
     acc += Array.isArray(val) ? '' : `</${prop}>`
+    // TODO: Handle xml with attribute
   })
   return acc
 }

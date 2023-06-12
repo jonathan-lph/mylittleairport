@@ -1,6 +1,9 @@
+// [lang]-[region]
+// Language code: ISO 639-1
+// Region code: ISO 3166-1 Alpha 2
 export enum Locales {
-  ZH = "zh_hk",
-  EN = "en_us"
+  ZH = "zh-hk",
+  EN = "en-us"
 }
 
 // https://developers.google.com/search/docs/specialty/international/localized-versions

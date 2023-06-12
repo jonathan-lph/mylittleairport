@@ -4,13 +4,18 @@ import { TrackAlbumInfo } from '@components/track/TrackAlbumInfo'
 import { fetchExpandedTrackFromFiles, searchTracksFromFiles } from '@database/track'
 import metadata from '@consts/metadata.json'
 import { Locales, locales } from '@consts/definitions'
-import { mapMetaTags, injectObjectToString } from '@utils/index'
+import {
+  mapMetaTags,
+  injectObjectToString,
+  mapLocaleLinkTags
+} from '@utils/index'
 import translationJSON from '@translations/track.json'
 import styles from '@components/track/index.module.sass'
 
 import type { ParsedUrlQuery } from 'querystring'
 import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import type { ExpandedTrackObject, TocTrackObject } from '@__types/Track'
+import type { LocaleLinkTag } from '@__types/common'
 
 const TrackDetails: NextPage<TrackDetailsProps> = ({ 
   track,
@@ -18,12 +23,14 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
   locale,
   translation,
   metaTags,
+  localeLinkTags,
   ...props 
 }) => {
   return (<>
     <Head>
       <title>{injectObjectToString(translation.meta.title, track)}</title>
       {mapMetaTags(metaTags)}
+      {mapLocaleLinkTags(localeLinkTags)}
     </Head>
 
     <div className={styles.root}>
@@ -90,6 +97,11 @@ export const getStaticProps: GetStaticProps = async (context) => {
           _member => `${metadata.base_url}/${locale}/artist/${_member.slug}`
     ))))
   }
+  const localeLinkTags : LocaleLinkTag[] = Object.values(Locales).map(
+    (_locale) => ({
+      hreflang: _locale,
+      href: `${metadata.base_url}/${_locale}/track/${trackSlug}`
+    }))
 
   return {
     props: { 
@@ -97,6 +109,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       tracksWithSameName,
       locale,
       metaTags,
+      localeLinkTags,
       translation
     }
   }
@@ -110,6 +123,7 @@ type TrackDetailsProps = {
   locale: Locales
   translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string[] | string>
+  localeLinkTags: LocaleLinkTag[]
   props: any
 }
 

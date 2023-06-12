@@ -1,5 +1,5 @@
 {
-  "zh_hk": {
+  "zh-hk": {
     "page_title": "曲目",
     "meta": {
       "title": "所有曲目｜my little airport",
@@ -12,7 +12,7 @@
       "list_view": "列表模式"
     }
   },
-  "en_us": {
+  "en-us": {
     "page_title": "Tracks",
     "meta": {
       "title": "All Tracks | my little airport",

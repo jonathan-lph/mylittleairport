@@ -2,7 +2,9 @@ export function mapMetaTags(
   obj: Record<string, string | string[] | Record<string, string>[]>
 ) {
   return Object.entries(obj).map(([prop, content]) =>
-    !Array.isArray(content) ? (
+    !new RegExp(':').test(prop) && !Array.isArray(content) ? (
+      <meta key={prop} name={prop} content={content as string} />
+    ) : !Array.isArray(content) ? (
       <meta key={prop} property={prop} content={content} />
     ) : typeof content[0] === 'object' ? (
       content.map((_item, i) =>

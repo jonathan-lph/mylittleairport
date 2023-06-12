@@ -33,3 +33,8 @@ export enum DatePrecision {
   MONTH = "month",
   DAY = "day"
 }
+
+export type LocaleLinkTag = {
+  hreflang: string
+  href: string
+}

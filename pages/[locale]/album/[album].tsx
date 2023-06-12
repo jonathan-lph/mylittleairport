@@ -3,24 +3,31 @@ import { AlbumInfo } from '@components/album/AlbumInfo'
 import { fetchExpandedAlbumFromFiles } from '@database/album'
 import metadata from '@consts/metadata.json'
 import { Locales, locales } from '@consts/definitions'
-import { mapMetaTags, injectObjectToString } from '@utils/index'
+import {
+  mapMetaTags,
+  injectObjectToString,
+  mapLocaleLinkTags
+} from '@utils/index'
 import translationJSON from '@translations/album.json'
 
 import type { ExpandedAlbumObject, TocAlbumObject } from '@__types/Album'
 import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import type { ParsedUrlQuery } from 'querystring'
+import type { LocaleLinkTag } from '@__types/common'
 
 const AlbumDetails: NextPage<AlbumDetailsProps> = ({
   album,
   locale,
   translation,
   metaTags,
+  localeLinkTags,
   ...props
 }) => {
   return (<>
     <Head>
       <title>{injectObjectToString(translation.page_title, album)}</title>
       {mapMetaTags(metaTags)}
+      {mapLocaleLinkTags(localeLinkTags)}
     </Head>
 
     <AlbumInfo
@@ -77,13 +84,19 @@ export const getStaticProps: GetStaticProps = async (context) => {
     'music:release_date': album.release_date,
     'music:musician': Array.from(new Set(album.artists.map(_artist => `${metadata.base_url}/${locale}/artist/${_artist.slug}`)))  
   }
+  const localeLinkTags : LocaleLinkTag[] = Object.values(Locales).map(
+    (_locale) => ({
+      hreflang: _locale,
+      href: `${metadata.base_url}/${_locale}/album/${albumSlug}`
+    }))
 
   return {
     props: {
       album,
       locale,
       translation,
-      metaTags
+      metaTags,
+      localeLinkTags
     }
   }
 }
@@ -95,6 +108,7 @@ type AlbumDetailsProps = {
   locale: Locales
   translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string | string[] | Record<string, string>[]>
+  localeLinkTags: LocaleLinkTag[]
   props: any
 }
 
