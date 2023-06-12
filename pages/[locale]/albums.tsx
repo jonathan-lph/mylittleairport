@@ -5,24 +5,31 @@ import Head from 'next/head'
 import { AlbumList } from '@components/albums'
 import metadata from '@consts/metadata.json'
 import { locales, Locales } from '@consts/definitions'
-import { mapMetaTags, injectObjectToString } from '@utils/index'
+import {
+  mapMetaTags,
+  injectObjectToString,
+  mapLocaleLinkTags
+} from '@utils/index'
 import translationJSON from '@translations/albums.json'
 
 import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import type { ParsedUrlQuery } from 'querystring'
 import type { AlbumObject } from '@__types/Album'
+import type { LocaleLinkTag } from "@__types/common"
 
 const Albums: NextPage<AlbumsProps> = ({ 
   albums,
   locale,
   translation,
   metaTags,
+  localeLinkTags,
   ...props
 }) => {
   return (<>
     <Head>
       <title>{translation.meta.title}</title>
       {mapMetaTags(metaTags)}
+      {mapLocaleLinkTags(localeLinkTags)}
     </Head>
 
     <AlbumList
@@ -51,7 +58,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     'description': injectObjectToString(translation.meta.og_description, {}),
     'og:title': `${translation.meta.og_title}`,
     'og:type': 'website',
-    'og:url': `${metadata.base_url}/${locale}/tracks`,
+    'og:url': `${metadata.base_url}/${locale}/albums`,
     'og:site_name': metadata.title,
     'og:description': injectObjectToString(translation.meta.og_description, {}),
     'og:locale': locale,
@@ -62,6 +69,11 @@ export const getStaticProps: GetStaticProps = async (context) => {
     'og:image:height': isJpg.height,
     'og:image:alt': 'my little airport'
   }
+  const localeLinkTags : LocaleLinkTag[] = Object.values(Locales).map(
+    (_locale) => ({
+      hreflang: _locale,
+      href: `${metadata.base_url}/${_locale}/albums`
+    }))
 
   return {
     props: { 
@@ -69,7 +81,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
         .map(file => require('src/__data/albums/'+file)),
       locale,
       translation,
-      metaTags
+      metaTags,
+      localeLinkTags
     }
   }
 }
@@ -81,6 +94,7 @@ type AlbumsProps = {
   locale: Locales
   translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string | string[] | Record<string, string>[]>
+  localeLinkTags: LocaleLinkTag[]
   props: any
 }
 
