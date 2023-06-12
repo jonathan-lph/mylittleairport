@@ -48,6 +48,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   const isJpg = is('public/icons/icon-512.png')
   const metaTags = {
+    'description': injectObjectToString(translation.meta.og_description, {}),
     'og:title': `${translation.meta.og_title}`,
     'og:type': 'website',
     'og:url': `${metadata.base_url}/${locale}/tracks`,

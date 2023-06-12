@@ -53,13 +53,15 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const album = fetchExpandedAlbumFromFiles(albumSlug)
 
   const jpg = album.images.find(_image => _image.type === 'jpg')!
+  const desc = injectObjectToString(translation.og_description, album)
+    + album.tracks.map(_t => _t.name).join('／').slice(0,100)
   const metaTags = {
+    'description': desc,
     'og:title': injectObjectToString(translation.og_title, album),
     'og:type': 'music.album',
     'og:url': `${metadata.base_url}/${locale}/album/${albumSlug}`,
     'og:site_name': metadata.title,
-    'og:description': injectObjectToString(translation.og_description, album)
-      + album.tracks.map(_t => _t.name).join('／').slice(0,100),
+    'og:description': desc,
     'og:locale': locale,
     'og:locale:alternate': Object.values(Locales).filter(_loc => _loc !== locale),
     'og:image': `${metadata.base_url}${jpg.url}`,
