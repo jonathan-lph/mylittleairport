@@ -64,13 +64,15 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const translation = translationJSON[locale]
 
   const jpg = track.album.images.find(_image => _image.type === 'jpg')!
+  const desc = injectObjectToString(translation.meta.og_description, track)
+    + track.lyrics?.replaceAll('\n\n', '\n').replaceAll('\n', '／').slice(0,100)
   const metaTags = {
+    'description': desc,
     'og:title': injectObjectToString(translation.meta.og_title, track),
     'og:type': 'music.song',
     'og:url': `${metadata.base_url}/${locale}/track/${trackSlug}`,
     'og:site_name': metadata.title,
-    'og:description': injectObjectToString(translation.meta.og_description, track)
-      + track.lyrics?.replaceAll('\n\n', '\n').replaceAll('\n', '／').slice(0,100),
+    'og:description': desc,
     'og:locale': locale,
     'og:locale:alternate': Object.values(Locales).filter(_loc => _loc !== locale),
     'og:image': jpg.url,
