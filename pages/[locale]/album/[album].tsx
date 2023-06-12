@@ -54,7 +54,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   const jpg = album.images.find(_image => _image.type === 'jpg')!
   const desc = injectObjectToString(translation.og_description, album)
-  + album.tracks.map(_t => _t.name).join('／').slice(0,100),
+    + album.tracks.map(_t => _t.name).join('／').slice(0,100)
   const metaTags = {
     'description': desc,
     'og:title': injectObjectToString(translation.og_title, album),
