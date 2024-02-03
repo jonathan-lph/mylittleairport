@@ -1,0 +1,11 @@
+# Modules
+node_modules
+
+# Config files
+.next
+.github
+.vscode
+
+# Specifics
+.env.*
+**/*.md

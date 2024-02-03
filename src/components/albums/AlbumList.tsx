@@ -99,7 +99,9 @@ export const AlbumList = ({
                       _album.album_edition === edition
                   )
                   .sort(
-                    (a, b) => Number(b.release_date) - Number(a.release_date)
+                    (a, b) =>
+                      new Date(b.release_date).valueOf() -
+                      new Date(a.release_date).valueOf()
                   )}
                 title={translation.title[edition]}
                 locale={locale}

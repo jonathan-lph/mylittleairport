@@ -1,0 +1,39 @@
+{
+  "type": "album",
+  "slug": "駱駝-EZdzZM",
+  "name": "駱駝",
+  "name_en": "Camel",
+  "href": "/album/駱駝-EZdzZM",
+  "total_tracks": 1,
+  "album_type": "single",
+  "album_edition": "published",
+  "label": "my little airport",
+  "label_en": null,
+  "release_date": "2023-10-26",
+  "release_date_precision": "day",
+  "is_live": false,
+  "artists": [],
+  "tracks": [
+    {
+      "slug": "駱駝-3BLruu",
+      "name": "駱駝",
+      "name_en": "Camel"
+    }
+  ],
+  "images": [
+    {
+      "url": "/album-artwork/駱駝.webp",
+      "type": "webp",
+      "height": 500,
+      "width": 500
+    },
+    {
+      "url": "/album-artwork/駱駝.jpg",
+      "type": "jpg",
+      "height": 500,
+      "width": 500
+    }
+  ],
+  "genres": [],
+  "external_urls": {}
+}
