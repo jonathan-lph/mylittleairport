@@ -1,17 +1,10 @@
-import { useEffect, useState, useRef } from 'react'
+import { useState } from 'react'
 import { createPortal } from 'react-dom'
 
 export default function usePortal() {
-  const portalRef = useRef<HTMLElement | null>(null)
-  const [mounted, setMounted] = useState(false)
+  const [portalNode] = useState<HTMLElement | null>(() =>
+    typeof document === 'undefined' ? null : document.getElementById('portal')
+  )
 
-  useEffect(() => {
-    portalRef.current = document.getElementById('portal')
-    setMounted(true)
-  }, [])
-
-  return [
-    mounted && portalRef.current ? portalRef.current : null, 
-    createPortal
-  ] as const
+  return [portalNode, createPortal] as const
 }
