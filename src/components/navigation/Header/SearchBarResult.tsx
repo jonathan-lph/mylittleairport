@@ -70,7 +70,8 @@ export const SearchBarResult = ({
                 passHref
               >
                 <li className={styles.entry} onClick={toggleOpen}>
-                  <img 
+                  {/* eslint-disable-next-line @next/next/no-img-element -- static export, no next/image optimizer configured */}
+                  <img
                     src={_track.album.images[0]?.url}
                     alt={_track.album.name}
                     className={styles.img}

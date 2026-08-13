@@ -33,6 +33,7 @@ export const AlbumSection = ({ album, locale }: AlbumDivProps): JSX.Element => {
     >
       <article className={styles.root}>
         <div className={styles.imgBorder}>
+          {/* eslint-disable-next-line @next/next/no-img-element -- static export, no next/image optimizer configured */}
           <img
             src={album.images[0].url}
             alt={album.name}

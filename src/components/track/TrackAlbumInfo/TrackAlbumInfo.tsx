@@ -81,6 +81,7 @@ const AppearsOnAlbumList = ({
           >
             <figure className={styles.otherAlbum}>
               <div className={styles.imgBorder}>
+                {/* eslint-disable-next-line @next/next/no-img-element -- static export, no next/image optimizer configured */}
                 <img
                   src={_track.album.images[0].url}
                   alt={_track.album.name}

@@ -22,6 +22,7 @@ export const AlbumInfo = ({
           {album.name}
         </h1>
       </div>
+      {/* eslint-disable-next-line @next/next/no-img-element -- static export, no next/image optimizer configured */}
       <img
         src={album.images[0].url}
         alt={album.name}
