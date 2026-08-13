@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { TrackInfo } from '@components/track/TrackInfo'
 import { TrackAlbumInfo } from '@components/track/TrackAlbumInfo'
-import { fetchExpandedTrackFromFiles, searchTracksFromFiles } from '@database/track'
+import { fetchExpandedTrack, fetchAllTrackSlugs, searchTracks } from '@database/track'
 import metadata from '@consts/metadata.json'
 import { Locales, locales } from '@consts/definitions'
 import {
@@ -50,12 +50,12 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
 
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const tracksToc = require('src/__data/toc/tracks.json')
+  const trackSlugs = fetchAllTrackSlugs()
   return {
-    paths: tracksToc.flatMap((track : TocTrackObject) => 
+    paths: trackSlugs.flatMap((trackSlug) =>
       locales.map(({ locale }) => ({
         params: {
-          track: track.slug,
+          track: trackSlug,
           locale: locale,
         }
       }))
@@ -66,8 +66,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const { track: trackSlug, locale } = context.params as IParams
-  const track = fetchExpandedTrackFromFiles(trackSlug)
-  const tracksWithSameName = searchTracksFromFiles({name: track.name})
+  const track = fetchExpandedTrack(trackSlug)
+  const tracksWithSameName = searchTracks({name: track.name})
   const translation = translationJSON[locale]
 
   const jpg = track.album.images.find(_image => _image.type === 'jpg')!

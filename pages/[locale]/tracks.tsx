@@ -2,7 +2,7 @@ import { imageSizeFromFile } from "image-size/fromFile"
 import Head from 'next/head'
 
 import { Tracks } from '@components/tracks'
-import tracks from "@src/__data/toc/tracks.json"
+import { fetchAllTracksToc } from '@database/track'
 import metadata from "@consts/metadata.json"
 import { Locales, locales } from '@consts/definitions'
 import {
@@ -76,8 +76,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
     }))
 
   return {
-    props: { 
-      tracks, 
+    props: {
+      tracks: fetchAllTracksToc(),
       locale,
       translation,
       metaTags,

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { AlbumInfo } from '@components/album/AlbumInfo'
-import { fetchExpandedAlbumFromFiles } from '@database/album'
+import { fetchExpandedAlbum, fetchAllAlbumSlugs } from '@database/album'
 import metadata from '@consts/metadata.json'
 import { Locales, locales } from '@consts/definitions'
 import {
@@ -10,7 +10,7 @@ import {
 } from '@utils/index'
 import translationJSON from '@translations/album.json'
 
-import type { ExpandedAlbumObject, TocAlbumObject } from '@__types/Album'
+import type { ExpandedAlbumObject } from '@__types/Album'
 import type { NextPage, GetStaticPaths, GetStaticProps } from 'next'
 import type { ParsedUrlQuery } from 'querystring'
 import type { LocaleLinkTag } from '@__types/common'
@@ -39,12 +39,12 @@ const AlbumDetails: NextPage<AlbumDetailsProps> = ({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const albumsToc = require('src/__data/toc/albums.json')
+  const albumSlugs = fetchAllAlbumSlugs()
   return {
-    paths: albumsToc.flatMap((album: TocAlbumObject) =>
+    paths: albumSlugs.flatMap((albumSlug) =>
       locales.map(({ locale }) => ({
         params: {
-          album: album.slug,
+          album: albumSlug,
           locale
         }
       })
@@ -57,7 +57,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const { album: albumSlug, locale } = context.params as IParams
   const translation = translationJSON[locale]
 
-  const album = fetchExpandedAlbumFromFiles(albumSlug)
+  const album = fetchExpandedAlbum(albumSlug)
 
   const jpg = album.images.find(_image => _image.type === 'jpg')!
   const desc = injectObjectToString(translation.og_description, album)
