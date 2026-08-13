@@ -1,7 +1,7 @@
 import clsx from 'clsx'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useRef, useState } from 'react'
+import { useRef, useState, type JSX } from 'react'
 
 import { Locales } from '@src/consts/definitions'
 import { useDelayUnmount } from '@hooks/index'

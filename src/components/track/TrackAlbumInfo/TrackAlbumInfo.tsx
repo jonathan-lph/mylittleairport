@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
-import { Fragment } from 'react'
+import { Fragment, type JSX } from 'react'
 import { Icon } from '@components/Icon'
 import styles from './TrackAlbumInfo.module.sass'
 

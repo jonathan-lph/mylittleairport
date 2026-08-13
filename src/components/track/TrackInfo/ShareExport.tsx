@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type JSX } from 'react'
 import clsx from 'clsx'
 import h2c from 'html2canvas'
 import { SharePreview } from '.'

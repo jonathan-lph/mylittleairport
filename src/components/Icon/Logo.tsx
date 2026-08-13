@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import styles from './Icon.module.sass'
+import type { JSX } from 'react'
 
 export const Logo = ({ className, ...props }: LogoProps): JSX.Element => {
   return (

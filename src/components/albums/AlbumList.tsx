@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react'
+import { Fragment, useState, type JSX } from 'react'
 import clsx from 'clsx'
 import { EditionSection } from '.'
 import { 

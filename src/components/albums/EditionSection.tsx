@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { AlbumSection } from '.'
 import styles from './EditionSection.module.sass'
 
-import type { Dispatch, SetStateAction } from 'react'
+import type { Dispatch, JSX, SetStateAction } from 'react'
 import type { Locales } from '@consts/definitions'
 import type { AlbumObject, EditionType } from '@__types/Album'
 

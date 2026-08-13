@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from './SearchBarResult.module.sass'
 
+import type { JSX } from 'react'
 import type { TocTrackObject } from '@__types/Track'
 import type { Locales } from '@consts/definitions'
 import type translationJSON from '@translations/common.json'

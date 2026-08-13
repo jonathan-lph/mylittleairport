@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, type JSX } from 'react'
 import styles from './AlbumSection.module.sass'
 
 import type { AlbumObject } from '@__types/Album'

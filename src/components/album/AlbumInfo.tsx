@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import type { JSX } from 'react'
 import { Icon } from "@components/Icon"
 import styles from './AlbumInfo.module.sass'
 

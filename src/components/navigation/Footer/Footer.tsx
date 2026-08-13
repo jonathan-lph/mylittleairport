@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
+import type { JSX } from 'react'
 import { useRouter } from 'next/router'
 import { Icon } from '@components/Icon'
 import metadata from '@consts/metadata.json'

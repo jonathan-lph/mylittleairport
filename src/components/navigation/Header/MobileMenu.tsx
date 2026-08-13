@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
+import type { JSX } from 'react'
 import { Locales } from '@consts/definitions'
 import styles from './MobileMenu.module.sass'
 
