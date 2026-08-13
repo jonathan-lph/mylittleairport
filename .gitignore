@@ -40,3 +40,7 @@ yarn-error.log*
 
 # sitemap
 /public/sitemap.xml
+
+# generated content database + client search index (built from src/__data)
+/src/__data/.generated/
+/public/search-index.json
