@@ -22,8 +22,7 @@ const Albums: NextPage<AlbumsProps> = ({
   locale,
   translation,
   metaTags,
-  localeLinkTags,
-  ...props
+  localeLinkTags
 }) => {
   return (<>
     <Head>

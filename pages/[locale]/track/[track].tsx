@@ -23,8 +23,7 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
   locale,
   translation,
   metaTags,
-  localeLinkTags,
-  ...props 
+  localeLinkTags
 }) => {
   return (<>
     <Head>

@@ -21,7 +21,6 @@ const LOCALES = {
 }
 
 function injectDynamicPaths(path, query) {
-  const regex = new RegExp('\\[.+\\]')
   return path
     .split('[')
     .flatMap((p) => p.split(']'))

@@ -9,8 +9,7 @@ import type translationJSON from "@translations/album.json"
 
 export const AlbumInfo = ({
   album,
-  locale,
-  translation
+  locale
 }: AlbumInfoProps) : JSX.Element => {
   return (
     <div className={styles.root}>

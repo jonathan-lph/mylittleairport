@@ -22,8 +22,7 @@ const TracksPage: NextPage<TracksProps> = ({
   locale,
   translation,
   metaTags,
-  localeLinkTags,
-  ...props
+  localeLinkTags
 }) => {
   return (<>
     <Head>

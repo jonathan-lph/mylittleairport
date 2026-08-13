@@ -22,6 +22,7 @@ function dropAlbumTracksRef() {
   const dir = path.join(DATA_DIR, 'albums')
   for (const file of fs.readdirSync(dir)) {
     const filePath = path.join(dir, file)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars -- destructured only to exclude from rest
     const { tracks, ...rest } = readJson(filePath)
     writeJson(filePath, rest)
   }

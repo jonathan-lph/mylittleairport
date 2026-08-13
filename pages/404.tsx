@@ -1,4 +1,3 @@
-import { Locales } from '@src/consts/definitions'
 import translationJSON from '@translations/common.json'
 import styles from '@styles/404.module.sass'
 

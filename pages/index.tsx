@@ -28,7 +28,7 @@ const Home: NextPage<HomeProps> = ({
   )
 }
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps = async () => {
   const locale = Locales.ZH
   const translation = translationJSON[locale]
   const metaTags = {

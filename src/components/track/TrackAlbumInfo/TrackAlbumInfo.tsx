@@ -133,8 +133,8 @@ interface TrackAlbumInfoProps {
   translation: (typeof translationJSON)[Locales.ZH]
 }
 
-interface AlbumTrackListProps
-  extends Pick<TrackAlbumInfoProps, 'track' | 'locale' | 'translation'> {}
+type AlbumTrackListProps
+  = Pick<TrackAlbumInfoProps, 'track' | 'locale' | 'translation'>
 
 interface AppearsOnAlbumListProps
   extends Pick<

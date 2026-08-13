@@ -20,8 +20,7 @@ const AlbumDetails: NextPage<AlbumDetailsProps> = ({
   locale,
   translation,
   metaTags,
-  localeLinkTags,
-  ...props
+  localeLinkTags
 }) => {
   return (<>
     <Head>
