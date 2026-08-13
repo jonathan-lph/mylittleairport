@@ -17,7 +17,4 @@ export const Logo = ({ className, ...props }: LogoProps): JSX.Element => {
 
 type SVGProps = JSX.IntrinsicElements['svg']
 
-interface LogoProps extends SVGProps {
-  className?: any
-  props?: any
-}
+type LogoProps = SVGProps

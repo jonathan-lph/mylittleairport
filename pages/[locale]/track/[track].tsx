@@ -123,7 +123,6 @@ type TrackDetailsProps = {
   translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string[] | string>
   localeLinkTags: LocaleLinkTag[]
-  props: any
 }
 
 interface IParams extends ParsedUrlQuery {

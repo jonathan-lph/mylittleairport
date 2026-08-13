@@ -4,6 +4,8 @@ import { Icon } from '@components/Icon'
 import styles from './Tracks.module.sass'
 
 import type { TocTrackObject } from '@__types/Track'
+import type { Locales } from '@consts/definitions'
+import type translationJSON from '@translations/tracks.json'
 
 export const Tracks = ({
   tracks,
@@ -75,5 +77,5 @@ export const Tracks = ({
 interface TracksProps {
   tracks: Array<TocTrackObject>
   locale: string
-  translation: any
+  translation: (typeof translationJSON)[Locales.EN]
 }
