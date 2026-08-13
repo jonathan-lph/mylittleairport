@@ -33,10 +33,10 @@ export const MobileMenu = ({
                   locale: locale ?? Locales.ZH,
                 }
               }}
+              onClick={toggleOpen}
+              className={styles.links}
             >
-              <a onClick={toggleOpen} className={styles.links}>
-                {translation[dir as keyof HeaderTranslation]}
-              </a>
+              {translation[dir as keyof HeaderTranslation]}
             </Link>
           </li>
         ))}

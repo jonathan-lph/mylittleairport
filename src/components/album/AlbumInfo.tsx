@@ -32,25 +32,27 @@ export const AlbumInfo = ({
 
       <div className={styles.list}>
         {album.tracks.map((track) =>
-          <Link key={track.slug} href={{
-            pathname: `/[locale]/track/[track]`,
-            query: { 
-              locale: locale,
-              track: track.slug
-            }
-          }}>
-            <a className={styles.track} >
-              <div className={styles.icon}>
-                <Icon icon="arrow_forward"/>
-              </div>
-              <div className={styles.name}>
-                {track.name}
-              </div>
-              <span className={styles.trackIdx}>
-                {track.disc_number !== 1 ? `${track.disc_number}-` : ''}
-                {track.track_number}
-              </span>
-            </a>
+          <Link
+            key={track.slug}
+            href={{
+              pathname: `/[locale]/track/[track]`,
+              query: {
+                locale: locale,
+                track: track.slug
+              }
+            }}
+            className={styles.track}
+          >
+            <div className={styles.icon}>
+              <Icon icon="arrow_forward"/>
+            </div>
+            <div className={styles.name}>
+              {track.name}
+            </div>
+            <span className={styles.trackIdx}>
+              {track.disc_number !== 1 ? `${track.disc_number}-` : ''}
+              {track.track_number}
+            </span>
           </Link>
         )}
       </div>

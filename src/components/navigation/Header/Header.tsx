@@ -61,15 +61,17 @@ export const Header = ({ locale }: HeaderProps): JSX.Element => {
           className={styles.menu}
           onClick={toggleMenu}
         />
-        <Link href={{
-          pathname: '/[locale]',
-          query: {
-            locale: locale ?? Locales.ZH
-          }
-        }}>
-          <a className={styles.logoWrapper} onClick={closeMenu}>
-            <Logo className={styles.logo} />
-          </a>
+        <Link
+          href={{
+            pathname: '/[locale]',
+            query: {
+              locale: locale ?? Locales.ZH
+            }
+          }}
+          className={styles.logoWrapper}
+          onClick={closeMenu}
+        >
+          <Logo className={styles.logo} />
         </Link>
         <nav className={styles.links}>
           {LINKS.map((dir) => (

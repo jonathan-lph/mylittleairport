@@ -27,15 +27,12 @@ export const Footer = ({ locale }: FooterProps): JSX.Element => {
                   locale: locale ?? Locales.ZH,
                 },
               }}
+              className={clsx({
+                [styles.locale]: true,
+                [styles.active]: locale === (router.query.locale ?? Locales.ZH),
+              })}
             >
-              <a
-                className={clsx({
-                  [styles.locale]: true,
-                  [styles.active]: locale === (router.query.locale ?? Locales.ZH),
-                })}
-              >
-                {label}
-              </a>
+              {label}
             </Link>
           ))}
         </section>
