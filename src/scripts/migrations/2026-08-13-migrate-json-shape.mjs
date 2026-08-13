@@ -22,6 +22,7 @@ function migrateAlbums() {
   for (const file of fs.readdirSync(dir)) {
     const filePath = path.join(dir, file)
     const album = readJson(filePath)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars -- destructured only to exclude from rest
     const { href, total_tracks, artists, tracks, ...rest } = album
     writeJson(filePath, {
       ...rest,
@@ -36,6 +37,7 @@ function migrateTracks() {
   for (const file of fs.readdirSync(dir)) {
     const filePath = path.join(dir, file)
     const track = readJson(filePath)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars -- destructured only to exclude from rest
     const { href, album, artists, ...rest } = track
     writeJson(filePath, {
       ...rest,
@@ -53,6 +55,7 @@ function migrateArtists() {
   for (const file of fs.readdirSync(dir)) {
     const filePath = path.join(dir, file)
     const artist = readJson(filePath)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars -- destructured only to exclude from rest
     const { href, ...rest } = artist
     writeJson(filePath, rest)
   }

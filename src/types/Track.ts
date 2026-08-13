@@ -42,12 +42,12 @@ export interface TocTrackObject extends Pick<TrackObject,
   >
 }
 
-export interface SimplifiedTrackObject extends Omit<TrackObject,
+export type SimplifiedTrackObject = Omit<TrackObject,
   | 'has_lyrics'
   | 'lyrics'
   | 'album'
   | 'artists'
-> { }
+>
 
 export interface ExpandedTrackObject extends Omit<TrackObject,
   | 'album'

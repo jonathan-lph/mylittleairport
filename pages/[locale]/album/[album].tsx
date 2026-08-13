@@ -20,8 +20,7 @@ const AlbumDetails: NextPage<AlbumDetailsProps> = ({
   locale,
   translation,
   metaTags,
-  localeLinkTags,
-  ...props
+  localeLinkTags
 }) => {
   return (<>
     <Head>
@@ -109,7 +108,6 @@ type AlbumDetailsProps = {
   translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string | string[] | Record<string, string>[]>
   localeLinkTags: LocaleLinkTag[]
-  props: any
 }
 
 interface IParams extends ParsedUrlQuery {

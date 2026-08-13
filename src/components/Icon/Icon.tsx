@@ -33,6 +33,4 @@ type AvalIcon = keyof typeof iconPath
 
 interface IconProps extends SVGProps {
   icon: AvalIcon
-  className?: any
-  props?: any
 }

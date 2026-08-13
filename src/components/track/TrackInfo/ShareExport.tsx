@@ -62,6 +62,7 @@ const PreviewPanel = ({
         <h4 className={styles.title}>{translation.title}</h4>
       </header>
       <figure className={styles.figure}>
+        {/* eslint-disable-next-line @next/next/no-img-element -- generated data: URL from html2canvas, not a next/image candidate */}
         <img
           src={imgUrl}
           alt="Export image."

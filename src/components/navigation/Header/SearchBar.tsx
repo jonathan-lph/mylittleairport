@@ -22,7 +22,9 @@ export const SearchBar = ({
   const loadedTracks = useRef<TocTrackObject[] | null>(null)
 
   const handleInputChange = (e: FormEvent<HTMLInputElement>) => {
-    setInput(e.currentTarget.value)
+    const value = e.currentTarget.value
+    setInput(value)
+    if (!value) setResult(null)
   }
 
   // Turn off search mode if unfocused
@@ -42,12 +44,9 @@ export const SearchBar = ({
     return () => document.removeEventListener('mousedown', check)
   }, [open, searchButtonRef, toggleOpen])
 
-  // Handle input change 
+  // Handle input change
   useEffect(() => {
-    if (!input) {
-      if (result) setResult(null)
-      return
-    }
+    if (!input) return
     const debouncer = setTimeout(async () => {
       // Load Tracks
       if (!loadedTracks.current) {
@@ -72,7 +71,7 @@ export const SearchBar = ({
       setResult(_result)
     }, 500)
     return () => clearTimeout(debouncer)
-  }, [input, result])
+  }, [input])
 
   return (
     <div className={styles.inputWrapper} ref={ref}>

@@ -23,8 +23,7 @@ const TrackDetails: NextPage<TrackDetailsProps> = ({
   locale,
   translation,
   metaTags,
-  localeLinkTags,
-  ...props 
+  localeLinkTags
 }) => {
   return (<>
     <Head>
@@ -124,7 +123,6 @@ type TrackDetailsProps = {
   translation: (typeof translationJSON)[Locales.EN]
   metaTags: Record<string, string[] | string>
   localeLinkTags: LocaleLinkTag[]
-  props: any
 }
 
 interface IParams extends ParsedUrlQuery {

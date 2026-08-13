@@ -9,8 +9,7 @@ import type translationJSON from "@translations/album.json"
 
 export const AlbumInfo = ({
   album,
-  locale,
-  translation
+  locale
 }: AlbumInfoProps) : JSX.Element => {
   return (
     <div className={styles.root}>
@@ -23,6 +22,7 @@ export const AlbumInfo = ({
           {album.name}
         </h1>
       </div>
+      {/* eslint-disable-next-line @next/next/no-img-element -- static export, no next/image optimizer configured */}
       <img
         src={album.images[0].url}
         alt={album.name}

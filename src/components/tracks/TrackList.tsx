@@ -41,6 +41,7 @@ export const TrackList = ({
                 <div className={styles.name}>{track.name}</div>
                 <div className={styles.album}>{track.album.name}</div>
               </div>
+              {/* eslint-disable-next-line @next/next/no-img-element -- static export, no next/image optimizer configured */}
               <img
                 src={track.album.images[0]?.url}
                 alt={track.album.name}

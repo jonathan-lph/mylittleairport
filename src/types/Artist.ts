@@ -17,7 +17,7 @@ export interface ArtistObject {
   images: ImageObject[]
 }
 
-export interface SimplifiedArtistObject extends Omit<ArtistObject,
+export type SimplifiedArtistObject = Omit<ArtistObject,
   | 'external_social_urls'
   | 'images'
-> { }
+>

@@ -30,12 +30,11 @@ export interface AlbumObject {
   external_urls: Record<ExternalUrlOrigin, string>
 }
 
-export interface TocAlbumObject extends Pick<AlbumObject,
+export type TocAlbumObject = Pick<AlbumObject,
   | 'slug'
   | 'name'
   | 'name_en'
-> {
-}
+>
 
 export interface SimplifiedAlbumObject extends Omit<AlbumObject,
   | 'artists'

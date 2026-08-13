@@ -25,6 +25,7 @@ export const SharePreview = ({
               line !== '' ? <p key={index}>{line}</p> : <br key={index} />
             )}
         </div>
+        {/* eslint-disable-next-line @next/next/no-img-element -- rendered to canvas via html2canvas, must stay a plain img */}
         <img
           src={track.album.images[0].url}
           alt={track.album.name}

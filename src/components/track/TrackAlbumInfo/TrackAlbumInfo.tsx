@@ -81,6 +81,7 @@ const AppearsOnAlbumList = ({
           >
             <figure className={styles.otherAlbum}>
               <div className={styles.imgBorder}>
+                {/* eslint-disable-next-line @next/next/no-img-element -- static export, no next/image optimizer configured */}
                 <img
                   src={_track.album.images[0].url}
                   alt={_track.album.name}
@@ -133,8 +134,8 @@ interface TrackAlbumInfoProps {
   translation: (typeof translationJSON)[Locales.ZH]
 }
 
-interface AlbumTrackListProps
-  extends Pick<TrackAlbumInfoProps, 'track' | 'locale' | 'translation'> {}
+type AlbumTrackListProps
+  = Pick<TrackAlbumInfoProps, 'track' | 'locale' | 'translation'>
 
 interface AppearsOnAlbumListProps
   extends Pick<
