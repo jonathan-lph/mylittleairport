@@ -5,12 +5,11 @@ import { useRef, useState, type JSX } from 'react'
 
 import { Locales } from '@src/consts/definitions'
 import { useDelayUnmount } from '@hooks/index'
+import { getSearchIndex } from '@lib/searchIndex'
 import { Icon, Logo } from '@components/Icon'
 import { MobileMenu, SearchBar } from '.'
 import translationJSON from '@translations/common.json'
 import styles from './Header.module.sass'
-
-import type { TocTrackObject } from '@__types/Track'
 
 const LINKS = ['albums', 'tracks']
 const DEAD_LINKS = ['artists', 'contribute']
@@ -25,10 +24,10 @@ export const Header = ({ locale }: HeaderProps): JSX.Element => {
 
   const translation = translationJSON[locale ?? Locales.ZH].header
 
-  const handleRandomRedirect = () => {
+  const handleRandomRedirect = async () => {
     const getRandom = <T,>(arr: Array<T>) =>
       arr[Math.floor(Math.random() * arr.length)]
-    const tracks: Array<TocTrackObject> = require('src/__data/toc/tracks.json')
+    const tracks = await getSearchIndex()
     const track = getRandom(tracks)
     router.push({
       pathname: '/[locale]/track/[track]',

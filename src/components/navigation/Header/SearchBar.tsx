@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect, type JSX } from 'react'
 import { Icon } from '@components/Icon'
+import { getSearchIndex } from '@lib/searchIndex'
 import { SearchBarResult } from '.'
 import styles from './SearchBar.module.sass'
 
@@ -47,15 +48,15 @@ export const SearchBar = ({
       if (result) setResult(null)
       return
     }
-    const debouncer = setTimeout(() => {
+    const debouncer = setTimeout(async () => {
       // Load Tracks
       if (!loadedTracks.current) {
-        loadedTracks.current = require('src/__data/toc/tracks.json')
+        loadedTracks.current = await getSearchIndex()
       }
       // Find matching name or lyrics tracks
       const _result : SearchResult[] = loadedTracks.current!
         .reduce((acc : SearchResult[], _track: TocTrackObject) => {
-          if (_track.name.includes(input)) 
+          if (_track.name.includes(input))
             return [...acc, {
               line: null,
               ..._track
