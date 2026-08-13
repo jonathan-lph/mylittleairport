@@ -11,7 +11,7 @@ export interface AlbumObject {
   type: ResourceType.ALBUM
   slug: string
   name: string
-  name_en: string
+  name_en: string | null
 
   href: string
   total_tracks: number

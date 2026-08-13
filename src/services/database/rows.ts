@@ -113,9 +113,7 @@ function mapAlbumBase(row: AlbumRow, totalTracks: number) {
     type: ResourceType.ALBUM as ResourceType.ALBUM,
     slug: row.slug,
     name: row.name,
-    // AlbumObject.name_en is typed non-nullable (unlike Track/Artist); the
-    // SQLite column is nullable TEXT, but no album row has ever had null here.
-    name_en: row.name_en as string,
+    name_en: row.name_en,
     href: `/album/${row.slug}`,
     total_tracks: totalTracks,
     album_type: row.album_type as AlbumType,
@@ -232,8 +230,7 @@ export function getTocAlbumRef(albumId: number) {
   return {
     slug: row.slug,
     name: row.name,
-    // see mapAlbumBase: AlbumObject.name_en is non-nullable, unlike Track/Artist
-    name_en: row.name_en as string,
+    name_en: row.name_en,
     images: getImages("album_images", "album_id", albumId)
   }
 }
