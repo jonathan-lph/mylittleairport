@@ -16,14 +16,14 @@ export const EditionSection = ({
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    if (!ref.current) return
+    const node = ref.current
+    if (!node) return
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) setCurrSection(edition)
     })
-    observer.observe(ref.current)
+    observer.observe(node)
     return () => {
-      if (!ref.current) return
-      observer.unobserve(ref.current)
+      observer.unobserve(node)
     }
   }, [edition, setCurrSection])
 

@@ -10,7 +10,7 @@ const LocaleIndex = ({ locale }: LocaleIndexProps): JSX.Element => {
 
   useEffect(() => {
     router.replace(`/${locale}/albums`)
-  }, [router])
+  }, [router, locale])
 
   return <></>
 }
