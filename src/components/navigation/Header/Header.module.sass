@@ -1,9 +1,9 @@
-@import 'src/assets/styles/theme'
-@import 'src/assets/styles/animations'
+@use 'src/assets/styles/theme'
+@use 'src/assets/styles/animations'
 
 .root
-  padding: spacing(0, $header-lr-padding)
-  background: palette(misc, background)
+  padding: theme.spacing(0, theme.$header-lr-padding)
+  background: theme.palette(misc, background)
   z-index: 100
   position: sticky
   top: 0
@@ -12,14 +12,14 @@
     display: grid
     align-items: center
     grid-template-columns: 1fr max-content
-    column-gap: spacing(4)
+    column-gap: theme.spacing(4)
 
 .nav
   display: flex
   justify-content: space-between
   align-items: center
-  gap: spacing(1)
-  min-height: $header-height
+  gap: theme.spacing(1)
+  min-height: theme.$header-height
   position: relative
   z-index: 100
 
@@ -30,26 +30,26 @@
   font-size: 2.5rem
 
 .links
-  padding: spacing(0, 8)
+  padding: theme.spacing(0, 8)
   flex: 1
   display: flex
   align-items: center
-  gap: spacing(4)
+  gap: theme.spacing(4)
 
 .actions
   display: flex
-  gap: spacing(4)
+  gap: theme.spacing(4)
 
   .action
     display: flex
     align-items: center
     justify-content: center
-    gap: spacing(1)
+    gap: theme.spacing(1)
 
   .icon
     font-size: 1.75rem
 
-@include bp-down('md')
+@include theme.bp-down('md')
   .actions
     display: grid
     grid-auto-flow: column
@@ -62,25 +62,25 @@
     .icon
       font-size: 1.5rem
 
-@include bp-up('sm')
+@include theme.bp-up('sm')
   .action.active
     display: none
 
-@include bp-down('sm')
+@include theme.bp-down('sm')
   .root
-    padding: spacing(0, $header-lr-padding-sm)
+    padding: theme.spacing(0, theme.$header-lr-padding-sm)
     padding-top: env(safe-area-inset-top)
 
     &.searchMode
       grid-template-columns: unset
 
   .nav
-    min-height: $header-height-sm
+    min-height: theme.$header-height-sm
 
   .menu
     display: block
     font-size: 2rem
-    margin-right: spacing(2)
+    margin-right: theme.spacing(2)
     cursor: pointer
 
   .links

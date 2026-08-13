@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
+import type { JSX } from 'react'
 import { useRouter } from 'next/router'
 import { Icon } from '@components/Icon'
 import metadata from '@consts/metadata.json'
@@ -26,15 +27,12 @@ export const Footer = ({ locale }: FooterProps): JSX.Element => {
                   locale: locale ?? Locales.ZH,
                 },
               }}
+              className={clsx({
+                [styles.locale]: true,
+                [styles.active]: locale === (router.query.locale ?? Locales.ZH),
+              })}
             >
-              <a
-                className={clsx({
-                  [styles.locale]: true,
-                  [styles.active]: locale === (router.query.locale ?? Locales.ZH),
-                })}
-              >
-                {label}
-              </a>
+              {label}
             </Link>
           ))}
         </section>

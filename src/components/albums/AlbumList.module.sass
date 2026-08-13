@@ -1,33 +1,34 @@
-@import 'src/assets/styles/theme'
+@use "sass:map"
+@use 'src/assets/styles/theme'
 
 .root
-  max-width: map-get($breakpoints, 'xl')
+  max-width: map.get(theme.$breakpoints, 'xl')
   margin: 0 auto
-  padding: spacing(12, 12)
+  padding: theme.spacing(12, 12)
   display: grid
   grid-template-columns: min(30%, 400px) 1fr
-  row-gap: spacing(8)
+  row-gap: theme.spacing(8)
 
 .category
   display: contents
 
 .titleWrapper
-  height: calc(var(--app-height, 100vh) - spacing(24) - $header-height)
+  height: calc(var(--app-height, 100vh) - theme.spacing(24) - theme.$header-height)
   display: flex
   flex-direction: column
   justify-content: space-between
   position: sticky
-  top: calc(spacing(12) + $header-height)
+  top: calc(theme.spacing(12) + theme.$header-height)
 
   .title
-    @include bold
+    @include theme.bold
     font-size: 4rem
     word-break: break-word
 
   .line
     flex: 1
-    margin: spacing(8, 0)
-    border-left: 1px solid palette(misc, divider)
+    margin: theme.spacing(8, 0)
+    border-left: 1px solid theme.palette(misc, divider)
 
   .editionLink
     display: block
@@ -38,30 +39,30 @@
       opacity: 1
 
 .editions
-  margin-top: spacing(60)
+  margin-top: theme.spacing(60)
 
-@include bp-down('md')
+@include theme.bp-down('md')
   .titleWrapper .title
     font-size: 3rem
 
-@include bp-down('sm')
+@include theme.bp-down('sm')
   .root
     display: block
-    padding: spacing(8, 0)
+    padding: theme.spacing(8, 0)
 
   .category
     display: block
 
   .category + .category
-    margin-top: spacing(12)
+    margin-top: theme.spacing(12)
       
   .titleWrapper
     height: unset
 
     .title
       font-size: 3rem
-      padding: spacing(0, 4)
-      margin-bottom: spacing(8)
+      padding: theme.spacing(0, 4)
+      margin-bottom: theme.spacing(8)
 
     .line, .editionLinks
       display: none

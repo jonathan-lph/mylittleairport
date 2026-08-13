@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react'
+import { useRef, useState, useEffect, type JSX } from 'react'
 import { Icon } from '@components/Icon'
 import { SearchBarResult } from '.'
 import styles from './SearchBar.module.sass'

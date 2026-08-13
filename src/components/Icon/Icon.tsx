@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import styles from './Icon.module.sass'
+import type { JSX } from 'react'
 
 const iconPath = {
   arrow_forward: "m480-200-20-20 246-246H200v-28h506L460-740l20-20 280 280-280 280Z",

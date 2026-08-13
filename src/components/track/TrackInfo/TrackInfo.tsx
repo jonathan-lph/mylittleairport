@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, type JSX } from 'react'
 import { ShareExport } from '.'
 import { Icon } from '@components/Icon'
 import { useDelayUnmount } from '@hooks/index'

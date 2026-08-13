@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
-import { Fragment } from 'react'
+import { Fragment, type JSX } from 'react'
 import { Icon } from '@components/Icon'
 import styles from './TrackAlbumInfo.module.sass'
 
@@ -27,15 +27,12 @@ const AlbumTrackList = ({
                   track: _track.slug,
                 },
               }}
+              className={clsx({
+                [styles.track]: true,
+                [styles.active]: track.slug === _track.slug,
+              })}
             >
-              <a
-                className={clsx({
-                  [styles.track]: true,
-                  [styles.active]: track.slug === _track.slug,
-                })}
-              >
-                {_track.name}
-              </a>
+              {_track.name}
             </Link>
             <span className={styles.divider}>
               {idx !== track.album.tracks.length - 1 && '／'}
@@ -51,11 +48,10 @@ const AlbumTrackList = ({
             album: track.album.slug,
           },
         }}
+        className={styles.backButton}
       >
-        <a className={styles.backButton}>
-          <Icon icon="arrow_back" className={styles.back} />
-          {translation.to_album}
-        </a>
+        <Icon icon="arrow_back" className={styles.back} />
+        {translation.to_album}
       </Link>
     </section>
   )
@@ -82,7 +78,6 @@ const AppearsOnAlbumList = ({
             }}
             scroll={false}
             key={_track.slug}
-            passHref
           >
             <figure className={styles.otherAlbum}>
               <div className={styles.imgBorder}>

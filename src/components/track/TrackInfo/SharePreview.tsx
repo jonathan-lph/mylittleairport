@@ -2,7 +2,7 @@ import { usePortal } from '@hooks/index'
 import metadata from '@consts/metadata.json'
 import styles from './SharePreview.module.sass'
 
-import type { RefObject } from 'react'
+import type { JSX, RefObject } from 'react'
 import type { ExpandedTrackObject } from '@__types/Track'
 
 export const SharePreview = ({
@@ -44,5 +44,5 @@ export const SharePreview = ({
 interface SharePreviewProps {
   track: ExpandedTrackObject
   lines: number[]
-  parentRef: RefObject<HTMLElement>
+  parentRef: RefObject<HTMLElement | null>
 }

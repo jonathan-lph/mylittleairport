@@ -37,9 +37,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
-# pwa
-/public/sw.js
-/public/workbox-*.js
 
 # sitemap
 /public/sitemap.xml

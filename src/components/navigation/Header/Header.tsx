@@ -1,7 +1,7 @@
 import clsx from 'clsx'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useRef, useState } from 'react'
+import { useRef, useState, type JSX } from 'react'
 
 import { Locales } from '@src/consts/definitions'
 import { useDelayUnmount } from '@hooks/index'
@@ -61,15 +61,17 @@ export const Header = ({ locale }: HeaderProps): JSX.Element => {
           className={styles.menu}
           onClick={toggleMenu}
         />
-        <Link href={{
-          pathname: '/[locale]',
-          query: {
-            locale: locale ?? Locales.ZH
-          }
-        }}>
-          <a className={styles.logoWrapper} onClick={closeMenu}>
-            <Logo className={styles.logo} />
-          </a>
+        <Link
+          href={{
+            pathname: '/[locale]',
+            query: {
+              locale: locale ?? Locales.ZH
+            }
+          }}
+          className={styles.logoWrapper}
+          onClick={closeMenu}
+        >
+          <Logo className={styles.logo} />
         </Link>
         <nav className={styles.links}>
           {LINKS.map((dir) => (

@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
+import type { JSX } from 'react'
 import { Icon } from '@components/Icon'
 import styles from './TrackList.module.sass'
 

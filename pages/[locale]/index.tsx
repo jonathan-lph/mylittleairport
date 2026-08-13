@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, type JSX } from 'react'
 import { useRouter } from 'next/router'
 import { locales, Locales } from '@src/consts/definitions'
 

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, type JSX } from 'react'
 import { TrackList } from '.'
 import { Icon } from '@components/Icon'
 import styles from './Tracks.module.sass'

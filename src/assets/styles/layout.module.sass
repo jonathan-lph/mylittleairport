@@ -1,10 +1,10 @@
-@import 'theme'
+@use 'theme'
 
 .main
   flex: 1
-  background: palette(misc, background)
-  min-height: calc(var(--app-height, 100vh) - $header-height - $footer-height)
+  background: theme.palette(misc, background)
+  min-height: calc(var(--app-height, 100vh) - theme.$header-height - theme.$footer-height)
 
-@include bp-down('sm')
+@include theme.bp-down('sm')
   .main
-    min-height: calc(var(--app-height, 100vh) - $header-height-sm - $footer-height-sm)
+    min-height: calc(var(--app-height, 100vh) - theme.$header-height-sm - theme.$footer-height-sm)

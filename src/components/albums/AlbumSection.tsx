@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, type JSX } from 'react'
 import styles from './AlbumSection.module.sass'
 
 import type { AlbumObject } from '@__types/Album'
@@ -21,26 +21,27 @@ export const AlbumSection = ({ album, locale }: AlbumDivProps): JSX.Element => {
   }, [])
 
   return (
-    <Link href={{
-      pathname: `/[locale]/album/[album]`,
-      query: {
-        locale: locale,
-        album: album.slug,
-      }
-    }}>
-      <a>
-        <article className={styles.root} ref={ref}>
-          <div className={styles.imgBorder}>
-            <img
-              src={album.images[0].url}
-              alt={album.name}
-              className={styles.img}
-            />
-          </div>
-          <div className={styles.name}>{album.name}</div>
-          <div className={styles.year}>{album.release_date}</div>
-        </article>
-      </a>
+    <Link
+      href={{
+        pathname: `/[locale]/album/[album]`,
+        query: {
+          locale: locale,
+          album: album.slug,
+        }
+      }}
+      ref={ref}
+    >
+      <article className={styles.root}>
+        <div className={styles.imgBorder}>
+          <img
+            src={album.images[0].url}
+            alt={album.name}
+            className={styles.img}
+          />
+        </div>
+        <div className={styles.name}>{album.name}</div>
+        <div className={styles.year}>{album.release_date}</div>
+      </article>
     </Link>
   )
 }

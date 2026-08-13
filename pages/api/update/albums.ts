@@ -3,7 +3,7 @@ import { AlbumModel, TrackModel } from '@database/models'
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { HydratedDocument } from 'mongoose'
 import { AlbumObject } from '@__types/Album'
-import is from "image-size"
+import { imageSizeFromFile } from "image-size/fromFile"
 
 mongoosePromise
 
@@ -13,11 +13,11 @@ export default async function getAlbums(
 ) {
   const albums : HydratedDocument<AlbumObject>[] = await AlbumModel.find().exec()
 
-  const promises = albums.map(album => new Promise((res, rej) => {
+  const promises = albums.map(async album => {
     const _slug = album.slug.slice(0, -7)
-    const jpg = is(`public/album-artwork/${_slug}.jpg`)
-    const webp = is(`public/album-artwork/${_slug}.webp`)
-    return res(AlbumModel.findOneAndUpdate({
+    const jpg = await imageSizeFromFile(`public/album-artwork/${_slug}.jpg`)
+    const webp = await imageSizeFromFile(`public/album-artwork/${_slug}.webp`)
+    return AlbumModel.findOneAndUpdate({
       _id: album.id
     }, {
       images: [{
@@ -31,8 +31,8 @@ export default async function getAlbums(
         height: jpg.height ?? null,
         width: jpg.width ?? null,
       }]
-    }).exec())
-  }))
+    }).exec()
+  })
 
   const _res = await Promise.all(promises)
   

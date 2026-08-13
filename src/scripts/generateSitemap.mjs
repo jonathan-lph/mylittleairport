@@ -1,5 +1,8 @@
-const fs = require('fs')
-const globby = require('globby')
+import fs from 'fs'
+import { createRequire } from 'module'
+import { globby } from 'globby'
+
+const require = createRequire(import.meta.url)
 const metadata = require('../consts/metadata.json')
 const tracks = require('../__data/toc/tracks.json')
 const albums = require('../__data/toc/albums.json')
