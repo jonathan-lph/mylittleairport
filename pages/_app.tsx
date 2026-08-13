@@ -23,11 +23,17 @@ function MyApp({ Component, pageProps }: AppProps) {
     window.addEventListener('resize', appHeight)
     appHeight()
     // Configure html lang attribute
-    document.documentElement.lang = pathname === '/' 
-      ? Locales.ZH 
+    document.documentElement.lang = pathname === '/'
+      ? Locales.ZH
       : (query.locale as string).split('-')[0]
     return () => window.removeEventListener('resize', appHeight)
   }, [pathname, query])
+
+  useEffect(() => {
+    if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+    }
+  }, [])
 
   return (
     <>
