@@ -1,4 +1,4 @@
-import is from "image-size"
+import { imageSizeFromFile } from "image-size/fromFile"
 import Head from 'next/head'
 
 import { Tracks } from '@components/tracks'
@@ -53,7 +53,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const { locale } = context.params as IParams
   const translation = translationJSON[locale]
 
-  const isJpg = is('public/icons/icon-512.png')
+  const isJpg = await imageSizeFromFile('public/icons/icon-512.png')
   const metaTags = {
     'description': injectObjectToString(translation.meta.og_description, {}),
     'og:title': `${translation.meta.og_title}`,

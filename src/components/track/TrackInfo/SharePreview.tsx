@@ -44,5 +44,5 @@ export const SharePreview = ({
 interface SharePreviewProps {
   track: ExpandedTrackObject
   lines: number[]
-  parentRef: RefObject<HTMLElement>
+  parentRef: RefObject<HTMLElement | null>
 }

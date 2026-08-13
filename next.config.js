@@ -1,6 +1,8 @@
+const path = require('path')
+
 const isDev = process.env.NODE_ENV === 'development'
 
-const withPWA = require('next-pwa')({
+const withPWA = require('@ducanh2912/next-pwa').default({
   dest: 'public',
   disable: isDev,
   cacheOnFrontEndNav: true
@@ -8,10 +10,10 @@ const withPWA = require('next-pwa')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   reactStrictMode: true,
-  webpack: (config, { isServer }) => {
-    if (isServer && !isDev) require('./src/scripts/generateSitemap.js')
-    return config
+  sassOptions: {
+    loadPaths: [path.join(__dirname)]
   }
 }
 
