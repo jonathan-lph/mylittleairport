@@ -1,54 +1,47 @@
-import mongoosePromise from "@lib/mongoose"
-import { AlbumModel } from "@database/models"
-import { omit } from "@utils/helper"
+import { getDb } from "./client"
+import {
+  getAlbumRowBySlug,
+  getAlbumArtistIds,
+  getSimplifiedAlbum,
+  getSimplifiedArtist,
+  mapFullAlbum,
+  getGenres
+} from "./rows"
 
-import type { ExportedTrackObject } from "@__types/Track"
-import type { ExportedArtistObject } from "@__types/Artist"
-import type { ExportedAlbumObject, ExpandedAlbumObject, TocAlbumObject } from "@__types/Album"
+import type { AlbumRow } from "./rows"
+import type { AlbumObject, ExpandedAlbumObject, TocAlbumObject } from "@__types/Album"
 
-export async function fetchExpandedAlbumsFromDB() {
-  mongoosePromise
-  const tracks = await AlbumModel
-    .find()
-    .populate({
-      path: 'track',
-      select: '-_id -__v -has_lyrics -lyrics -album -artists',
-    })
-    .populate({
-      path: 'artists',
-      select: '-external_social_urls -images -__v -_id'
-    })
-    .exec() as unknown as ExpandedAlbumObject
-  return tracks
-} 
+export function fetchExpandedAlbum(albumSlug: string): ExpandedAlbumObject {
+  const row = getAlbumRowBySlug(albumSlug)
+  if (!row) throw new Error(`Album not found: ${albumSlug}`)
 
-export function fetchExpandedAlbumFromFiles(albumSlug: string) {
-  const exportedAlbum : ExportedAlbumObject = require(`src/__data/albums/${albumSlug}`)
-  const expandedAlbum : ExpandedAlbumObject = {
-    ...exportedAlbum,
-    tracks: exportedAlbum.tracks.map((_track) => omit(
-      require(`src/__data/tracks/${_track.slug}`) as ExportedTrackObject,
-      ["has_lyrics", "lyrics", "album", "artists"]
-    )),
-    artists: exportedAlbum.artists.map((_artist) => omit(
-      require(`src/__data/artists/${_artist.slug}`) as ExportedArtistObject,
-      ["external_social_urls", "images"]
-    ))
+  return {
+    ...getSimplifiedAlbum(row.id),
+    genres: getGenres("album_genres", "album_id", row.id),
+    artists: getAlbumArtistIds(row.id).map(getSimplifiedArtist)
   }
-  return expandedAlbum
 }
 
-export function searchAlbumsFromFiles(query: Partial<TocAlbumObject>, expand?: false) : TocAlbumObject[]
-export function searchAlbumsFromFiles(query: Partial<TocAlbumObject>, expand: true) : ExpandedAlbumObject[]
-export function searchAlbumsFromFiles(query: Partial<TocAlbumObject>, expand?: boolean) {
-  const albums : TocAlbumObject[] = require('src/__data/toc/albums.json')
-  const matchedAlbums = albums.filter(_album => 
-    Object
-    .entries(query)
-    .every(([key, val]) => _album[key as keyof TocAlbumObject] === val)
-  )
-  if (!matchedAlbums || matchedAlbums.length === 0) return []
-  return expand
-    ? matchedAlbums.map(_album => fetchExpandedAlbumFromFiles(_album.slug))
-    : matchedAlbums
+export function fetchAllAlbums(): AlbumObject[] {
+  const rows = getDb().prepare(`SELECT * FROM albums`).all() as AlbumRow[]
+  return rows.map(mapFullAlbum)
+}
+
+export function fetchAllAlbumSlugs(): string[] {
+  return getDb()
+    .prepare(`SELECT slug FROM albums`)
+    .all()
+    .map((r) => (r as { slug: string }).slug)
+}
+
+export function searchAlbums(query: Partial<TocAlbumObject>, expand?: false): TocAlbumObject[]
+export function searchAlbums(query: Partial<TocAlbumObject>, expand: true): ExpandedAlbumObject[]
+export function searchAlbums(query: Partial<TocAlbumObject>, expand?: boolean) {
+  const keys = Object.keys(query) as (keyof TocAlbumObject)[]
+  const where = keys.length ? `WHERE ${keys.map((key) => `${key} = @${key}`).join(" AND ")}` : ""
+  const matches = getDb()
+    .prepare(`SELECT slug, name, name_en FROM albums ${where}`)
+    .all(query as Record<string, unknown>) as TocAlbumObject[]
+
+  return expand ? matches.map((match) => fetchExpandedAlbum(match.slug)) : matches
 }
