@@ -1,35 +1,35 @@
-@import 'src/assets/styles/theme'
+@use 'src/assets/styles/theme'
 
 .root
   width: 400px
   max-height: 60vh
-  padding: spacing(2, 0)
+  padding: theme.spacing(2, 0)
   position: absolute
-  top: calc(100% + spacing(6))
+  top: calc(100% + theme.spacing(6))
   right: 0
   z-index: 50
   overflow-x: auto
-  @include dialog-box
+  @include theme.dialog-box
 
 .entry
   display: grid
-  grid-template-columns: spacing(16) 1fr
-  gap: spacing(1) spacing(4)
-  padding: spacing(2, 4)
+  grid-template-columns: theme.spacing(16) 1fr
+  gap: theme.spacing(1) theme.spacing(4)
+  padding: theme.spacing(2, 4)
   cursor: pointer
   transition: background .2s ease-in-out
 
   &:hover
-    background: palette(misc, background-dark)
+    background: theme.palette(misc, background-dark)
 
 .lyrics
-  color: palette(text, secondary)
+  color: theme.palette(text, secondary)
   font-size: .9em
-  @include overflow-textbox(2)
+  @include theme.overflow-textbox(2)
 
 .highlight
-  color: palette(text, primary)
-  @include bold
+  color: theme.palette(text, primary)
+  @include theme.bold
 
 .img
   width: 100%
@@ -37,18 +37,18 @@
   align-self: center
 
 .noResult
-  padding: spacing(2, 4)
+  padding: theme.spacing(2, 4)
   text-align: center
-  color: palette(text, secondary)
+  color: theme.palette(text, secondary)
 
 
-@include bp-down('sm')
+@include theme.bp-down('sm')
   .root
-    top: calc(100% + spacing(4))
+    top: calc(100% + theme.spacing(4))
     left: 50%
     transform: translateX(-50%)
-    width: calc(100vw - 2 * spacing($header-lr-padding-sm))
+    width: calc(100vw - 2 * theme.spacing(theme.$header-lr-padding-sm))
     font-size: .8rem
 
   .entry
-    grid-template-columns: spacing(12) 1fr
+    grid-template-columns: theme.spacing(12) 1fr

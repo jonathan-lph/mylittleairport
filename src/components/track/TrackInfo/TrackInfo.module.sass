@@ -1,20 +1,21 @@
-@import 'src/assets/styles/theme'
+@use "sass:map"
+@use 'src/assets/styles/theme'
 
-$lyrics-indent: - spacing(4)
+$lyrics-indent: - theme.spacing(4)
   
 .root
   margin: 0 auto
-  padding: spacing(0, 14)
-  max-width: map-get($breakpoints, 'xl')
+  padding: theme.spacing(0, 14)
+  max-width: map.get(theme.$breakpoints, 'xl')
   position: relative
   display: grid
   grid-template-columns: max-content .75fr 1fr
   grid-template-areas: 'title title title' 'info info info' 'vr img lyrics'
-  gap: spacing(8) 5%
+  gap: theme.spacing(8) 5%
 
 .title
   grid-area: title
-  @include bold
+  @include theme.bold
   font-size: 3rem
   margin-right: 20vw
 
@@ -22,16 +23,16 @@ $lyrics-indent: - spacing(4)
   grid-area: info
   display: flex
   flex-wrap: wrap
-  gap: spacing(4)
-  margin-bottom: spacing(4)
+  gap: theme.spacing(4)
+  margin-bottom: theme.spacing(4)
   font-size: 0.8em
   
   dt
-    @include bold
+    @include theme.bold
 
   dd
     display: flex
-    gap: spacing(2)
+    gap: theme.spacing(2)
 
 .imgBorder
   grid-area: img
@@ -41,9 +42,9 @@ $lyrics-indent: - spacing(4)
   display: flex
   justify-content: center
   align-items: center
-  background: palette(misc, background-dark)
+  background: theme.palette(misc, background-dark)
   position: sticky
-  top: calc(spacing(8) + $header-height)
+  top: calc(theme.spacing(8) + theme.$header-height)
 
   .img
     width: 60%
@@ -51,8 +52,8 @@ $lyrics-indent: - spacing(4)
   .albumName, .trackNo
     width: 100%
     position: absolute
-    padding: spacing(3)
-    color: palette(text, secondary)
+    padding: theme.spacing(3)
+    color: theme.palette(text, secondary)
     font-size: 0.8rem
   
   .albumName
@@ -67,21 +68,21 @@ $lyrics-indent: - spacing(4)
 .vr
   grid-area: vr
   display: flex
-  border-left: 1px solid palette(misc, divider)
+  border-left: 1px solid theme.palette(misc, divider)
 
   .name
     writing-mode: vertical-rl
-    @include bold
+    @include theme.bold
     font-size: 1rem
-    border-left: 1px solid palette(misc, background)
+    border-left: 1px solid theme.palette(misc, background)
     /* Remove border */
     margin-left: -1px
-    padding: spacing(2, 0)
+    padding: theme.spacing(2, 0)
     align-self: flex-end
 
 .lyrics
   grid-area: lyrics
-  padding-left: spacing(4)
+  padding-left: theme.spacing(4)
   line-height: 1.5rem
 
   p
@@ -89,32 +90,32 @@ $lyrics-indent: - spacing(4)
 
   .shareLyrics
     transform: translateX($lyrics-indent)
-    padding: spacing(1, 2)
-    margin-top: spacing(6)
+    padding: theme.spacing(1, 2)
+    margin-top: theme.spacing(6)
     display: flex
     align-items: center
-    border: 1px solid palette(misc, divider)
+    border: 1px solid theme.palette(misc, divider)
     transition: all .2s ease
 
     &:hover
-      background: palette(misc, background-dark)
+      background: theme.palette(misc, background-dark)
 
     
-@include bp-down('md')
+@include theme.bp-down('md')
   .root
-    column-gap: spacing(4) 
+    column-gap: theme.spacing(4) 
     
   .imgBorder .img
     width: 70%
 
-@include bp-down('sm')
+@include theme.bp-down('sm')
   .root
-    margin: 0 0 spacing(12)
+    margin: 0 0 theme.spacing(12)
     padding: 0
     display: block
 
     > *
-      margin: spacing(6, 4)
+      margin: theme.spacing(6, 4)
 
   .title
     padding: 0
@@ -128,10 +129,10 @@ $lyrics-indent: - spacing(4)
 
   .infosheet
     padding: 0
-    row-gap: spacing(2)
+    row-gap: theme.spacing(2)
 
   .vr
     display: none
 
   .lyrics
-    padding: spacing(0, 4)
+    padding: theme.spacing(0, 4)

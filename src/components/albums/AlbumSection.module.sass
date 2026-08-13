@@ -1,5 +1,5 @@
-@import 'src/assets/styles/theme'
-@import 'src/assets/styles/animations'
+@use 'src/assets/styles/theme'
+@use 'src/assets/styles/animations'
 
 .root.enter
   animation: fadeIn .5s forwards ease, slideInDown .5s forwards ease
@@ -10,24 +10,24 @@
   display: flex
   justify-content: center
   align-items: center
-  background: palette(misc, background-dark)
+  background: theme.palette(misc, background-dark)
 
   .img
     width: 70%
 
 .name
-  @include overflow-textbox(2)
-  padding: spacing(0, 1)
-  margin-top: spacing(2)
+  @include theme.overflow-textbox(2)
+  padding: theme.spacing(0, 1)
+  margin-top: theme.spacing(2)
 
 .year
-  color: palette(text, secondary)
+  color: theme.palette(text, secondary)
   font-size: .8em
-  padding-left: spacing(1)
+  padding-left: theme.spacing(1)
 
-@include bp-down('sm')
+@include theme.bp-down('sm')
   .name
-    margin-top: spacing(1)
+    margin-top: theme.spacing(1)
     font-size: .8rem
 
   .year

@@ -1,8 +1,8 @@
-@import 'src/assets/styles/theme'
-@import 'src/assets/styles/animations'
+@use 'src/assets/styles/theme'
+@use 'src/assets/styles/animations'
  
 .backdrop
-  @include fullscreen-backdrop
+  @include theme.fullscreen-backdrop
   display: flex
   justify-content: center
   align-items: center
@@ -19,7 +19,7 @@
 
 .dialog
   all: unset
-  @include dialog-box
+  @include theme.dialog-box
   position: relative
   width: clamp(300px, 500px, 90%)
   height: clamp(300px, 80vh, 80vh)
@@ -36,29 +36,29 @@
   display: flex
   font-size: 1.25rem
   position: absolute
-  top: spacing(4)
-  right: spacing(4)
+  top: theme.spacing(4)
+  right: theme.spacing(4)
 
 .header
-  border-bottom: 1px solid palette(misc, divider)
-  padding: spacing(4, 6)
+  border-bottom: 1px solid theme.palette(misc, divider)
+  padding: theme.spacing(4, 6)
 
   .title
-    @include bold
+    @include theme.bold
     font-size: 1.25rem
 
 .selectLyrics
-  padding: spacing(4, 6)
+  padding: theme.spacing(4, 6)
 
   p
-    padding: spacing(2, 0)
+    padding: theme.spacing(2, 0)
     opacity: 0.5
     cursor: pointer
 
     &.selected
       opacity: 1
-      border-left: 2px solid palette(misc, background-dark)
-      padding: spacing(2, 4)
+      border-left: 2px solid theme.palette(misc, background-dark)
+      padding: theme.spacing(2, 4)
 
 .footer
   display: flex
@@ -76,7 +76,7 @@
       animation: fadeIn .3s both ease, slideInRight .3s both ease
 
   .button
-    padding: spacing(3, 4)
+    padding: theme.spacing(3, 4)
     display: flex
     align-items: center
 
@@ -93,19 +93,19 @@
   flex-direction: column
   justify-content: center
   align-items: center
-  padding: spacing(4)
+  padding: theme.spacing(4)
 
   .exportImg
-    width: $export-image-width
+    width: theme.$export-image-width
 
   .caption
     font-size: .7rem
     white-space: pre-wrap
     text-align: center
-    color: palette(text, secondary)
-    margin: spacing(4)
+    color: theme.palette(text, secondary)
+    margin: theme.spacing(4)
 
-@include bp-down('sm')
+@include theme.bp-down('sm')
   .figure
     .exportImg
       width: 100%

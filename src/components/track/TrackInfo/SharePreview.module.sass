@@ -1,4 +1,4 @@
-@import 'src/assets/styles/theme'
+@use 'src/assets/styles/theme'
 
 $export-width: 400px
 $export-padding-lr: 4
@@ -16,33 +16,33 @@ $info-padding-lr: 2
   width: $export-width
   grid-template-areas: 'track track' 'lyrics lyrics' 'img info' 'credits credits'
   grid-template-columns: $img-width 1fr
-  padding: spacing(6, $export-padding-lr)
-  row-gap: spacing(2)
-  background-color: palette(misc, background)
+  padding: theme.spacing(6, $export-padding-lr)
+  row-gap: theme.spacing(2)
+  background-color: theme.palette(misc, background)
 
 .lyrics
-  padding: spacing(2, 0, 4)
+  padding: theme.spacing(2, 0, 4)
   grid-area: lyrics
 
 .track
   grid-area: track
-  @include bold
+  @include theme.bold
   font-size: 1.5rem
 
 .img
   grid-area: img
   width: 100%
-  border-radius: spacing(.5)
+  border-radius: theme.spacing(.5)
   align-self: center
 
 .info
   grid-area: info
-  padding: spacing(0, $info-padding-lr)
+  padding: theme.spacing(0, $info-padding-lr)
   font-size: .75rem
   align-self: center
 
   *
-    width: calc($export-width - spacing($export-padding-lr*2) - $img-width - spacing($info-padding-lr*2))
+    width: calc($export-width - theme.spacing($export-padding-lr*2) - $img-width - theme.spacing($info-padding-lr*2))
     overflow: hidden
     white-space: nowrap
     text-overflow: ellipsis
@@ -50,4 +50,4 @@ $info-padding-lr: 2
 .credits
   grid-area: credits
   font-size: 0.7rem
-  color: palette(text, secondary)
+  color: theme.palette(text, secondary)

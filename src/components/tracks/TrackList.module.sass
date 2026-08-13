@@ -1,19 +1,19 @@
-@import 'src/assets/styles/theme'
+@use 'src/assets/styles/theme'
 
-$index-offset-top: spacing(.75)
+$index-offset-top: theme.spacing(.75)
 
 .root
   display: grid
   grid-template-columns: repeat(auto-fill, minmax(325px, 1fr) )
-  column-gap: spacing(8)
+  column-gap: theme.spacing(8)
 
 .track
   display: grid
   position: relative
-  padding: spacing(4, 2)
+  padding: theme.spacing(4, 2)
   grid-template-columns: max-content 1fr max-content
   grid-template-areas: 'index meta img' 'index lyrics img'
-  column-gap: spacing(4)
+  column-gap: theme.spacing(4)
 
   &:hover
     cursor: pointer
@@ -27,7 +27,7 @@ $index-offset-top: spacing(.75)
 
   .index
     grid-area: index
-    @include bold
+    @include theme.bold
     font-size: .8rem
     padding-top: $index-offset-top
     position: relative
@@ -49,23 +49,23 @@ $index-offset-top: spacing(.75)
 
     .name
       grid-area: name
-      @include bold
+      @include theme.bold
 
     .album
       grid-area: album
       font-size: .8rem
-      color: palette(text, secondary)
+      color: theme.palette(text, secondary)
 
   .img
     grid-area: img
-    width: spacing(20)
+    width: theme.spacing(20)
 
   .lyrics
     grid-area: lyrics
-    padding-top: spacing(2)
-    color: palette(text, secondary)
+    padding-top: theme.spacing(2)
+    color: theme.palette(text, secondary)
     font-size: .8rem
-    @include overflow-textbox(3)
+    @include theme.overflow-textbox(3)
     word-wrap: break-word
 
   *.hidden
@@ -76,7 +76,7 @@ $index-offset-top: spacing(.75)
 
   .track
     display: flex
-    padding: spacing(.5, 0)
+    padding: theme.spacing(.5, 0)
     
   .meta 
     flex: 1
@@ -85,22 +85,22 @@ $index-offset-top: spacing(.75)
       display: inline
 
     .album
-      padding-left: spacing(1)
+      padding-left: theme.spacing(1)
 
   .img, .lyrics
     display: none
 
-@include bp-down('sm')
+@include theme.bp-down('sm')
   .root
-    padding: spacing(0, 4)
+    padding: theme.spacing(0, 4)
 
   .track
     grid-template-columns: max-content 1fr max-content
-    padding: spacing(2, 2)
+    padding: theme.spacing(2, 2)
 
     .img
       align-self: flex-end
-      width: spacing(14)
+      width: theme.spacing(14)
 
     .lyrics
-      @include overflow-textbox(2)
+      @include theme.overflow-textbox(2)

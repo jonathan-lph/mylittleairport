@@ -1,5 +1,5 @@
-@import 'src/assets/styles/theme'
-@import 'src/assets/styles/animations'
+@use 'src/assets/styles/theme'
+@use 'src/assets/styles/animations'
   
 .root
   height: var(--app-height, 100vh)
@@ -8,11 +8,11 @@
   bottom: 0
   left: 0
   right: 0
-  background: palette(misc, background)
+  background: theme.palette(misc, background)
   z-index: 50
-  margin-top: calc($header-height-sm + env(safe-area-inset-top))
-  padding: spacing(6)
-  @include bold
+  margin-top: calc(theme.$header-height-sm + env(safe-area-inset-top))
+  padding: theme.spacing(6)
+  @include theme.bold
   font-size: 1.5rem
   
   &.mount
@@ -24,12 +24,12 @@
 .links, .deadLinks
   display: flex
   justify-content: space-between
-  border-top: 1px solid palette(misc, divider)
-  padding: spacing(1, 0, 4)
+  border-top: 1px solid theme.palette(misc, divider)
+  padding: theme.spacing(1, 0, 4)
 
 .deadLinks
-  color: palette(text, secondary)
+  color: theme.palette(text, secondary)
 
 .comingSoon
-  @include normal
+  @include theme.normal
   font-size: 1rem

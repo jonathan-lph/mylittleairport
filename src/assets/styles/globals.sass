@@ -1,9 +1,11 @@
-@import 'theme'
+@use "sass:map"
+@use "sass:meta"
+@use 'theme'
 
 html
   min-height: calc(100% + env(safe-area-inset-top))
   height: 100%
-  font-family: map-get($typography, contentFont), $default-fonts
+  font-family: map.get(theme.$typography, contentFont), theme.$default-fonts
   font-size: 16px
   font-weight: normal
   scroll-behavior: smooth
@@ -12,8 +14,8 @@ html
 // Resets
 
 body
-  background: palette(misc, background)
-  color: palette(text, primary)
+  background: theme.palette(misc, background)
+  color: theme.palette(text, primary)
 
 *
   padding: 0
@@ -44,9 +46,9 @@ input
 // Ref: https://codepen.io/jakealbaugh/post/css4-variables-and-sass
 
 :root
-  @each $name, $color in $light-colors
-    @if type-of($color) == "map" 
+  @each $name, $color in theme.$light-colors
+    @if meta.type-of($color) == "map" 
       @each $subname, $subcolor in $color 
         --#{$name}-#{$subname}: #{$subcolor}   
-    @else if type-of($color) == "color" 
+    @else if meta.type-of($color) == "color" 
       --#{$name}: #{$color}
