@@ -2,12 +2,15 @@
   "name": "mylittleairport",
   "version": "1.0.7",
   "private": true,
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
   "scripts": {
     "dev": "next dev",
     "prebuild": "node src/scripts/generateSitemap.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "clsx": "^2.1.1",
