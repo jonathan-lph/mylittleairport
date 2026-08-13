@@ -9,11 +9,11 @@ A collection of all musical publications, including albums, EPs, singles, compil
 1. Clone the repository.
 2. Install dependencies.
 ```
-npm install
+pnpm install
 ```
 3. Run development server at `localhost:3000`.
 ```
-npm run dev
+pnpm dev
 ```
 
 ### Using MongoDB (optional)
@@ -32,7 +32,7 @@ You may then run the server and import the data into your cluster.
 
 5. Run development server at `localhost:3000`.
 ```
-npm run dev
+pnpm dev
 ```
 6. Call API `localhost:3000/api/import`.
 
