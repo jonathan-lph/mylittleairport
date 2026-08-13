@@ -3,8 +3,6 @@
   "slug": "lmfxxyearfest-v6waIp",
   "name": "LMFXXYEARFEST",
   "name_en": "LMFXXYEARFEST",
-  "href": "/album/lmfxxyearfest-v6waIp",
-  "total_tracks": 1,
   "album_type": "compilation",
   "album_edition": "hong_kong",
   "label": "Cactus Creation",
@@ -12,14 +10,6 @@
   "release_date": "2019",
   "release_date_precision": "year",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "今宵多珍重-vHdXkU",
-      "name": "今宵多珍重",
-      "name_en": "Farewell"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/lmfxxyearfest.webp",
@@ -35,5 +25,9 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": [],
+  "tracks": [
+    "今宵多珍重-vHdXkU"
+  ]
 }

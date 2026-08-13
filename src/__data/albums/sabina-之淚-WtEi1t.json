@@ -3,8 +3,6 @@
   "slug": "sabina-之淚-WtEi1t",
   "name": "SABINA 之淚",
   "name_en": "Sabina's Tears",
-  "href": "/album/sabina-之淚-WtEi1t",
-  "total_tracks": 16,
   "album_type": "album",
   "album_edition": "retail",
   "label": "維港唱片",
@@ -12,89 +10,6 @@
   "release_date": "2021",
   "release_date_precision": "year",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "詩歌舞街-ad1uPH",
-      "name": "詩歌舞街",
-      "name_en": "Sycamore Street"
-    },
-    {
-      "slug": "下了兩天雨-uWF2da",
-      "name": "下了兩天雨",
-      "name_en": "Rained for Two Days"
-    },
-    {
-      "slug": "喫煙席-I32IB8",
-      "name": "喫煙席",
-      "name_en": "Smoking Seat"
-    },
-    {
-      "slug": "每次你走的時分-ubQac7",
-      "name": "每次你走的時分",
-      "name_en": "Every Time You Left"
-    },
-    {
-      "slug": "因講了出來-y06gEi",
-      "name": "因講了出來",
-      "name_en": "When I Let It Out"
-    },
-    {
-      "slug": "queen-05MwIs",
-      "name": "QUEEN",
-      "name_en": "QUEEN"
-    },
-    {
-      "slug": "宋代-sad-boy-JzRGUn",
-      "name": "宋代 SAD BOY",
-      "name_en": "Song Dynasty's SAD BOY"
-    },
-    {
-      "slug": "20gb-plZFtO",
-      "name": "20GB",
-      "name_en": "20GB"
-    },
-    {
-      "slug": "sabina-之淚-S63UQg",
-      "name": "SABINA 之淚",
-      "name_en": "SABINA'S TEARS"
-    },
-    {
-      "slug": "只收一半-XFheJl",
-      "name": "只收一半",
-      "name_en": "Just for Half Price"
-    },
-    {
-      "slug": "散步之年-zgzP5T",
-      "name": "散步之年",
-      "name_en": "Year of Strolling"
-    },
-    {
-      "slug": "那陣時不知道-iB2CwL",
-      "name": "那陣時不知道",
-      "name_en": "Didn't Know Then"
-    },
-    {
-      "slug": "今夜雪糕-7FdzuI",
-      "name": "今夜雪糕",
-      "name_en": "Ice Cream Tonight"
-    },
-    {
-      "slug": "k同學-YoSnnP",
-      "name": "Ｋ同學",
-      "name_en": "Classmate K"
-    },
-    {
-      "slug": "煙-0nEcdz",
-      "name": "煙",
-      "name_en": "Gas"
-    },
-    {
-      "slug": "燕-6kE9y1",
-      "name": "燕",
-      "name_en": "Swallow"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/sabina-之淚.webp",
@@ -110,5 +25,24 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": [],
+  "tracks": [
+    "詩歌舞街-ad1uPH",
+    "下了兩天雨-uWF2da",
+    "喫煙席-I32IB8",
+    "每次你走的時分-ubQac7",
+    "因講了出來-y06gEi",
+    "queen-05MwIs",
+    "宋代-sad-boy-JzRGUn",
+    "20gb-plZFtO",
+    "sabina-之淚-S63UQg",
+    "只收一半-XFheJl",
+    "散步之年-zgzP5T",
+    "那陣時不知道-iB2CwL",
+    "今夜雪糕-7FdzuI",
+    "k同學-YoSnnP",
+    "煙-0nEcdz",
+    "燕-6kE9y1"
+  ]
 }

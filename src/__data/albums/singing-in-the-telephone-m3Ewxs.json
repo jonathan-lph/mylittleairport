@@ -3,8 +3,6 @@
   "slug": "singing-in-the-telephone-m3Ewxs",
   "name": "Singing in the Telephone",
   "name_en": "Singing in the Telephone",
-  "href": "/album/singing-in-the-telephone-m3Ewxs",
-  "total_tracks": 6,
   "album_type": "album",
   "album_edition": "limited",
   "label": "my little airport",
@@ -12,39 +10,6 @@
   "release_date": "2003",
   "release_date_precision": "year",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "debbie-dont-sing-this-song-alone-UcXqdV",
-      "name": "debbie, don't sing this song alone",
-      "name_en": "Debbie, Don't Sing This Song Alone"
-    },
-    {
-      "slug": "josephines-shop-snZGwb",
-      "name": "josephine's shop",
-      "name_en": "Josephine's Shop"
-    },
-    {
-      "slug": "柯德莉-關於風景-6hVz4w",
-      "name": "柯德莉，關於風景",
-      "name_en": "Audrey, About the Landscape"
-    },
-    {
-      "slug": "victor-fly-me-to-stafford-uFOwpz",
-      "name": "victor, fly me to stafford",
-      "name_en": "Victor, Fly Me To Stafford"
-    },
-    {
-      "slug": "coka-im-fine-iHsAyn",
-      "name": "coka, i'm fine",
-      "name_en": "Coka, I'm Fine"
-    },
-    {
-      "slug": "伊-關於眉-4rjueG",
-      "name": "伊，關於眉",
-      "name_en": "Thou, About Eyebrows"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/singing-in-the-telephone.webp",
@@ -60,5 +25,14 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": [],
+  "tracks": [
+    "debbie-dont-sing-this-song-alone-UcXqdV",
+    "josephines-shop-snZGwb",
+    "柯德莉-關於風景-6hVz4w",
+    "victor-fly-me-to-stafford-uFOwpz",
+    "coka-im-fine-iHsAyn",
+    "伊-關於眉-4rjueG"
+  ]
 }

@@ -3,8 +3,6 @@
   "slug": "散步之年-GKWPIw",
   "name": "散步之年",
   "name_en": "Year of Strolling",
-  "href": "/album/散步之年-GKWPIw",
-  "total_tracks": 1,
   "album_type": "single",
   "album_edition": "published",
   "label": "my little airport",
@@ -12,14 +10,6 @@
   "release_date": "2021",
   "release_date_precision": "year",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "散步之年-ti7gfK",
-      "name": "散步之年",
-      "name_en": "Year of Strolling"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/散步之年.webp",
@@ -35,5 +25,9 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": [],
+  "tracks": [
+    "散步之年-ti7gfK"
+  ]
 }

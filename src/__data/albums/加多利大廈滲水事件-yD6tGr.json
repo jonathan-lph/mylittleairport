@@ -3,8 +3,6 @@
   "slug": "加多利大廈滲水事件-yD6tGr",
   "name": "加多利大廈滲水事件",
   "name_en": "Water Seepage Incident at Kadoorie Mansion",
-  "href": "/album/加多利大廈滲水事件-yD6tGr",
-  "total_tracks": 1,
   "album_type": "single",
   "album_edition": "public",
   "label": "my little airport",
@@ -12,14 +10,6 @@
   "release_date": "2010",
   "release_date_precision": "year",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "加多利大廈滲水事件-dkrMkS",
-      "name": "加多利大廈滲水事件",
-      "name_en": "Water Seepage Incident at Kadoorie Mansion"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/加多利大廈滲水事件.webp",
@@ -35,5 +25,9 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": [],
+  "tracks": [
+    "加多利大廈滲水事件-dkrMkS"
+  ]
 }

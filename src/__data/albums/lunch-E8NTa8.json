@@ -3,8 +3,6 @@
   "slug": "lunch-E8NTa8",
   "name": "LUNCH",
   "name_en": "LUNCH",
-  "href": "/album/lunch-E8NTa8",
-  "total_tracks": 1,
   "album_type": "single",
   "album_edition": "published",
   "label": "my little airport",
@@ -12,14 +10,6 @@
   "release_date": "2022",
   "release_date_precision": "year",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "lunch-ITkbjF",
-      "name": "LUNCH",
-      "name_en": "LUNCH"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/lunch.webp",
@@ -35,5 +25,9 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": [],
+  "tracks": [
+    "lunch-ITkbjF"
+  ]
 }

@@ -3,8 +3,6 @@
   "slug": "一個眼神-wkmLpD",
   "name": "一個眼神",
   "name_en": "One Look",
-  "href": "/album/一個眼神-7PSp5a",
-  "total_tracks": 1,
   "album_type": "single",
   "album_edition": "published",
   "label": "my little airport",
@@ -12,14 +10,6 @@
   "release_date": "2024-02-06",
   "release_date_precision": "day",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "一個眼神-7PSp5a",
-      "name": "一個眼神",
-      "name_en": "One Look"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/一個眼神.webp",
@@ -35,5 +25,9 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": [],
+  "tracks": [
+    "一個眼神-7PSp5a"
+  ]
 }
