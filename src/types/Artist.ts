@@ -21,5 +21,3 @@ export interface SimplifiedArtistObject extends Omit<ArtistObject,
   | 'external_social_urls'
   | 'images'
 > { }
-
-export interface ExportedArtistObject extends ArtistObject {}
