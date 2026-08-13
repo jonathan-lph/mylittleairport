@@ -3,8 +3,6 @@
   "slug": "每次你走的時分-w5SfGJ",
   "name": "每次你走的時分",
   "name_en": "Every Time You Left",
-  "href": "/album/每次你走的時分-w5SfGJ",
-  "total_tracks": 1,
   "album_type": "single",
   "album_edition": "published",
   "label": "my little airport",
@@ -12,14 +10,6 @@
   "release_date": "2021",
   "release_date_precision": "year",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "每次你走的時分-K3DVah",
-      "name": "每次你走的時分",
-      "name_en": "Every Time You Left"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/每次你走的時分.webp",
@@ -35,5 +25,6 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": []
 }

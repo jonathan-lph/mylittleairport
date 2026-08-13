@@ -1,8 +1,8 @@
-import fs from "fs"
 import { imageSizeFromFile } from "image-size/fromFile"
 import Head from 'next/head'
 
 import { AlbumList } from '@components/albums'
+import { fetchAllAlbums } from '@database/album'
 import metadata from '@consts/metadata.json'
 import { locales, Locales } from '@consts/definitions'
 import {
@@ -76,9 +76,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
     }))
 
   return {
-    props: { 
-      albums: fs.readdirSync('src/__data/albums')
-        .map(file => require('src/__data/albums/'+file)),
+    props: {
+      albums: fetchAllAlbums(),
       locale,
       translation,
       metaTags,

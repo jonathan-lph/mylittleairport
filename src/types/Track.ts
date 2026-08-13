@@ -1,6 +1,5 @@
-import { Types } from "mongoose"
 import { AlbumObject, SimplifiedAlbumObject } from "./Album"
-import { ArtistObject, SimplifiedArtistObject } from "./Artist"
+import { SimplifiedArtistObject } from "./Artist"
 import {
   ExternalUrlOrigin,
   ResourceType
@@ -27,14 +26,6 @@ export interface TrackObject {
   is_playable: boolean
   preview_url: string | null
   external_urls: Record<ExternalUrlOrigin, string>
-}
-
-export interface DbTrackObject extends Omit<TrackObject,
-  | 'album'
-  | 'artists'
-> {
-  album: Types.ObjectId
-  artists: DbTrackArtist[]
 }
 
 export interface TocTrackObject extends Pick<TrackObject,
@@ -66,35 +57,15 @@ export interface ExpandedTrackObject extends Omit<TrackObject,
   artists: ExpandedTrackArtist[]
 }
 
-export interface ExportedTrackObject extends Omit<TrackObject,
-  | 'album'
-  | 'artists'
-> {
-  album: Pick<AlbumObject, 'slug' | 'name' | 'name_en'>
-  artists: ExportedTrackArtist[]
-}
-
 export type TrackArtist = {
   role: TrackArtistRole
   members: string[] // ref
-}
-
-export type DbTrackArtist = Omit<TrackArtist,
-  | 'members'
-> & {
-  members: Types.ObjectId[]
 }
 
 export type ExpandedTrackArtist = Omit<TrackArtist,
   | 'members'
 > & {
   members: SimplifiedArtistObject[]
-}
-
-export type ExportedTrackArtist = Omit<TrackArtist,
-  | 'members'
-> & {
-  members: Pick<ArtistObject, 'slug' | 'name' | 'name_en'>[]
 }
 
 export enum TrackArtistRole {

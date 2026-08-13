@@ -1,11 +1,19 @@
 import fs from 'fs'
+import path from 'path'
 import { createRequire } from 'module'
 import { globby } from 'globby'
+import Database from 'better-sqlite3'
 
 const require = createRequire(import.meta.url)
 const metadata = require('../consts/metadata.json')
-const tracks = require('../__data/toc/tracks.json')
-const albums = require('../__data/toc/albums.json')
+
+const db = new Database(
+  path.join(process.cwd(), 'src/__data/.generated/content.sqlite'),
+  { readonly: true, fileMustExist: true }
+)
+const tracks = db.prepare('SELECT slug FROM tracks').all()
+const albums = db.prepare('SELECT slug FROM albums').all()
+db.close()
 
 const LOCALES = {
   ZH: 'zh-hk',

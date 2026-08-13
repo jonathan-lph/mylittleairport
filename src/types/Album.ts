@@ -1,6 +1,5 @@
-import { ObjectId } from "mongodb"
-import { ArtistObject, SimplifiedArtistObject } from "./Artist"
-import { TrackObject, SimplifiedTrackObject } from "./Track"
+import { SimplifiedArtistObject } from "./Artist"
+import { SimplifiedTrackObject } from "./Track"
 import {
   ImageObject,
   ResourceType,
@@ -12,7 +11,7 @@ export interface AlbumObject {
   type: ResourceType.ALBUM
   slug: string
   name: string
-  name_en: string
+  name_en: string | null
 
   href: string
   total_tracks: number
@@ -29,14 +28,6 @@ export interface AlbumObject {
   images: ImageObject[]
   genres: string[]
   external_urls: Record<ExternalUrlOrigin, string>
-}
-
-export interface DbAlbumObject extends Omit<AlbumObject,
-  | 'artists'
-  | 'tracks'
-> {
-  artists: ObjectId[]
-  tracks: ObjectId[]
 }
 
 export interface TocAlbumObject extends Pick<AlbumObject,
@@ -60,14 +51,6 @@ export interface ExpandedAlbumObject extends Omit<AlbumObject,
 > {
   artists: SimplifiedArtistObject[]
   tracks: SimplifiedTrackObject[]
-}
-
-export interface ExportedAlbumObject extends Omit<AlbumObject,
-  | 'artists'
-  | 'tracks' 
-> {
-  artists: Pick<ArtistObject, 'slug' | 'name' | 'name_en'>[]
-  tracks: Pick<TrackObject, 'slug' | 'name' | 'name_en'>[]
 }
 
 export enum AlbumType {

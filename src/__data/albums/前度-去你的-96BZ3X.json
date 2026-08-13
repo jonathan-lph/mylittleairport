@@ -3,8 +3,6 @@
   "slug": "前度-去你的-96BZ3X",
   "name": "前度，去你的",
   "name_en": "Ex, To Hell With You",
-  "href": "/album/前度-去你的-96BZ3X",
-  "total_tracks": 1,
   "album_type": "single",
   "album_edition": "public",
   "label": "my little airport",
@@ -12,14 +10,6 @@
   "release_date": "2009",
   "release_date_precision": "year",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "前度-去你的-V1AbIc",
-      "name": "前度，去你的",
-      "name_en": "Ex, To Hell With You"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/前度-去你的.webp",
@@ -35,5 +25,6 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": []
 }

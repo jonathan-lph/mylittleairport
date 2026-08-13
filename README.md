@@ -16,29 +16,19 @@ pnpm install
 pnpm dev
 ```
 
-### Using MongoDB (optional)
+### Data model & build
 
-Data files are available at [`src/__data`](src/__data) and act as a database for generating the pages. MongoDB (Mongoose) are used as an alternative database to manipulate the files. If you wish to use these specific database functions, additional setup is needed. 
+All site content is edited at [`src/__data`](src/__data). No extra setup is needed to run the site: `pnpm dev` and `pnpm build` automatically regenerate a SQLite database from those files before starting, so there's nothing to install, configure, or import by hand.
 
-1. Create a MongoDB cluster.
-2. Clone [`.env.local.example`](.env.local.example).
-3. Paste your [connection string](https://www.mongodb.com/docs/drivers/node/current/quick-start/create-a-connection-string/#copy-your-connection-string) as the value of `MONGODB_URI`.
-```
-MONGODB_URI=<CONNECTION_STRING>
-```
-4. Save the file as `.env.local`.
+Under the hood:
 
-You may then run the server and import the data into your cluster.
-
-5. Run development server at `localhost:3000`.
-```
-pnpm dev
-```
-6. Call API `localhost:3000/api/import`.
-
-Certain functions on Next.js SSG function `getStaticProps` can be replaced to fetch from MongoDB instead. Example functions are included in [`src/services/database/*`](src/services/database).
-
-For more details on setup, reference [MongoDB documentation](https://www.mongodb.com/docs/drivers/node/current/quick-start/).
+| Piece | Role |
+| --- | --- |
+| [`src/__data`](src/__data) | Source of truth — one JSON file per album/track/artist, referencing each other by slug. This is what you edit. |
+| [`src/services/database/schema.sql`](src/services/database/schema.sql) | Normalized SQLite schema (albums/tracks/artists + join tables) the data is loaded into. |
+| [`src/scripts/buildDatabase.mjs`](src/scripts/buildDatabase.mjs) | Rebuilds the SQLite database from `src/__data`. Runs automatically via `predev`/`prebuild`. |
+| Generated `.sqlite` file | A gitignored build artifact, not something you edit directly. |
+| [`src/services/database/{album,track}.ts`](src/services/database) | Queries the generated database; used by pages' `getStaticProps`/`getStaticPaths`. |
 
 ## Contribution
 

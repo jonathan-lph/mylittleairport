@@ -3,8 +3,6 @@
   "slug": "關於前度和男孩食飯的事-eMtxrJ",
   "name": "關於前度和男孩食飯的事",
   "name_en": "About My Ex Dating A Youngster",
-  "href": "/album/關於前度和男孩食飯的事-eMtxrJ",
-  "total_tracks": 1,
   "album_type": "single",
   "album_edition": "unlisted",
   "label": "my little airport",
@@ -12,14 +10,6 @@
   "release_date": "2010",
   "release_date_precision": "year",
   "is_live": false,
-  "artists": [],
-  "tracks": [
-    {
-      "slug": "關於前度和男孩食飯的事-hOPtlF",
-      "name": "關於前度和男孩食飯的事",
-      "name_en": "About My Ex Dating A Youngster"
-    }
-  ],
   "images": [
     {
       "url": "/album-artwork/關於前度和男孩食飯的事.webp",
@@ -35,5 +25,6 @@
     }
   ],
   "genres": [],
-  "external_urls": {}
+  "external_urls": {},
+  "artists": []
 }

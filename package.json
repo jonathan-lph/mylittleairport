@@ -8,23 +8,25 @@
   "packageManager": "pnpm@11.21.0",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node src/scripts/generateSitemap.mjs",
+    "predev": "pnpm db:build && node src/scripts/buildSearchIndex.mjs",
+    "db:build": "node src/scripts/buildDatabase.mjs",
+    "prebuild": "pnpm db:build && node src/scripts/buildSearchIndex.mjs && node src/scripts/generateSitemap.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ."
   },
   "dependencies": {
+    "better-sqlite3": "^13.0.3",
     "clsx": "^2.1.1",
     "html2canvas": "^1.4.1",
     "image-size": "^2.0.2",
-    "mongodb": "^7.5.0",
-    "mongoose": "^9.9.2",
     "next": "^16.3.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "sass": "^1.102.0"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
     "@types/node": "^26.2.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
